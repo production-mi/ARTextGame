@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4AF54770-ABAB-E86E-A631-F4E7FDCC1FC2}</ProjectGuid>
+    <ProjectGuid>{5F7F6ABD-D049-76AB-393D-21F7DC795E4B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -130,7 +130,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="FlyingText3D">
- <HintPath>/Users/Tomonari/Downloads/UnityARKit-displayTransform-example-master 2/Assets/FlyingText3D/Plugins/FlyingText3D.dll</HintPath>
+ <HintPath>/Users/Tomonari/Git/ARTextGame/Assets/FlyingText3D/Plugins/FlyingText3D.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Users/Tomonari/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -156,7 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{00585EE4-2C00-E281-ADD7-0A767105F01F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{3B67ECE1-599D-C9C2-2610-05F7D6ED85F6}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

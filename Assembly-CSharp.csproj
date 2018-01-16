@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{00585EE4-2C00-E281-ADD7-0A767105F01F}</ProjectGuid>
+    <ProjectGuid>{3B67ECE1-599D-C9C2-2610-05F7D6ED85F6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,8 +51,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CamTex.cs" />
-     <Compile Include="Assets\DrawLine.cs" />
      <Compile Include="Assets\FlyingText3D\Demos\GameOver Demo\Explosion\Scripts\LightFade.cs" />
      <Compile Include="Assets\FlyingText3D\Demos\GameOver Demo\GameOverControl.cs" />
      <Compile Include="Assets\FlyingText3D\Demos\Input Demo\InputDemo.cs" />
@@ -60,7 +58,7 @@
      <Compile Include="Assets\FlyingText3D\Demos\Menu Demo\MenuObject.cs" />
      <Compile Include="Assets\Scripts\GetText.cs" />
      <Compile Include="Assets\Scripts\QRCodeReader.cs" />
-     <Compile Include="Assets\TextCtrl.cs" />
+     <Compile Include="Assets\Scripts\TextCtrl.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ConnectionMessageIds.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ConnectToEditor.cs" />
@@ -167,7 +165,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="FlyingText3D">
- <HintPath>/Users/Tomonari/Downloads/UnityARKit-displayTransform-example-master 2/Assets/FlyingText3D/Plugins/FlyingText3D.dll</HintPath>
+ <HintPath>/Users/Tomonari/Git/ARTextGame/Assets/FlyingText3D/Plugins/FlyingText3D.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Users/Tomonari/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>

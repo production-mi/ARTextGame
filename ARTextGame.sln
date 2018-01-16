@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARTextGame", "Assembly-CSharp.csproj", "{3B67ECE1-599D-C9C2-2610-05F7D6ED85F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARTextGame", "Assembly-CSharp-Editor.csproj", "{5F7F6ABD-D049-76AB-393D-21F7DC795E4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B67ECE1-599D-C9C2-2610-05F7D6ED85F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B67ECE1-599D-C9C2-2610-05F7D6ED85F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B67ECE1-599D-C9C2-2610-05F7D6ED85F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B67ECE1-599D-C9C2-2610-05F7D6ED85F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7F6ABD-D049-76AB-393D-21F7DC795E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7F6ABD-D049-76AB-393D-21F7DC795E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7F6ABD-D049-76AB-393D-21F7DC795E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7F6ABD-D049-76AB-393D-21F7DC795E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

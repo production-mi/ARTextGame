@@ -17,8 +17,8 @@ public class GetText : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		text = QRCodeReader.possible;
-		textArray = text.Split(",");
-		Debug.Log(textArray);
+		//textArray = text.Split(",");
+		//Debug.Log(textArray);
 		TextMesh.text = text;
 
 	}
