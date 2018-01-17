@@ -1505,7 +1505,6 @@ RuntimeClass* ARHitTestResultTypeU5BU5D_t1303085420_il2cpp_TypeInfo_var;
 RuntimeClass* U3CStartU3Ec__Iterator0_t845469981_il2cpp_TypeInfo_var;
 RuntimeClass* U3CCameraShakeU3Ec__Iterator1_t3899782837_il2cpp_TypeInfo_var;
 RuntimeClass* WaitForSeconds_t3839502067_il2cpp_TypeInfo_var;
-RuntimeClass* QRCodeReader_t3711862773_il2cpp_TypeInfo_var;
 RuntimeClass* UnityAction_1_t3395805984_il2cpp_TypeInfo_var;
 RuntimeClass* HsvColor_t1057062332_il2cpp_TypeInfo_var;
 RuntimeClass* U3CExplodeTextU3Ec__Iterator0_t2763626253_il2cpp_TypeInfo_var;
@@ -1516,6 +1515,7 @@ RuntimeClass* List_1_t1612828712_il2cpp_TypeInfo_var;
 RuntimeClass* List_1_t2763752173_il2cpp_TypeInfo_var;
 RuntimeClass* ParticleU5BU5D_t574222242_il2cpp_TypeInfo_var;
 RuntimeClass* UnityARCamera_t4198559457_il2cpp_TypeInfo_var;
+RuntimeClass* QRCodeReader_t3711862773_il2cpp_TypeInfo_var;
 RuntimeClass* UnityAction_2_t134459182_il2cpp_TypeInfo_var;
 RuntimeClass* ARKitWorldTrackingSessionConfiguration_t1371796706_il2cpp_TypeInfo_var;
 RuntimeClass* ARKitFaceTrackingConfiguration_t2393628587_il2cpp_TypeInfo_var;
@@ -5457,6 +5457,7 @@ Il2CppCodeGenString* _stringLiteral2880467378;
 Il2CppCodeGenString* _stringLiteral811305532;
 Il2CppCodeGenString* _stringLiteral1537444060;
 Il2CppCodeGenString* _stringLiteral871607200;
+Il2CppCodeGenString* _stringLiteral3553879898;
 Il2CppCodeGenString* _stringLiteral3567086134;
 Il2CppCodeGenString* _stringLiteral3554759231;
 Il2CppCodeGenString* _stringLiteral2608826782;
@@ -5540,7 +5541,7 @@ Il2CppCodeGenString* _stringLiteral3025533088;
 Il2CppCodeGenString* _stringLiteral3687436746;
 Il2CppCodeGenString* _stringLiteral2779811765;
 Il2CppCodeGenString* _stringLiteral273729679;
-extern void** const g_MetadataUsages[5523] = 
+extern void** const g_MetadataUsages[5524] = 
 {
 	(void**)(&Contraction_t1673853792_0_0_0_var),
 	(void**)(&Level2Map_t3322505726_0_0_0_var),
@@ -7030,7 +7031,6 @@ extern void** const g_MetadataUsages[5523] =
 	(void**)(&U3CStartU3Ec__Iterator0_t845469981_il2cpp_TypeInfo_var),
 	(void**)(&U3CCameraShakeU3Ec__Iterator1_t3899782837_il2cpp_TypeInfo_var),
 	(void**)(&WaitForSeconds_t3839502067_il2cpp_TypeInfo_var),
-	(void**)(&QRCodeReader_t3711862773_il2cpp_TypeInfo_var),
 	(void**)(&UnityAction_1_t3395805984_il2cpp_TypeInfo_var),
 	(void**)(&HsvColor_t1057062332_il2cpp_TypeInfo_var),
 	(void**)(&U3CExplodeTextU3Ec__Iterator0_t2763626253_il2cpp_TypeInfo_var),
@@ -7041,6 +7041,7 @@ extern void** const g_MetadataUsages[5523] =
 	(void**)(&List_1_t2763752173_il2cpp_TypeInfo_var),
 	(void**)(&ParticleU5BU5D_t574222242_il2cpp_TypeInfo_var),
 	(void**)(&UnityARCamera_t4198559457_il2cpp_TypeInfo_var),
+	(void**)(&QRCodeReader_t3711862773_il2cpp_TypeInfo_var),
 	(void**)(&UnityAction_2_t134459182_il2cpp_TypeInfo_var),
 	(void**)(&ARKitWorldTrackingSessionConfiguration_t1371796706_il2cpp_TypeInfo_var),
 	(void**)(&ARKitFaceTrackingConfiguration_t2393628587_il2cpp_TypeInfo_var),
@@ -10982,6 +10983,7 @@ extern void** const g_MetadataUsages[5523] =
 	(void**)(&_stringLiteral811305532),
 	(void**)(&_stringLiteral1537444060),
 	(void**)(&_stringLiteral871607200),
+	(void**)(&_stringLiteral3553879898),
 	(void**)(&_stringLiteral3567086134),
 	(void**)(&_stringLiteral3554759231),
 	(void**)(&_stringLiteral2608826782),

@@ -54,7 +54,9 @@ public class TextCtrl : MonoBehaviour {
 
 	void Update(){
 		text = QRCodeReader.possible;
-		FlyingText.UpdateObject(textObject, text);
+		//text = "Options,GetText,hoge,hoo";
+		string[] textArray = text.Split(","[0]);
+		FlyingText.UpdateObject(textObject, textArray[0]);
 
 		if(Input.touchCount > 0)
 		{
