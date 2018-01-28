@@ -138,7 +138,7 @@ dd6501652c91cb163a39e051d37a965f Assembly-CSharp.dll:.Ballz
 e31ef279e8d06182f0817ebd899ff54c Assembly-CSharp.dll:.UnityARUserAnchorExample
 caab1860f5a781ddd760ab0822362932 Assembly-CSharp.dll:.GameOverControl
 5511a49b5104d2e14b66af50a17125f0 Assembly-CSharp.dll:.ParticlePainter
-c9353e7a10c64a0603776721d936b265 Assembly-CSharp.dll:UnityEngine.XR.iOS.TextCtrl
+4459adddfa0395b2a1fd43db6423560f Assembly-CSharp.dll:UnityEngine.XR.iOS.TextCtrl
 e353101906474689643fc3c6d0a3ba4a Assembly-CSharp.dll:.ColorPicker
 cac5e62c64bc02a8223e45b78da71b3c Assembly-CSharp.dll:.QRCodeReader
 3241ebe8b0922d467d765be7f37fd1ca Assembly-CSharp.dll:.UnityARKitPluginSettings
@@ -175,7 +175,6 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 fec83370822b847d57f99223435a4197 Assembly-CSharp.dll:.LightFade
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARUserAnchorComponent
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GetText
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BlendshapePrinter
 2e2a7bd47042749813855cedf111f699 Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARGeneratePlane
 48b4f2bb90cadfa8931f7d8baac4245e Assembly-CSharp.dll:.ColorSlider
@@ -183,3 +182,7 @@ fec83370822b847d57f99223435a4197 Assembly-CSharp.dll:.LightFade
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARKitLightManager
 391d84b859f3b155fe38f54bfce79162 Assembly-CSharp.dll:.UnityPointCloudExample
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
+10cd88a380609c727383da70f1a82efe Assembly-CSharp.dll:.ButtonCtrl
+8e7ea0d82c9490256569213a959e3a31 Assembly-CSharp.dll:.ButtonText_Ctrl
+4459adddfa0395b2a1fd43db6423560f Assembly-CSharp.dll:UnityEngine.XR.iOS.TextCtrl1
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonDislikeCtrl

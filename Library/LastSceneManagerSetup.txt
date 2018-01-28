@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/DisplayTransformExample.unity
+- path: Assets/FlyingText3D/Demos/GameOver Demo/_GameOver.unity
   isLoaded: 1
   isActive: 1

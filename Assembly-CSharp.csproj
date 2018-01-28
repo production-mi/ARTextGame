@@ -56,9 +56,12 @@
      <Compile Include="Assets\FlyingText3D\Demos\Input Demo\InputDemo.cs" />
      <Compile Include="Assets\FlyingText3D\Demos\Menu Demo\MenuControl.cs" />
      <Compile Include="Assets\FlyingText3D\Demos\Menu Demo\MenuObject.cs" />
-     <Compile Include="Assets\Scripts\GetText.cs" />
+     <Compile Include="Assets\Scripts\ButtonCtrl.cs" />
+     <Compile Include="Assets\Scripts\ButtonDislikeCtrl.cs" />
+     <Compile Include="Assets\Scripts\ButtonText_Ctrl.cs" />
      <Compile Include="Assets\Scripts\QRCodeReader.cs" />
      <Compile Include="Assets\Scripts\TextCtrl.cs" />
+     <Compile Include="Assets\Scripts\TextCtrl1.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ConnectionMessageIds.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ConnectToEditor.cs" />
