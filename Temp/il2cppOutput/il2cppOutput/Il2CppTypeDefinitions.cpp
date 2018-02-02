@@ -163,6 +163,7 @@ extern const Il2CppType GameObject_GetComponentsInChildren_m4086300743_gp_0_0_0_
 extern const Il2CppType GameObject_GetComponentsInChildren_m4217400090_gp_0_0_0_0;
 extern const Il2CppType Material_t193706927_0_0_0;
 extern const Il2CppType SphericalHarmonicsL2_t364136731_0_0_0;
+extern const Il2CppType Touch_t407273883_0_0_0;
 extern const Il2CppType Keyframe_t1449471340_0_0_0;
 extern const Il2CppType Mesh_GetAllocArrayFromChannel_m2313607753_gp_0_0_0_0;
 extern const Il2CppType Mesh_GetAllocArrayFromChannel_m4152119927_gp_0_0_0_0;
@@ -194,6 +195,7 @@ extern const Il2CppType RaycastHit2D_t4063908774_0_0_0;
 extern const Il2CppType ContentType_t1028629049_0_0_0;
 extern const Il2CppType UIVertex_t1204258818_0_0_0;
 extern const Il2CppType IndexedSet_1_t573160278_gp_0_0_0_0;
+extern const Il2CppType Rigidbody_t4233889191_0_0_0;
 extern const Il2CppType UnityARSessionRunOption_t3123075684_0_0_0;
 extern const Il2CppType UnityARAlignment_t2379988631_0_0_0;
 extern const Il2CppType UnityARPlaneDetection_t612575857_0_0_0;
@@ -389,6 +391,7 @@ extern const Il2CppGenericInst GenInst_Object_t1021602117_0_0_0;
 extern const Il2CppGenericInst GenInst_Display_t3666191348_0_0_0;
 extern const Il2CppGenericInst GenInst_Material_t193706927_0_0_0;
 extern const Il2CppGenericInst GenInst_SphericalHarmonicsL2_t364136731_0_0_0;
+extern const Il2CppGenericInst GenInst_Touch_t407273883_0_0_0;
 extern const Il2CppGenericInst GenInst_Keyframe_t1449471340_0_0_0;
 extern const Il2CppGenericInst GenInst_Vector3_t2243707580_0_0_0;
 extern const Il2CppGenericInst GenInst_Vector4_t2243707581_0_0_0;
@@ -4472,6 +4475,25 @@ extern const RuntimeType ICollection_1_t1316212036_0_0_0 = { &ICollection_1_t131
 
 Il2CppGenericClass IEnumerable_1_t656263776_GenericClass = { 29, { &GenInst_SphericalHarmonicsL2_t364136731_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerable_1_t656263776_0_0_0 = { &IEnumerable_1_t656263776_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerator_1_t2177765006_GenericClass = { 25, { &GenInst_Touch_t407273883_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerator_1_t2177765006_0_0_0 = { &IEnumerator_1_t2177765006_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const RuntimeType Touch_t407273883_0_0_0 = { (void*)1302, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
+extern const RuntimeType Touch_t407273883_1_0_0 = { (void*)1302, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+extern const RuntimeType Touch_t407273883_1_0_2 = { (void*)1302, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
+
+Il2CppGenericClass InternalEnumerator_1_t1266026145_GenericClass = { 41, { &GenInst_Touch_t407273883_0_0_0, NULL }, NULL };
+extern const RuntimeType InternalEnumerator_1_t1266026145_0_0_0 = { &InternalEnumerator_1_t1266026145_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IList_1_t948214484_GenericClass = { 48, { &GenInst_Touch_t407273883_0_0_0, NULL }, NULL };
+extern const RuntimeType IList_1_t948214484_0_0_0 = { &IList_1_t948214484_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass ICollection_1_t1359349188_GenericClass = { 49, { &GenInst_Touch_t407273883_0_0_0, NULL }, NULL };
+extern const RuntimeType ICollection_1_t1359349188_0_0_0 = { &ICollection_1_t1359349188_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+Il2CppGenericClass IEnumerable_1_t699400928_GenericClass = { 29, { &GenInst_Touch_t407273883_0_0_0, NULL }, NULL };
+extern const RuntimeType IEnumerable_1_t699400928_0_0_0 = { &IEnumerable_1_t699400928_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass IEnumerator_1_t3219962463_GenericClass = { 25, { &GenInst_Keyframe_t1449471340_0_0_0, NULL }, NULL };
 extern const RuntimeType IEnumerator_1_t3219962463_0_0_0 = { &IEnumerator_1_t3219962463_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -15730,16 +15752,14 @@ extern const RuntimeType TouchType_t2732027771_1_0_0 = { (void*)1301, 0, IL2CPP_
 extern const RuntimeType TouchType_t2732027771_0_0_32854 = { (void*)1301, 32854, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType TouchType_t2732027771_0_0_1 = { (void*)1301, 1, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType Touch_t407273883_0_0_0 = { (void*)1302, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
-extern const RuntimeType Touch_t407273883_1_0_0 = { (void*)1302, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-extern const RuntimeType Touch_t407273883_1_0_2 = { (void*)1302, 2, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
-
 extern const RuntimeType Gyroscope_t1705362817_0_0_0 = { (void*)1303, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Gyroscope_t1705362817_1_0_0 = { (void*)1303, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType Gyroscope_t1705362817_0_0_17 = { (void*)1303, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType Input_t1785128008_0_0_0 = { (void*)1304, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType Input_t1785128008_1_0_0 = { (void*)1304, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType TouchU5BU5D_t3887265178_0_0_0 = { (void*)&Touch_t407273883_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType LayerMask_t3188175821_0_0_0 = { (void*)1305, 0, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 extern const RuntimeType LayerMask_t3188175821_1_0_0 = { (void*)1305, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
@@ -17590,8 +17610,10 @@ extern const RuntimeType ARPoint_t3436811567_0_0_0 = { (void*)1966, 0, IL2CPP_TY
 extern const RuntimeType ARPoint_t3436811567_1_0_0 = { (void*)1966, 0, IL2CPP_TYPE_VALUETYPE, 0, 1, 0 };
 extern const RuntimeType ARPoint_t3436811567_0_0_6 = { (void*)1966, 6, IL2CPP_TYPE_VALUETYPE, 0, 0, 0 };
 
-extern const RuntimeType U3CHogehogeU3Ec__Iterator0_t1734164746_0_0_0 = { (void*)1878, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const RuntimeType U3CHogehogeU3Ec__Iterator0_t1734164746_1_0_0 = { (void*)1878, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+extern const RuntimeType U3CtextRecreateU3Ec__Iterator0_t1116150880_0_0_0 = { (void*)1878, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType U3CtextRecreateU3Ec__Iterator0_t1116150880_1_0_0 = { (void*)1878, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
+
+extern const RuntimeType RigidbodyU5BU5D_t3881993182_0_0_3 = { (void*)&Rigidbody_t4233889191_0_0_0, 3, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType U3CFadeoutU3Ec__Iterator1_t2816627191_0_0_0 = { (void*)1879, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType U3CFadeoutU3Ec__Iterator1_t2816627191_1_0_0 = { (void*)1879, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -18109,7 +18131,7 @@ extern const RuntimeType TypeTagU5BU5D_t582616213_0_0_0 = { (void*)&TypeTag_t141
 extern const RuntimeType ITrackingHandlerU5BU5D_t194660197_0_0_0 = { (void*)&ITrackingHandler_t2759960940_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType SubHeaderU5BU5D_t3035428578_0_0_0 = { (void*)&SubHeader_t1146385395_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[9209] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[9216] = 
 {
 	&IEnumerator_1_t164973122_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -19234,6 +19256,12 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9209] =
 	&IList_1_t905077332_0_0_0,
 	&ICollection_1_t1316212036_0_0_0,
 	&IEnumerable_1_t656263776_0_0_0,
+	&IEnumerator_1_t2177765006_0_0_0,
+	&Touch_t407273883_0_0_0,
+	&InternalEnumerator_1_t1266026145_0_0_0,
+	&IList_1_t948214484_0_0_0,
+	&ICollection_1_t1359349188_0_0_0,
+	&IEnumerable_1_t699400928_0_0_0,
 	&IEnumerator_1_t3219962463_0_0_0,
 	&Keyframe_t1449471340_0_0_0,
 	&InternalEnumerator_1_t2308223602_0_0_0,
@@ -25082,7 +25110,6 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9209] =
 	&TouchType_t2732027771_0_0_0,
 	&TouchType_t2732027771_1_0_0,
 	&TouchType_t2732027771_0_0_32854,
-	&Touch_t407273883_0_0_0,
 	&Touch_t407273883_1_0_0,
 	&Vector2_t2243707579_0_0_1,
 	&TouchPhase_t2458120420_0_0_1,
@@ -25092,6 +25119,7 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9209] =
 	&Input_t1785128008_0_0_0,
 	&Input_t1785128008_1_0_0,
 	&Vector2_t2243707579_1_0_2,
+	&TouchU5BU5D_t3887265178_0_0_0,
 	&Touch_t407273883_1_0_2,
 	&Vector2_t2243707579_1_0_0,
 	&Gyroscope_t1705362817_0_0_17,
@@ -26854,8 +26882,9 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9209] =
 	&ARPoint_t3436811567_0_0_0,
 	&ParticleSystem_t3394631041_0_0_1,
 	&MeshCollider_t2718867283_0_0_1,
-	&U3CHogehogeU3Ec__Iterator0_t1734164746_0_0_0,
-	&U3CHogehogeU3Ec__Iterator0_t1734164746_1_0_0,
+	&U3CtextRecreateU3Ec__Iterator0_t1116150880_0_0_0,
+	&U3CtextRecreateU3Ec__Iterator0_t1116150880_1_0_0,
+	&RigidbodyU5BU5D_t3881993182_0_0_3,
 	&TextCtrl_t2221375824_0_0_3,
 	&U3CFadeoutU3Ec__Iterator1_t2816627191_0_0_0,
 	&U3CFadeoutU3Ec__Iterator1_t2816627191_1_0_0,

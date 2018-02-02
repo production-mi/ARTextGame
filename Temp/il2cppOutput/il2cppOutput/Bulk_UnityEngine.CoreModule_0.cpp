@@ -198,6 +198,8 @@ struct HeaderAttribute_t3969069619;
 struct PropertyAttribute_t2606999759;
 // UnityEngine.IL2CPPStructAlignmentAttribute
 struct IL2CPPStructAlignmentAttribute_t130316838;
+// UnityEngine.Touch[]
+struct TouchU5BU5D_t3887265178;
 // UnityEngine.Internal.DefaultValueAttribute
 struct DefaultValueAttribute_t1027170048;
 // UnityEngine.Internal.ExcludeFromDocsAttribute
@@ -517,6 +519,8 @@ extern const uint32_t GameObject__ctor_m3412194074_MetadataUsageId;
 extern RuntimeClass* Input_t1785128008_il2cpp_TypeInfo_var;
 extern const uint32_t Input_get_mousePosition_m2069200279_MetadataUsageId;
 extern const uint32_t Input_get_mouseScrollDelta_m3621133506_MetadataUsageId;
+extern RuntimeClass* TouchU5BU5D_t3887265178_il2cpp_TypeInfo_var;
+extern const uint32_t Input_get_touches_m793401621_MetadataUsageId;
 extern const uint32_t Input_GetTouch_m3258362431_MetadataUsageId;
 extern const uint32_t Input_get_compositionCursorPos_m1028058884_MetadataUsageId;
 extern const uint32_t Input_set_compositionCursorPos_m2110708687_MetadataUsageId;
@@ -636,6 +640,7 @@ struct IntPtrU5BU5D_t169632028;
 struct DisplayU5BU5D_t1314630077;
 struct ParameterInfoU5BU5D_t2275869610;
 struct ParameterModifierU5BU5D_t963192633;
+struct TouchU5BU5D_t3887265178;
 struct SphericalHarmonicsL2U5BU5D_t4292583450;
 struct ByteU5BU5D_t3397334013;
 struct Int32U5BU5D_t3030399641;
@@ -8897,6 +8902,41 @@ public:
 		m_Items[index] = value;
 	}
 };
+// UnityEngine.Touch[]
+struct TouchU5BU5D_t3887265178  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Touch_t407273883  m_Items[1];
+
+public:
+	inline Touch_t407273883  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Touch_t407273883 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Touch_t407273883  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Touch_t407273883  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Touch_t407273883 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Touch_t407273883  value)
+	{
+		m_Items[index] = value;
+	}
+};
 // UnityEngine.Rendering.SphericalHarmonicsL2[]
 struct SphericalHarmonicsL2U5BU5D_t4292583450  : public RuntimeArray
 {
@@ -9615,6 +9655,10 @@ extern "C"  void PropertyAttribute__ctor_m1714388149 (PropertyAttribute_t2606999
 extern "C"  void Input_INTERNAL_get_mousePosition_m655888428 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::INTERNAL_get_mouseScrollDelta(UnityEngine.Vector2&)
 extern "C"  void Input_INTERNAL_get_mouseScrollDelta_m3542241815 (RuntimeObject * __this /* static, unused */, Vector2_t2243707579 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Input::get_touchCount()
+extern "C"  int32_t Input_get_touchCount_m814531925 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Touch UnityEngine.Input::GetTouch(System.Int32)
+extern "C"  Touch_t407273883  Input_GetTouch_m3258362431 (RuntimeObject * __this /* static, unused */, int32_t ___index0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::INTERNAL_CALL_GetTouch(System.Int32,UnityEngine.Touch&)
 extern "C"  void Input_INTERNAL_CALL_GetTouch_m1374677231 (RuntimeObject * __this /* static, unused */, int32_t ___index0, Touch_t407273883 * ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::INTERNAL_get_compositionCursorPos(UnityEngine.Vector2&)
@@ -17075,6 +17119,63 @@ extern "C"  String_t* Input_get_inputString_m676862227 (RuntimeObject * __this /
 	_il2cpp_icall_func = (Input_get_inputString_m676862227_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::get_inputString()");
 	String_t* retVal = _il2cpp_icall_func();
 	return retVal;
+}
+// UnityEngine.Touch[] UnityEngine.Input::get_touches()
+extern "C"  TouchU5BU5D_t3887265178* Input_get_touches_m793401621 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Input_get_touches_m793401621_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	TouchU5BU5D_t3887265178* V_1 = NULL;
+	int32_t V_2 = 0;
+	TouchU5BU5D_t3887265178* V_3 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		int32_t L_0 = Input_get_touchCount_m814531925(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		V_1 = ((TouchU5BU5D_t3887265178*)SZArrayNew(TouchU5BU5D_t3887265178_il2cpp_TypeInfo_var, (uint32_t)L_1));
+		V_2 = 0;
+		goto IL_002b;
+	}
+
+IL_0015:
+	{
+		TouchU5BU5D_t3887265178* L_2 = V_1;
+		int32_t L_3 = V_2;
+		NullCheck(L_2);
+		int32_t L_4 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
+		Touch_t407273883  L_5 = Input_GetTouch_m3258362431(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		*(Touch_t407273883 *)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_3))) = L_5;
+		int32_t L_6 = V_2;
+		V_2 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_002b:
+	{
+		int32_t L_7 = V_2;
+		int32_t L_8 = V_0;
+		if ((((int32_t)L_7) < ((int32_t)L_8)))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		TouchU5BU5D_t3887265178* L_9 = V_1;
+		V_3 = L_9;
+		goto IL_0039;
+	}
+
+IL_0039:
+	{
+		TouchU5BU5D_t3887265178* L_10 = V_3;
+		return L_10;
+	}
 }
 // UnityEngine.Touch UnityEngine.Input::GetTouch(System.Int32)
 extern "C"  Touch_t407273883  Input_GetTouch_m3258362431 (RuntimeObject * __this /* static, unused */, int32_t ___index0, const RuntimeMethod* method)

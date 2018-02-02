@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 175
   Total Field Removals = 752
-  Total Method Removals = 11893
+  Total Method Removals = 11892
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -10362,7 +10362,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 47
   Total Field Removals = 32
-  Total Method Removals = 2775
+  Total Method Removals = 2774
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11421,7 +11421,6 @@ Summary:
         get_multiTouchEnabled()
         get_simulateMouseWithTouches()
         get_stylusTouchSupported()
-        get_touches()
         get_touchPressureSupported()
         GetAccelerationEvent(System.Int32)
         GetAxis(System.String)

@@ -172,6 +172,7 @@ extern const Il2CppType Object_t1021602117_0_0_0;
 extern const Il2CppType Display_t3666191348_0_0_0;
 extern const Il2CppType Material_t193706927_0_0_0;
 extern const Il2CppType SphericalHarmonicsL2_t364136731_0_0_0;
+extern const Il2CppType Touch_t407273883_0_0_0;
 extern const Il2CppType Keyframe_t1449471340_0_0_0;
 extern const Il2CppType Vector3_t2243707580_0_0_0;
 extern const Il2CppType Vector4_t2243707581_0_0_0;
@@ -925,6 +926,8 @@ static const RuntimeType* GenInst_Material_t193706927_0_0_0_Types[] = { (&Materi
 extern const Il2CppGenericInst GenInst_Material_t193706927_0_0_0 = { 1, GenInst_Material_t193706927_0_0_0_Types };
 static const RuntimeType* GenInst_SphericalHarmonicsL2_t364136731_0_0_0_Types[] = { (&SphericalHarmonicsL2_t364136731_0_0_0) };
 extern const Il2CppGenericInst GenInst_SphericalHarmonicsL2_t364136731_0_0_0 = { 1, GenInst_SphericalHarmonicsL2_t364136731_0_0_0_Types };
+static const RuntimeType* GenInst_Touch_t407273883_0_0_0_Types[] = { (&Touch_t407273883_0_0_0) };
+extern const Il2CppGenericInst GenInst_Touch_t407273883_0_0_0 = { 1, GenInst_Touch_t407273883_0_0_0_Types };
 static const RuntimeType* GenInst_Keyframe_t1449471340_0_0_0_Types[] = { (&Keyframe_t1449471340_0_0_0) };
 extern const Il2CppGenericInst GenInst_Keyframe_t1449471340_0_0_0 = { 1, GenInst_Keyframe_t1449471340_0_0_0_Types };
 static const RuntimeType* GenInst_Vector3_t2243707580_0_0_0_Types[] = { (&Vector3_t2243707580_0_0_0) };
@@ -1961,7 +1964,7 @@ static const RuntimeType* GenInst_KeyValuePair_2_t2518890164_0_0_0_RuntimeObject
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t2518890164_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t2518890164_0_0_0_RuntimeObject_0_0_0_Types };
 static const RuntimeType* GenInst_Color32_t874517518_0_0_0_RuntimeObject_0_0_0_Types[] = { (&Color32_t874517518_0_0_0), (&RuntimeObject_0_0_0) };
 extern const Il2CppGenericInst GenInst_Color32_t874517518_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_Color32_t874517518_0_0_0_RuntimeObject_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[695] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[696] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -2140,6 +2143,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[695] =
 	&GenInst_Display_t3666191348_0_0_0,
 	&GenInst_Material_t193706927_0_0_0,
 	&GenInst_SphericalHarmonicsL2_t364136731_0_0_0,
+	&GenInst_Touch_t407273883_0_0_0,
 	&GenInst_Keyframe_t1449471340_0_0_0,
 	&GenInst_Vector3_t2243707580_0_0_0,
 	&GenInst_Vector4_t2243707581_0_0_0,

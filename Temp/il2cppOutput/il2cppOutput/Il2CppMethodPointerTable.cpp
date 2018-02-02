@@ -8163,6 +8163,7 @@ extern "C" void Input_get_mouseScrollDelta_m3621133506 ();
 extern "C" void Input_INTERNAL_get_mouseScrollDelta_m3542241815 ();
 extern "C" void Input_get_mousePresent_m1100327283 ();
 extern "C" void Input_get_inputString_m676862227 ();
+extern "C" void Input_get_touches_m793401621 ();
 extern "C" void Input_GetTouch_m3258362431 ();
 extern "C" void Input_INTERNAL_CALL_GetTouch_m1374677231 ();
 extern "C" void Input_get_touchCount_m814531925 ();
@@ -11520,8 +11521,9 @@ extern "C" void TextCtrl_TextReset_m813924207 ();
 extern "C" void TextCtrl_IsLiked_m3611601960 ();
 extern "C" void TextCtrl_IsDisLiked_m3127825976 ();
 extern "C" void TextCtrl_IsReload_m1035622792 ();
-extern "C" void TextCtrl_Hogehoge_m3562424761 ();
+extern "C" void TextCtrl_textRecreate_m2170459059 ();
 extern "C" void TextCtrl_Fadeout_m3667176273 ();
+extern "C" void TextCtrl_IsPointerOverGameObject_m2860427667 ();
 extern "C" void TextCtrl_Update_m3450141820 ();
 extern "C" void TextCtrl__cctor_m4199411812 ();
 extern "C" void U3CFadeoutU3Ec__Iterator1__ctor_m1606172756 ();
@@ -11530,12 +11532,12 @@ extern "C" void U3CFadeoutU3Ec__Iterator1_System_Collections_Generic_IEnumerator
 extern "C" void U3CFadeoutU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m3789005178 ();
 extern "C" void U3CFadeoutU3Ec__Iterator1_Dispose_m2319739345 ();
 extern "C" void U3CFadeoutU3Ec__Iterator1_Reset_m1648057311 ();
-extern "C" void U3CHogehogeU3Ec__Iterator0__ctor_m3189228255 ();
-extern "C" void U3CHogehogeU3Ec__Iterator0_MoveNext_m308101469 ();
-extern "C" void U3CHogehogeU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2180318321 ();
-extern "C" void U3CHogehogeU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3459085225 ();
-extern "C" void U3CHogehogeU3Ec__Iterator0_Dispose_m1764820296 ();
-extern "C" void U3CHogehogeU3Ec__Iterator0_Reset_m1504887934 ();
+extern "C" void U3CtextRecreateU3Ec__Iterator0__ctor_m3989316833 ();
+extern "C" void U3CtextRecreateU3Ec__Iterator0_MoveNext_m3706872307 ();
+extern "C" void U3CtextRecreateU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3268059523 ();
+extern "C" void U3CtextRecreateU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1245227515 ();
+extern "C" void U3CtextRecreateU3Ec__Iterator0_Dispose_m3143848306 ();
+extern "C" void U3CtextRecreateU3Ec__Iterator0_Reset_m492429368 ();
 extern "C" void TextCtrl1__ctor_m2745764520 ();
 extern "C" void TextCtrl1_Start_m2706498948 ();
 extern "C" void TextCtrl1_HitTestWithResultType_m1125605904 ();
@@ -11828,7 +11830,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[11811] = 
+extern const Il2CppMethodPointer g_MethodPointers[11813] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -19976,6 +19978,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11811] =
 	Input_INTERNAL_get_mouseScrollDelta_m3542241815,
 	Input_get_mousePresent_m1100327283,
 	Input_get_inputString_m676862227,
+	Input_get_touches_m793401621,
 	Input_GetTouch_m3258362431,
 	Input_INTERNAL_CALL_GetTouch_m1374677231,
 	Input_get_touchCount_m814531925,
@@ -23333,8 +23336,9 @@ extern const Il2CppMethodPointer g_MethodPointers[11811] =
 	TextCtrl_IsLiked_m3611601960,
 	TextCtrl_IsDisLiked_m3127825976,
 	TextCtrl_IsReload_m1035622792,
-	TextCtrl_Hogehoge_m3562424761,
+	TextCtrl_textRecreate_m2170459059,
 	TextCtrl_Fadeout_m3667176273,
+	TextCtrl_IsPointerOverGameObject_m2860427667,
 	TextCtrl_Update_m3450141820,
 	TextCtrl__cctor_m4199411812,
 	U3CFadeoutU3Ec__Iterator1__ctor_m1606172756,
@@ -23343,12 +23347,12 @@ extern const Il2CppMethodPointer g_MethodPointers[11811] =
 	U3CFadeoutU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m3789005178,
 	U3CFadeoutU3Ec__Iterator1_Dispose_m2319739345,
 	U3CFadeoutU3Ec__Iterator1_Reset_m1648057311,
-	U3CHogehogeU3Ec__Iterator0__ctor_m3189228255,
-	U3CHogehogeU3Ec__Iterator0_MoveNext_m308101469,
-	U3CHogehogeU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2180318321,
-	U3CHogehogeU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m3459085225,
-	U3CHogehogeU3Ec__Iterator0_Dispose_m1764820296,
-	U3CHogehogeU3Ec__Iterator0_Reset_m1504887934,
+	U3CtextRecreateU3Ec__Iterator0__ctor_m3989316833,
+	U3CtextRecreateU3Ec__Iterator0_MoveNext_m3706872307,
+	U3CtextRecreateU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3268059523,
+	U3CtextRecreateU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1245227515,
+	U3CtextRecreateU3Ec__Iterator0_Dispose_m3143848306,
+	U3CtextRecreateU3Ec__Iterator0_Reset_m492429368,
 	TextCtrl1__ctor_m2745764520,
 	TextCtrl1_Start_m2706498948,
 	TextCtrl1_HitTestWithResultType_m1125605904,

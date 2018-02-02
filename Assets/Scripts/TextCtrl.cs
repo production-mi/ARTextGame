@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using UnityEngine.EventSystems;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.UI;
@@ -64,6 +65,7 @@ public class TextCtrl : MonoBehaviour {
 
 	void Start () {
 
+
 		reset = reset.GetComponent<Button>();
 		reset.onClick.AddListener(TextReset);
 
@@ -100,9 +102,9 @@ public class TextCtrl : MonoBehaviour {
 			MrNo = GameObject.Find("MrNo_Anim");
 			MrNoAnim = MrNo.GetComponent<Animator>();
 			MrNoCollider = MrNo.GetComponent<MeshCollider>();
-			//TextBounce = GameObject.Find("TextAnimSocket");
-			Debug.Log(TextBounce);
-			textObject = FlyingText.GetObjects(itemText[0]);
+			text = QRCodeReader.possible;
+			string[] textArray = text.Split(","[0]);
+			textObject = FlyingText.GetObjects(textArray[0]);
 			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 			textObject.transform.parent = textRoot.transform;
 			textRoot.transform.parent = TextBounce.transform;
@@ -146,7 +148,7 @@ public class TextCtrl : MonoBehaviour {
 	{
 			List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
 			if (hitResults.Count > 0) {
-
+					if(!IsPointerOverGameObject()){
 					foreach (var hitResult in hitResults) {
 							plane.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 							// Vector3 TargetCamPosition = Camera.main.transform.position;
@@ -154,34 +156,6 @@ public class TextCtrl : MonoBehaviour {
 							// TargetCamPosition.z = plane.transform.position.z * -1f;
 							// plane.transform.LookAt (TargetCamPosition);
 							if(plateIsOn != true){
-								// plane = Instantiate(Plate);
-								// //plane.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
-								// textRoot = new GameObject();
-								// textRoot.name = "textRoot";
-								// TextBounce = GameObject.Find("joint6");
-								// fireworkInitial_L = GameObject.Find("FireworkInitial_L").GetComponent<ParticleSystem>();
-								// fireworkInitial_S = GameObject.Find("FireworkInitial_S").GetComponent<ParticleSystem>();
-								// fireworkBurst_L = GameObject.Find("FireworkBurst_L").GetComponent<ParticleSystem>();
-								// fireworkBurst_S = GameObject.Find("FireworkBurst_S").GetComponent<ParticleSystem>();
-								// TextBounceAnim = GameObject.Find("Ball2").GetComponent<Animator>();
-                //
-								// MrNo = GameObject.Find("MrNo_Anim");
-								// MrNoAnim = MrNo.GetComponent<Animator>();
-								// // MrNoCollider = MrNo.GetComponent<MeshCollider>();
-								// //TextBounce = GameObject.Find("TextAnimSocket");
-								// // Debug.Log(TextBounce);
-								// textObject = FlyingText.GetObjects(itemText[0]);
-								// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-								// textObject.transform.parent = textRoot.transform;
-								// textRoot.transform.parent = TextBounce.transform;
-								// textRoot.transform.localScale = new Vector3(1f,1f,1f);
-								// textRoot.transform.localPosition = new Vector2(0f, 0f);
-								// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
-								// foreach (var rb in rigidbodies) {
-								// 	rb.useGravity = false;
-								// }
-
-
 								//textObject.transform.parent = joint.transform;
 								//textRoot.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 								//textRoot.transform.parent = plane.transform;
@@ -196,6 +170,7 @@ public class TextCtrl : MonoBehaviour {
 							plateIsOn = true;
 							return true;
 					}
+				}
 			}
 			return false;
 	}
@@ -225,7 +200,7 @@ public class TextCtrl : MonoBehaviour {
 		var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
 		foreach (var rb in rigidbodies) {
 			rb.useGravity = true;
-			rb.AddExplosionForce (220.0f, new Vector3(0, 1, 6.5f), 10.0f, 9.0f);
+			rb.AddExplosionForce (320.0f, new Vector3(0, -3, -5.5f), 7.0f, 3.0f);
 		}
 		MrNoAnim.SetTrigger("Disliked");
 		StartCoroutine(Fadeout(0.0f, 1.0f));
@@ -234,16 +209,22 @@ public class TextCtrl : MonoBehaviour {
 
 
 	void IsReload(){
-		MrNoAnim.SetTrigger("Suggest");
-		StartCoroutine(Hogehoge());
-		IsBroken = false;
+		StartCoroutine(textRecreate());
 	}
 
-	IEnumerator Hogehoge(){
-		if(IsBroken != false){
+		IEnumerator textRecreate(){
+			MrNoAnim.SetTrigger("Suggest");
+			if(IsBroken != true){
+				StartCoroutine(Fadeout(0.0f, 1.0f));
+				Destroy(textObject);
+				TextBounceAnim.SetTrigger("TextOn");
+			}
+			yield return new WaitForSeconds (1.0f);
 			textMain.color = originalColorTextMain;
 			textEdge.color = originalColorTextEdge;
-			textObject = FlyingText.GetObjects(itemText[0]);
+			text = QRCodeReader.possible;
+			string[] textArray = text.Split(","[0]);
+			textObject = FlyingText.GetObjects(textArray[0]);
 			textObject.transform.parent = textRoot.transform;
 			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 			textObject.transform.localPosition = new Vector2(0f, 0f);
@@ -255,13 +236,9 @@ public class TextCtrl : MonoBehaviour {
 				rb.useGravity = false;
 			}
 			TextBounceAnim.SetTrigger("TextOn");
-		}else{
-			StartCoroutine(Fadeout(0.0f, 1.0f));
-			TextBounceAnim.SetTrigger("TextOn");
+			IsBroken = false;
+			yield break;
 		}
-		yield return null;
-	}
-
 
 
 		IEnumerator Fadeout(float aValue, float aTime){
@@ -279,6 +256,28 @@ public class TextCtrl : MonoBehaviour {
 		TextBounceAnim.SetTrigger("TextOn");
 		yield return null;
 	}
+
+
+	public bool IsPointerOverGameObject()
+ {
+    EventSystem current = EventSystem.current;
+    if (current != null)
+    {
+        if (current.IsPointerOverGameObject())
+        {
+            return true;
+        }
+
+        foreach (Touch t in Input.touches)
+        {
+            if (current.IsPointerOverGameObject(t.fingerId))
+            {
+                return true;
+            }
+        }
+    }
+    return false;
+  }
 
 
 	void Update(){
