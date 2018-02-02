@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/FlyingText3D/Demos/GameOver Demo/_GameOver.unity
+- path: Assets/Scenes/ARTextGame.unity
   isLoaded: 1
   isActive: 1
