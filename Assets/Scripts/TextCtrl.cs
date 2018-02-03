@@ -25,6 +25,8 @@ public class TextCtrl : MonoBehaviour {
 	private ParticleSystem fireworkBurst_L;
 	private ParticleSystem fireworkInitial_S;
 	private ParticleSystem fireworkBurst_S;
+	private ParticleSystem Smoke;
+	private ParticleSystem Confetti;
 
 
 
@@ -97,6 +99,8 @@ public class TextCtrl : MonoBehaviour {
 			fireworkInitial_S = GameObject.Find("FireworkInitial_S").GetComponent<ParticleSystem>();
 			fireworkBurst_L = GameObject.Find("FireworkBurst_L").GetComponent<ParticleSystem>();
 			fireworkBurst_S = GameObject.Find("FireworkBurst_S").GetComponent<ParticleSystem>();
+			Smoke = GameObject.Find("Smoke").GetComponent<ParticleSystem>();
+			Confetti = GameObject.Find("Confetti").GetComponent<ParticleSystem>();
 			TextBounceAnim = GameObject.Find("Ball2").GetComponent<Animator>();
 
 			MrNo = GameObject.Find("MrNo_Anim");
@@ -186,6 +190,7 @@ public class TextCtrl : MonoBehaviour {
 
 
 	void IsLiked(){
+		Confetti.Play();
 		fireworkInitial_L.Play();
 		fireworkBurst_L.Play();
 		fireworkInitial_S.Play();
@@ -197,6 +202,7 @@ public class TextCtrl : MonoBehaviour {
 
 
 	void IsDisLiked(){
+		Smoke.Play();
 		var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
 		foreach (var rb in rigidbodies) {
 			rb.useGravity = true;

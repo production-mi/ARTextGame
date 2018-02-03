@@ -176,6 +176,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 3c131bc1fcd62a99173616f1006723eb Assembly-CSharp.dll:.ColorImage
 fec83370822b847d57f99223435a4197 Assembly-CSharp.dll:.LightFade
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ButtonDislikeCtrl
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.TargetCircleANim
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARUserAnchorComponent
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 4459adddfa0395b2a1fd43db6423560f Assembly-CSharp.dll:UnityEngine.XR.iOS.TextCtrl1

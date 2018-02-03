@@ -11374,6 +11374,9 @@ extern "C" void SVBoxSlider_OnDestroy_m1087675145 ();
 extern "C" void SVBoxSlider_SliderChanged_m3739635521 ();
 extern "C" void SVBoxSlider_HSVChanged_m3533720340 ();
 extern "C" void SVBoxSlider_RegenerateSVTexture_m4094171080 ();
+extern "C" void TargetCircleANim__ctor_m3040043131 ();
+extern "C" void TargetCircleANim_Start_m3318942511 ();
+extern "C" void TargetCircleANim_Update_m3216247010 ();
 extern "C" void TiltWindow__ctor_m3071582230 ();
 extern "C" void TiltWindow_Start_m3112429194 ();
 extern "C" void TiltWindow_Update_m460467911 ();
@@ -11830,7 +11833,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[11813] = 
+extern const Il2CppMethodPointer g_MethodPointers[11816] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -23189,6 +23192,9 @@ extern const Il2CppMethodPointer g_MethodPointers[11813] =
 	SVBoxSlider_SliderChanged_m3739635521,
 	SVBoxSlider_HSVChanged_m3533720340,
 	SVBoxSlider_RegenerateSVTexture_m4094171080,
+	TargetCircleANim__ctor_m3040043131,
+	TargetCircleANim_Start_m3318942511,
+	TargetCircleANim_Update_m3216247010,
 	TiltWindow__ctor_m3071582230,
 	TiltWindow_Start_m3112429194,
 	TiltWindow_Update_m460467911,

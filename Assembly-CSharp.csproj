@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\ButtonText_Ctrl.cs" />
      <Compile Include="Assets\Scripts\MrNo.cs" />
      <Compile Include="Assets\Scripts\QRCodeReader.cs" />
+     <Compile Include="Assets\Scripts\TargetCircleANim.cs" />
      <Compile Include="Assets\Scripts\TextCtrl.cs" />
      <Compile Include="Assets\Scripts\TextCtrl1.cs" />
      <Compile Include="Assets\UnityARKitPlugin\ARKitRemote\ARKitRemoteConnection.cs" />

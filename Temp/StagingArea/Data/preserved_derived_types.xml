@@ -10,6 +10,7 @@
 <type fullname="ButtonText_Ctrl" preserve="all"/>
 <type fullname="MrNo" preserve="all"/>
 <type fullname="QRCodeReader" preserve="all"/>
+<type fullname="TargetCircleANim" preserve="all"/>
 <type fullname="UnityEngine.XR.iOS.TextCtrl" preserve="all"/>
 <type fullname="UnityEngine.XR.iOS.TextCtrl1" preserve="all"/>
 <type fullname="UnityEngine.XR.iOS.ConnectToEditor" preserve="all"/>
