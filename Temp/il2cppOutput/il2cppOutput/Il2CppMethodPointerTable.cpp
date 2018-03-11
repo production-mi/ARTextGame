@@ -8225,6 +8225,8 @@ extern "C" void Material_SetTextureImpl_m3679960853 ();
 extern "C" void Material_GetColorImpl_m4067807766 ();
 extern "C" void Material_INTERNAL_CALL_GetColorImpl_m1976191982 ();
 extern "C" void Material_GetTextureImpl_m2799453342 ();
+extern "C" void Material_SetTextureOffsetImpl_m2090020140 ();
+extern "C" void Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011 ();
 extern "C" void Material_HasProperty_m3932416560 ();
 extern "C" void Material_HasProperty_m2476290177 ();
 extern "C" void Material_SetPass_m3700539559 ();
@@ -8240,6 +8242,8 @@ extern "C" void Material_SetMatrix_m269922556 ();
 extern "C" void Material_SetMatrix_m827172129 ();
 extern "C" void Material_SetTexture_m3642434134 ();
 extern "C" void Material_SetTexture_m325405809 ();
+extern "C" void Material_SetTextureOffset_m1959576143 ();
+extern "C" void Material_SetTextureOffset_m548743834 ();
 extern "C" void Material_GetColor_m2278430857 ();
 extern "C" void Material_GetColor_m1711285076 ();
 extern "C" void Material_GetTexture_m1388306261 ();
@@ -8724,6 +8728,7 @@ extern "C" void Texture2D_SetPixels32_m1226421091 ();
 extern "C" void Texture2D_Apply_m4118595903 ();
 extern "C" void Texture2D_Apply_m2702966139 ();
 extern "C" void ThreadAndSerializationSafeAttribute__ctor_m1315066522 ();
+extern "C" void Time_get_time_m518788937 ();
 extern "C" void Time_get_deltaTime_m3925508629 ();
 extern "C" void Time_get_unscaledTime_m4021682882 ();
 extern "C" void Time_get_unscaledDeltaTime_m172907592 ();
@@ -8751,6 +8756,7 @@ extern "C" void TouchScreenKeyboard_get_wasCanceled_m190216773 ();
 extern "C" void TouchScreenKeyboard_get_canGetSelection_m2698707841 ();
 extern "C" void TouchScreenKeyboard_get_selection_m4060577923 ();
 extern "C" void TouchScreenKeyboard_GetSelectionInternal_m4092640519 ();
+extern "C" void TrackedReference__ctor_m1592856011 ();
 extern "C" void TrackedReference_op_Equality_m3770035167 ();
 extern "C" void TrackedReference_Equals_m556069828 ();
 extern "C" void TrackedReference_GetHashCode_m1278837032 ();
@@ -8974,6 +8980,13 @@ extern "C" void TextGenerator_get_verts_m670653604 ();
 extern "C" void TextGenerator_get_characters_m2585748644 ();
 extern "C" void TextGenerator_get_lines_m2017467099 ();
 extern "C" void UIVertex__cctor_m1794480453 ();
+extern "C" void Animation_GetEnumerator_m4136519145 ();
+extern "C" void Animation_GetStateAtIndex_m1480862767 ();
+extern "C" void Animation_GetStateCount_m2765794865 ();
+extern "C" void Enumerator__ctor_m1118423891 ();
+extern "C" void Enumerator_get_Current_m4055258811 ();
+extern "C" void Enumerator_MoveNext_m2138695632 ();
+extern "C" void Enumerator_Reset_m4073277591 ();
 extern "C" void AnimationEvent__ctor_m3610061561 ();
 extern "C" void AnimationClipPlayable_GetHandle_m1049528789_AdjustorThunk ();
 extern "C" void AnimationClipPlayable_Equals_m632692099_AdjustorThunk ();
@@ -8992,6 +9005,7 @@ extern "C" void AnimatorControllerPlayable_GetHandle_m3133350390_AdjustorThunk (
 extern "C" void AnimatorControllerPlayable_SetHandle_m4064095453_AdjustorThunk ();
 extern "C" void AnimatorControllerPlayable_Equals_m2805860543_AdjustorThunk ();
 extern "C" void AnimatorControllerPlayable__cctor_m2703466520 ();
+extern "C" void AnimationState__ctor_m176068128 ();
 extern "C" void Animator_SetTrigger_m2003713590 ();
 extern "C" void Animator_ResetTrigger_m2176932023 ();
 extern "C" void Animator_get_hasBoundPlayables_m2257984562 ();
@@ -11365,6 +11379,18 @@ extern "C" void QRCodeReader_Update_m1388300513 ();
 extern "C" void QRCodeReader_OnReadQRCode_m22964003 ();
 extern "C" void QRCodeReader_OnGetPossibleName_m1533305699 ();
 extern "C" void QRCodeReader_OnRenderObject_m100505548 ();
+extern "C" void RaderMotion__ctor_m3477683941 ();
+extern "C" void RaderMotion_Start_m3418824109 ();
+extern "C" void RaderMotion_Update_m1513299560 ();
+extern "C" void RaderMotion1__ctor_m746213356 ();
+extern "C" void RaderMotion1_Start_m791668572 ();
+extern "C" void RaderMotion1_Update_m1886782493 ();
+extern "C" void ScanAnimCtrl__ctor_m419148744 ();
+extern "C" void ScanAnimCtrl_Start_m89233604 ();
+extern "C" void ScanAnimCtrl_Update_m1692304503 ();
+extern "C" void ScreenANim__ctor_m1299214628 ();
+extern "C" void ScreenANim_Start_m1953950884 ();
+extern "C" void ScreenANim_Update_m2735387749 ();
 extern "C" void SVBoxSlider__ctor_m2623596066 ();
 extern "C" void SVBoxSlider_get_rectTransform_m3427717911 ();
 extern "C" void SVBoxSlider_Awake_m1174811035 ();
@@ -11516,6 +11542,10 @@ extern "C" void EditorHitTest__ctor_m2991766869 ();
 extern "C" void MarshalDirectionalLightEstimate_get_SphericalHarmonicCoefficients_m2495734096_AdjustorThunk ();
 extern "C" void MarshalDirectionalLightEstimate_MarshalCoefficients_m987551255_AdjustorThunk ();
 extern "C" void MarshalDirectionalLightEstimate_RotateForUnity_m317214218_AdjustorThunk ();
+extern "C" void previzCtrl__ctor_m2963547266 ();
+extern "C" void previzCtrl_Start_m4257261626 ();
+extern "C" void previzCtrl_HitTestWithResultType_m3916439298 ();
+extern "C" void previzCtrl_Update_m3917845437 ();
 extern "C" void SubMessageIds_get_editorInitARKit_m61535324 ();
 extern "C" void TextCtrl__ctor_m648663823 ();
 extern "C" void TextCtrl_Start_m2075116563 ();
@@ -11833,7 +11863,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[11816] = 
+extern const Il2CppMethodPointer g_MethodPointers[11846] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -20043,6 +20073,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11816] =
 	Material_GetColorImpl_m4067807766,
 	Material_INTERNAL_CALL_GetColorImpl_m1976191982,
 	Material_GetTextureImpl_m2799453342,
+	Material_SetTextureOffsetImpl_m2090020140,
+	Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011,
 	Material_HasProperty_m3932416560,
 	Material_HasProperty_m2476290177,
 	Material_SetPass_m3700539559,
@@ -20058,6 +20090,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11816] =
 	Material_SetMatrix_m827172129,
 	Material_SetTexture_m3642434134,
 	Material_SetTexture_m325405809,
+	Material_SetTextureOffset_m1959576143,
+	Material_SetTextureOffset_m548743834,
 	Material_GetColor_m2278430857,
 	Material_GetColor_m1711285076,
 	Material_GetTexture_m1388306261,
@@ -20542,6 +20576,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11816] =
 	Texture2D_Apply_m4118595903,
 	Texture2D_Apply_m2702966139,
 	ThreadAndSerializationSafeAttribute__ctor_m1315066522,
+	Time_get_time_m518788937,
 	Time_get_deltaTime_m3925508629,
 	Time_get_unscaledTime_m4021682882,
 	Time_get_unscaledDeltaTime_m172907592,
@@ -20569,6 +20604,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11816] =
 	TouchScreenKeyboard_get_canGetSelection_m2698707841,
 	TouchScreenKeyboard_get_selection_m4060577923,
 	TouchScreenKeyboard_GetSelectionInternal_m4092640519,
+	TrackedReference__ctor_m1592856011,
 	TrackedReference_op_Equality_m3770035167,
 	TrackedReference_Equals_m556069828,
 	TrackedReference_GetHashCode_m1278837032,
@@ -20792,6 +20828,13 @@ extern const Il2CppMethodPointer g_MethodPointers[11816] =
 	TextGenerator_get_characters_m2585748644,
 	TextGenerator_get_lines_m2017467099,
 	UIVertex__cctor_m1794480453,
+	Animation_GetEnumerator_m4136519145,
+	Animation_GetStateAtIndex_m1480862767,
+	Animation_GetStateCount_m2765794865,
+	Enumerator__ctor_m1118423891,
+	Enumerator_get_Current_m4055258811,
+	Enumerator_MoveNext_m2138695632,
+	Enumerator_Reset_m4073277591,
 	AnimationEvent__ctor_m3610061561,
 	AnimationClipPlayable_GetHandle_m1049528789_AdjustorThunk,
 	AnimationClipPlayable_Equals_m632692099_AdjustorThunk,
@@ -20810,6 +20853,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11816] =
 	AnimatorControllerPlayable_SetHandle_m4064095453_AdjustorThunk,
 	AnimatorControllerPlayable_Equals_m2805860543_AdjustorThunk,
 	AnimatorControllerPlayable__cctor_m2703466520,
+	AnimationState__ctor_m176068128,
 	Animator_SetTrigger_m2003713590,
 	Animator_ResetTrigger_m2176932023,
 	Animator_get_hasBoundPlayables_m2257984562,
@@ -23183,6 +23227,18 @@ extern const Il2CppMethodPointer g_MethodPointers[11816] =
 	QRCodeReader_OnReadQRCode_m22964003,
 	QRCodeReader_OnGetPossibleName_m1533305699,
 	QRCodeReader_OnRenderObject_m100505548,
+	RaderMotion__ctor_m3477683941,
+	RaderMotion_Start_m3418824109,
+	RaderMotion_Update_m1513299560,
+	RaderMotion1__ctor_m746213356,
+	RaderMotion1_Start_m791668572,
+	RaderMotion1_Update_m1886782493,
+	ScanAnimCtrl__ctor_m419148744,
+	ScanAnimCtrl_Start_m89233604,
+	ScanAnimCtrl_Update_m1692304503,
+	ScreenANim__ctor_m1299214628,
+	ScreenANim_Start_m1953950884,
+	ScreenANim_Update_m2735387749,
 	SVBoxSlider__ctor_m2623596066,
 	SVBoxSlider_get_rectTransform_m3427717911,
 	SVBoxSlider_Awake_m1174811035,
@@ -23334,6 +23390,10 @@ extern const Il2CppMethodPointer g_MethodPointers[11816] =
 	MarshalDirectionalLightEstimate_get_SphericalHarmonicCoefficients_m2495734096_AdjustorThunk,
 	MarshalDirectionalLightEstimate_MarshalCoefficients_m987551255_AdjustorThunk,
 	MarshalDirectionalLightEstimate_RotateForUnity_m317214218_AdjustorThunk,
+	previzCtrl__ctor_m2963547266,
+	previzCtrl_Start_m4257261626,
+	previzCtrl_HitTestWithResultType_m3916439298,
+	previzCtrl_Update_m3917845437,
 	SubMessageIds_get_editorInitARKit_m61535324,
 	TextCtrl__ctor_m648663823,
 	TextCtrl_Start_m2075116563,

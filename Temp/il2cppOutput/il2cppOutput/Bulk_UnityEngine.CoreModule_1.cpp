@@ -20104,6 +20104,16 @@ extern "C"  void ThreadAndSerializationSafeAttribute__ctor_m1315066522 (ThreadAn
 		return;
 	}
 }
+// System.Single UnityEngine.Time::get_time()
+extern "C"  float Time_get_time_m518788937 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	typedef float (*Time_get_time_m518788937_ftn) ();
+	static Time_get_time_m518788937_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Time_get_time_m518788937_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Time::get_time()");
+	float retVal = _il2cpp_icall_func();
+	return retVal;
+}
 // System.Single UnityEngine.Time::get_deltaTime()
 extern "C"  float Time_get_deltaTime_m3925508629 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
 {
@@ -20691,6 +20701,14 @@ extern "C" void TrackedReference_t1045890189_marshal_com_back(const TrackedRefer
 // Conversion method for clean up from marshalling of: UnityEngine.TrackedReference
 extern "C" void TrackedReference_t1045890189_marshal_com_cleanup(TrackedReference_t1045890189_marshaled_com& marshaled)
 {
+}
+// System.Void UnityEngine.TrackedReference::.ctor()
+extern "C"  void TrackedReference__ctor_m1592856011 (TrackedReference_t1045890189 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
 }
 // System.Boolean UnityEngine.TrackedReference::op_Equality(UnityEngine.TrackedReference,UnityEngine.TrackedReference)
 extern "C"  bool TrackedReference_op_Equality_m3770035167 (RuntimeObject * __this /* static, unused */, TrackedReference_t1045890189 * ___x0, TrackedReference_t1045890189 * ___y1, const RuntimeMethod* method)

@@ -16269,45 +16269,6 @@ struct PlayableBinding_t2498078091_marshaled_com
 	};
 };
 #endif // PLAYABLEBINDING_T2498078091_H
-#ifndef UNITYARUSERANCHORDATA_T2645079618_H
-#define UNITYARUSERANCHORDATA_T2645079618_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.XR.iOS.UnityARUserAnchorData
-struct  UnityARUserAnchorData_t2645079618 
-{
-public:
-	// System.IntPtr UnityEngine.XR.iOS.UnityARUserAnchorData::ptrIdentifier
-	intptr_t ___ptrIdentifier_0;
-	// UnityEngine.XR.iOS.UnityARMatrix4x4 UnityEngine.XR.iOS.UnityARUserAnchorData::transform
-	UnityARMatrix4x4_t100931615  ___transform_1;
-
-public:
-	inline static int32_t get_offset_of_ptrIdentifier_0() { return static_cast<int32_t>(offsetof(UnityARUserAnchorData_t2645079618, ___ptrIdentifier_0)); }
-	inline intptr_t get_ptrIdentifier_0() const { return ___ptrIdentifier_0; }
-	inline intptr_t* get_address_of_ptrIdentifier_0() { return &___ptrIdentifier_0; }
-	inline void set_ptrIdentifier_0(intptr_t value)
-	{
-		___ptrIdentifier_0 = value;
-	}
-
-	inline static int32_t get_offset_of_transform_1() { return static_cast<int32_t>(offsetof(UnityARUserAnchorData_t2645079618, ___transform_1)); }
-	inline UnityARMatrix4x4_t100931615  get_transform_1() const { return ___transform_1; }
-	inline UnityARMatrix4x4_t100931615 * get_address_of_transform_1() { return &___transform_1; }
-	inline void set_transform_1(UnityARMatrix4x4_t100931615  value)
-	{
-		___transform_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // UNITYARUSERANCHORDATA_T2645079618_H
 #ifndef DATETIME_T693205669_H
 #define DATETIME_T693205669_H
 #ifdef __clang__
@@ -16493,6 +16454,45 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DATETIME_T693205669_H
+#ifndef UNITYARUSERANCHORDATA_T2645079618_H
+#define UNITYARUSERANCHORDATA_T2645079618_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.XR.iOS.UnityARUserAnchorData
+struct  UnityARUserAnchorData_t2645079618 
+{
+public:
+	// System.IntPtr UnityEngine.XR.iOS.UnityARUserAnchorData::ptrIdentifier
+	intptr_t ___ptrIdentifier_0;
+	// UnityEngine.XR.iOS.UnityARMatrix4x4 UnityEngine.XR.iOS.UnityARUserAnchorData::transform
+	UnityARMatrix4x4_t100931615  ___transform_1;
+
+public:
+	inline static int32_t get_offset_of_ptrIdentifier_0() { return static_cast<int32_t>(offsetof(UnityARUserAnchorData_t2645079618, ___ptrIdentifier_0)); }
+	inline intptr_t get_ptrIdentifier_0() const { return ___ptrIdentifier_0; }
+	inline intptr_t* get_address_of_ptrIdentifier_0() { return &___ptrIdentifier_0; }
+	inline void set_ptrIdentifier_0(intptr_t value)
+	{
+		___ptrIdentifier_0 = value;
+	}
+
+	inline static int32_t get_offset_of_transform_1() { return static_cast<int32_t>(offsetof(UnityARUserAnchorData_t2645079618, ___transform_1)); }
+	inline UnityARMatrix4x4_t100931615  get_transform_1() const { return ___transform_1; }
+	inline UnityARMatrix4x4_t100931615 * get_address_of_transform_1() { return &___transform_1; }
+	inline void set_transform_1(UnityARMatrix4x4_t100931615  value)
+	{
+		___transform_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UNITYARUSERANCHORDATA_T2645079618_H
 #ifndef ARKITSESSIONCONFIGURATION_T318899795_H
 #define ARKITSESSIONCONFIGURATION_T318899795_H
 #ifdef __clang__
@@ -17791,66 +17791,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ANIMATORCONTROLLERPLAYABLE_T1744083903_H
-#ifndef ENUMERATOR_T156532019_H
-#define ENUMERATOR_T156532019_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Dictionary`2/Enumerator<System.IntPtr,System.Object>
-struct  Enumerator_t156532019 
-{
-public:
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
-	Dictionary_2_t3131474613 * ___dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::next
-	int32_t ___next_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp
-	int32_t ___stamp_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::current
-	KeyValuePair_2_t888819835  ___current_3;
-
-public:
-	inline static int32_t get_offset_of_dictionary_0() { return static_cast<int32_t>(offsetof(Enumerator_t156532019, ___dictionary_0)); }
-	inline Dictionary_2_t3131474613 * get_dictionary_0() const { return ___dictionary_0; }
-	inline Dictionary_2_t3131474613 ** get_address_of_dictionary_0() { return &___dictionary_0; }
-	inline void set_dictionary_0(Dictionary_2_t3131474613 * value)
-	{
-		___dictionary_0 = value;
-		Il2CppCodeGenWriteBarrier((&___dictionary_0), value);
-	}
-
-	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t156532019, ___next_1)); }
-	inline int32_t get_next_1() const { return ___next_1; }
-	inline int32_t* get_address_of_next_1() { return &___next_1; }
-	inline void set_next_1(int32_t value)
-	{
-		___next_1 = value;
-	}
-
-	inline static int32_t get_offset_of_stamp_2() { return static_cast<int32_t>(offsetof(Enumerator_t156532019, ___stamp_2)); }
-	inline int32_t get_stamp_2() const { return ___stamp_2; }
-	inline int32_t* get_address_of_stamp_2() { return &___stamp_2; }
-	inline void set_stamp_2(int32_t value)
-	{
-		___stamp_2 = value;
-	}
-
-	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t156532019, ___current_3)); }
-	inline KeyValuePair_2_t888819835  get_current_3() const { return ___current_3; }
-	inline KeyValuePair_2_t888819835 * get_address_of_current_3() { return &___current_3; }
-	inline void set_current_3(KeyValuePair_2_t888819835  value)
-	{
-		___current_3 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ENUMERATOR_T156532019_H
 #ifndef ANIMATIONCLIPPLAYABLE_T4099382200_H
 #define ANIMATIONCLIPPLAYABLE_T4099382200_H
 #ifdef __clang__
@@ -17925,6 +17865,66 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ANIMATIONLAYERMIXERPLAYABLE_T3057952312_H
+#ifndef ENUMERATOR_T156532019_H
+#define ENUMERATOR_T156532019_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.IntPtr,System.Object>
+struct  Enumerator_t156532019 
+{
+public:
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
+	Dictionary_2_t3131474613 * ___dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::next
+	int32_t ___next_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp
+	int32_t ___stamp_2;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::current
+	KeyValuePair_2_t888819835  ___current_3;
+
+public:
+	inline static int32_t get_offset_of_dictionary_0() { return static_cast<int32_t>(offsetof(Enumerator_t156532019, ___dictionary_0)); }
+	inline Dictionary_2_t3131474613 * get_dictionary_0() const { return ___dictionary_0; }
+	inline Dictionary_2_t3131474613 ** get_address_of_dictionary_0() { return &___dictionary_0; }
+	inline void set_dictionary_0(Dictionary_2_t3131474613 * value)
+	{
+		___dictionary_0 = value;
+		Il2CppCodeGenWriteBarrier((&___dictionary_0), value);
+	}
+
+	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t156532019, ___next_1)); }
+	inline int32_t get_next_1() const { return ___next_1; }
+	inline int32_t* get_address_of_next_1() { return &___next_1; }
+	inline void set_next_1(int32_t value)
+	{
+		___next_1 = value;
+	}
+
+	inline static int32_t get_offset_of_stamp_2() { return static_cast<int32_t>(offsetof(Enumerator_t156532019, ___stamp_2)); }
+	inline int32_t get_stamp_2() const { return ___stamp_2; }
+	inline int32_t* get_address_of_stamp_2() { return &___stamp_2; }
+	inline void set_stamp_2(int32_t value)
+	{
+		___stamp_2 = value;
+	}
+
+	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t156532019, ___current_3)); }
+	inline KeyValuePair_2_t888819835  get_current_3() const { return ___current_3; }
+	inline KeyValuePair_2_t888819835 * get_address_of_current_3() { return &___current_3; }
+	inline void set_current_3(KeyValuePair_2_t888819835  value)
+	{
+		___current_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ENUMERATOR_T156532019_H
 #ifndef ARKITFACETRACKINGCONFIGURATION_T2393628587_H
 #define ARKITFACETRACKINGCONFIGURATION_T2393628587_H
 #ifdef __clang__
@@ -25681,10 +25681,31 @@ void* RuntimeInvoker_Color_t2020392075_Int32_t2071877448 (Il2CppMethodPointer me
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
+void* RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Vector2_t2243707579 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, Vector2_t2243707579  p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((Vector2_t2243707579 *)args[1]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1841601450_RuntimeObject_Int32_t2071877448_Vector2U26_t3911752445 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, RuntimeObject * p1, int32_t p2, Vector2_t2243707579 * p3, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((int32_t*)args[1]), (Vector2_t2243707579 *)args[2], methodMetadata);
+	return NULL;
+}
+
 void* RuntimeInvoker_Void_t1841601450_RuntimeObject_Matrix4x4_t2933234003 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, RuntimeObject * p1, Matrix4x4_t2933234003  p2, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((Matrix4x4_t2933234003 *)args[1]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1841601450_RuntimeObject_Vector2_t2243707579 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, RuntimeObject * p1, Vector2_t2243707579  p2, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((Vector2_t2243707579 *)args[1]), methodMetadata);
 	return NULL;
 }
 
@@ -27760,13 +27781,6 @@ void* RuntimeInvoker_Int32_t2071877448_Int32_t2071877448_SByte_t454417549 (Il2Cp
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
-void* RuntimeInvoker_Void_t1841601450_RuntimeObject_Vector2_t2243707579 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, RuntimeObject * p1, Vector2_t2243707579  p2, const RuntimeMethod* method);
-	((Func)methodPointer)(obj, (RuntimeObject *)args[0], *((Vector2_t2243707579 *)args[1]), methodMetadata);
-	return NULL;
-}
-
 void* RuntimeInvoker_Char_t3454481338_RuntimeObject_Int32_t2071877448_Int16_t4041245914 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef Il2CppChar (*Func)(void* obj, RuntimeObject * p1, int32_t p2, int16_t p3, const RuntimeMethod* method);
@@ -28208,6 +28222,13 @@ void* RuntimeInvoker_Void_t1841601450_RuntimeObject_Color32_t874517518_Int32_t20
 	return NULL;
 }
 
+void* RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, ARPoint_t3436811567  p1, int64_t p2, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, *((ARPoint_t3436811567 *)args[0]), *((int64_t*)args[1]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
 void* RuntimeInvoker_Void_t1841601450_IntPtrU26_t1981417703 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef void (*Func)(void* obj, intptr_t* p1, const RuntimeMethod* method);
@@ -28227,13 +28248,6 @@ void* RuntimeInvoker_Void_t1841601450_UnityARCamera_t4198559457 (Il2CppMethodPoi
 	typedef void (*Func)(void* obj, UnityARCamera_t4198559457  p1, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((UnityARCamera_t4198559457 *)args[0]), methodMetadata);
 	return NULL;
-}
-
-void* RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef bool (*Func)(void* obj, ARPoint_t3436811567  p1, int64_t p2, const RuntimeMethod* method);
-	bool ret = ((Func)methodPointer)(obj, *((ARPoint_t3436811567 *)args[0]), *((int64_t*)args[1]), methodMetadata);
-	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
 void* RuntimeInvoker_RuntimeObject_Single_t2076509932_Single_t2076509932 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
@@ -29332,13 +29346,6 @@ void* RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Color32_t874517518 (Il2C
 {
 	typedef void (*Func)(void* obj, int32_t p1, Color32_t874517518  p2, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((Color32_t874517518 *)args[1]), methodMetadata);
-	return NULL;
-}
-
-void* RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Vector2_t2243707579 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, int32_t p1, Vector2_t2243707579  p2, const RuntimeMethod* method);
-	((Func)methodPointer)(obj, *((int32_t*)args[0]), *((Vector2_t2243707579 *)args[1]), methodMetadata);
 	return NULL;
 }
 
@@ -32968,7 +32975,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t2986189219 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[1951] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[1952] = 
 {
 	RuntimeInvoker_Void_t1841601450,
 	RuntimeInvoker_Boolean_t3825574718_RuntimeObject,
@@ -33880,7 +33887,10 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1951] =
 	RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Matrix4x4_t2933234003,
 	RuntimeInvoker_Void_t1841601450_RuntimeObject_Int32_t2071877448_Matrix4x4U26_t266301477,
 	RuntimeInvoker_Color_t2020392075_Int32_t2071877448,
+	RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Vector2_t2243707579,
+	RuntimeInvoker_Void_t1841601450_RuntimeObject_Int32_t2071877448_Vector2U26_t3911752445,
 	RuntimeInvoker_Void_t1841601450_RuntimeObject_Matrix4x4_t2933234003,
+	RuntimeInvoker_Void_t1841601450_RuntimeObject_Vector2_t2243707579,
 	RuntimeInvoker_Color_t2020392075_RuntimeObject,
 	RuntimeInvoker_Boolean_t3825574718_SphericalHarmonicsL2_t364136731_SphericalHarmonicsL2_t364136731,
 	RuntimeInvoker_Vector4_t2243707581,
@@ -34177,7 +34187,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1951] =
 	RuntimeInvoker_EditState_t1111987863_RuntimeObject,
 	RuntimeInvoker_Int32_t2071877448_Int32_t2071877448_RuntimeObject,
 	RuntimeInvoker_Int32_t2071877448_Int32_t2071877448_SByte_t454417549,
-	RuntimeInvoker_Void_t1841601450_RuntimeObject_Vector2_t2243707579,
 	RuntimeInvoker_Char_t3454481338_RuntimeObject_Int32_t2071877448_Int16_t4041245914,
 	RuntimeInvoker_RuntimeObject_RuntimeObject_Int32_t2071877448_Int16_t4041245914_RuntimeObject_RuntimeObject,
 	RuntimeInvoker_Void_t1841601450_Rect_t3681755626_SByte_t454417549,
@@ -34241,10 +34250,10 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1951] =
 	RuntimeInvoker_Void_t1841601450_Vector3_t2243707580_Color32_t874517518_Vector2_t2243707579,
 	RuntimeInvoker_Void_t1841601450_UIVertex_t1204258818,
 	RuntimeInvoker_Void_t1841601450_RuntimeObject_Color32_t874517518_Int32_t2071877448_Int32_t2071877448_Single_t2076509932_Single_t2076509932,
+	RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037,
 	RuntimeInvoker_Void_t1841601450_IntPtrU26_t1981417703,
 	RuntimeInvoker_IntPtr_t_IntPtrU26_t1981417703,
 	RuntimeInvoker_Void_t1841601450_UnityARCamera_t4198559457,
-	RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037,
 	RuntimeInvoker_RuntimeObject_Single_t2076509932_Single_t2076509932,
 	RuntimeInvoker_Void_t1841601450_ARPlaneAnchor_t1439520888,
 	RuntimeInvoker_RuntimeObject_Vector4_t2243707581,
@@ -34402,7 +34411,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1951] =
 	RuntimeInvoker_Color32_t874517518_Int32_t2071877448,
 	RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Vector3_t2243707580,
 	RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Color32_t874517518,
-	RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Vector2_t2243707579,
 	RuntimeInvoker_Void_t1841601450_Vector4_t2243707581,
 	RuntimeInvoker_Enumerator_t2179363831,
 	RuntimeInvoker_ARHitTestResult_t3275513025,

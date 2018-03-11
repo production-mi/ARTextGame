@@ -2,7 +2,7 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2252
+  Total Type Removals = 2251
     Nested = 181
     Interfaces = 141
     Abstract Classes = 150
@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 175
   Total Field Removals = 752
-  Total Method Removals = 11892
+  Total Method Removals = 11946
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9396,7 +9396,7 @@ Summary:
 Assembly: UnityEngine.AnimationModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 42
+  Total Type Removals = 41
     Nested = 0
     Interfaces = 1
     Abstract Classes = 3
@@ -9405,10 +9405,71 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 0
-  Total Method Removals = 587
+  Total Method Removals = 647
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.Animation
+        .ctor()
+        AddClip(UnityEngine.AnimationClip,System.String)
+        AddClip(UnityEngine.AnimationClip,System.String,System.Int32,System.Int32)
+        AddClip(UnityEngine.AnimationClip,System.String,System.Int32,System.Int32,System.Boolean)
+        Blend(System.String)
+        Blend(System.String,System.Single)
+        Blend(System.String,System.Single,System.Single)
+        CrossFade(System.String)
+        CrossFade(System.String,System.Single)
+        CrossFade(System.String,System.Single,UnityEngine.PlayMode)
+        CrossFadeQueued(System.String)
+        CrossFadeQueued(System.String,System.Single)
+        CrossFadeQueued(System.String,System.Single,UnityEngine.QueueMode)
+        CrossFadeQueued(System.String,System.Single,UnityEngine.QueueMode,UnityEngine.PlayMode)
+        get_animateOnlyIfVisible()
+        get_animatePhysics()
+        get_clip()
+        get_cullingType()
+        get_isPlaying()
+        get_Item(System.String)
+        get_localBounds()
+        get_playAutomatically()
+        get_wrapMode()
+        GetClip(System.String)
+        GetClipCount()
+        GetState(System.String)
+        INTERNAL_CALL_Rewind(UnityEngine.Animation)
+        INTERNAL_CALL_Sample(UnityEngine.Animation)
+        INTERNAL_CALL_Stop(UnityEngine.Animation)
+        INTERNAL_CALL_SyncLayer(UnityEngine.Animation,System.Int32)
+        INTERNAL_get_localBounds(UnityEngine.Bounds&)
+        Internal_RewindByName(System.String)
+        INTERNAL_set_localBounds(UnityEngine.Bounds&)
+        Internal_StopByName(System.String)
+        IsPlaying(System.String)
+        Play()
+        Play(System.String)
+        Play(System.String,UnityEngine.AnimationPlayMode)
+        Play(System.String,UnityEngine.PlayMode)
+        Play(UnityEngine.AnimationPlayMode)
+        Play(UnityEngine.PlayMode)
+        PlayDefaultAnimation(UnityEngine.PlayMode)
+        PlayQueued(System.String)
+        PlayQueued(System.String,UnityEngine.QueueMode)
+        PlayQueued(System.String,UnityEngine.QueueMode,UnityEngine.PlayMode)
+        RemoveClip(System.String)
+        RemoveClip(UnityEngine.AnimationClip)
+        RemoveClip2(System.String)
+        Rewind()
+        Rewind(System.String)
+        Sample()
+        set_animateOnlyIfVisible(System.Boolean)
+        set_animatePhysics(System.Boolean)
+        set_clip(UnityEngine.AnimationClip)
+        set_cullingType(UnityEngine.AnimationCullingType)
+        set_localBounds(UnityEngine.Bounds)
+        set_playAutomatically(System.Boolean)
+        set_wrapMode(UnityEngine.WrapMode)
+        Stop()
+        Stop(System.String)
+        SyncLayer(System.Int32)
     UnityEngine.AnimationBlendMode
     UnityEngine.AnimationClip
     UnityEngine.AnimationClipPair
@@ -9680,7 +9741,6 @@ Summary:
         StringToHash(System.String)
     UnityEngine.Animations.IAnimatorControllerPlayable
     UnityEngine.AnimationState
-        .ctor()
         AddMixingTransform(UnityEngine.Transform)
         AddMixingTransform(UnityEngine.Transform,System.Boolean)
         get_blendMode()
@@ -10362,7 +10422,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 47
   Total Field Removals = 32
-  Total Method Removals = 2774
+  Total Method Removals = 2768
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11711,7 +11771,6 @@ Summary:
         INTERNAL_CALL_GetMatrixImpl(UnityEngine.Material,System.Int32,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_GetTextureScaleAndOffsetImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
         INTERNAL_CALL_GetVectorImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
-        INTERNAL_CALL_SetTextureOffsetImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector2&)
         INTERNAL_CALL_SetTextureScaleImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector2&)
         INTERNAL_CALL_SetVectorImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
         Internal_CreateWithString(UnityEngine.Material,System.String)
@@ -11752,9 +11811,6 @@ Summary:
         SetMatrixArrayImpl(System.Int32,UnityEngine.Matrix4x4[],System.Int32)
         SetOverrideTag(System.String,System.String)
         SetShaderPassEnabled(System.String,System.Boolean)
-        SetTextureOffset(System.Int32,UnityEngine.Vector2)
-        SetTextureOffset(System.String,UnityEngine.Vector2)
-        SetTextureOffsetImpl(System.Int32,UnityEngine.Vector2)
         SetTextureScale(System.Int32,UnityEngine.Vector2)
         SetTextureScale(System.String,UnityEngine.Vector2)
         SetTextureScaleImpl(System.Int32,UnityEngine.Vector2)
@@ -13466,7 +13522,6 @@ Summary:
         get_maximumParticleDeltaTime()
         get_renderedFrameCount()
         get_smoothDeltaTime()
-        get_time()
         get_timeScale()
         get_timeSinceLevelLoad()
         set_captureFramerate(System.Int32)
@@ -13514,7 +13569,6 @@ Summary:
         set_targetDisplay(System.Int32)
     UnityEngine.TouchScreenKeyboard/Status
     UnityEngine.TrackedReference
-        .ctor()
         op_Implicit(UnityEngine.TrackedReference)
         op_Inequality(UnityEngine.TrackedReference,UnityEngine.TrackedReference)
     UnityEngine.TrailRenderer
@@ -16268,7 +16322,7 @@ Summary:
 ---------------------------------------------------
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1030
+  Total: 1029
 ---------------------------------------------------
 JetBrains.Annotations.AssertionMethodAttribute
 JetBrains.Annotations.BaseTypeRequiredAttribute
@@ -16349,7 +16403,6 @@ UnityEngine.AndroidJNI
 UnityEngine.AndroidJNIHelper
 UnityEngine.AndroidJNISafe
 UnityEngine.AndroidReflection
-UnityEngine.Animation
 UnityEngine.AnimationBlendMode
 UnityEngine.AnimationClip
 UnityEngine.AnimationClipPair

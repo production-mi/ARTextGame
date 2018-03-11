@@ -56,11 +56,16 @@
      <Compile Include="Assets\FlyingText3D\Demos\Input Demo\InputDemo.cs" />
      <Compile Include="Assets\FlyingText3D\Demos\Menu Demo\MenuControl.cs" />
      <Compile Include="Assets\FlyingText3D\Demos\Menu Demo\MenuObject.cs" />
+     <Compile Include="Assets\Previz\ScanAnimCtrl.cs" />
      <Compile Include="Assets\Scripts\ButtonCtrl.cs" />
      <Compile Include="Assets\Scripts\ButtonDislikeCtrl.cs" />
      <Compile Include="Assets\Scripts\ButtonText_Ctrl.cs" />
      <Compile Include="Assets\Scripts\MrNo.cs" />
+     <Compile Include="Assets\Scripts\previzCtrl.cs" />
      <Compile Include="Assets\Scripts\QRCodeReader.cs" />
+     <Compile Include="Assets\Scripts\RaderMotion.cs" />
+     <Compile Include="Assets\Scripts\RaderMotion1.cs" />
+     <Compile Include="Assets\Scripts\ScreenANim.cs" />
      <Compile Include="Assets\Scripts\TargetCircleANim.cs" />
      <Compile Include="Assets\Scripts\TextCtrl.cs" />
      <Compile Include="Assets\Scripts\TextCtrl1.cs" />
@@ -134,6 +139,7 @@
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\ARUserAnchor.cs" />
      <Compile Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\NativeInterface\UnityARSessionNativeInterface.cs" />
      <Compile Include="Assets\UnityARKitPlugin\UnityARKitPluginSettings.cs" />
+     <None Include="Assets\NewSurfaceShader.shader" />
      <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileOcclusion.shader" />
      <None Include="Assets\FlyingText3D\Resources\VertexLitColor.shader" />
      <None Include="Assets\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
@@ -142,6 +148,7 @@
      <None Include="Assets\FlyingText3D\Extras\FlyingText3D changelog.txt" />
      <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
      <None Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
+     <None Include="Assets\PrevizObj\FadeShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

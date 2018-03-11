@@ -9717,6 +9717,8 @@ extern "C"  void Material_INTERNAL_CALL_SetColorImpl_m684970506 (RuntimeObject *
 extern "C"  void Material_INTERNAL_CALL_SetMatrixImpl_m1322514418 (RuntimeObject * __this /* static, unused */, Material_t193706927 * ___self0, int32_t ___nameID1, Matrix4x4_t2933234003 * ___value2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::INTERNAL_CALL_GetColorImpl(UnityEngine.Material,System.Int32,UnityEngine.Color&)
 extern "C"  void Material_INTERNAL_CALL_GetColorImpl_m1976191982 (RuntimeObject * __this /* static, unused */, Material_t193706927 * ___self0, int32_t ___nameID1, Color_t2020392075 * ___value2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::INTERNAL_CALL_SetTextureOffsetImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector2&)
+extern "C"  void Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011 (RuntimeObject * __this /* static, unused */, Material_t193706927 * ___self0, int32_t ___nameID1, Vector2_t2243707579 * ___offset2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Shader::PropertyToID(System.String)
 extern "C"  int32_t Shader_PropertyToID_m423848592 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Material::HasProperty(System.Int32)
@@ -9737,6 +9739,10 @@ extern "C"  void Material_SetMatrixImpl_m542328341 (Material_t193706927 * __this
 extern "C"  void Material_SetTexture_m325405809 (Material_t193706927 * __this, int32_t ___nameID0, Texture_t2243626319 * ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetTextureImpl(System.Int32,UnityEngine.Texture)
 extern "C"  void Material_SetTextureImpl_m3679960853 (Material_t193706927 * __this, int32_t ___nameID0, Texture_t2243626319 * ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::SetTextureOffset(System.Int32,UnityEngine.Vector2)
+extern "C"  void Material_SetTextureOffset_m548743834 (Material_t193706927 * __this, int32_t ___nameID0, Vector2_t2243707579  ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::SetTextureOffsetImpl(System.Int32,UnityEngine.Vector2)
+extern "C"  void Material_SetTextureOffsetImpl_m2090020140 (Material_t193706927 * __this, int32_t ___nameID0, Vector2_t2243707579  ___offset1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Material::GetColor(System.Int32)
 extern "C"  Color_t2020392075  Material_GetColor_m1711285076 (Material_t193706927 * __this, int32_t ___nameID0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Material::GetColorImpl(System.Int32)
@@ -18354,6 +18360,24 @@ extern "C"  Texture_t2243626319 * Material_GetTextureImpl_m2799453342 (Material_
 	Texture_t2243626319 * retVal = _il2cpp_icall_func(__this, ___nameID0);
 	return retVal;
 }
+// System.Void UnityEngine.Material::SetTextureOffsetImpl(System.Int32,UnityEngine.Vector2)
+extern "C"  void Material_SetTextureOffsetImpl_m2090020140 (Material_t193706927 * __this, int32_t ___nameID0, Vector2_t2243707579  ___offset1, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___nameID0;
+		Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011(NULL /*static, unused*/, __this, L_0, (&___offset1), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Material::INTERNAL_CALL_SetTextureOffsetImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector2&)
+extern "C"  void Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011 (RuntimeObject * __this /* static, unused */, Material_t193706927 * ___self0, int32_t ___nameID1, Vector2_t2243707579 * ___offset2, const RuntimeMethod* method)
+{
+	typedef void (*Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011_ftn) (Material_t193706927 *, int32_t, Vector2_t2243707579 *);
+	static Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Material::INTERNAL_CALL_SetTextureOffsetImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector2&)");
+	_il2cpp_icall_func(___self0, ___nameID1, ___offset2);
+}
 // System.Boolean UnityEngine.Material::HasProperty(System.String)
 extern "C"  bool Material_HasProperty_m3932416560 (Material_t193706927 * __this, String_t* ___propertyName0, const RuntimeMethod* method)
 {
@@ -18509,6 +18533,27 @@ extern "C"  void Material_SetTexture_m325405809 (Material_t193706927 * __this, i
 		int32_t L_0 = ___nameID0;
 		Texture_t2243626319 * L_1 = ___value1;
 		Material_SetTextureImpl_m3679960853(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Material::SetTextureOffset(System.String,UnityEngine.Vector2)
+extern "C"  void Material_SetTextureOffset_m1959576143 (Material_t193706927 * __this, String_t* ___name0, Vector2_t2243707579  ___value1, const RuntimeMethod* method)
+{
+	{
+		String_t* L_0 = ___name0;
+		int32_t L_1 = Shader_PropertyToID_m423848592(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Vector2_t2243707579  L_2 = ___value1;
+		Material_SetTextureOffset_m548743834(__this, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Material::SetTextureOffset(System.Int32,UnityEngine.Vector2)
+extern "C"  void Material_SetTextureOffset_m548743834 (Material_t193706927 * __this, int32_t ___nameID0, Vector2_t2243707579  ___value1, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___nameID0;
+		Vector2_t2243707579  L_1 = ___value1;
+		Material_SetTextureOffsetImpl_m2090020140(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }

@@ -10,7 +10,6 @@ namespace UnityEngine.XR.iOS
 {
 public class TextCtrl : MonoBehaviour {
 
-	//public GameObject highlight;
 	public GameObject Plate;
 	public Camera camera;
 	public Button reset;
@@ -38,13 +37,15 @@ public class TextCtrl : MonoBehaviour {
 	private GameObject MrNo;
 	private MeshCollider MrNoCollider;
 	private Animator MrNoAnim;
+	private Animation MrNoAnimSequence;
 	private Animator TextBounceAnim;
+	private Animation TextBounceAnimSequence;
 	private GameObject TextBounce;
 	private GameObject joint1;
 	private GameObject joint2;
 
 	public float rotateSpeed = 150.0f;
-	public static string[] itemText = new string[]{"Options"};
+	public static string[] itemText = new string[]{"PiyoPiyo"};
 	public Vector3[] itemPositions = new Vector3[]{new Vector3(0, 0, 0)};
 	public static bool clicked = false;
 	private static string text;
@@ -61,6 +62,9 @@ public class TextCtrl : MonoBehaviour {
 	private Rigidbody rigidbodies;
 
 	private float t;
+
+
+	private bool CoroutineRecreate_IsRunning = false;
 
 
 	public bool BrainIsHit = false;
@@ -90,7 +94,7 @@ public class TextCtrl : MonoBehaviour {
 		textEdge.color = originalColorTextEdge;
 
 
-			plane = Instantiate(Plate);
+			// plane = Instantiate(Plate);
 			//plane.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 			textRoot = new GameObject();
 			textRoot.name = "textRoot";
@@ -106,9 +110,15 @@ public class TextCtrl : MonoBehaviour {
 			MrNo = GameObject.Find("MrNo_Anim");
 			MrNoAnim = MrNo.GetComponent<Animator>();
 			MrNoCollider = MrNo.GetComponent<MeshCollider>();
+
+			//--------Loading Text------- for Build
 			text = QRCodeReader.possible;
 			string[] textArray = text.Split(","[0]);
 			textObject = FlyingText.GetObjects(textArray[0]);
+
+			// //-----Loading Text -----  for UnityEditor
+			// textObject = FlyingText.GetObjects(itemText[0]);
+
 			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 			textObject.transform.parent = textRoot.transform;
 			textRoot.transform.parent = TextBounce.transform;
@@ -118,34 +128,6 @@ public class TextCtrl : MonoBehaviour {
 			foreach (var rb in rigidbodies) {
 				rb.useGravity = false;
 			}
-
-			/////^^^^^^^^
-
-			// //test.transform.parent = TextBounce.transform;
-
-			//textObject.transform.position = new Vector3(0.0f, 0.0f, 0.0f);
-			//textRoot.transform.parent = joint.transform;
-			//textObject.transform.position = itemPositions[i];
-
-			// //Create collider (we don't use a collider for the 3D text object because we don't want the collider to rotate)
-			// var cube = GameObject.CreatePrimitive (PrimitiveType.Cube);
-			// cube.transform.localScale = new Vector3(7, 1.8f, .1f);
-			// cube.transform.position = itemPositions[i];
-			// cube.GetComponent<Renderer>().enabled = false;
-      //
-			// //Add the menu object script to the collider and assign values to the variables
-			// var menuScript = cube.AddComponent<MenuObject>();
-			// menuScript.highlight = highlight;
-			// menuScript.rotateSpeed = rotateSpeed;
-			// menuScript.menuObject = menuObject.transform;
-
-		// GameObject plane;
-		// plane = Instantiate(Plate);
-		// //Plate.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
-		// //textRoot.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
-		// textRoot.transform.parent = plane.transform;
-		// textRoot.transform.position = new Vector3(textRoot.transform.position.x, textRoot.transform.position.y, textRoot.transform.position.z + 0.01f);
-		//textObject.transform.position = itemPositions[0];
 	}
 
 	bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
@@ -154,7 +136,8 @@ public class TextCtrl : MonoBehaviour {
 			if (hitResults.Count > 0) {
 					if(!IsPointerOverGameObject()){
 					foreach (var hitResult in hitResults) {
-							plane.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
+							Plate.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
+							Debug.Log("PLate Hit");
 							// Vector3 TargetCamPosition = Camera.main.transform.position;
 							// TargetCamPosition.y = plane.transform.position.y;
 							// TargetCamPosition.z = plane.transform.position.z * -1f;
@@ -215,11 +198,14 @@ public class TextCtrl : MonoBehaviour {
 
 
 	void IsReload(){
-		StartCoroutine(textRecreate());
+		if(!CoroutineRecreate_IsRunning){
+			StartCoroutine(textRecreate());
+		}
 	}
 
 		IEnumerator textRecreate(){
-			MrNoAnim.SetTrigger("Suggest");
+			CoroutineRecreate_IsRunning = true;
+      MrNoAnim.SetTrigger("Suggest");
 			if(IsBroken != true){
 				StartCoroutine(Fadeout(0.0f, 1.0f));
 				Destroy(textObject);
@@ -228,9 +214,15 @@ public class TextCtrl : MonoBehaviour {
 			yield return new WaitForSeconds (1.0f);
 			textMain.color = originalColorTextMain;
 			textEdge.color = originalColorTextEdge;
+
+			//------Loading Text ----- for Build
 			text = QRCodeReader.possible;
 			string[] textArray = text.Split(","[0]);
 			textObject = FlyingText.GetObjects(textArray[0]);
+
+			// //-----Loading Text -----  for UnityEditor
+			// textObject = FlyingText.GetObjects(itemText[0]);
+
 			textObject.transform.parent = textRoot.transform;
 			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 			textObject.transform.localPosition = new Vector2(0f, 0f);
@@ -243,8 +235,9 @@ public class TextCtrl : MonoBehaviour {
 			}
 			TextBounceAnim.SetTrigger("TextOn");
 			IsBroken = false;
-			yield break;
+			yield return CoroutineRecreate_IsRunning = false;
 		}
+
 
 
 		IEnumerator Fadeout(float aValue, float aTime){
@@ -287,7 +280,7 @@ public class TextCtrl : MonoBehaviour {
 
 
 	void Update(){
-		//Debug.Log(IsBroken);
+		//Debug.Log(CoroutineRecreate_IsRunning);
 		// if(t < 1.0f || isOn != false){
 		// 	float prevT = t;
 		// 	t = t + Time.deltaTime *2;

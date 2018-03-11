@@ -1,3 +1,5 @@
+UnityEngine.Animation::GetStateCount
+UnityEngine.Animation::GetStateAtIndex
 UnityEngine.AnimationCurve::Cleanup
 UnityEngine.AnimationCurve::Init
 UnityEngine.Animator::get_hasBoundPlayables
@@ -210,6 +212,7 @@ UnityEngine.Material::EnableKeyword
 UnityEngine.Material::INTERNAL_CALL_GetColorImpl
 UnityEngine.Material::INTERNAL_CALL_SetColorImpl
 UnityEngine.Material::INTERNAL_CALL_SetMatrixImpl
+UnityEngine.Material::INTERNAL_CALL_SetTextureOffsetImpl
 UnityEngine.Material::Internal_CreateWithMaterial
 UnityEngine.Material::Internal_CreateWithShader
 UnityEngine.Material::SetIntImpl
@@ -387,6 +390,7 @@ UnityEngine.Texture2D::UpdateExternalTexture
 UnityEngine.Texture2D::get_whiteTexture
 UnityEngine.Time::get_deltaTime
 UnityEngine.Time::get_realtimeSinceStartup
+UnityEngine.Time::get_time
 UnityEngine.Time::get_unscaledDeltaTime
 UnityEngine.Time::get_unscaledTime
 UnityEngine.TouchScreenKeyboard::get_active
