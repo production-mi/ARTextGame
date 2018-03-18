@@ -142,12 +142,6 @@ UnityEngine.GameObject::Internal_AddComponentWithType
 UnityEngine.GameObject::CreatePrimitive
 UnityEngine.GameObject::Find
 UnityEngine.GameObject::get_transform
-UnityEngine.GL::BeginInternal
-UnityEngine.GL::End
-UnityEngine.GL::INTERNAL_CALL_Vertex
-UnityEngine.GL::LoadOrtho
-UnityEngine.GL::PopMatrix
-UnityEngine.GL::PushMatrix
 UnityEngine.Gradient::Cleanup
 UnityEngine.Gradient::Init
 UnityEngine.GUI::INTERNAL_CALL_DoButton
@@ -206,7 +200,6 @@ UnityEngine.LightmapSettings::get_lightProbes
 UnityEngine.LightProbes::get_count
 UnityEngine.LightProbes::get_bakedProbes
 UnityEngine.Material::HasProperty
-UnityEngine.Material::SetPass
 UnityEngine.Material::DisableKeyword
 UnityEngine.Material::EnableKeyword
 UnityEngine.Material::INTERNAL_CALL_GetColorImpl
@@ -257,8 +250,10 @@ UnityEngine.Object::set_name
 UnityEngine.Object::INTERNAL_CALL_Internal_InstantiateSingle
 UnityEngine.Object::Internal_CloneSingle
 UnityEngine.Object::FindObjectsOfType
+UnityEngine.ParticleSystem::Clear
 UnityEngine.ParticleSystem::Play
 UnityEngine.ParticleSystem::SetParticles
+UnityEngine.ParticleSystem::Stop
 UnityEngine.Physics::INTERNAL_CALL_Internal_Raycast
 UnityEngine.Physics::INTERNAL_CALL_Internal_RaycastTest
 UnityEngine.Physics::INTERNAL_CALL_RaycastAll

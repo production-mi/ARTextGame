@@ -1533,6 +1533,7 @@ RuntimeClass* UnityAction_1_t1667869373_il2cpp_TypeInfo_var;
 RuntimeClass* ARAnchorAdded_t2646854145_il2cpp_TypeInfo_var;
 RuntimeClass* ARAnchorUpdated_t3886071158_il2cpp_TypeInfo_var;
 RuntimeClass* ARAnchorRemoved_t142665927_il2cpp_TypeInfo_var;
+RuntimeClass* previzCtrl_t930159927_il2cpp_TypeInfo_var;
 RuntimeClass* TextCtrl_t2221375824_il2cpp_TypeInfo_var;
 RuntimeClass* U3CtextRecreateU3Ec__Iterator0_t1116150880_il2cpp_TypeInfo_var;
 RuntimeClass* U3CFadeoutU3Ec__Iterator1_t2816627191_il2cpp_TypeInfo_var;
@@ -5553,8 +5554,10 @@ Il2CppCodeGenString* _stringLiteral822476797;
 Il2CppCodeGenString* _stringLiteral2649185284;
 Il2CppCodeGenString* _stringLiteral3547176873;
 Il2CppCodeGenString* _stringLiteral1397226215;
+Il2CppCodeGenString* _stringLiteral1657430270;
 Il2CppCodeGenString* _stringLiteral69878724;
 Il2CppCodeGenString* _stringLiteral2778558511;
+Il2CppCodeGenString* _stringLiteral3833953726;
 Il2CppCodeGenString* _stringLiteral3513490258;
 Il2CppCodeGenString* _stringLiteral2911715807;
 Il2CppCodeGenString* _stringLiteral4042893516;
@@ -5570,11 +5573,9 @@ Il2CppCodeGenString* _stringLiteral343562737;
 Il2CppCodeGenString* _stringLiteral4019817003;
 Il2CppCodeGenString* _stringLiteral3645111795;
 Il2CppCodeGenString* _stringLiteral1896595209;
-Il2CppCodeGenString* _stringLiteral1657430270;
 Il2CppCodeGenString* _stringLiteral3224585556;
 Il2CppCodeGenString* _stringLiteral2906160830;
 Il2CppCodeGenString* _stringLiteral1415053652;
-Il2CppCodeGenString* _stringLiteral3833953726;
 Il2CppCodeGenString* _stringLiteral2858758002;
 Il2CppCodeGenString* _stringLiteral2341529191;
 Il2CppCodeGenString* _stringLiteral1743625051;
@@ -5624,7 +5625,7 @@ Il2CppCodeGenString* _stringLiteral3025533088;
 Il2CppCodeGenString* _stringLiteral3687436746;
 Il2CppCodeGenString* _stringLiteral2779811765;
 Il2CppCodeGenString* _stringLiteral273729679;
-extern void** const g_MetadataUsages[5607] = 
+extern void** const g_MetadataUsages[5608] = 
 {
 	(void**)(&Contraction_t1673853792_0_0_0_var),
 	(void**)(&Level2Map_t3322505726_0_0_0_var),
@@ -7142,6 +7143,7 @@ extern void** const g_MetadataUsages[5607] =
 	(void**)(&ARAnchorAdded_t2646854145_il2cpp_TypeInfo_var),
 	(void**)(&ARAnchorUpdated_t3886071158_il2cpp_TypeInfo_var),
 	(void**)(&ARAnchorRemoved_t142665927_il2cpp_TypeInfo_var),
+	(void**)(&previzCtrl_t930159927_il2cpp_TypeInfo_var),
 	(void**)(&TextCtrl_t2221375824_il2cpp_TypeInfo_var),
 	(void**)(&U3CtextRecreateU3Ec__Iterator0_t1116150880_il2cpp_TypeInfo_var),
 	(void**)(&U3CFadeoutU3Ec__Iterator1_t2816627191_il2cpp_TypeInfo_var),
@@ -11162,8 +11164,10 @@ extern void** const g_MetadataUsages[5607] =
 	(void**)(&_stringLiteral2649185284),
 	(void**)(&_stringLiteral3547176873),
 	(void**)(&_stringLiteral1397226215),
+	(void**)(&_stringLiteral1657430270),
 	(void**)(&_stringLiteral69878724),
 	(void**)(&_stringLiteral2778558511),
+	(void**)(&_stringLiteral3833953726),
 	(void**)(&_stringLiteral3513490258),
 	(void**)(&_stringLiteral2911715807),
 	(void**)(&_stringLiteral4042893516),
@@ -11179,11 +11183,9 @@ extern void** const g_MetadataUsages[5607] =
 	(void**)(&_stringLiteral4019817003),
 	(void**)(&_stringLiteral3645111795),
 	(void**)(&_stringLiteral1896595209),
-	(void**)(&_stringLiteral1657430270),
 	(void**)(&_stringLiteral3224585556),
 	(void**)(&_stringLiteral2906160830),
 	(void**)(&_stringLiteral1415053652),
-	(void**)(&_stringLiteral3833953726),
 	(void**)(&_stringLiteral2858758002),
 	(void**)(&_stringLiteral2341529191),
 	(void**)(&_stringLiteral1743625051),
@@ -16587,54 +16589,54 @@ extern const uint32_t Predicate_1_BeginInvoke_m3926587117_MetadataUsageId = 5349
 extern const uint32_t Predicate_1_BeginInvoke_m4068629879_MetadataUsageId = 5350;
 extern const uint32_t Predicate_1_BeginInvoke_m767759683_MetadataUsageId = 5351;
 extern const uint32_t Predicate_1_BeginInvoke_m866207434_MetadataUsageId = 5352;
-extern const uint32_t previzCtrl_HitTestWithResultType_m3916439298_MetadataUsageId = 5353;
-extern const uint32_t previzCtrl_Start_m4257261626_MetadataUsageId = 5354;
-extern const uint32_t previzCtrl_Update_m3917845437_MetadataUsageId = 5355;
-extern const uint32_t PrimalityTest_BeginInvoke_m1691702520_MetadataUsageId = 5356;
-extern const uint32_t PrimalityTest_BeginInvoke_m966469054_MetadataUsageId = 5357;
-extern const uint32_t PrimalityTests_GetSPPRounds_m1844115340_MetadataUsageId = 5358;
-extern const uint32_t PrimalityTests_GetSPPRounds_m873706010_MetadataUsageId = 5359;
-extern const uint32_t PrimalityTests_RabinMillerTest_m1376858197_MetadataUsageId = 5360;
-extern const uint32_t PrimalityTests_RabinMillerTest_m2029846965_MetadataUsageId = 5361;
-extern const uint32_t PrimalityTests_SmallPrimeSppTest_m3182530923_MetadataUsageId = 5362;
-extern const uint32_t PrimeGeneratorBase_get_PrimalityTest_m308005118_MetadataUsageId = 5363;
-extern const uint32_t PrimeGeneratorBase_get_PrimalityTest_m745694088_MetadataUsageId = 5364;
-extern const uint32_t PrimeHelper__cctor_m1638820768_MetadataUsageId = 5365;
-extern const uint32_t PrivateKeyInfo__ctor_m2683279425_MetadataUsageId = 5366;
-extern const uint32_t PrivateKeyInfo__ctor_m3848692521_MetadataUsageId = 5367;
-extern const uint32_t PrivateKeyInfo_Decode_m1053025782_MetadataUsageId = 5368;
-extern const uint32_t PrivateKeyInfo_Decode_m3614741064_MetadataUsageId = 5369;
-extern const uint32_t PrivateKeyInfo_DecodeDSA_m2497561917_MetadataUsageId = 5370;
-extern const uint32_t PrivateKeyInfo_DecodeDSA_m2717913261_MetadataUsageId = 5371;
-extern const uint32_t PrivateKeyInfo_DecodeRSA_m1427048948_MetadataUsageId = 5372;
-extern const uint32_t PrivateKeyInfo_DecodeRSA_m919734506_MetadataUsageId = 5373;
-extern const uint32_t PrivateKeyInfo_get_PrivateKey_m2127503870_MetadataUsageId = 5374;
-extern const uint32_t PrivateKeyInfo_get_PrivateKey_m3481091992_MetadataUsageId = 5375;
-extern const uint32_t PrivateKeyInfo_Normalize_m1192796352_MetadataUsageId = 5376;
-extern const uint32_t PrivateKeyInfo_Normalize_m3959595934_MetadataUsageId = 5377;
-extern const uint32_t PrivateKeyInfo_RemoveLeadingZero_m1452692206_MetadataUsageId = 5378;
-extern const uint32_t PrivateKeyInfo_RemoveLeadingZero_m3396807048_MetadataUsageId = 5379;
-extern const uint32_t PropertyBuilder_not_supported_m143748788_MetadataUsageId = 5380;
-extern const uint32_t PropertyBuilder_t3694255912_CustomAttributesCacheGenerator_MetadataUsageId = 5381;
-extern const uint32_t PropertyInfo_GetOptionalCustomModifiers_m747937176_MetadataUsageId = 5382;
-extern const uint32_t PropertyInfo_GetRequiredCustomModifiers_m2291294773_MetadataUsageId = 5383;
-extern const uint32_t PropertyInfo_t_CustomAttributesCacheGenerator_MetadataUsageId = 5384;
-extern const uint32_t PropertyName_Equals_m1662438103_MetadataUsageId = 5385;
-extern const uint32_t PropertyName_ToString_m1129982609_MetadataUsageId = 5386;
-extern const uint32_t ProviderData__ctor_m1260387831_MetadataUsageId = 5387;
-extern const uint32_t ProviderData_CopyFrom_m431414335_MetadataUsageId = 5388;
-extern const uint32_t ProxyAttribute_CreateInstance_m546961127_MetadataUsageId = 5389;
-extern const uint32_t ProxyAttribute_CreateProxy_m2593224783_MetadataUsageId = 5390;
-extern const uint32_t PublicKey__ctor_m613031465_MetadataUsageId = 5391;
-extern const uint32_t PublicKey_DecodeDSA_m1169363495_MetadataUsageId = 5392;
-extern const uint32_t PublicKey_DecodeRSA_m1627823702_MetadataUsageId = 5393;
-extern const uint32_t PublicKey_get_Key_m126090744_MetadataUsageId = 5394;
-extern const uint32_t PublicKey_GetUnsignedBigInteger_m913837477_MetadataUsageId = 5395;
-extern const uint32_t QRCodeReader__ctor_m978839208_MetadataUsageId = 5396;
-extern const uint32_t QRCodeReader_GetPossibleName_m2933151681_MetadataUsageId = 5397;
-extern const uint32_t QRCodeReader_GetQRCodeCorners_m495384024_MetadataUsageId = 5398;
-extern const uint32_t QRCodeReader_OnGetPossibleName_m1533305699_MetadataUsageId = 5399;
-extern const uint32_t QRCodeReader_OnReadQRCode_m22964003_MetadataUsageId = 5400;
+extern const uint32_t previzCtrl__ctor_m2963547266_MetadataUsageId = 5353;
+extern const uint32_t previzCtrl_HitTestWithResultType_m3916439298_MetadataUsageId = 5354;
+extern const uint32_t previzCtrl_Start_m4257261626_MetadataUsageId = 5355;
+extern const uint32_t previzCtrl_Update_m3917845437_MetadataUsageId = 5356;
+extern const uint32_t PrimalityTest_BeginInvoke_m1691702520_MetadataUsageId = 5357;
+extern const uint32_t PrimalityTest_BeginInvoke_m966469054_MetadataUsageId = 5358;
+extern const uint32_t PrimalityTests_GetSPPRounds_m1844115340_MetadataUsageId = 5359;
+extern const uint32_t PrimalityTests_GetSPPRounds_m873706010_MetadataUsageId = 5360;
+extern const uint32_t PrimalityTests_RabinMillerTest_m1376858197_MetadataUsageId = 5361;
+extern const uint32_t PrimalityTests_RabinMillerTest_m2029846965_MetadataUsageId = 5362;
+extern const uint32_t PrimalityTests_SmallPrimeSppTest_m3182530923_MetadataUsageId = 5363;
+extern const uint32_t PrimeGeneratorBase_get_PrimalityTest_m308005118_MetadataUsageId = 5364;
+extern const uint32_t PrimeGeneratorBase_get_PrimalityTest_m745694088_MetadataUsageId = 5365;
+extern const uint32_t PrimeHelper__cctor_m1638820768_MetadataUsageId = 5366;
+extern const uint32_t PrivateKeyInfo__ctor_m2683279425_MetadataUsageId = 5367;
+extern const uint32_t PrivateKeyInfo__ctor_m3848692521_MetadataUsageId = 5368;
+extern const uint32_t PrivateKeyInfo_Decode_m1053025782_MetadataUsageId = 5369;
+extern const uint32_t PrivateKeyInfo_Decode_m3614741064_MetadataUsageId = 5370;
+extern const uint32_t PrivateKeyInfo_DecodeDSA_m2497561917_MetadataUsageId = 5371;
+extern const uint32_t PrivateKeyInfo_DecodeDSA_m2717913261_MetadataUsageId = 5372;
+extern const uint32_t PrivateKeyInfo_DecodeRSA_m1427048948_MetadataUsageId = 5373;
+extern const uint32_t PrivateKeyInfo_DecodeRSA_m919734506_MetadataUsageId = 5374;
+extern const uint32_t PrivateKeyInfo_get_PrivateKey_m2127503870_MetadataUsageId = 5375;
+extern const uint32_t PrivateKeyInfo_get_PrivateKey_m3481091992_MetadataUsageId = 5376;
+extern const uint32_t PrivateKeyInfo_Normalize_m1192796352_MetadataUsageId = 5377;
+extern const uint32_t PrivateKeyInfo_Normalize_m3959595934_MetadataUsageId = 5378;
+extern const uint32_t PrivateKeyInfo_RemoveLeadingZero_m1452692206_MetadataUsageId = 5379;
+extern const uint32_t PrivateKeyInfo_RemoveLeadingZero_m3396807048_MetadataUsageId = 5380;
+extern const uint32_t PropertyBuilder_not_supported_m143748788_MetadataUsageId = 5381;
+extern const uint32_t PropertyBuilder_t3694255912_CustomAttributesCacheGenerator_MetadataUsageId = 5382;
+extern const uint32_t PropertyInfo_GetOptionalCustomModifiers_m747937176_MetadataUsageId = 5383;
+extern const uint32_t PropertyInfo_GetRequiredCustomModifiers_m2291294773_MetadataUsageId = 5384;
+extern const uint32_t PropertyInfo_t_CustomAttributesCacheGenerator_MetadataUsageId = 5385;
+extern const uint32_t PropertyName_Equals_m1662438103_MetadataUsageId = 5386;
+extern const uint32_t PropertyName_ToString_m1129982609_MetadataUsageId = 5387;
+extern const uint32_t ProviderData__ctor_m1260387831_MetadataUsageId = 5388;
+extern const uint32_t ProviderData_CopyFrom_m431414335_MetadataUsageId = 5389;
+extern const uint32_t ProxyAttribute_CreateInstance_m546961127_MetadataUsageId = 5390;
+extern const uint32_t ProxyAttribute_CreateProxy_m2593224783_MetadataUsageId = 5391;
+extern const uint32_t PublicKey__ctor_m613031465_MetadataUsageId = 5392;
+extern const uint32_t PublicKey_DecodeDSA_m1169363495_MetadataUsageId = 5393;
+extern const uint32_t PublicKey_DecodeRSA_m1627823702_MetadataUsageId = 5394;
+extern const uint32_t PublicKey_get_Key_m126090744_MetadataUsageId = 5395;
+extern const uint32_t PublicKey_GetUnsignedBigInteger_m913837477_MetadataUsageId = 5396;
+extern const uint32_t QRCodeReader__ctor_m978839208_MetadataUsageId = 5397;
+extern const uint32_t QRCodeReader_GetPossibleName_m2933151681_MetadataUsageId = 5398;
+extern const uint32_t QRCodeReader_GetQRCodeCorners_m495384024_MetadataUsageId = 5399;
+extern const uint32_t QRCodeReader_OnGetPossibleName_m1533305699_MetadataUsageId = 5400;
 extern const uint32_t QRCodeReader_Start_m3407133856_MetadataUsageId = 5401;
 extern const uint32_t QRCodeReader_Update_m1388300513_MetadataUsageId = 5402;
 extern const uint32_t Quaternion__cctor_m1775579709_MetadataUsageId = 5403;

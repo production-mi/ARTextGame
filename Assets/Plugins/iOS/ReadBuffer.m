@@ -41,90 +41,90 @@ void ReadBuffer(void* cvPixelBufferPtr)
         //        //Text De
         
         //classification
-        VNImageRequestHandler* faceClassificationHandler = [[VNImageRequestHandler alloc]initWithCIImage:image options:@{}];
-        VNCoreMLRequest* faceClassificationRequest = [[VNCoreMLRequest alloc]initWithModel:m];
-        faceClassificationRequest.imageCropAndScaleOption = VNImageCropAndScaleOptionScaleFit;
-        [faceClassificationHandler performRequests:@[faceClassificationRequest] error:nil];
-        NSArray* classifiedResults = faceClassificationRequest.results;
+        VNImageRequestHandler* objectClassificationHandler = [[VNImageRequestHandler alloc]initWithCIImage:image options:@{}];
+        VNCoreMLRequest* objectClassificationRequest = [[VNCoreMLRequest alloc]initWithModel:m];
+        objectClassificationRequest.imageCropAndScaleOption = VNImageCropAndScaleOptionScaleFit;
+        [objectClassificationHandler performRequests:@[objectClassificationRequest] error:nil];
+        NSArray* classifiedResults = objectClassificationRequest.results;
         
         if (classifiedResults.count >0 ) {
-            VNClassificationObservation* faceresult = classifiedResults.firstObject;
-            if(faceresult.confidence > 0.1)
+            VNClassificationObservation* objectResult = classifiedResults.firstObject;
+            if(objectResult.confidence > 0.1)
             {
-                NSLog(@"Possible:<%@,%.1f>",faceresult.identifier, faceresult.confidence);
-                identifier  =faceresult.identifier;
+                NSLog(@"Possible:<%@,%.1f>",objectResult.identifier, objectResult.confidence);
+                identifier  =objectResult.identifier;
             }
             UnitySendMessage("QRCodeReader", "OnGetPossibleName", "");
         }
         
-        //Face Detection
-        VNImageRequestHandler* faceDetectHandler = [[VNImageRequestHandler alloc]initWithCIImage:image options:@{}];
-        VNDetectFaceRectanglesRequest* faceDetectRequest = [VNDetectFaceRectanglesRequest new];
-        [faceDetectHandler performRequests:@[faceDetectRequest] error:nil];
-        NSArray* results = faceDetectRequest.results;
-        
-        if(results.count > 0){
-            VNFaceObservation* observation = results.firstObject;
-            //            CGFloat BoxMin_X = CGRectGetMinX(observation.boundingBox);
-            //            CGFloat BoxMin_Y = CGRectGetMinY(observation.boundingBox);
-            //            CGFloat BoxMax_X = CGRectGetMaxX(observation.boundingBox);
-            //            CGFloat BoxMax_Y = CGRectGetMaxY(observation.boundingBox);
-            CGRect rectangle = observation.boundingBox;
-            CGFloat originX = rectangle.origin.x;
-            CGFloat originY = rectangle.origin.y;
-            CGFloat sizeWidth = rectangle.size.width;
-            CGFloat sizeHeight = rectangle.size.height;
-            
-            NSLog(@"originX: %f", originX);
-            NSLog(@"originY: %f", originY);
-            NSLog(@"sizeWidth: %f", sizeWidth);
-            NSLog(@"sizeHeight: %f", sizeHeight);
-            
-            
-            ///topLeft.X
-            qrcodeCorners[0] = originX;
-            
-            ///topLeft.Y
-            qrcodeCorners[1] = originY + sizeHeight;
-            
-            ///topRight.X
-            qrcodeCorners[2] = originX + sizeWidth;
-            
-            ///topRight.Y
-            qrcodeCorners[3] = originY + sizeHeight;
-            
-            ///bottomLeft.X
-            qrcodeCorners[4] = originX;
-            
-            ///bottomLeft.Y
-            qrcodeCorners[5] = originY;
-            
-            ///bottomRight.X
-            qrcodeCorners[6] = originX + sizeWidth;
-            
-            ///bottomRight.Y
-            qrcodeCorners[7] = originY;
-            //
-            //            if (faceDetectRequest.results > 0) {
-            //                //            VNFaceObservation* observation = faceDetectRequest.results.firstObject;
-            //                //                for (VNRectangleObservation *rectangleObservation in observation) {
-            //                //                    //NSLog(@"BottomLeft_X_is_%f", rectangleObservation.bottomLeft.x);
-            //                //                    //NSLog(@"BottomLeft_Y_is_%f", rectangleObservation.bottomLeft.y);
-            //                //                    qrcodeCorners[0] = rectangleObservation.topLeft.x;
-            //                //                    qrcodeCorners[1] = rectangleObservation.topLeft.y;
-            //                //                    qrcodeCorners[2] = rectangleObservation.topRight.x;
-            //                //                    qrcodeCorners[3] = rectangleObservation.topRight.y;
-            //                //                    qrcodeCorners[4] = rectangleObservation.bottomLeft.x;
-            //                //                    qrcodeCorners[5] = rectangleObservation.bottomLeft.y;
-            //                //                    qrcodeCorners[6] = rectangleObservation.bottomRight.x;
-            //                //                    qrcodeCorners[7] = rectangleObservation.bottomRight.y;
-            //                //                    //NSLog(@" |-%@", NSStringFromCGRect(rectangleObservation.bottomLeft.x));
-            //                //                }
-            //
-            //            }
-            UnitySendMessage("QRCodeReader", "OnReadQRCode", "");
-        }
-        
+//        //Face Detection
+//        VNImageRequestHandler* faceDetectHandler = [[VNImageRequestHandler alloc]initWithCIImage:image options:@{}];
+//        VNDetectFaceRectanglesRequest* faceDetectRequest = [VNDetectFaceRectanglesRequest new];
+//        [faceDetectHandler performRequests:@[faceDetectRequest] error:nil];
+//        NSArray* results = faceDetectRequest.results;
+//
+//        if(results.count > 0){
+//            VNFaceObservation* observation = results.firstObject;
+//            //            CGFloat BoxMin_X = CGRectGetMinX(observation.boundingBox);
+//            //            CGFloat BoxMin_Y = CGRectGetMinY(observation.boundingBox);
+//            //            CGFloat BoxMax_X = CGRectGetMaxX(observation.boundingBox);
+//            //            CGFloat BoxMax_Y = CGRectGetMaxY(observation.boundingBox);
+//            CGRect rectangle = observation.boundingBox;
+//            CGFloat originX = rectangle.origin.x;
+//            CGFloat originY = rectangle.origin.y;
+//            CGFloat sizeWidth = rectangle.size.width;
+//            CGFloat sizeHeight = rectangle.size.height;
+//
+//            NSLog(@"originX: %f", originX);
+//            NSLog(@"originY: %f", originY);
+//            NSLog(@"sizeWidth: %f", sizeWidth);
+//            NSLog(@"sizeHeight: %f", sizeHeight);
+//
+//
+//            ///topLeft.X
+//            qrcodeCorners[0] = originX;
+//
+//            ///topLeft.Y
+//            qrcodeCorners[1] = originY + sizeHeight;
+//
+//            ///topRight.X
+//            qrcodeCorners[2] = originX + sizeWidth;
+//
+//            ///topRight.Y
+//            qrcodeCorners[3] = originY + sizeHeight;
+//
+//            ///bottomLeft.X
+//            qrcodeCorners[4] = originX;
+//
+//            ///bottomLeft.Y
+//            qrcodeCorners[5] = originY;
+//
+//            ///bottomRight.X
+//            qrcodeCorners[6] = originX + sizeWidth;
+//
+//            ///bottomRight.Y
+//            qrcodeCorners[7] = originY;
+//            //
+//            //            if (faceDetectRequest.results > 0) {
+//            //                //            VNFaceObservation* observation = faceDetectRequest.results.firstObject;
+//            //                //                for (VNRectangleObservation *rectangleObservation in observation) {
+//            //                //                    //NSLog(@"BottomLeft_X_is_%f", rectangleObservation.bottomLeft.x);
+//            //                //                    //NSLog(@"BottomLeft_Y_is_%f", rectangleObservation.bottomLeft.y);
+//            //                //                    qrcodeCorners[0] = rectangleObservation.topLeft.x;
+//            //                //                    qrcodeCorners[1] = rectangleObservation.topLeft.y;
+//            //                //                    qrcodeCorners[2] = rectangleObservation.topRight.x;
+//            //                //                    qrcodeCorners[3] = rectangleObservation.topRight.y;
+//            //                //                    qrcodeCorners[4] = rectangleObservation.bottomLeft.x;
+//            //                //                    qrcodeCorners[5] = rectangleObservation.bottomLeft.y;
+//            //                //                    qrcodeCorners[6] = rectangleObservation.bottomRight.x;
+//            //                //                    qrcodeCorners[7] = rectangleObservation.bottomRight.y;
+//            //                //                    //NSLog(@" |-%@", NSStringFromCGRect(rectangleObservation.bottomLeft.x));
+//            //                //                }
+//            //
+//            //            }
+//            UnitySendMessage("QRCodeReader", "OnReadQRCode", "");
+//        }
+//
         reading = NO;
     });
 }

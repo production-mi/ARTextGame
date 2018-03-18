@@ -8135,14 +8135,6 @@ extern "C" void GameObject_Internal_AddComponentWithType_m3949110293 ();
 extern "C" void GameObject_AddComponent_m540062519 ();
 extern "C" void GameObject_Internal_CreateGameObject_m336418144 ();
 extern "C" void GameObject_Find_m279709565 ();
-extern "C" void GL_Vertex_m2890936450 ();
-extern "C" void GL_INTERNAL_CALL_Vertex_m1420232583 ();
-extern "C" void GL_BeginInternal_m201775138 ();
-extern "C" void GL_Begin_m104586295 ();
-extern "C" void GL_End_m4287511030 ();
-extern "C" void GL_PushMatrix_m1593853226 ();
-extern "C" void GL_PopMatrix_m1093897413 ();
-extern "C" void GL_LoadOrtho_m2661661141 ();
 extern "C" void Gradient__ctor_m1008579686 ();
 extern "C" void Gradient_Init_m3042650694 ();
 extern "C" void Gradient_Cleanup_m594482338 ();
@@ -8229,7 +8221,6 @@ extern "C" void Material_SetTextureOffsetImpl_m2090020140 ();
 extern "C" void Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011 ();
 extern "C" void Material_HasProperty_m3932416560 ();
 extern "C" void Material_HasProperty_m2476290177 ();
-extern "C" void Material_SetPass_m3700539559 ();
 extern "C" void Material_Internal_CreateWithShader_m819078136 ();
 extern "C" void Material_Internal_CreateWithMaterial_m1941547384 ();
 extern "C" void Material_EnableKeyword_m1484418915 ();
@@ -9414,6 +9405,10 @@ extern "C" void TextEditor__ctor_m1435332308 ();
 extern "C" void ParticleSystem_SetParticles_m1941536642 ();
 extern "C" void ParticleSystem_Play_m2079214656 ();
 extern "C" void ParticleSystem_Play_m2510524101 ();
+extern "C" void ParticleSystem_Stop_m2791344602 ();
+extern "C" void ParticleSystem_Stop_m3868680149 ();
+extern "C" void ParticleSystem_Clear_m3246852559 ();
+extern "C" void ParticleSystem_Clear_m1052596698 ();
 extern "C" void Particle_set_position_m218446335_AdjustorThunk ();
 extern "C" void Particle_set_startSize_m3215075767_AdjustorThunk ();
 extern "C" void Particle_set_startColor_m2521995545_AdjustorThunk ();
@@ -11376,9 +11371,7 @@ extern "C" void QRCodeReader_GetPossibleName_m2933151681 ();
 extern "C" void QRCodeReader_Start_m3407133856 ();
 extern "C" void QRCodeReader_ARFrameUpdated_m2821680198 ();
 extern "C" void QRCodeReader_Update_m1388300513 ();
-extern "C" void QRCodeReader_OnReadQRCode_m22964003 ();
 extern "C" void QRCodeReader_OnGetPossibleName_m1533305699 ();
-extern "C" void QRCodeReader_OnRenderObject_m100505548 ();
 extern "C" void RaderMotion__ctor_m3477683941 ();
 extern "C" void RaderMotion_Start_m3418824109 ();
 extern "C" void RaderMotion_Update_m1513299560 ();
@@ -11863,7 +11856,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[11846] = 
+extern const Il2CppMethodPointer g_MethodPointers[11839] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -19983,14 +19976,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11846] =
 	GameObject_AddComponent_m540062519,
 	GameObject_Internal_CreateGameObject_m336418144,
 	GameObject_Find_m279709565,
-	GL_Vertex_m2890936450,
-	GL_INTERNAL_CALL_Vertex_m1420232583,
-	GL_BeginInternal_m201775138,
-	GL_Begin_m104586295,
-	GL_End_m4287511030,
-	GL_PushMatrix_m1593853226,
-	GL_PopMatrix_m1093897413,
-	GL_LoadOrtho_m2661661141,
 	Gradient__ctor_m1008579686,
 	Gradient_Init_m3042650694,
 	Gradient_Cleanup_m594482338,
@@ -20077,7 +20062,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11846] =
 	Material_INTERNAL_CALL_SetTextureOffsetImpl_m1705766011,
 	Material_HasProperty_m3932416560,
 	Material_HasProperty_m2476290177,
-	Material_SetPass_m3700539559,
 	Material_Internal_CreateWithShader_m819078136,
 	Material_Internal_CreateWithMaterial_m1941547384,
 	Material_EnableKeyword_m1484418915,
@@ -21262,6 +21246,10 @@ extern const Il2CppMethodPointer g_MethodPointers[11846] =
 	ParticleSystem_SetParticles_m1941536642,
 	ParticleSystem_Play_m2079214656,
 	ParticleSystem_Play_m2510524101,
+	ParticleSystem_Stop_m2791344602,
+	ParticleSystem_Stop_m3868680149,
+	ParticleSystem_Clear_m3246852559,
+	ParticleSystem_Clear_m1052596698,
 	Particle_set_position_m218446335_AdjustorThunk,
 	Particle_set_startSize_m3215075767_AdjustorThunk,
 	Particle_set_startColor_m2521995545_AdjustorThunk,
@@ -23224,9 +23212,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11846] =
 	QRCodeReader_Start_m3407133856,
 	QRCodeReader_ARFrameUpdated_m2821680198,
 	QRCodeReader_Update_m1388300513,
-	QRCodeReader_OnReadQRCode_m22964003,
 	QRCodeReader_OnGetPossibleName_m1533305699,
-	QRCodeReader_OnRenderObject_m100505548,
 	RaderMotion__ctor_m3477683941,
 	RaderMotion_Start_m3418824109,
 	RaderMotion_Update_m1513299560,

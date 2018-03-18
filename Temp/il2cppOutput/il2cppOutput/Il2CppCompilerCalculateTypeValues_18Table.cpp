@@ -126,6 +126,8 @@ struct Camera_t189460977;
 struct Button_t2872111280;
 // UnityEngine.ParticleSystem
 struct ParticleSystem_t3394631041;
+// UnityEngine.UI.Text
+struct Text_t356221433;
 // UnityEngine.PhysicMaterial
 struct PhysicMaterial_t578636151;
 // UnityEngine.MeshCollider
@@ -5058,12 +5060,22 @@ public:
 	GameObject_t1756533147 * ___plane_2;
 	// UnityEngine.Camera UnityEngine.XR.iOS.previzCtrl::camera
 	Camera_t189460977 * ___camera_3;
+	// UnityEngine.ParticleSystem UnityEngine.XR.iOS.previzCtrl::readingParticle
+	ParticleSystem_t3394631041 * ___readingParticle_4;
+	// UnityEngine.UI.Text UnityEngine.XR.iOS.previzCtrl::myText
+	Text_t356221433 * ___myText_5;
+	// System.String[] UnityEngine.XR.iOS.previzCtrl::itemText
+	StringU5BU5D_t1642385972* ___itemText_6;
+	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl::textRoot
+	GameObject_t1756533147 * ___textRoot_7;
+	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl::textObject
+	GameObject_t1756533147 * ___textObject_8;
 	// UnityEngine.Animator UnityEngine.XR.iOS.previzCtrl::previzAnim
-	Animator_t69676727 * ___previzAnim_4;
+	Animator_t69676727 * ___previzAnim_10;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::plateIsOn
-	bool ___plateIsOn_5;
+	bool ___plateIsOn_11;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::animationIsPlaying
-	bool ___animationIsPlaying_6;
+	bool ___animationIsPlaying_12;
 
 public:
 	inline static int32_t get_offset_of_plane_2() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___plane_2)); }
@@ -5084,29 +5096,91 @@ public:
 		Il2CppCodeGenWriteBarrier((&___camera_3), value);
 	}
 
-	inline static int32_t get_offset_of_previzAnim_4() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___previzAnim_4)); }
-	inline Animator_t69676727 * get_previzAnim_4() const { return ___previzAnim_4; }
-	inline Animator_t69676727 ** get_address_of_previzAnim_4() { return &___previzAnim_4; }
-	inline void set_previzAnim_4(Animator_t69676727 * value)
+	inline static int32_t get_offset_of_readingParticle_4() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___readingParticle_4)); }
+	inline ParticleSystem_t3394631041 * get_readingParticle_4() const { return ___readingParticle_4; }
+	inline ParticleSystem_t3394631041 ** get_address_of_readingParticle_4() { return &___readingParticle_4; }
+	inline void set_readingParticle_4(ParticleSystem_t3394631041 * value)
 	{
-		___previzAnim_4 = value;
-		Il2CppCodeGenWriteBarrier((&___previzAnim_4), value);
+		___readingParticle_4 = value;
+		Il2CppCodeGenWriteBarrier((&___readingParticle_4), value);
 	}
 
-	inline static int32_t get_offset_of_plateIsOn_5() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___plateIsOn_5)); }
-	inline bool get_plateIsOn_5() const { return ___plateIsOn_5; }
-	inline bool* get_address_of_plateIsOn_5() { return &___plateIsOn_5; }
-	inline void set_plateIsOn_5(bool value)
+	inline static int32_t get_offset_of_myText_5() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___myText_5)); }
+	inline Text_t356221433 * get_myText_5() const { return ___myText_5; }
+	inline Text_t356221433 ** get_address_of_myText_5() { return &___myText_5; }
+	inline void set_myText_5(Text_t356221433 * value)
 	{
-		___plateIsOn_5 = value;
+		___myText_5 = value;
+		Il2CppCodeGenWriteBarrier((&___myText_5), value);
 	}
 
-	inline static int32_t get_offset_of_animationIsPlaying_6() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___animationIsPlaying_6)); }
-	inline bool get_animationIsPlaying_6() const { return ___animationIsPlaying_6; }
-	inline bool* get_address_of_animationIsPlaying_6() { return &___animationIsPlaying_6; }
-	inline void set_animationIsPlaying_6(bool value)
+	inline static int32_t get_offset_of_itemText_6() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___itemText_6)); }
+	inline StringU5BU5D_t1642385972* get_itemText_6() const { return ___itemText_6; }
+	inline StringU5BU5D_t1642385972** get_address_of_itemText_6() { return &___itemText_6; }
+	inline void set_itemText_6(StringU5BU5D_t1642385972* value)
 	{
-		___animationIsPlaying_6 = value;
+		___itemText_6 = value;
+		Il2CppCodeGenWriteBarrier((&___itemText_6), value);
+	}
+
+	inline static int32_t get_offset_of_textRoot_7() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textRoot_7)); }
+	inline GameObject_t1756533147 * get_textRoot_7() const { return ___textRoot_7; }
+	inline GameObject_t1756533147 ** get_address_of_textRoot_7() { return &___textRoot_7; }
+	inline void set_textRoot_7(GameObject_t1756533147 * value)
+	{
+		___textRoot_7 = value;
+		Il2CppCodeGenWriteBarrier((&___textRoot_7), value);
+	}
+
+	inline static int32_t get_offset_of_textObject_8() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textObject_8)); }
+	inline GameObject_t1756533147 * get_textObject_8() const { return ___textObject_8; }
+	inline GameObject_t1756533147 ** get_address_of_textObject_8() { return &___textObject_8; }
+	inline void set_textObject_8(GameObject_t1756533147 * value)
+	{
+		___textObject_8 = value;
+		Il2CppCodeGenWriteBarrier((&___textObject_8), value);
+	}
+
+	inline static int32_t get_offset_of_previzAnim_10() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___previzAnim_10)); }
+	inline Animator_t69676727 * get_previzAnim_10() const { return ___previzAnim_10; }
+	inline Animator_t69676727 ** get_address_of_previzAnim_10() { return &___previzAnim_10; }
+	inline void set_previzAnim_10(Animator_t69676727 * value)
+	{
+		___previzAnim_10 = value;
+		Il2CppCodeGenWriteBarrier((&___previzAnim_10), value);
+	}
+
+	inline static int32_t get_offset_of_plateIsOn_11() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___plateIsOn_11)); }
+	inline bool get_plateIsOn_11() const { return ___plateIsOn_11; }
+	inline bool* get_address_of_plateIsOn_11() { return &___plateIsOn_11; }
+	inline void set_plateIsOn_11(bool value)
+	{
+		___plateIsOn_11 = value;
+	}
+
+	inline static int32_t get_offset_of_animationIsPlaying_12() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___animationIsPlaying_12)); }
+	inline bool get_animationIsPlaying_12() const { return ___animationIsPlaying_12; }
+	inline bool* get_address_of_animationIsPlaying_12() { return &___animationIsPlaying_12; }
+	inline void set_animationIsPlaying_12(bool value)
+	{
+		___animationIsPlaying_12 = value;
+	}
+};
+
+struct previzCtrl_t930159927_StaticFields
+{
+public:
+	// System.String UnityEngine.XR.iOS.previzCtrl::text
+	String_t* ___text_9;
+
+public:
+	inline static int32_t get_offset_of_text_9() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___text_9)); }
+	inline String_t* get_text_9() const { return ___text_9; }
+	inline String_t** get_address_of_text_9() { return &___text_9; }
+	inline void set_text_9(String_t* value)
+	{
+		___text_9 = value;
+		Il2CppCodeGenWriteBarrier((&___text_9), value);
 	}
 };
 
@@ -8484,14 +8558,20 @@ extern const int32_t g_FieldOffsetTable1877[4] =
 	ButtonText_Ctrl_t2516330483::get_offset_of_TextCtrlCS_5(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1878 = { sizeof (MrNo_t3401754408), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1879 = { sizeof (previzCtrl_t930159927), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1879[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1879 = { sizeof (previzCtrl_t930159927), -1, sizeof(previzCtrl_t930159927_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1879[11] = 
 {
 	previzCtrl_t930159927::get_offset_of_plane_2(),
 	previzCtrl_t930159927::get_offset_of_camera_3(),
-	previzCtrl_t930159927::get_offset_of_previzAnim_4(),
-	previzCtrl_t930159927::get_offset_of_plateIsOn_5(),
-	previzCtrl_t930159927::get_offset_of_animationIsPlaying_6(),
+	previzCtrl_t930159927::get_offset_of_readingParticle_4(),
+	previzCtrl_t930159927::get_offset_of_myText_5(),
+	previzCtrl_t930159927::get_offset_of_itemText_6(),
+	previzCtrl_t930159927::get_offset_of_textRoot_7(),
+	previzCtrl_t930159927::get_offset_of_textObject_8(),
+	previzCtrl_t930159927_StaticFields::get_offset_of_text_9(),
+	previzCtrl_t930159927::get_offset_of_previzAnim_10(),
+	previzCtrl_t930159927::get_offset_of_plateIsOn_11(),
+	previzCtrl_t930159927::get_offset_of_animationIsPlaying_12(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1880 = { sizeof (QRCodeReader_t3711862773), -1, sizeof(QRCodeReader_t3711862773_StaticFields), 0 };
 extern const int32_t g_FieldOffsetTable1880[6] = 

@@ -25191,20 +25191,6 @@ void* RuntimeInvoker_Void_t1841601450_ResolutionU26_t3134147384 (Il2CppMethodPoi
 	return NULL;
 }
 
-void* RuntimeInvoker_Void_t1841601450_Vector3_t2243707580 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, Vector3_t2243707580  p1, const RuntimeMethod* method);
-	((Func)methodPointer)(obj, *((Vector3_t2243707580 *)args[0]), methodMetadata);
-	return NULL;
-}
-
-void* RuntimeInvoker_Void_t1841601450_Vector3U26_t425862308 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, Vector3_t2243707580 * p1, const RuntimeMethod* method);
-	((Func)methodPointer)(obj, (Vector3_t2243707580 *)args[0], methodMetadata);
-	return NULL;
-}
-
 void* RuntimeInvoker_RuntimeObject_Vector3_t2243707580 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
 	typedef RuntimeObject * (*Func)(void* obj, Vector3_t2243707580  p1, const RuntimeMethod* method);
@@ -25287,6 +25273,13 @@ void* RuntimeInvoker_Vector3_t2243707580 (Il2CppMethodPointer methodPointer, con
 	typedef Vector3_t2243707580  (*Func)(void* obj, const RuntimeMethod* method);
 	Vector3_t2243707580  ret = ((Func)methodPointer)(obj, methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
+}
+
+void* RuntimeInvoker_Void_t1841601450_Vector3U26_t425862308 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Vector3_t2243707580 * p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, (Vector3_t2243707580 *)args[0], methodMetadata);
+	return NULL;
 }
 
 void* RuntimeInvoker_Void_t1841601450_Vector2U26_t3911752445 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
@@ -25566,6 +25559,13 @@ void* RuntimeInvoker_Void_t1841601450_Vector3_t2243707580_Vector3_t2243707580 (I
 {
 	typedef void (*Func)(void* obj, Vector3_t2243707580  p1, Vector3_t2243707580  p2, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((Vector3_t2243707580 *)args[0]), *((Vector3_t2243707580 *)args[1]), methodMetadata);
+	return NULL;
+}
+
+void* RuntimeInvoker_Void_t1841601450_Vector3_t2243707580 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, Vector3_t2243707580  p1, const RuntimeMethod* method);
+	((Func)methodPointer)(obj, *((Vector3_t2243707580 *)args[0]), methodMetadata);
 	return NULL;
 }
 
@@ -33817,8 +33817,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1952] =
 	RuntimeInvoker_Void_t1841601450_RuntimeObject_Color_t2020392075,
 	RuntimeInvoker_Resolution_t3693662728,
 	RuntimeInvoker_Void_t1841601450_ResolutionU26_t3134147384,
-	RuntimeInvoker_Void_t1841601450_Vector3_t2243707580,
-	RuntimeInvoker_Void_t1841601450_Vector3U26_t425862308,
 	RuntimeInvoker_RuntimeObject_Vector3_t2243707580,
 	RuntimeInvoker_RuntimeObject_RuntimeObject_Vector3U26_t425862308,
 	RuntimeInvoker_Void_t1841601450_RuntimeObject_Int32_t2071877448_SByte_t454417549_SByte_t454417549_SByte_t454417549_SByte_t454417549_RuntimeObject,
@@ -33831,6 +33829,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1952] =
 	RuntimeInvoker_TouchPhase_t2458120420,
 	RuntimeInvoker_TouchType_t2732027771,
 	RuntimeInvoker_Vector3_t2243707580,
+	RuntimeInvoker_Void_t1841601450_Vector3U26_t425862308,
 	RuntimeInvoker_Void_t1841601450_Vector2U26_t3911752445,
 	RuntimeInvoker_Touch_t407273883_Int32_t2071877448,
 	RuntimeInvoker_Void_t1841601450_Int32_t2071877448_TouchU26_t2094890781,
@@ -33871,6 +33870,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1952] =
 	RuntimeInvoker_Vector4_t2243707581_Int32_t2071877448,
 	RuntimeInvoker_Void_t1841601450_Int32_t2071877448_Vector4_t2243707581,
 	RuntimeInvoker_Void_t1841601450_Vector3_t2243707580_Vector3_t2243707580,
+	RuntimeInvoker_Void_t1841601450_Vector3_t2243707580,
 	RuntimeInvoker_Boolean_t3825574718_Bounds_t3033363703_Bounds_t3033363703,
 	RuntimeInvoker_Single_t2076509932_Single_t2076509932_Single_t2076509932_Single_t2076509932,
 	RuntimeInvoker_Boolean_t3825574718_Single_t2076509932_Single_t2076509932,

@@ -10,8 +10,8 @@ Summary:
     Generic Interfaces = 6
     Generic Abstract Classes = 3
     Attributes = 175
-  Total Field Removals = 752
-  Total Method Removals = 11946
+  Total Field Removals = 747
+  Total Method Removals = 11897
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -10413,7 +10413,7 @@ Summary:
 Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 402
+  Total Type Removals = 403
     Nested = 9
     Interfaces = 10
     Abstract Classes = 17
@@ -10421,8 +10421,8 @@ Summary:
     Generic Interfaces = 0
     Generic Abstract Classes = 0
     Attributes = 47
-  Total Field Removals = 32
-  Total Method Removals = 2768
+  Total Field Removals = 27
+  Total Method Removals = 2723
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11328,57 +11328,6 @@ Summary:
     UnityEngine.GeometryUtility
     UnityEngine.Gizmos
     UnityEngine.GL
-        LINE_STRIP
-        LINES
-        QUADS
-        TRIANGLE_STRIP
-        TRIANGLES
-        .ctor()
-        Clear(System.Boolean,System.Boolean,UnityEngine.Color)
-        Clear(System.Boolean,System.Boolean,UnityEngine.Color,System.Single)
-        ClearWithSkybox(System.Boolean,UnityEngine.Camera)
-        Color(UnityEngine.Color)
-        Flush()
-        get_invertCulling()
-        get_modelview()
-        get_sRGBWrite()
-        get_wireframe()
-        GetGPUProjectionMatrix(UnityEngine.Matrix4x4,System.Boolean)
-        INTERNAL_CALL_Color(UnityEngine.Color&)
-        INTERNAL_CALL_GetGPUProjectionMatrix(UnityEngine.Matrix4x4&,System.Boolean,UnityEngine.Matrix4x4&)
-        INTERNAL_CALL_Internal_Clear(System.Boolean,System.Boolean,UnityEngine.Color&,System.Single)
-        INTERNAL_CALL_LoadProjectionMatrix(UnityEngine.Matrix4x4&)
-        INTERNAL_CALL_MultiTexCoord(System.Int32,UnityEngine.Vector3&)
-        INTERNAL_CALL_MultMatrix(UnityEngine.Matrix4x4&)
-        INTERNAL_CALL_TexCoord(UnityEngine.Vector3&)
-        INTERNAL_CALL_Viewport(UnityEngine.Rect&)
-        Internal_Clear(System.Boolean,System.Boolean,UnityEngine.Color,System.Single)
-        INTERNAL_get_modelview(UnityEngine.Matrix4x4&)
-        INTERNAL_set_modelview(UnityEngine.Matrix4x4&)
-        InvalidateState()
-        IssuePluginEvent(System.Int32)
-        IssuePluginEvent(System.IntPtr,System.Int32)
-        IssuePluginEventInternal(System.IntPtr,System.Int32)
-        LoadIdentity()
-        LoadPixelMatrix()
-        LoadPixelMatrix(System.Single,System.Single,System.Single,System.Single)
-        LoadPixelMatrixArgs(System.Single,System.Single,System.Single,System.Single)
-        LoadProjectionMatrix(UnityEngine.Matrix4x4)
-        MultiTexCoord(System.Int32,UnityEngine.Vector3)
-        MultiTexCoord2(System.Int32,System.Single,System.Single)
-        MultiTexCoord3(System.Int32,System.Single,System.Single,System.Single)
-        MultMatrix(UnityEngine.Matrix4x4)
-        RenderTargetBarrier()
-        set_invertCulling(System.Boolean)
-        set_modelview(UnityEngine.Matrix4x4)
-        set_sRGBWrite(System.Boolean)
-        set_wireframe(System.Boolean)
-        SetRevertBackfacing(System.Boolean)
-        TexCoord(UnityEngine.Vector3)
-        TexCoord2(System.Single,System.Single)
-        TexCoord3(System.Single,System.Single,System.Single)
-        Vertex3(System.Single,System.Single,System.Single)
-        Viewport(UnityEngine.Rect)
     UnityEngine.GlobalJavaObjectRef
     UnityEngine.Gradient
         Evaluate(System.Single)
@@ -11810,6 +11759,7 @@ Summary:
         SetMatrixArray(System.String,UnityEngine.Matrix4x4[])
         SetMatrixArrayImpl(System.Int32,UnityEngine.Matrix4x4[],System.Int32)
         SetOverrideTag(System.String,System.String)
+        SetPass(System.Int32)
         SetShaderPassEnabled(System.String,System.Boolean)
         SetTextureScale(System.Int32,UnityEngine.Vector2)
         SetTextureScale(System.String,UnityEngine.Vector2)
@@ -14685,7 +14635,7 @@ Summary:
 Assembly: UnityEngine.ParticleSystemModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 62
+  Total Type Removals = 61
     Nested = 26
     Interfaces = 0
     Abstract Classes = 1
@@ -14694,15 +14644,13 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 0
-  Total Method Removals = 135
+  Total Method Removals = 131
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.ParticleCollisionEvent
     UnityEngine.ParticlePhysicsExtensions
     UnityEngine.ParticleSystem
         .ctor()
-        Clear()
-        Clear(System.Boolean)
         Emit(System.Int32)
         Emit(UnityEngine.ParticleSystem/EmitParams,System.Int32)
         Emit(UnityEngine.ParticleSystem/Particle)
@@ -14793,9 +14741,7 @@ Summary:
         Simulate(System.Single,System.Boolean)
         Simulate(System.Single,System.Boolean,System.Boolean)
         Simulate(System.Single,System.Boolean,System.Boolean,System.Boolean)
-        Stop()
         Stop(System.Boolean)
-        Stop(System.Boolean,UnityEngine.ParticleSystemStopBehavior)
     UnityEngine.ParticleSystem/Burst
     UnityEngine.ParticleSystem/CollisionModule
     UnityEngine.ParticleSystem/ColorBySpeedModule
@@ -14887,7 +14833,6 @@ Summary:
     UnityEngine.ParticleSystemSimulationSpace
     UnityEngine.ParticleSystemSortMode
     UnityEngine.ParticleSystemStopAction
-    UnityEngine.ParticleSystemStopBehavior
     UnityEngine.ParticleSystemSubEmitterProperties
     UnityEngine.ParticleSystemSubEmitterType
     UnityEngine.ParticleSystemTrailTextureMode
@@ -16779,6 +16724,7 @@ UnityEngine.FullScreenMovieControlMode
 UnityEngine.FullScreenMovieScalingMode
 UnityEngine.GeometryUtility
 UnityEngine.Gizmos
+UnityEngine.GL
 UnityEngine.GlobalJavaObjectRef
 UnityEngine.GradientAlphaKey
 UnityEngine.GradientColorKey
@@ -17044,7 +16990,6 @@ UnityEngine.ParticleSystemShapeType
 UnityEngine.ParticleSystemSimulationSpace
 UnityEngine.ParticleSystemSortMode
 UnityEngine.ParticleSystemStopAction
-UnityEngine.ParticleSystemStopBehavior
 UnityEngine.ParticleSystemSubEmitterProperties
 UnityEngine.ParticleSystemSubEmitterType
 UnityEngine.ParticleSystemTrailTextureMode

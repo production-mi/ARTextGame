@@ -338,10 +338,10 @@ struct serializableUnityARPlaneAnchor_t2771464920;
 struct EditorHitTest_t2885724780;
 // UnityEngine.XR.iOS.previzCtrl
 struct previzCtrl_t930159927;
-// UnityEngine.MeshCollider
-struct MeshCollider_t2718867283;
 // System.Char[]
 struct CharU5BU5D_t1328083999;
+// UnityEngine.MeshCollider
+struct MeshCollider_t2718867283;
 // UnityEngine.XR.iOS.TextCtrl/<textRecreate>c__Iterator0
 struct U3CtextRecreateU3Ec__Iterator0_t1116150880;
 // UnityEngine.XR.iOS.TextCtrl/<Fadeout>c__Iterator1
@@ -779,7 +779,6 @@ extern const RuntimeMethod* QRCodeReader_ARFrameUpdated_m2821680198_RuntimeMetho
 extern const uint32_t QRCodeReader_Start_m3407133856_MetadataUsageId;
 extern RuntimeClass* UnityARCamera_t4198559457_il2cpp_TypeInfo_var;
 extern const uint32_t QRCodeReader_Update_m1388300513_MetadataUsageId;
-extern const uint32_t QRCodeReader_OnReadQRCode_m22964003_MetadataUsageId;
 extern RuntimeClass* QRCodeReader_t3711862773_il2cpp_TypeInfo_var;
 extern const uint32_t QRCodeReader_OnGetPossibleName_m1533305699_MetadataUsageId;
 extern const uint32_t RaderMotion_Update_m1513299560_MetadataUsageId;
@@ -937,10 +936,15 @@ extern const uint32_t ConnectToEditor_InitializeARKit_m3338966345_MetadataUsageI
 extern Il2CppCodeGenString* _stringLiteral1397226215;
 extern const uint32_t ConnectToEditor_EditorConnected_m2345533564_MetadataUsageId;
 extern const uint32_t MarshalDirectionalLightEstimate_MarshalCoefficients_m987551255_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1657430270;
+extern const uint32_t previzCtrl__ctor_m2963547266_MetadataUsageId;
 extern const RuntimeMethod* GameObject_GetComponent_TisAnimator_t69676727_m2717502299_RuntimeMethod_var;
 extern const uint32_t previzCtrl_Start_m4257261626_MetadataUsageId;
+extern RuntimeClass* previzCtrl_t930159927_il2cpp_TypeInfo_var;
+extern RuntimeClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral69878724;
 extern Il2CppCodeGenString* _stringLiteral2778558511;
+extern Il2CppCodeGenString* _stringLiteral3833953726;
 extern const uint32_t previzCtrl_HitTestWithResultType_m3916439298_MetadataUsageId;
 extern RuntimeField* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D8E7629AD5AF686202B8CB7C014505C432FFE31E6_0_FieldInfo_var;
 extern const uint32_t previzCtrl_Update_m3917845437_MetadataUsageId;
@@ -949,7 +953,6 @@ extern const uint32_t SubMessageIds_get_editorInitARKit_m61535324_MetadataUsageI
 extern const uint32_t TextCtrl__ctor_m648663823_MetadataUsageId;
 extern RuntimeClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
 extern RuntimeClass* TextCtrl_t2221375824_il2cpp_TypeInfo_var;
-extern RuntimeClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
 extern const RuntimeMethod* TextCtrl_TextReset_m813924207_RuntimeMethod_var;
 extern const RuntimeMethod* TextCtrl_IsLiked_m3611601960_RuntimeMethod_var;
 extern const RuntimeMethod* TextCtrl_IsDisLiked_m3127825976_RuntimeMethod_var;
@@ -983,7 +986,6 @@ extern const uint32_t TextCtrl_Fadeout_m3667176273_MetadataUsageId;
 extern RuntimeClass* EventSystem_t3466835263_il2cpp_TypeInfo_var;
 extern const uint32_t TextCtrl_IsPointerOverGameObject_m2860427667_MetadataUsageId;
 extern const uint32_t TextCtrl_Update_m3450141820_MetadataUsageId;
-extern Il2CppCodeGenString* _stringLiteral1657430270;
 extern const uint32_t TextCtrl__cctor_m4199411812_MetadataUsageId;
 extern const uint32_t U3CFadeoutU3Ec__Iterator1_MoveNext_m1181881396_MetadataUsageId;
 extern const uint32_t U3CFadeoutU3Ec__Iterator1_Reset_m1648057311_MetadataUsageId;
@@ -14552,12 +14554,22 @@ public:
 	GameObject_t1756533147 * ___plane_2;
 	// UnityEngine.Camera UnityEngine.XR.iOS.previzCtrl::camera
 	Camera_t189460977 * ___camera_3;
+	// UnityEngine.ParticleSystem UnityEngine.XR.iOS.previzCtrl::readingParticle
+	ParticleSystem_t3394631041 * ___readingParticle_4;
+	// UnityEngine.UI.Text UnityEngine.XR.iOS.previzCtrl::myText
+	Text_t356221433 * ___myText_5;
+	// System.String[] UnityEngine.XR.iOS.previzCtrl::itemText
+	StringU5BU5D_t1642385972* ___itemText_6;
+	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl::textRoot
+	GameObject_t1756533147 * ___textRoot_7;
+	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl::textObject
+	GameObject_t1756533147 * ___textObject_8;
 	// UnityEngine.Animator UnityEngine.XR.iOS.previzCtrl::previzAnim
-	Animator_t69676727 * ___previzAnim_4;
+	Animator_t69676727 * ___previzAnim_10;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::plateIsOn
-	bool ___plateIsOn_5;
+	bool ___plateIsOn_11;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::animationIsPlaying
-	bool ___animationIsPlaying_6;
+	bool ___animationIsPlaying_12;
 
 public:
 	inline static int32_t get_offset_of_plane_2() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___plane_2)); }
@@ -14578,29 +14590,91 @@ public:
 		Il2CppCodeGenWriteBarrier((&___camera_3), value);
 	}
 
-	inline static int32_t get_offset_of_previzAnim_4() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___previzAnim_4)); }
-	inline Animator_t69676727 * get_previzAnim_4() const { return ___previzAnim_4; }
-	inline Animator_t69676727 ** get_address_of_previzAnim_4() { return &___previzAnim_4; }
-	inline void set_previzAnim_4(Animator_t69676727 * value)
+	inline static int32_t get_offset_of_readingParticle_4() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___readingParticle_4)); }
+	inline ParticleSystem_t3394631041 * get_readingParticle_4() const { return ___readingParticle_4; }
+	inline ParticleSystem_t3394631041 ** get_address_of_readingParticle_4() { return &___readingParticle_4; }
+	inline void set_readingParticle_4(ParticleSystem_t3394631041 * value)
 	{
-		___previzAnim_4 = value;
-		Il2CppCodeGenWriteBarrier((&___previzAnim_4), value);
+		___readingParticle_4 = value;
+		Il2CppCodeGenWriteBarrier((&___readingParticle_4), value);
 	}
 
-	inline static int32_t get_offset_of_plateIsOn_5() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___plateIsOn_5)); }
-	inline bool get_plateIsOn_5() const { return ___plateIsOn_5; }
-	inline bool* get_address_of_plateIsOn_5() { return &___plateIsOn_5; }
-	inline void set_plateIsOn_5(bool value)
+	inline static int32_t get_offset_of_myText_5() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___myText_5)); }
+	inline Text_t356221433 * get_myText_5() const { return ___myText_5; }
+	inline Text_t356221433 ** get_address_of_myText_5() { return &___myText_5; }
+	inline void set_myText_5(Text_t356221433 * value)
 	{
-		___plateIsOn_5 = value;
+		___myText_5 = value;
+		Il2CppCodeGenWriteBarrier((&___myText_5), value);
 	}
 
-	inline static int32_t get_offset_of_animationIsPlaying_6() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___animationIsPlaying_6)); }
-	inline bool get_animationIsPlaying_6() const { return ___animationIsPlaying_6; }
-	inline bool* get_address_of_animationIsPlaying_6() { return &___animationIsPlaying_6; }
-	inline void set_animationIsPlaying_6(bool value)
+	inline static int32_t get_offset_of_itemText_6() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___itemText_6)); }
+	inline StringU5BU5D_t1642385972* get_itemText_6() const { return ___itemText_6; }
+	inline StringU5BU5D_t1642385972** get_address_of_itemText_6() { return &___itemText_6; }
+	inline void set_itemText_6(StringU5BU5D_t1642385972* value)
 	{
-		___animationIsPlaying_6 = value;
+		___itemText_6 = value;
+		Il2CppCodeGenWriteBarrier((&___itemText_6), value);
+	}
+
+	inline static int32_t get_offset_of_textRoot_7() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textRoot_7)); }
+	inline GameObject_t1756533147 * get_textRoot_7() const { return ___textRoot_7; }
+	inline GameObject_t1756533147 ** get_address_of_textRoot_7() { return &___textRoot_7; }
+	inline void set_textRoot_7(GameObject_t1756533147 * value)
+	{
+		___textRoot_7 = value;
+		Il2CppCodeGenWriteBarrier((&___textRoot_7), value);
+	}
+
+	inline static int32_t get_offset_of_textObject_8() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textObject_8)); }
+	inline GameObject_t1756533147 * get_textObject_8() const { return ___textObject_8; }
+	inline GameObject_t1756533147 ** get_address_of_textObject_8() { return &___textObject_8; }
+	inline void set_textObject_8(GameObject_t1756533147 * value)
+	{
+		___textObject_8 = value;
+		Il2CppCodeGenWriteBarrier((&___textObject_8), value);
+	}
+
+	inline static int32_t get_offset_of_previzAnim_10() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___previzAnim_10)); }
+	inline Animator_t69676727 * get_previzAnim_10() const { return ___previzAnim_10; }
+	inline Animator_t69676727 ** get_address_of_previzAnim_10() { return &___previzAnim_10; }
+	inline void set_previzAnim_10(Animator_t69676727 * value)
+	{
+		___previzAnim_10 = value;
+		Il2CppCodeGenWriteBarrier((&___previzAnim_10), value);
+	}
+
+	inline static int32_t get_offset_of_plateIsOn_11() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___plateIsOn_11)); }
+	inline bool get_plateIsOn_11() const { return ___plateIsOn_11; }
+	inline bool* get_address_of_plateIsOn_11() { return &___plateIsOn_11; }
+	inline void set_plateIsOn_11(bool value)
+	{
+		___plateIsOn_11 = value;
+	}
+
+	inline static int32_t get_offset_of_animationIsPlaying_12() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___animationIsPlaying_12)); }
+	inline bool get_animationIsPlaying_12() const { return ___animationIsPlaying_12; }
+	inline bool* get_address_of_animationIsPlaying_12() { return &___animationIsPlaying_12; }
+	inline void set_animationIsPlaying_12(bool value)
+	{
+		___animationIsPlaying_12 = value;
+	}
+};
+
+struct previzCtrl_t930159927_StaticFields
+{
+public:
+	// System.String UnityEngine.XR.iOS.previzCtrl::text
+	String_t* ___text_9;
+
+public:
+	inline static int32_t get_offset_of_text_9() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___text_9)); }
+	inline String_t* get_text_9() const { return ___text_9; }
+	inline String_t** get_address_of_text_9() { return &___text_9; }
+	inline void set_text_9(String_t* value)
+	{
+		___text_9 = value;
+		Il2CppCodeGenWriteBarrier((&___text_9), value);
 	}
 };
 
@@ -18977,32 +19051,14 @@ extern "C"  void Matrix4x4__ctor_m828876617 (Matrix4x4_t2933234003 * __this, Vec
 extern "C"  Matrix4x4_t2933234003  Matrix4x4_get_inverse_m1621049107 (Matrix4x4_t2933234003 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.XR.iOS.ARTextureHandles UnityEngine.XR.iOS.UnityARSessionNativeInterface::GetARVideoTextureHandles()
 extern "C"  ARTextureHandles_t3764914833  UnityARSessionNativeInterface_GetARVideoTextureHandles_m299127149 (UnityARSessionNativeInterface_t1130867170 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
-extern "C"  bool IntPtr_op_Inequality_m3044532593 (RuntimeObject * __this /* static, unused */, intptr_t p0, intptr_t p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Single[] QRCodeReader::GetQRCodeCorners()
-extern "C"  SingleU5BU5D_t577127397* QRCodeReader_GetQRCodeCorners_m495384024 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
-extern "C"  void Vector2__ctor_m847450945 (Vector2_t2243707579 * __this, float p0, float p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.String QRCodeReader::GetPossibleName()
 extern "C"  String_t* QRCodeReader_GetPossibleName_m2933151681 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Material::SetPass(System.Int32)
-extern "C"  bool Material_SetPass_m3700539559 (Material_t193706927 * __this, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.GL::PushMatrix()
-extern "C"  void GL_PushMatrix_m1593853226 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.GL::LoadOrtho()
-extern "C"  void GL_LoadOrtho_m2661661141 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.GL::Begin(System.Int32)
-extern "C"  void GL_Begin_m104586295 (RuntimeObject * __this /* static, unused */, int32_t p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.GL::Vertex(UnityEngine.Vector3)
-extern "C"  void GL_Vertex_m2890936450 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580  p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.GL::End()
-extern "C"  void GL_End_m4287511030 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.GL::PopMatrix()
-extern "C"  void GL_PopMatrix_m1093897413 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_time()
 extern "C"  float Time_get_time_m518788937 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Quaternion UnityEngine.Quaternion::Euler(System.Single,System.Single,System.Single)
 extern "C"  Quaternion_t4030073918  Quaternion_Euler_m868989838 (RuntimeObject * __this /* static, unused */, float p0, float p1, float p2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
+extern "C"  void Vector2__ctor_m847450945 (Vector2_t2243707579 * __this, float p0, float p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::SetTextureOffset(System.String,UnityEngine.Vector2)
 extern "C"  void Material_SetTextureOffset_m1959576143 (Material_t193706927 * __this, String_t* p0, Vector2_t2243707579  p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.BoxSlider>()
@@ -19381,6 +19437,12 @@ extern "C"  SingleU5BU5D_t577127397* MarshalDirectionalLightEstimate_get_Spheric
 extern "C"  void MarshalDirectionalLightEstimate_RotateForUnity_m317214218 (MarshalDirectionalLightEstimate_t3614627546 * __this, SingleU5BU5D_t577127397** ___shc0, int32_t ___startIndex1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.Animator>()
 #define GameObject_GetComponent_TisAnimator_t69676727_m2717502299(__this, method) ((  Animator_t69676727 * (*) (GameObject_t1756533147 *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m4015184206_gshared)(__this, method)
+// System.String[] System.String::Split(System.Char[])
+extern "C"  StringU5BU5D_t1642385972* String_Split_m3326265864 (String_t* __this, CharU5BU5D_t1328083999* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.ParticleSystem::Stop()
+extern "C"  void ParticleSystem_Stop_m3868680149 (ParticleSystem_t3394631041 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.ParticleSystem::Clear()
+extern "C"  void ParticleSystem_Clear_m1052596698 (ParticleSystem_t3394631041 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
 extern "C"  void RuntimeHelpers_InitializeArray_m3920580167 (RuntimeObject * __this /* static, unused */, RuntimeArray * p0, RuntimeFieldHandle_t2331729674  p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.XR.iOS.previzCtrl::HitTestWithResultType(UnityEngine.XR.iOS.ARPoint,UnityEngine.XR.iOS.ARHitTestResultType)
@@ -19393,8 +19455,6 @@ extern "C"  void Object_set_name_m1458854879 (Object_t1021602117 * __this, Strin
 #define GameObject_GetComponent_TisParticleSystem_t3394631041_m1329366749(__this, method) ((  ParticleSystem_t3394631041 * (*) (GameObject_t1756533147 *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m4015184206_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<UnityEngine.MeshCollider>()
 #define GameObject_GetComponent_TisMeshCollider_t2718867283_m4120919364(__this, method) ((  MeshCollider_t2718867283 * (*) (GameObject_t1756533147 *, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m4015184206_gshared)(__this, method)
-// System.String[] System.String::Split(System.Char[])
-extern "C"  StringU5BU5D_t1642385972* String_Split_m3326265864 (String_t* __this, CharU5BU5D_t1328083999* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::set_parent(UnityEngine.Transform)
 extern "C"  void Transform_set_parent_m3178143156 (Transform_t3275118058 * __this, Transform_t3275118058 * p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.Rigidbody>()
@@ -28629,128 +28689,6 @@ IL_002d:
 
 IL_0036:
 	{
-		// if (handles.textureY != System.IntPtr.Zero) {
-		intptr_t L_3 = (&V_0)->get_textureY_0();
-		// if (handles.textureY != System.IntPtr.Zero) {
-		bool L_4 = IntPtr_op_Inequality_m3044532593(NULL /*static, unused*/, L_3, (intptr_t)(0), /*hidden argument*/NULL);
-		if (!L_4)
-		{
-			goto IL_004e;
-		}
-	}
-	{
-	}
-
-IL_004e:
-	{
-		// }
-		return;
-	}
-}
-// System.Void QRCodeReader::OnReadQRCode(System.String)
-extern "C"  void QRCodeReader_OnReadQRCode_m22964003 (QRCodeReader_t3711862773 * __this, String_t* ___arg0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (QRCodeReader_OnReadQRCode_m22964003_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	SingleU5BU5D_t577127397* V_0 = NULL;
-	{
-		// float[] videoTexCorners = GetQRCodeCorners ();
-		SingleU5BU5D_t577127397* L_0 = QRCodeReader_GetQRCodeCorners_m495384024(NULL /*static, unused*/, /*hidden argument*/NULL);
-		V_0 = L_0;
-		// corners[0] = new Vector2 (videoTexCorners [0], videoTexCorners [1]);
-		Vector3U5BU5D_t1172311765* L_1 = __this->get_corners_7();
-		NullCheck(L_1);
-		SingleU5BU5D_t577127397* L_2 = V_0;
-		NullCheck(L_2);
-		int32_t L_3 = 0;
-		float L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
-		SingleU5BU5D_t577127397* L_5 = V_0;
-		NullCheck(L_5);
-		int32_t L_6 = 1;
-		float L_7 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		// corners[0] = new Vector2 (videoTexCorners [0], videoTexCorners [1]);
-		Vector2_t2243707579  L_8;
-		memset(&L_8, 0, sizeof(L_8));
-		Vector2__ctor_m847450945((&L_8), L_4, L_7, /*hidden argument*/NULL);
-		// corners[0] = new Vector2 (videoTexCorners [0], videoTexCorners [1]);
-		IL2CPP_RUNTIME_CLASS_INIT(Vector2_t2243707579_il2cpp_TypeInfo_var);
-		Vector3_t2243707580  L_9 = Vector2_op_Implicit_m129629632(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
-		*(Vector3_t2243707580 *)((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))) = L_9;
-		// corners[1] = new Vector2 (videoTexCorners [2], videoTexCorners [3]);
-		Vector3U5BU5D_t1172311765* L_10 = __this->get_corners_7();
-		NullCheck(L_10);
-		SingleU5BU5D_t577127397* L_11 = V_0;
-		NullCheck(L_11);
-		int32_t L_12 = 2;
-		float L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
-		SingleU5BU5D_t577127397* L_14 = V_0;
-		NullCheck(L_14);
-		int32_t L_15 = 3;
-		float L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
-		// corners[1] = new Vector2 (videoTexCorners [2], videoTexCorners [3]);
-		Vector2_t2243707579  L_17;
-		memset(&L_17, 0, sizeof(L_17));
-		Vector2__ctor_m847450945((&L_17), L_13, L_16, /*hidden argument*/NULL);
-		// corners[1] = new Vector2 (videoTexCorners [2], videoTexCorners [3]);
-		Vector3_t2243707580  L_18 = Vector2_op_Implicit_m129629632(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
-		*(Vector3_t2243707580 *)((L_10)->GetAddressAt(static_cast<il2cpp_array_size_t>(1))) = L_18;
-		// corners[2] = new Vector2 (videoTexCorners [4], videoTexCorners [5]);
-		Vector3U5BU5D_t1172311765* L_19 = __this->get_corners_7();
-		NullCheck(L_19);
-		SingleU5BU5D_t577127397* L_20 = V_0;
-		NullCheck(L_20);
-		int32_t L_21 = 4;
-		float L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
-		SingleU5BU5D_t577127397* L_23 = V_0;
-		NullCheck(L_23);
-		int32_t L_24 = 5;
-		float L_25 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
-		// corners[2] = new Vector2 (videoTexCorners [4], videoTexCorners [5]);
-		Vector2_t2243707579  L_26;
-		memset(&L_26, 0, sizeof(L_26));
-		Vector2__ctor_m847450945((&L_26), L_22, L_25, /*hidden argument*/NULL);
-		// corners[2] = new Vector2 (videoTexCorners [4], videoTexCorners [5]);
-		Vector3_t2243707580  L_27 = Vector2_op_Implicit_m129629632(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
-		*(Vector3_t2243707580 *)((L_19)->GetAddressAt(static_cast<il2cpp_array_size_t>(2))) = L_27;
-		// corners[3] = new Vector2 (videoTexCorners [6], videoTexCorners [7]);
-		Vector3U5BU5D_t1172311765* L_28 = __this->get_corners_7();
-		NullCheck(L_28);
-		SingleU5BU5D_t577127397* L_29 = V_0;
-		NullCheck(L_29);
-		int32_t L_30 = 6;
-		float L_31 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
-		SingleU5BU5D_t577127397* L_32 = V_0;
-		NullCheck(L_32);
-		int32_t L_33 = 7;
-		float L_34 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
-		// corners[3] = new Vector2 (videoTexCorners [6], videoTexCorners [7]);
-		Vector2_t2243707579  L_35;
-		memset(&L_35, 0, sizeof(L_35));
-		Vector2__ctor_m847450945((&L_35), L_31, L_34, /*hidden argument*/NULL);
-		// corners[3] = new Vector2 (videoTexCorners [6], videoTexCorners [7]);
-		Vector3_t2243707580  L_36 = Vector2_op_Implicit_m129629632(NULL /*static, unused*/, L_35, /*hidden argument*/NULL);
-		*(Vector3_t2243707580 *)((L_28)->GetAddressAt(static_cast<il2cpp_array_size_t>(3))) = L_36;
-		// Debug.Log (videoTexCorners[0]);
-		SingleU5BU5D_t577127397* L_37 = V_0;
-		NullCheck(L_37);
-		int32_t L_38 = 0;
-		float L_39 = (L_37)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
-		float L_40 = L_39;
-		RuntimeObject * L_41 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_40);
-		// Debug.Log (videoTexCorners[0]);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m2923680153(NULL /*static, unused*/, L_41, /*hidden argument*/NULL);
-		// Debug.Log (corners[3]);
-		Vector3U5BU5D_t1172311765* L_42 = __this->get_corners_7();
-		NullCheck(L_42);
-		Vector3_t2243707580  L_43 = (*(Vector3_t2243707580 *)((L_42)->GetAddressAt(static_cast<il2cpp_array_size_t>(3))));
-		RuntimeObject * L_44 = Box(Vector3_t2243707580_il2cpp_TypeInfo_var, &L_43);
-		// Debug.Log (corners[3]);
-		Debug_Log_m2923680153(NULL /*static, unused*/, L_44, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -28768,50 +28706,6 @@ extern "C"  void QRCodeReader_OnGetPossibleName_m1533305699 (QRCodeReader_t37118
 		// possible = GetPossibleName();
 		String_t* L_0 = QRCodeReader_GetPossibleName_m2933151681(NULL /*static, unused*/, /*hidden argument*/NULL);
 		((QRCodeReader_t3711862773_StaticFields*)il2cpp_codegen_static_fields_for(QRCodeReader_t3711862773_il2cpp_TypeInfo_var))->set_possible_4(L_0);
-		// }
-		return;
-	}
-}
-// System.Void QRCodeReader::OnRenderObject()
-extern "C"  void QRCodeReader_OnRenderObject_m100505548 (QRCodeReader_t3711862773 * __this, const RuntimeMethod* method)
-{
-	{
-		// material.SetPass (0);
-		Material_t193706927 * L_0 = __this->get_material_5();
-		// material.SetPass (0);
-		NullCheck(L_0);
-		Material_SetPass_m3700539559(L_0, 0, /*hidden argument*/NULL);
-		// GL.PushMatrix ();
-		GL_PushMatrix_m1593853226(NULL /*static, unused*/, /*hidden argument*/NULL);
-		// GL.LoadOrtho ();
-		GL_LoadOrtho_m2661661141(NULL /*static, unused*/, /*hidden argument*/NULL);
-		// GL.Begin (GL.QUADS);
-		// GL.Begin (GL.QUADS);
-		GL_Begin_m104586295(NULL /*static, unused*/, 7, /*hidden argument*/NULL);
-		// GL.Vertex (corners[0]);
-		Vector3U5BU5D_t1172311765* L_1 = __this->get_corners_7();
-		NullCheck(L_1);
-		// GL.Vertex (corners[0]);
-		GL_Vertex_m2890936450(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_1)->GetAddressAt(static_cast<il2cpp_array_size_t>(0)))), /*hidden argument*/NULL);
-		// GL.Vertex (corners[1]);
-		Vector3U5BU5D_t1172311765* L_2 = __this->get_corners_7();
-		NullCheck(L_2);
-		// GL.Vertex (corners[1]);
-		GL_Vertex_m2890936450(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_2)->GetAddressAt(static_cast<il2cpp_array_size_t>(1)))), /*hidden argument*/NULL);
-		// GL.Vertex (corners[3]);
-		Vector3U5BU5D_t1172311765* L_3 = __this->get_corners_7();
-		NullCheck(L_3);
-		// GL.Vertex (corners[3]);
-		GL_Vertex_m2890936450(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(3)))), /*hidden argument*/NULL);
-		// GL.Vertex (corners[2]);
-		Vector3U5BU5D_t1172311765* L_4 = __this->get_corners_7();
-		NullCheck(L_4);
-		// GL.Vertex (corners[2]);
-		GL_Vertex_m2890936450(NULL /*static, unused*/, (*(Vector3_t2243707580 *)((L_4)->GetAddressAt(static_cast<il2cpp_array_size_t>(2)))), /*hidden argument*/NULL);
-		// GL.End ();
-		GL_End_m4287511030(NULL /*static, unused*/, /*hidden argument*/NULL);
-		// GL.PopMatrix ();
-		GL_PopMatrix_m1093897413(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -34728,11 +34622,23 @@ extern "C"  void MarshalDirectionalLightEstimate_RotateForUnity_m317214218_Adjus
 // System.Void UnityEngine.XR.iOS.previzCtrl::.ctor()
 extern "C"  void previzCtrl__ctor_m2963547266 (previzCtrl_t930159927 * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_method (previzCtrl__ctor_m2963547266_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public string[] itemText = new string[]{"PiyoPiyo"};
+		StringU5BU5D_t1642385972* L_0 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, _stringLiteral1657430270);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral1657430270);
+		__this->set_itemText_6(L_0);
 		// private bool plateIsOn = false;
-		__this->set_plateIsOn_5((bool)0);
+		__this->set_plateIsOn_11((bool)0);
 		// private bool animationIsPlaying = false;
-		__this->set_animationIsPlaying_6((bool)0);
+		__this->set_animationIsPlaying_12((bool)0);
 		MonoBehaviour__ctor_m1825328214(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -34752,7 +34658,7 @@ extern "C"  void previzCtrl_Start_m4257261626 (previzCtrl_t930159927 * __this, c
 		// previzAnim = plane.GetComponent<Animator>();
 		NullCheck(L_0);
 		Animator_t69676727 * L_1 = GameObject_GetComponent_TisAnimator_t69676727_m2717502299(L_0, /*hidden argument*/GameObject_GetComponent_TisAnimator_t69676727_m2717502299_RuntimeMethod_var);
-		__this->set_previzAnim_4(L_1);
+		__this->set_previzAnim_10(L_1);
 		// }
 		return;
 	}
@@ -34771,7 +34677,8 @@ extern "C"  bool previzCtrl_HitTestWithResultType_m3916439298 (previzCtrl_t93015
 	memset(&V_1, 0, sizeof(V_1));
 	Enumerator_t2179363831  V_2;
 	memset(&V_2, 0, sizeof(V_2));
-	bool V_3 = false;
+	StringU5BU5D_t1642385972* V_3 = NULL;
+	bool V_4 = false;
 	Exception_t1927440687 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	Exception_t1927440687 * __exception_local = 0;
@@ -34795,7 +34702,7 @@ extern "C"  bool previzCtrl_HitTestWithResultType_m3916439298 (previzCtrl_t93015
 		int32_t L_5 = List_1_get_Count_m323201712(L_4, /*hidden argument*/List_1_get_Count_m323201712_RuntimeMethod_var);
 		if ((((int32_t)L_5) <= ((int32_t)0)))
 		{
-			goto IL_00b6;
+			goto IL_012e;
 		}
 	}
 	{
@@ -34811,7 +34718,7 @@ IL_0023:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_0096;
+			goto IL_010e;
 		}
 
 IL_0028:
@@ -34832,93 +34739,150 @@ IL_0028:
 			NullCheck(L_10);
 			Transform_set_position_m2942701431(L_10, L_12, /*hidden argument*/NULL);
 			// if(animationIsPlaying == false){
-			bool L_13 = __this->get_animationIsPlaying_6();
+			bool L_13 = __this->get_animationIsPlaying_12();
 			if (L_13)
 			{
-				goto IL_0076;
+				goto IL_00c2;
 			}
 		}
 
 IL_0058:
 		{
+			// text = QRCodeReader.possible;
+			String_t* L_14 = ((QRCodeReader_t3711862773_StaticFields*)il2cpp_codegen_static_fields_for(QRCodeReader_t3711862773_il2cpp_TypeInfo_var))->get_possible_4();
+			((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_text_9(L_14);
+			// string[] textArray = text.Split(","[0]);
+			String_t* L_15 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_text_9();
+			CharU5BU5D_t1328083999* L_16 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+			// string[] textArray = text.Split(","[0]);
+			NullCheck(_stringLiteral372029314);
+			Il2CppChar L_17 = String_get_Chars_m4230566705(_stringLiteral372029314, 0, /*hidden argument*/NULL);
+			NullCheck(L_16);
+			(L_16)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_17);
+			// string[] textArray = text.Split(","[0]);
+			NullCheck(L_15);
+			StringU5BU5D_t1642385972* L_18 = String_Split_m3326265864(L_15, L_16, /*hidden argument*/NULL);
+			V_3 = L_18;
+			// myText.text = textArray[0];
+			Text_t356221433 * L_19 = __this->get_myText_5();
+			StringU5BU5D_t1642385972* L_20 = V_3;
+			NullCheck(L_20);
+			int32_t L_21 = 0;
+			String_t* L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+			// myText.text = textArray[0];
+			NullCheck(L_19);
+			VirtActionInvoker1< String_t* >::Invoke(72 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_19, L_22);
 			// previzAnim.SetTrigger("Play");
-			Animator_t69676727 * L_14 = __this->get_previzAnim_4();
+			Animator_t69676727 * L_23 = __this->get_previzAnim_10();
 			// previzAnim.SetTrigger("Play");
-			NullCheck(L_14);
-			Animator_SetTrigger_m2003713590(L_14, _stringLiteral69878724, /*hidden argument*/NULL);
+			NullCheck(L_23);
+			Animator_SetTrigger_m2003713590(L_23, _stringLiteral69878724, /*hidden argument*/NULL);
+			// readingParticle.Play();
+			ParticleSystem_t3394631041 * L_24 = __this->get_readingParticle_4();
+			// readingParticle.Play();
+			NullCheck(L_24);
+			ParticleSystem_Play_m2510524101(L_24, /*hidden argument*/NULL);
 			// animationIsPlaying = true;
-			__this->set_animationIsPlaying_6((bool)1);
-			goto IL_008f;
+			__this->set_animationIsPlaying_12((bool)1);
+			// Debug.Log("Play");
+			// Debug.Log("Play");
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+			Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral69878724, /*hidden argument*/NULL);
+			goto IL_0106;
 		}
 
-IL_0076:
+IL_00c2:
+		{
+			// }else if(animationIsPlaying == true){
+			bool L_25 = __this->get_animationIsPlaying_12();
+			if (!L_25)
+			{
+				goto IL_0106;
+			}
+		}
+
+IL_00cd:
 		{
 			// previzAnim.SetTrigger("Back");
-			Animator_t69676727 * L_15 = __this->get_previzAnim_4();
+			Animator_t69676727 * L_26 = __this->get_previzAnim_10();
 			// previzAnim.SetTrigger("Back");
-			NullCheck(L_15);
-			Animator_SetTrigger_m2003713590(L_15, _stringLiteral2778558511, /*hidden argument*/NULL);
+			NullCheck(L_26);
+			Animator_SetTrigger_m2003713590(L_26, _stringLiteral2778558511, /*hidden argument*/NULL);
+			// readingParticle.Stop();
+			ParticleSystem_t3394631041 * L_27 = __this->get_readingParticle_4();
+			// readingParticle.Stop();
+			NullCheck(L_27);
+			ParticleSystem_Stop_m3868680149(L_27, /*hidden argument*/NULL);
+			// readingParticle.Clear();
+			ParticleSystem_t3394631041 * L_28 = __this->get_readingParticle_4();
+			// readingParticle.Clear();
+			NullCheck(L_28);
+			ParticleSystem_Clear_m1052596698(L_28, /*hidden argument*/NULL);
 			// animationIsPlaying = false;
-			__this->set_animationIsPlaying_6((bool)0);
+			__this->set_animationIsPlaying_12((bool)0);
+			// Debug.Log("Stop");
+			// Debug.Log("Stop");
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+			Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral3833953726, /*hidden argument*/NULL);
 		}
 
-IL_008f:
+IL_0106:
 		{
 			// return true;
-			V_3 = (bool)1;
-			IL2CPP_LEAVE(0xBD, FINALLY_00a7);
+			V_4 = (bool)1;
+			IL2CPP_LEAVE(0x136, FINALLY_011f);
 		}
 
-IL_0096:
+IL_010e:
 		{
 			// foreach (var hitResult in hitResults) {
-			bool L_16 = Enumerator_MoveNext_m3860421825((&V_2), /*hidden argument*/Enumerator_MoveNext_m3860421825_RuntimeMethod_var);
-			if (L_16)
+			bool L_29 = Enumerator_MoveNext_m3860421825((&V_2), /*hidden argument*/Enumerator_MoveNext_m3860421825_RuntimeMethod_var);
+			if (L_29)
 			{
 				goto IL_0028;
 			}
 		}
 
-IL_00a2:
+IL_011a:
 		{
-			IL2CPP_LEAVE(0xB5, FINALLY_00a7);
+			IL2CPP_LEAVE(0x12D, FINALLY_011f);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_00a7;
+		goto FINALLY_011f;
 	}
 
-FINALLY_00a7:
+FINALLY_011f:
 	{ // begin finally (depth: 1)
 		// foreach (var hitResult in hitResults) {
 		Enumerator_Dispose_m3109677227((&V_2), /*hidden argument*/Enumerator_Dispose_m3109677227_RuntimeMethod_var);
-		IL2CPP_END_FINALLY(167)
+		IL2CPP_END_FINALLY(287)
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(167)
+	IL2CPP_CLEANUP(287)
 	{
-		IL2CPP_JUMP_TBL(0xBD, IL_00bd)
-		IL2CPP_JUMP_TBL(0xB5, IL_00b5)
+		IL2CPP_JUMP_TBL(0x136, IL_0136)
+		IL2CPP_JUMP_TBL(0x12D, IL_012d)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
 	}
 
-IL_00b5:
+IL_012d:
 	{
 	}
 
-IL_00b6:
+IL_012e:
 	{
 		// return false;
-		V_3 = (bool)0;
-		goto IL_00bd;
+		V_4 = (bool)0;
+		goto IL_0136;
 	}
 
-IL_00bd:
+IL_0136:
 	{
 		// }
-		bool L_17 = V_3;
-		return L_17;
+		bool L_30 = V_4;
+		return L_30;
 	}
 }
 // System.Void UnityEngine.XR.iOS.previzCtrl::Update()

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ARTextGame.unity
+- path: Assets/Scenes/ARTextGame_V2.unity
   isLoaded: 1
   isActive: 1

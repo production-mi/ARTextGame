@@ -676,34 +676,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.GameObject
 
-	//Start Registrations for type : UnityEngine.GL
-
-		//System.Void UnityEngine.GL::BeginInternal(System.Int32)
-		void Register_UnityEngine_GL_BeginInternal();
-		Register_UnityEngine_GL_BeginInternal();
-
-		//System.Void UnityEngine.GL::End()
-		void Register_UnityEngine_GL_End();
-		Register_UnityEngine_GL_End();
-
-		//System.Void UnityEngine.GL::INTERNAL_CALL_Vertex(UnityEngine.Vector3&)
-		void Register_UnityEngine_GL_INTERNAL_CALL_Vertex();
-		Register_UnityEngine_GL_INTERNAL_CALL_Vertex();
-
-		//System.Void UnityEngine.GL::LoadOrtho()
-		void Register_UnityEngine_GL_LoadOrtho();
-		Register_UnityEngine_GL_LoadOrtho();
-
-		//System.Void UnityEngine.GL::PopMatrix()
-		void Register_UnityEngine_GL_PopMatrix();
-		Register_UnityEngine_GL_PopMatrix();
-
-		//System.Void UnityEngine.GL::PushMatrix()
-		void Register_UnityEngine_GL_PushMatrix();
-		Register_UnityEngine_GL_PushMatrix();
-
-	//End Registrations for type : UnityEngine.GL
-
 	//Start Registrations for type : UnityEngine.Gradient
 
 		//System.Void UnityEngine.Gradient::Cleanup()
@@ -990,10 +962,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Material_HasProperty();
 		Register_UnityEngine_Material_HasProperty();
 
-		//System.Boolean UnityEngine.Material::SetPass(System.Int32)
-		void Register_UnityEngine_Material_SetPass();
-		Register_UnityEngine_Material_SetPass();
-
 		//System.Void UnityEngine.Material::DisableKeyword(System.String)
 		void Register_UnityEngine_Material_DisableKeyword();
 		Register_UnityEngine_Material_DisableKeyword();
@@ -1226,6 +1194,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.ParticleSystem
 
+		//System.Void UnityEngine.ParticleSystem::Clear(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_Clear();
+		Register_UnityEngine_ParticleSystem_Clear();
+
 		//System.Void UnityEngine.ParticleSystem::Play(System.Boolean)
 		void Register_UnityEngine_ParticleSystem_Play();
 		Register_UnityEngine_ParticleSystem_Play();
@@ -1233,6 +1205,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.ParticleSystem::SetParticles(UnityEngine.ParticleSystem/Particle[],System.Int32)
 		void Register_UnityEngine_ParticleSystem_SetParticles();
 		Register_UnityEngine_ParticleSystem_SetParticles();
+
+		//System.Void UnityEngine.ParticleSystem::Stop(System.Boolean,UnityEngine.ParticleSystemStopBehavior)
+		void Register_UnityEngine_ParticleSystem_Stop();
+		Register_UnityEngine_ParticleSystem_Stop();
 
 	//End Registrations for type : UnityEngine.ParticleSystem
 

@@ -128,7 +128,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InputDemo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.ConnectToEditor
 7a1ee6c718479f4d3cf744edffe2ae7b Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityRemoteVideo
-85631e8c47d1355dc398d2465a470f31 Assembly-CSharp.dll:UnityEngine.XR.iOS.previzCtrl
+720f8fd8210a7aafe239895cef2e3f12 Assembly-CSharp.dll:UnityEngine.XR.iOS.previzCtrl
 63ee4d254596e7e33706786578d0fdfc Assembly-CSharp.dll:.AR3DOFCameraManager
 dd6501652c91cb163a39e051d37a965f Assembly-CSharp.dll:.Ballz
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARAmbient
@@ -170,6 +170,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 9ffb7700875db16ad444cf26872589b9 Assembly-CSharp.dll:.HexColorField
 16ae33ee0fbf8362ac99a6fb3e017cb6 Assembly-CSharp.dll:.FocusSquare
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScanAnimCtrl
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -192,4 +193,3 @@ fec83370822b847d57f99223435a4197 Assembly-CSharp.dll:.LightFade
 71c9c1c5c56731ab3fb5ad706efaea7e Assembly-CSharp.dll:.ScreenANim
 391d84b859f3b155fe38f54bfce79162 Assembly-CSharp.dll:.UnityPointCloudExample
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ScanAnimCtrl
