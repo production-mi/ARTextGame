@@ -8123,6 +8123,8 @@ extern "C" void GameObject_GetComponent_m724360550 ();
 extern "C" void GameObject_GetComponentFastPath_m2261981460 ();
 extern "C" void GameObject_GetComponentInChildren_m1720983699 ();
 extern "C" void GameObject_GetComponentInParent_m1178052983 ();
+extern "C" void GameObject_GetComponentsInChildren_m2244720521 ();
+extern "C" void GameObject_GetComponentsInChildren_m488156460 ();
 extern "C" void GameObject_GetComponentsInternal_m3296732294 ();
 extern "C" void GameObject_get_transform_m3490276752 ();
 extern "C" void GameObject_get_layer_m2724813841 ();
@@ -8130,6 +8132,7 @@ extern "C" void GameObject_set_layer_m3642810622 ();
 extern "C" void GameObject_SetActive_m2693135142 ();
 extern "C" void GameObject_get_activeSelf_m2643917226 ();
 extern "C" void GameObject_get_activeInHierarchy_m2532098784 ();
+extern "C" void GameObject_get_tag_m3359901967 ();
 extern "C" void GameObject_SendMessage_m3423113156 ();
 extern "C" void GameObject_Internal_AddComponentWithType_m3949110293 ();
 extern "C" void GameObject_AddComponent_m540062519 ();
@@ -8275,9 +8278,6 @@ extern "C" void Mathf_Repeat_m3635142317 ();
 extern "C" void Mathf_InverseLerp_m1237768400 ();
 extern "C" void Mathf__cctor_m2286160987 ();
 extern "C" void Matrix4x4__ctor_m828876617_AdjustorThunk ();
-extern "C" void Matrix4x4_Inverse_m83214070 ();
-extern "C" void Matrix4x4_INTERNAL_CALL_Inverse_m4053179450 ();
-extern "C" void Matrix4x4_get_inverse_m1621049107_AdjustorThunk ();
 extern "C" void Matrix4x4_TRS_m1980418526 ();
 extern "C" void Matrix4x4_INTERNAL_CALL_TRS_m422869100 ();
 extern "C" void Matrix4x4_get_Item_m2346570419_AdjustorThunk ();
@@ -8786,6 +8786,8 @@ extern "C" void Transform_Translate_m4126761109 ();
 extern "C" void Transform_Translate_m34249666 ();
 extern "C" void Transform_Rotate_m474267874 ();
 extern "C" void Transform_Rotate_m976738541 ();
+extern "C" void Transform_LookAt_m1970949065 ();
+extern "C" void Transform_INTERNAL_CALL_LookAt_m318931914 ();
 extern "C" void Transform_TransformDirection_m505001666 ();
 extern "C" void Transform_INTERNAL_CALL_TransformDirection_m948950941 ();
 extern "C" void Transform_TransformPoint_m183861393 ();
@@ -9412,6 +9414,7 @@ extern "C" void ParticleSystem_Clear_m1052596698 ();
 extern "C" void Particle_set_position_m218446335_AdjustorThunk ();
 extern "C" void Particle_set_startSize_m3215075767_AdjustorThunk ();
 extern "C" void Particle_set_startColor_m2521995545_AdjustorThunk ();
+extern "C" void Collider_get_attachedRigidbody_m2453201107 ();
 extern "C" void Collider_set_sharedMaterial_m648435087 ();
 extern "C" void MeshCollider_set_sharedMesh_m3730396634 ();
 extern "C" void MeshCollider_set_convex_m2279621846 ();
@@ -9448,6 +9451,9 @@ extern "C" void RaycastHit_get_point_m3350410423_AdjustorThunk ();
 extern "C" void RaycastHit_get_normal_m391626824_AdjustorThunk ();
 extern "C" void RaycastHit_get_distance_m758224512_AdjustorThunk ();
 extern "C" void RaycastHit_get_collider_m907576213_AdjustorThunk ();
+extern "C" void RaycastHit_get_rigidbody_m754198633_AdjustorThunk ();
+extern "C" void RaycastHit_get_transform_m2333455049_AdjustorThunk ();
+extern "C" void Rigidbody__ctor_m1965915387 ();
 extern "C" void Rigidbody_set_useGravity_m1509734510 ();
 extern "C" void Rigidbody_AddTorque_m3987265343 ();
 extern "C" void Rigidbody_INTERNAL_CALL_AddTorque_m3690596579 ();
@@ -11328,6 +11334,9 @@ extern "C" void U3CExplodeTextU3Ec__Iterator0_Dispose_m888649431 ();
 extern "C" void U3CExplodeTextU3Ec__Iterator0_Reset_m1216558521 ();
 extern "C" void LightFade__ctor_m2410729163 ();
 extern "C" void LightFade_Update_m553355280 ();
+extern "C" void LookAt__ctor_m1762265113 ();
+extern "C" void LookAt_Start_m2888736153 ();
+extern "C" void LookAt_Update_m1239339128 ();
 extern "C" void MenuControl__ctor_m4033688667 ();
 extern "C" void MenuControl_Start_m3331999935 ();
 extern "C" void MenuControl__cctor_m3349410490 ();
@@ -11538,7 +11547,32 @@ extern "C" void MarshalDirectionalLightEstimate_RotateForUnity_m317214218_Adjust
 extern "C" void previzCtrl__ctor_m2963547266 ();
 extern "C" void previzCtrl_Start_m4257261626 ();
 extern "C" void previzCtrl_HitTestWithResultType_m3916439298 ();
+extern "C" void previzCtrl_textIsReload_m3446469270 ();
+extern "C" void previzCtrl_answerIsliked_m1305478849 ();
+extern "C" void previzCtrl_answerIsDisliked_m2539371203 ();
+extern "C" void previzCtrl_SetObjectInvisible_m4193672493 ();
+extern "C" void previzCtrl_textCreate_m4126056585 ();
+extern "C" void previzCtrl_textUpdate_m1116380680 ();
+extern "C" void previzCtrl_brainAnimation_m1986808291 ();
 extern "C" void previzCtrl_Update_m3917845437 ();
+extern "C" void U3CbrainAnimationU3Ec__Iterator2__ctor_m3838523664 ();
+extern "C" void U3CbrainAnimationU3Ec__Iterator2_MoveNext_m3428292148 ();
+extern "C" void U3CbrainAnimationU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1997462324 ();
+extern "C" void U3CbrainAnimationU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m2119333436 ();
+extern "C" void U3CbrainAnimationU3Ec__Iterator2_Dispose_m2581354253 ();
+extern "C" void U3CbrainAnimationU3Ec__Iterator2_Reset_m618622439 ();
+extern "C" void U3CtextCreateU3Ec__Iterator0__ctor_m1409539637 ();
+extern "C" void U3CtextCreateU3Ec__Iterator0_MoveNext_m875238595 ();
+extern "C" void U3CtextCreateU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1735563571 ();
+extern "C" void U3CtextCreateU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m103200955 ();
+extern "C" void U3CtextCreateU3Ec__Iterator0_Dispose_m1027505842 ();
+extern "C" void U3CtextCreateU3Ec__Iterator0_Reset_m575424252 ();
+extern "C" void U3CtextUpdateU3Ec__Iterator1__ctor_m1701564205 ();
+extern "C" void U3CtextUpdateU3Ec__Iterator1_MoveNext_m849280727 ();
+extern "C" void U3CtextUpdateU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m604234527 ();
+extern "C" void U3CtextUpdateU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m2091199911 ();
+extern "C" void U3CtextUpdateU3Ec__Iterator1_Dispose_m2384865174 ();
+extern "C" void U3CtextUpdateU3Ec__Iterator1_Reset_m626796748 ();
 extern "C" void SubMessageIds_get_editorInitARKit_m61535324 ();
 extern "C" void TextCtrl__ctor_m648663823 ();
 extern "C" void TextCtrl_Start_m2075116563 ();
@@ -11856,7 +11890,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[11839] = 
+extern const Il2CppMethodPointer g_MethodPointers[11873] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -19964,6 +19998,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11839] =
 	GameObject_GetComponentFastPath_m2261981460,
 	GameObject_GetComponentInChildren_m1720983699,
 	GameObject_GetComponentInParent_m1178052983,
+	GameObject_GetComponentsInChildren_m2244720521,
+	GameObject_GetComponentsInChildren_m488156460,
 	GameObject_GetComponentsInternal_m3296732294,
 	GameObject_get_transform_m3490276752,
 	GameObject_get_layer_m2724813841,
@@ -19971,6 +20007,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11839] =
 	GameObject_SetActive_m2693135142,
 	GameObject_get_activeSelf_m2643917226,
 	GameObject_get_activeInHierarchy_m2532098784,
+	GameObject_get_tag_m3359901967,
 	GameObject_SendMessage_m3423113156,
 	GameObject_Internal_AddComponentWithType_m3949110293,
 	GameObject_AddComponent_m540062519,
@@ -20116,9 +20153,6 @@ extern const Il2CppMethodPointer g_MethodPointers[11839] =
 	Mathf_InverseLerp_m1237768400,
 	Mathf__cctor_m2286160987,
 	Matrix4x4__ctor_m828876617_AdjustorThunk,
-	Matrix4x4_Inverse_m83214070,
-	Matrix4x4_INTERNAL_CALL_Inverse_m4053179450,
-	Matrix4x4_get_inverse_m1621049107_AdjustorThunk,
 	Matrix4x4_TRS_m1980418526,
 	Matrix4x4_INTERNAL_CALL_TRS_m422869100,
 	Matrix4x4_get_Item_m2346570419_AdjustorThunk,
@@ -20627,6 +20661,8 @@ extern const Il2CppMethodPointer g_MethodPointers[11839] =
 	Transform_Translate_m34249666,
 	Transform_Rotate_m474267874,
 	Transform_Rotate_m976738541,
+	Transform_LookAt_m1970949065,
+	Transform_INTERNAL_CALL_LookAt_m318931914,
 	Transform_TransformDirection_m505001666,
 	Transform_INTERNAL_CALL_TransformDirection_m948950941,
 	Transform_TransformPoint_m183861393,
@@ -21253,6 +21289,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11839] =
 	Particle_set_position_m218446335_AdjustorThunk,
 	Particle_set_startSize_m3215075767_AdjustorThunk,
 	Particle_set_startColor_m2521995545_AdjustorThunk,
+	Collider_get_attachedRigidbody_m2453201107,
 	Collider_set_sharedMaterial_m648435087,
 	MeshCollider_set_sharedMesh_m3730396634,
 	MeshCollider_set_convex_m2279621846,
@@ -21289,6 +21326,9 @@ extern const Il2CppMethodPointer g_MethodPointers[11839] =
 	RaycastHit_get_normal_m391626824_AdjustorThunk,
 	RaycastHit_get_distance_m758224512_AdjustorThunk,
 	RaycastHit_get_collider_m907576213_AdjustorThunk,
+	RaycastHit_get_rigidbody_m754198633_AdjustorThunk,
+	RaycastHit_get_transform_m2333455049_AdjustorThunk,
+	Rigidbody__ctor_m1965915387,
 	Rigidbody_set_useGravity_m1509734510,
 	Rigidbody_AddTorque_m3987265343,
 	Rigidbody_INTERNAL_CALL_AddTorque_m3690596579,
@@ -23169,6 +23209,9 @@ extern const Il2CppMethodPointer g_MethodPointers[11839] =
 	U3CExplodeTextU3Ec__Iterator0_Reset_m1216558521,
 	LightFade__ctor_m2410729163,
 	LightFade_Update_m553355280,
+	LookAt__ctor_m1762265113,
+	LookAt_Start_m2888736153,
+	LookAt_Update_m1239339128,
 	MenuControl__ctor_m4033688667,
 	MenuControl_Start_m3331999935,
 	MenuControl__cctor_m3349410490,
@@ -23379,7 +23422,32 @@ extern const Il2CppMethodPointer g_MethodPointers[11839] =
 	previzCtrl__ctor_m2963547266,
 	previzCtrl_Start_m4257261626,
 	previzCtrl_HitTestWithResultType_m3916439298,
+	previzCtrl_textIsReload_m3446469270,
+	previzCtrl_answerIsliked_m1305478849,
+	previzCtrl_answerIsDisliked_m2539371203,
+	previzCtrl_SetObjectInvisible_m4193672493,
+	previzCtrl_textCreate_m4126056585,
+	previzCtrl_textUpdate_m1116380680,
+	previzCtrl_brainAnimation_m1986808291,
 	previzCtrl_Update_m3917845437,
+	U3CbrainAnimationU3Ec__Iterator2__ctor_m3838523664,
+	U3CbrainAnimationU3Ec__Iterator2_MoveNext_m3428292148,
+	U3CbrainAnimationU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1997462324,
+	U3CbrainAnimationU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m2119333436,
+	U3CbrainAnimationU3Ec__Iterator2_Dispose_m2581354253,
+	U3CbrainAnimationU3Ec__Iterator2_Reset_m618622439,
+	U3CtextCreateU3Ec__Iterator0__ctor_m1409539637,
+	U3CtextCreateU3Ec__Iterator0_MoveNext_m875238595,
+	U3CtextCreateU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1735563571,
+	U3CtextCreateU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m103200955,
+	U3CtextCreateU3Ec__Iterator0_Dispose_m1027505842,
+	U3CtextCreateU3Ec__Iterator0_Reset_m575424252,
+	U3CtextUpdateU3Ec__Iterator1__ctor_m1701564205,
+	U3CtextUpdateU3Ec__Iterator1_MoveNext_m849280727,
+	U3CtextUpdateU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m604234527,
+	U3CtextUpdateU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m2091199911,
+	U3CtextUpdateU3Ec__Iterator1_Dispose_m2384865174,
+	U3CtextUpdateU3Ec__Iterator1_Reset_m626796748,
 	SubMessageIds_get_editorInitARKit_m61535324,
 	TextCtrl__ctor_m648663823,
 	TextCtrl_Start_m2075116563,

@@ -352,10 +352,10 @@ RegisterBuiltinTypes();
 	RegisterClass<AudioBehaviour>();
 	//41. AudioSource
 	RegisterClass<AudioSource>();
-	//42. PhysicMaterial
-	RegisterClass<PhysicMaterial>();
-	//43. MeshRenderer
+	//42. MeshRenderer
 	RegisterClass<MeshRenderer>();
+	//43. PhysicMaterial
+	RegisterClass<PhysicMaterial>();
 	//44. BoxCollider
 	RegisterClass<BoxCollider>();
 	//45. PreloadData

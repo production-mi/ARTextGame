@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 175
   Total Field Removals = 747
-  Total Method Removals = 11897
+  Total Method Removals = 11891
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -10422,7 +10422,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 47
   Total Field Removals = 27
-  Total Method Removals = 2723
+  Total Method Removals = 2721
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11299,15 +11299,12 @@ Summary:
         get_isStatic()
         get_isStaticBatchable()
         get_scene()
-        get_tag()
         GetComponent(System.String)
         GetComponentByName(System.String)
         GetComponentInChildren(System.Type)
         GetComponentInParent<T>()
         GetComponents(System.Type)
         GetComponents(System.Type,System.Collections.Generic.List`1<UnityEngine.Component>)
-        GetComponentsInChildren(System.Type)
-        GetComponentsInChildren(System.Type,System.Boolean)
         GetComponentsInChildren<T>(System.Collections.Generic.List`1<T>)
         GetComponentsInParent(System.Type)
         GetComponentsInParent(System.Type,System.Boolean)
@@ -11906,6 +11903,7 @@ Summary:
         FrustumInternal(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
         get_decomposeProjection()
         get_determinant()
+        get_inverse()
         get_isIdentity()
         get_lossyScale()
         get_rotation()
@@ -11914,6 +11912,7 @@ Summary:
         GetRow(System.Int32)
         INTERNAL_CALL_Determinant(UnityEngine.Matrix4x4&)
         INTERNAL_CALL_FrustumInternal(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,UnityEngine.Matrix4x4&)
+        INTERNAL_CALL_Inverse(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_Invert(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_LookAt(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_Ortho(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,UnityEngine.Matrix4x4&)
@@ -11922,6 +11921,7 @@ Summary:
         INTERNAL_get_decomposeProjection(UnityEngine.FrustumPlanes&)
         INTERNAL_get_lossyScale(UnityEngine.Vector3&)
         INTERNAL_get_rotation(UnityEngine.Quaternion&)
+        Inverse(UnityEngine.Matrix4x4)
         Invert(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4&)
         LookAt(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
         MultiplyPoint(UnityEngine.Vector3)
@@ -13542,7 +13542,6 @@ Summary:
         INTERNAL_CALL_GetLocalEulerAngles(UnityEngine.Transform,UnityEngine.RotationOrder,UnityEngine.Vector3&)
         INTERNAL_CALL_InverseTransformDirection(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
         INTERNAL_CALL_InverseTransformVector(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
-        INTERNAL_CALL_LookAt(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
         INTERNAL_CALL_RotateAround(UnityEngine.Transform,UnityEngine.Vector3&,System.Single)
         INTERNAL_CALL_RotateAroundInternal(UnityEngine.Transform,UnityEngine.Vector3&,System.Single)
         INTERNAL_CALL_RotateAroundLocal(UnityEngine.Transform,UnityEngine.Vector3&,System.Single)
@@ -13558,7 +13557,6 @@ Summary:
         InverseTransformVector(UnityEngine.Vector3)
         LookAt(UnityEngine.Transform)
         LookAt(UnityEngine.Transform,UnityEngine.Vector3)
-        LookAt(UnityEngine.Vector3)
         LookAt(UnityEngine.Vector3,UnityEngine.Vector3)
         Rotate(System.Single,System.Single,System.Single)
         Rotate(System.Single,System.Single,System.Single,UnityEngine.Space)
@@ -15438,7 +15436,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 7
-  Total Method Removals = 453
+  Total Method Removals = 449
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.BoxCollider
@@ -15500,7 +15498,6 @@ Summary:
         .ctor()
         ClosestPoint(UnityEngine.Vector3)
         ClosestPointOnBounds(UnityEngine.Vector3)
-        get_attachedRigidbody()
         get_bounds()
         get_contactOffset()
         get_enabled()
@@ -15787,11 +15784,9 @@ Summary:
         CalculateRaycastTexCoord(UnityEngine.Vector2&,UnityEngine.Collider,UnityEngine.Vector2,UnityEngine.Vector3,System.Int32,System.Int32)
         get_barycentricCoordinate()
         get_lightmapCoord()
-        get_rigidbody()
         get_textureCoord()
         get_textureCoord1()
         get_textureCoord2()
-        get_transform()
         get_triangleIndex()
         INTERNAL_CALL_CalculateRaycastTexCoord(UnityEngine.Vector2&,UnityEngine.Collider,UnityEngine.Vector2&,UnityEngine.Vector3&,System.Int32,System.Int32)
         set_barycentricCoordinate(UnityEngine.Vector3)
@@ -15799,7 +15794,6 @@ Summary:
         set_normal(UnityEngine.Vector3)
         set_point(UnityEngine.Vector3)
     UnityEngine.Rigidbody
-        .ctor()
         AddExplosionForce(System.Single,UnityEngine.Vector3,System.Single,System.Single,UnityEngine.ForceMode)
         AddForce(System.Single,System.Single,System.Single)
         AddForce(System.Single,System.Single,System.Single,UnityEngine.ForceMode)

@@ -458,6 +458,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Collider_set_sharedMaterial();
 		Register_UnityEngine_Collider_set_sharedMaterial();
 
+		//UnityEngine.Rigidbody UnityEngine.Collider::get_attachedRigidbody()
+		void Register_UnityEngine_Collider_get_attachedRigidbody();
+		Register_UnityEngine_Collider_get_attachedRigidbody();
+
 	//End Registrations for type : UnityEngine.Collider
 
 	//Start Registrations for type : UnityEngine.Component
@@ -625,6 +629,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.GameObject::get_layer()
 		void Register_UnityEngine_GameObject_get_layer();
 		Register_UnityEngine_GameObject_get_layer();
+
+		//System.String UnityEngine.GameObject::get_tag()
+		void Register_UnityEngine_GameObject_get_tag();
+		Register_UnityEngine_GameObject_get_tag();
 
 		//System.Void UnityEngine.GameObject::GetComponentFastPath(System.Type,System.IntPtr)
 		void Register_UnityEngine_GameObject_GetComponentFastPath();
@@ -1025,10 +1033,6 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.MaterialPropertyBlock
 
 	//Start Registrations for type : UnityEngine.Matrix4x4
-
-		//System.Void UnityEngine.Matrix4x4::INTERNAL_CALL_Inverse(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
-		void Register_UnityEngine_Matrix4x4_INTERNAL_CALL_Inverse();
-		Register_UnityEngine_Matrix4x4_INTERNAL_CALL_Inverse();
 
 		//System.Void UnityEngine.Matrix4x4::INTERNAL_CALL_TRS(UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&,UnityEngine.Matrix4x4&)
 		void Register_UnityEngine_Matrix4x4_INTERNAL_CALL_TRS();
@@ -1925,6 +1929,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::INTERNAL_CALL_InverseTransformPoint(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_INTERNAL_CALL_InverseTransformPoint();
 		Register_UnityEngine_Transform_INTERNAL_CALL_InverseTransformPoint();
+
+		//System.Void UnityEngine.Transform::INTERNAL_CALL_LookAt(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_INTERNAL_CALL_LookAt();
+		Register_UnityEngine_Transform_INTERNAL_CALL_LookAt();
 
 		//System.Void UnityEngine.Transform::INTERNAL_CALL_TransformDirection(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_INTERNAL_CALL_TransformDirection();

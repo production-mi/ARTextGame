@@ -562,6 +562,7 @@ extern Il2CppCodeGenString* _stringLiteral2212073539;
 extern const uint32_t Transform_set_parent_m3178143156_MetadataUsageId;
 extern const uint32_t Transform_Translate_m34249666_MetadataUsageId;
 extern const uint32_t Transform_Rotate_m976738541_MetadataUsageId;
+extern const uint32_t Transform_LookAt_m1970949065_MetadataUsageId;
 extern RuntimeClass* Enumerator_t1251553160_il2cpp_TypeInfo_var;
 extern const uint32_t Transform_GetEnumerator_m1156558734_MetadataUsageId;
 
@@ -9377,6 +9378,10 @@ extern "C"  Quaternion_t4030073918  Quaternion_op_Multiply_m261788240 (RuntimeOb
 extern "C"  void Transform_set_localRotation_m3053695533 (Transform_t3275118058 * __this, Quaternion_t4030073918  ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Quaternion UnityEngine.Quaternion::Inverse(UnityEngine.Quaternion)
 extern "C"  Quaternion_t4030073918  Quaternion_Inverse_m4286674265 (RuntimeObject * __this /* static, unused */, Quaternion_t4030073918  ___rotation0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_up()
+extern "C"  Vector3_t2243707580  Vector3_get_up_m3604115196 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::INTERNAL_CALL_LookAt(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
+extern "C"  void Transform_INTERNAL_CALL_LookAt_m318931914 (RuntimeObject * __this /* static, unused */, Transform_t3275118058 * ___self0, Vector3_t2243707580 * ___worldPosition1, Vector3_t2243707580 * ___worldUp2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_CALL_TransformDirection(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
 extern "C"  void Transform_INTERNAL_CALL_TransformDirection_m948950941 (RuntimeObject * __this /* static, unused */, Transform_t3275118058 * ___self0, Vector3_t2243707580 * ___direction1, Vector3_t2243707580 * ___value2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::INTERNAL_CALL_TransformPoint(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
@@ -21328,6 +21333,34 @@ IL_0069:
 	{
 		return;
 	}
+}
+// System.Void UnityEngine.Transform::LookAt(UnityEngine.Vector3)
+extern "C"  void Transform_LookAt_m1970949065 (Transform_t3275118058 * __this, Vector3_t2243707580  ___worldPosition0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Transform_LookAt_m1970949065_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Vector3_t2243707580_il2cpp_TypeInfo_var);
+		Vector3_t2243707580  L_0 = Vector3_get_up_m3604115196(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Transform_INTERNAL_CALL_LookAt_m318931914(NULL /*static, unused*/, __this, (&___worldPosition0), (&V_0), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Transform::INTERNAL_CALL_LookAt(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)
+extern "C"  void Transform_INTERNAL_CALL_LookAt_m318931914 (RuntimeObject * __this /* static, unused */, Transform_t3275118058 * ___self0, Vector3_t2243707580 * ___worldPosition1, Vector3_t2243707580 * ___worldUp2, const RuntimeMethod* method)
+{
+	typedef void (*Transform_INTERNAL_CALL_LookAt_m318931914_ftn) (Transform_t3275118058 *, Vector3_t2243707580 *, Vector3_t2243707580 *);
+	static Transform_INTERNAL_CALL_LookAt_m318931914_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Transform_INTERNAL_CALL_LookAt_m318931914_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Transform::INTERNAL_CALL_LookAt(UnityEngine.Transform,UnityEngine.Vector3&,UnityEngine.Vector3&)");
+	_il2cpp_icall_func(___self0, ___worldPosition1, ___worldUp2);
 }
 // UnityEngine.Vector3 UnityEngine.Transform::TransformDirection(UnityEngine.Vector3)
 extern "C"  Vector3_t2243707580  Transform_TransformDirection_m505001666 (Transform_t3275118058 * __this, Vector3_t2243707580  ___direction0, const RuntimeMethod* method)

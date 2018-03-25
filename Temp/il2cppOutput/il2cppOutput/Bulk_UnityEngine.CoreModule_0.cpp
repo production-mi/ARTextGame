@@ -186,6 +186,8 @@ struct ParameterInfo_t2249040075;
 struct IRenderPipeline_t2611978095;
 // UnityEngine.Experimental.Rendering.IRenderPipelineAsset
 struct IRenderPipelineAsset_t345810019;
+// UnityEngine.Component[]
+struct ComponentU5BU5D_t4136971630;
 // UnityEngine.Gradient
 struct Gradient_t3600583008;
 // UnityEngine.GUIElement
@@ -264,8 +266,6 @@ struct IEqualityComparer_1_t1716693387;
 struct SerializationInfo_t228987430;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.IntPtr,System.WeakReference,System.Collections.DictionaryEntry>
 struct Transform_1_t279204538;
-// UnityEngine.Component[]
-struct ComponentU5BU5D_t4136971630;
 // UnityEngine.Events.BaseInvokableCall[]
 struct BaseInvokableCallU5BU5D_t2280978105;
 // UnityEngine.Events.PersistentCall[]
@@ -516,6 +516,8 @@ extern const uint32_t RenderPipelineManager_PrepareRenderPipeline_m3085400388_Me
 extern const uint32_t GameObject__ctor_m4283735819_MetadataUsageId;
 extern const uint32_t GameObject__ctor_m1685997461_MetadataUsageId;
 extern const uint32_t GameObject__ctor_m3412194074_MetadataUsageId;
+extern RuntimeClass* ComponentU5BU5D_t4136971630_il2cpp_TypeInfo_var;
+extern const uint32_t GameObject_GetComponentsInChildren_m488156460_MetadataUsageId;
 extern RuntimeClass* Input_t1785128008_il2cpp_TypeInfo_var;
 extern const uint32_t Input_get_mousePosition_m2069200279_MetadataUsageId;
 extern const uint32_t Input_get_mouseScrollDelta_m3621133506_MetadataUsageId;
@@ -563,8 +565,6 @@ extern const uint32_t Mathf_InverseLerp_m1237768400_MetadataUsageId;
 extern RuntimeClass* MathfInternal_t715669973_il2cpp_TypeInfo_var;
 extern const uint32_t Mathf__cctor_m2286160987_MetadataUsageId;
 extern RuntimeClass* Matrix4x4_t2933234003_il2cpp_TypeInfo_var;
-extern const uint32_t Matrix4x4_Inverse_m83214070_MetadataUsageId;
-extern const uint32_t Matrix4x4_get_inverse_m1621049107_MetadataUsageId;
 extern const uint32_t Matrix4x4_TRS_m1980418526_MetadataUsageId;
 extern RuntimeClass* IndexOutOfRangeException_t3527622107_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1338169977;
@@ -640,6 +640,7 @@ struct IntPtrU5BU5D_t169632028;
 struct DisplayU5BU5D_t1314630077;
 struct ParameterInfoU5BU5D_t2275869610;
 struct ParameterModifierU5BU5D_t963192633;
+struct ComponentU5BU5D_t4136971630;
 struct TouchU5BU5D_t3887265178;
 struct SphericalHarmonicsL2U5BU5D_t4292583450;
 struct ByteU5BU5D_t3397334013;
@@ -8922,6 +8923,43 @@ public:
 		m_Items[index] = value;
 	}
 };
+// UnityEngine.Component[]
+struct ComponentU5BU5D_t4136971630  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Component_t3819376471 * m_Items[1];
+
+public:
+	inline Component_t3819376471 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Component_t3819376471 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Component_t3819376471 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Component_t3819376471 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Component_t3819376471 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Component_t3819376471 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // UnityEngine.Touch[]
 struct TouchU5BU5D_t3887265178  : public RuntimeArray
 {
@@ -9657,6 +9695,10 @@ extern "C"  void RenderPipelineManager_CleanupRenderPipeline_m1580527075 (Runtim
 extern "C"  void GameObject_Internal_CreateGameObject_m336418144 (RuntimeObject * __this /* static, unused */, GameObject_t1756533147 * ___mono0, String_t* ___name1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::AddComponent(System.Type)
 extern "C"  Component_t3819376471 * GameObject_AddComponent_m540062519 (GameObject_t1756533147 * __this, Type_t * ___componentType0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Component[] UnityEngine.GameObject::GetComponentsInChildren(System.Type,System.Boolean)
+extern "C"  ComponentU5BU5D_t4136971630* GameObject_GetComponentsInChildren_m488156460 (GameObject_t1756533147 * __this, Type_t * ___type0, bool ___includeInactive1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Array UnityEngine.GameObject::GetComponentsInternal(System.Type,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)
+extern "C"  RuntimeArray * GameObject_GetComponentsInternal_m3296732294 (GameObject_t1756533147 * __this, Type_t * ___type0, bool ___useSearchTypeAsArrayReturnType1, bool ___recursive2, bool ___includeInactive3, bool ___reverse4, RuntimeObject * ___resultList5, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component UnityEngine.GameObject::Internal_AddComponentWithType(System.Type)
 extern "C"  Component_t3819376471 * GameObject_Internal_AddComponentWithType_m3949110293 (GameObject_t1756533147 * __this, Type_t * ___componentType0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Gradient::Init()
@@ -9785,12 +9827,6 @@ extern "C"  float Mathf_Max_m2043094730 (RuntimeObject * __this /* static, unuse
 extern "C"  float Mathf_Clamp_m1779415170 (RuntimeObject * __this /* static, unused */, float ___value0, float ___min1, float ___max2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Matrix4x4::.ctor(UnityEngine.Vector4,UnityEngine.Vector4,UnityEngine.Vector4,UnityEngine.Vector4)
 extern "C"  void Matrix4x4__ctor_m828876617 (Matrix4x4_t2933234003 * __this, Vector4_t2243707581  ___column00, Vector4_t2243707581  ___column11, Vector4_t2243707581  ___column22, Vector4_t2243707581  ___column33, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Matrix4x4::INTERNAL_CALL_Inverse(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
-extern "C"  void Matrix4x4_INTERNAL_CALL_Inverse_m4053179450 (RuntimeObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___m0, Matrix4x4_t2933234003 * ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Inverse(UnityEngine.Matrix4x4)
-extern "C"  Matrix4x4_t2933234003  Matrix4x4_Inverse_m83214070 (RuntimeObject * __this /* static, unused */, Matrix4x4_t2933234003  ___m0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_inverse()
-extern "C"  Matrix4x4_t2933234003  Matrix4x4_get_inverse_m1621049107 (Matrix4x4_t2933234003 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Matrix4x4::INTERNAL_CALL_TRS(UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&,UnityEngine.Matrix4x4&)
 extern "C"  void Matrix4x4_INTERNAL_CALL_TRS_m422869100 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580 * ___pos0, Quaternion_t4030073918 * ___q1, Vector3_t2243707580 * ___s2, Matrix4x4_t2933234003 * ___value3, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Matrix4x4::get_Item(System.Int32)
@@ -16654,6 +16690,50 @@ extern "C"  Component_t3819376471 * GameObject_GetComponentInParent_m1178052983 
 	Component_t3819376471 * retVal = _il2cpp_icall_func(__this, ___type0);
 	return retVal;
 }
+// UnityEngine.Component[] UnityEngine.GameObject::GetComponentsInChildren(System.Type)
+extern "C"  ComponentU5BU5D_t4136971630* GameObject_GetComponentsInChildren_m2244720521 (GameObject_t1756533147 * __this, Type_t * ___type0, const RuntimeMethod* method)
+{
+	bool V_0 = false;
+	ComponentU5BU5D_t4136971630* V_1 = NULL;
+	{
+		V_0 = (bool)0;
+		Type_t * L_0 = ___type0;
+		bool L_1 = V_0;
+		ComponentU5BU5D_t4136971630* L_2 = GameObject_GetComponentsInChildren_m488156460(__this, L_0, L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		goto IL_0011;
+	}
+
+IL_0011:
+	{
+		ComponentU5BU5D_t4136971630* L_3 = V_1;
+		return L_3;
+	}
+}
+// UnityEngine.Component[] UnityEngine.GameObject::GetComponentsInChildren(System.Type,System.Boolean)
+extern "C"  ComponentU5BU5D_t4136971630* GameObject_GetComponentsInChildren_m488156460 (GameObject_t1756533147 * __this, Type_t * ___type0, bool ___includeInactive1, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (GameObject_GetComponentsInChildren_m488156460_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	ComponentU5BU5D_t4136971630* V_0 = NULL;
+	{
+		Type_t * L_0 = ___type0;
+		bool L_1 = ___includeInactive1;
+		RuntimeArray * L_2 = GameObject_GetComponentsInternal_m3296732294(__this, L_0, (bool)0, (bool)1, L_1, (bool)0, NULL, /*hidden argument*/NULL);
+		V_0 = ((ComponentU5BU5D_t4136971630*)Castclass((RuntimeObject*)L_2, ComponentU5BU5D_t4136971630_il2cpp_TypeInfo_var));
+		goto IL_0018;
+	}
+
+IL_0018:
+	{
+		ComponentU5BU5D_t4136971630* L_3 = V_0;
+		return L_3;
+	}
+}
 // System.Array UnityEngine.GameObject::GetComponentsInternal(System.Type,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Object)
 extern "C"  RuntimeArray * GameObject_GetComponentsInternal_m3296732294 (GameObject_t1756533147 * __this, Type_t * ___type0, bool ___useSearchTypeAsArrayReturnType1, bool ___recursive2, bool ___includeInactive3, bool ___reverse4, RuntimeObject * ___resultList5, const RuntimeMethod* method)
 {
@@ -16720,6 +16800,16 @@ extern "C"  bool GameObject_get_activeInHierarchy_m2532098784 (GameObject_t17565
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (GameObject_get_activeInHierarchy_m2532098784_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::get_activeInHierarchy()");
 	bool retVal = _il2cpp_icall_func(__this);
+	return retVal;
+}
+// System.String UnityEngine.GameObject::get_tag()
+extern "C"  String_t* GameObject_get_tag_m3359901967 (GameObject_t1756533147 * __this, const RuntimeMethod* method)
+{
+	typedef String_t* (*GameObject_get_tag_m3359901967_ftn) (GameObject_t1756533147 *);
+	static GameObject_get_tag_m3359901967_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (GameObject_get_tag_m3359901967_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.GameObject::get_tag()");
+	String_t* retVal = _il2cpp_icall_func(__this);
 	return retVal;
 }
 // System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
@@ -19519,71 +19609,6 @@ extern "C"  void Matrix4x4__ctor_m828876617_AdjustorThunk (RuntimeObject * __thi
 {
 	Matrix4x4_t2933234003 * _thisAdjusted = reinterpret_cast<Matrix4x4_t2933234003 *>(__this + 1);
 	Matrix4x4__ctor_m828876617(_thisAdjusted, ___column00, ___column11, ___column22, ___column33, method);
-}
-// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Inverse(UnityEngine.Matrix4x4)
-extern "C"  Matrix4x4_t2933234003  Matrix4x4_Inverse_m83214070 (RuntimeObject * __this /* static, unused */, Matrix4x4_t2933234003  ___m0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Matrix4x4_Inverse_m83214070_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Matrix4x4_t2933234003  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	Matrix4x4_t2933234003  V_1;
-	memset(&V_1, 0, sizeof(V_1));
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Matrix4x4_t2933234003_il2cpp_TypeInfo_var);
-		Matrix4x4_INTERNAL_CALL_Inverse_m4053179450(NULL /*static, unused*/, (&___m0), (&V_0), /*hidden argument*/NULL);
-		Matrix4x4_t2933234003  L_0 = V_0;
-		V_1 = L_0;
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		Matrix4x4_t2933234003  L_1 = V_1;
-		return L_1;
-	}
-}
-// System.Void UnityEngine.Matrix4x4::INTERNAL_CALL_Inverse(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
-extern "C"  void Matrix4x4_INTERNAL_CALL_Inverse_m4053179450 (RuntimeObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___m0, Matrix4x4_t2933234003 * ___value1, const RuntimeMethod* method)
-{
-	typedef void (*Matrix4x4_INTERNAL_CALL_Inverse_m4053179450_ftn) (Matrix4x4_t2933234003 *, Matrix4x4_t2933234003 *);
-	static Matrix4x4_INTERNAL_CALL_Inverse_m4053179450_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Matrix4x4_INTERNAL_CALL_Inverse_m4053179450_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Matrix4x4::INTERNAL_CALL_Inverse(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)");
-	_il2cpp_icall_func(___m0, ___value1);
-}
-// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::get_inverse()
-extern "C"  Matrix4x4_t2933234003  Matrix4x4_get_inverse_m1621049107 (Matrix4x4_t2933234003 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Matrix4x4_get_inverse_m1621049107_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	Matrix4x4_t2933234003  V_0;
-	memset(&V_0, 0, sizeof(V_0));
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Matrix4x4_t2933234003_il2cpp_TypeInfo_var);
-		Matrix4x4_t2933234003  L_0 = Matrix4x4_Inverse_m83214070(NULL /*static, unused*/, (*(Matrix4x4_t2933234003 *)__this), /*hidden argument*/NULL);
-		V_0 = L_0;
-		goto IL_0012;
-	}
-
-IL_0012:
-	{
-		Matrix4x4_t2933234003  L_1 = V_0;
-		return L_1;
-	}
-}
-extern "C"  Matrix4x4_t2933234003  Matrix4x4_get_inverse_m1621049107_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
-{
-	Matrix4x4_t2933234003 * _thisAdjusted = reinterpret_cast<Matrix4x4_t2933234003 *>(__this + 1);
-	return Matrix4x4_get_inverse_m1621049107(_thisAdjusted, method);
 }
 // UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::TRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
 extern "C"  Matrix4x4_t2933234003  Matrix4x4_TRS_m1980418526 (RuntimeObject * __this /* static, unused */, Vector3_t2243707580  ___pos0, Quaternion_t4030073918  ___q1, Vector3_t2243707580  ___s2, const RuntimeMethod* method)

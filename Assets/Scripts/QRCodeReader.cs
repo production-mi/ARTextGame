@@ -112,13 +112,13 @@ using UnityEngine.XR.iOS;
 			if(IsDetecting == true){
 				ReadBuffer(camera.videoParams.cvPixelBufferPtr);
 			}
-			Matrix4x4 tmp = new Matrix4x4 (
-				camera.displayTransform.column0,
-				camera.displayTransform.column1,
-				camera.displayTransform.column2,
-				camera.displayTransform.column3
-			);
-			displayTransformInverse = tmp.inverse;
+			// Matrix4x4 tmp = new Matrix4x4 (
+			// 	camera.displayTransform.column0,
+			// 	camera.displayTransform.column1,
+			// 	camera.displayTransform.column2,
+			// 	camera.displayTransform.column3
+			// );
+			// displayTransformInverse = tmp.inverse;
 		}
 
 		void Update () {
@@ -164,7 +164,7 @@ using UnityEngine.XR.iOS;
 		// 	corners[1] = new Vector2 (videoTexCorners [2], videoTexCorners [3]);
 		// 	corners[2] = new Vector2 (videoTexCorners [4], videoTexCorners [5]);
 		// 	corners[3] = new Vector2 (videoTexCorners [6], videoTexCorners [7]);
-		// 
+		//
 		// 	// corners[0] = VideoTextureToViewportPoint(new Vector2 (videoTexCorners [0], videoTexCorners [1]));
 		// 	// corners[1] = VideoTextureToViewportPoint(new Vector2 (videoTexCorners [2], videoTexCorners [3]));
 		// 	// corners[2] = VideoTextureToViewportPoint(new Vector2 (videoTexCorners [4], videoTexCorners [5]));
