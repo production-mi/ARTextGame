@@ -11546,7 +11546,7 @@ extern "C" void MarshalDirectionalLightEstimate_MarshalCoefficients_m987551255_A
 extern "C" void MarshalDirectionalLightEstimate_RotateForUnity_m317214218_AdjustorThunk ();
 extern "C" void previzCtrl__ctor_m2963547266 ();
 extern "C" void previzCtrl_Start_m4257261626 ();
-extern "C" void previzCtrl_HitTestWithResultType_m3916439298 ();
+extern "C" void previzCtrl_HitTestWithResultType_m1300480189 ();
 extern "C" void previzCtrl_textIsReload_m3446469270 ();
 extern "C" void previzCtrl_answerIsliked_m1305478849 ();
 extern "C" void previzCtrl_answerIsDisliked_m2539371203 ();
@@ -11555,6 +11555,7 @@ extern "C" void previzCtrl_textCreate_m4126056585 ();
 extern "C" void previzCtrl_textUpdate_m1116380680 ();
 extern "C" void previzCtrl_brainAnimation_m1986808291 ();
 extern "C" void previzCtrl_Update_m3917845437 ();
+extern "C" void previzCtrl__cctor_m3639323815 ();
 extern "C" void U3CbrainAnimationU3Ec__Iterator2__ctor_m3838523664 ();
 extern "C" void U3CbrainAnimationU3Ec__Iterator2_MoveNext_m3428292148 ();
 extern "C" void U3CbrainAnimationU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1997462324 ();
@@ -11890,7 +11891,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[11873] = 
+extern const Il2CppMethodPointer g_MethodPointers[11874] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -23421,7 +23422,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11873] =
 	MarshalDirectionalLightEstimate_RotateForUnity_m317214218_AdjustorThunk,
 	previzCtrl__ctor_m2963547266,
 	previzCtrl_Start_m4257261626,
-	previzCtrl_HitTestWithResultType_m3916439298,
+	previzCtrl_HitTestWithResultType_m1300480189,
 	previzCtrl_textIsReload_m3446469270,
 	previzCtrl_answerIsliked_m1305478849,
 	previzCtrl_answerIsDisliked_m2539371203,
@@ -23430,6 +23431,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11873] =
 	previzCtrl_textUpdate_m1116380680,
 	previzCtrl_brainAnimation_m1986808291,
 	previzCtrl_Update_m3917845437,
+	previzCtrl__cctor_m3639323815,
 	U3CbrainAnimationU3Ec__Iterator2__ctor_m3838523664,
 	U3CbrainAnimationU3Ec__Iterator2_MoveNext_m3428292148,
 	U3CbrainAnimationU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1997462324,

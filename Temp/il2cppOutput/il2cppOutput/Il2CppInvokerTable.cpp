@@ -28208,10 +28208,10 @@ void* RuntimeInvoker_Void_t1841601450_RuntimeObject_Color32_t874517518_Int32_t20
 	return NULL;
 }
 
-void* RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+void* RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037_SByte_t454417549 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
 {
-	typedef bool (*Func)(void* obj, ARPoint_t3436811567  p1, int64_t p2, const RuntimeMethod* method);
-	bool ret = ((Func)methodPointer)(obj, *((ARPoint_t3436811567 *)args[0]), *((int64_t*)args[1]), methodMetadata);
+	typedef bool (*Func)(void* obj, ARPoint_t3436811567  p1, int64_t p2, int8_t p3, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, *((ARPoint_t3436811567 *)args[0]), *((int64_t*)args[1]), *((int8_t*)args[2]), methodMetadata);
 	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
@@ -28234,6 +28234,13 @@ void* RuntimeInvoker_Void_t1841601450_UnityARCamera_t4198559457 (Il2CppMethodPoi
 	typedef void (*Func)(void* obj, UnityARCamera_t4198559457  p1, const RuntimeMethod* method);
 	((Func)methodPointer)(obj, *((UnityARCamera_t4198559457 *)args[0]), methodMetadata);
 	return NULL;
+}
+
+void* RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
+{
+	typedef bool (*Func)(void* obj, ARPoint_t3436811567  p1, int64_t p2, const RuntimeMethod* method);
+	bool ret = ((Func)methodPointer)(obj, *((ARPoint_t3436811567 *)args[0]), *((int64_t*)args[1]), methodMetadata);
+	return Box(il2cpp_codegen_class_from_type (il2cpp_codegen_method_return_type(methodMetadata)), &ret);
 }
 
 void* RuntimeInvoker_RuntimeObject_Single_t2076509932_Single_t2076509932 (Il2CppMethodPointer methodPointer, const RuntimeMethod* methodMetadata, void* obj, void** args)
@@ -32961,7 +32968,7 @@ void* RuntimeInvoker_RuntimeObject_FloatTween_t2986189219 (Il2CppMethodPointer m
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[1950] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[1951] = 
 {
 	RuntimeInvoker_Void_t1841601450,
 	RuntimeInvoker_Boolean_t3825574718_RuntimeObject,
@@ -34234,10 +34241,11 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1950] =
 	RuntimeInvoker_Void_t1841601450_Vector3_t2243707580_Color32_t874517518_Vector2_t2243707579,
 	RuntimeInvoker_Void_t1841601450_UIVertex_t1204258818,
 	RuntimeInvoker_Void_t1841601450_RuntimeObject_Color32_t874517518_Int32_t2071877448_Int32_t2071877448_Single_t2076509932_Single_t2076509932,
-	RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037,
+	RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037_SByte_t454417549,
 	RuntimeInvoker_Void_t1841601450_IntPtrU26_t1981417703,
 	RuntimeInvoker_IntPtr_t_IntPtrU26_t1981417703,
 	RuntimeInvoker_Void_t1841601450_UnityARCamera_t4198559457,
+	RuntimeInvoker_Boolean_t3825574718_ARPoint_t3436811567_Int64_t909078037,
 	RuntimeInvoker_RuntimeObject_Single_t2076509932_Single_t2076509932,
 	RuntimeInvoker_Void_t1841601450_ARPlaneAnchor_t1439520888,
 	RuntimeInvoker_RuntimeObject_Vector4_t2243707581,

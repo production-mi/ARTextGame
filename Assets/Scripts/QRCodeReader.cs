@@ -11,6 +11,8 @@ using UnityEngine.XR.iOS;
 	private bool IsDetecting;
 	public static String possible;
 
+
+
 	#if UNITY_IPHONE && !UNITY_EDITOR
 
 		[DllImport ("__Internal")]
@@ -125,12 +127,16 @@ using UnityEngine.XR.iOS;
 			ARTextureHandles handles = UnityARSessionNativeInterface.GetARSessionNativeInterface ().GetARVideoTextureHandles ();
 			UnityARCamera scamera = new UnityARCamera ();
 
-			if(Input.touchCount > 0)
+			if(previzCtrl.readytoReloadText == true)
 			{
-				IsDetecting = true;
-			}
-			else{
-				IsDetecting = false;
+				if(Input.touchCount > 0)
+				{
+					IsDetecting = true;
+				}
+				else{
+					IsDetecting = false;
+				}
+
 			}
 
 			// if(Input.touchCount > 0)

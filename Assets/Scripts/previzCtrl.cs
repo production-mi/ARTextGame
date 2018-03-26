@@ -32,12 +32,18 @@ public class previzCtrl : MonoBehaviour {
 	private GameObject textObject;
 	private string text;
 
+
+
 	private Animator previzAnim;
 	private Animator brainAnim;
-	private bool plateIsOn = false;
+	public static bool plateIsOn = false;
+	private bool playgroundIsDetected = false;
 	private bool animationIsPlaying = false;
 	private bool textIsUpdated = false;
-	private bool planeIsOn = false;
+	public static bool planeIsOn = false;
+
+	public static bool readytoReloadText = false;
+
 
 	void Start () {
 		reload = reload.GetComponent<Button>();
@@ -75,10 +81,10 @@ public class previzCtrl : MonoBehaviour {
 		SetObjectInvisible(plane, plateIsOn);
 	}
 
-	bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
+	bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes, bool playground)
 	{
 			List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
-			if (hitResults.Count > 0) {
+			if (hitResults.Count > 0 && playground == true) {
 					foreach (var hitResult in hitResults) {
 							debugBox.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 							if(Input.touchCount > 0){
@@ -88,6 +94,7 @@ public class previzCtrl : MonoBehaviour {
 								Destroy(debugBox);
 								StartCoroutine(brainAnimation(textObject, text, animationIsPlaying));
 								plateIsOn = true;
+								readytoReloadText = true;
 								SetObjectInvisible(plane, plateIsOn);
 							}
 								// StartCoroutine(playBrainAnimation(textObject, text, animationIsPlaying));
@@ -213,9 +220,11 @@ public class previzCtrl : MonoBehaviour {
 			RaycastHit hit;
 			if(Physics.Raycast (ray, out hit, 500) && hit.transform.gameObject.tag == "ARPlate"){
 				debugBoxRenderer.enabled = true;
+				playgroundIsDetected = true;
 				guideText.enabled = false;
 			}else{
 				debugBoxRenderer.enabled = false;
+				playgroundIsDetected = false;
 				guideText.enabled = true;
 			}
 			var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));
@@ -229,7 +238,7 @@ public class previzCtrl : MonoBehaviour {
 			};
 			foreach (ARHitTestResultType resultType in resultTypes)
 			{
-				if (HitTestWithResultType (point, resultType))
+				if (HitTestWithResultType (point, resultType, playgroundIsDetected))
 				{
 						return;
 				}

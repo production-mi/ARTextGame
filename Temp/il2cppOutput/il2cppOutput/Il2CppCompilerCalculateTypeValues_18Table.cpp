@@ -4733,14 +4733,12 @@ public:
 	Animator_t69676727 * ___previzAnim_17;
 	// UnityEngine.Animator UnityEngine.XR.iOS.previzCtrl::brainAnim
 	Animator_t69676727 * ___brainAnim_18;
-	// System.Boolean UnityEngine.XR.iOS.previzCtrl::plateIsOn
-	bool ___plateIsOn_19;
+	// System.Boolean UnityEngine.XR.iOS.previzCtrl::playgroundIsDetected
+	bool ___playgroundIsDetected_20;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::animationIsPlaying
-	bool ___animationIsPlaying_20;
+	bool ___animationIsPlaying_21;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::textIsUpdated
-	bool ___textIsUpdated_21;
-	// System.Boolean UnityEngine.XR.iOS.previzCtrl::planeIsOn
-	bool ___planeIsOn_22;
+	bool ___textIsUpdated_22;
 
 public:
 	inline static int32_t get_offset_of_debugBox_2() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___debugBox_2)); }
@@ -4896,7 +4894,43 @@ public:
 		Il2CppCodeGenWriteBarrier((&___brainAnim_18), value);
 	}
 
-	inline static int32_t get_offset_of_plateIsOn_19() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___plateIsOn_19)); }
+	inline static int32_t get_offset_of_playgroundIsDetected_20() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___playgroundIsDetected_20)); }
+	inline bool get_playgroundIsDetected_20() const { return ___playgroundIsDetected_20; }
+	inline bool* get_address_of_playgroundIsDetected_20() { return &___playgroundIsDetected_20; }
+	inline void set_playgroundIsDetected_20(bool value)
+	{
+		___playgroundIsDetected_20 = value;
+	}
+
+	inline static int32_t get_offset_of_animationIsPlaying_21() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___animationIsPlaying_21)); }
+	inline bool get_animationIsPlaying_21() const { return ___animationIsPlaying_21; }
+	inline bool* get_address_of_animationIsPlaying_21() { return &___animationIsPlaying_21; }
+	inline void set_animationIsPlaying_21(bool value)
+	{
+		___animationIsPlaying_21 = value;
+	}
+
+	inline static int32_t get_offset_of_textIsUpdated_22() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textIsUpdated_22)); }
+	inline bool get_textIsUpdated_22() const { return ___textIsUpdated_22; }
+	inline bool* get_address_of_textIsUpdated_22() { return &___textIsUpdated_22; }
+	inline void set_textIsUpdated_22(bool value)
+	{
+		___textIsUpdated_22 = value;
+	}
+};
+
+struct previzCtrl_t930159927_StaticFields
+{
+public:
+	// System.Boolean UnityEngine.XR.iOS.previzCtrl::plateIsOn
+	bool ___plateIsOn_19;
+	// System.Boolean UnityEngine.XR.iOS.previzCtrl::planeIsOn
+	bool ___planeIsOn_23;
+	// System.Boolean UnityEngine.XR.iOS.previzCtrl::readytoReloadText
+	bool ___readytoReloadText_24;
+
+public:
+	inline static int32_t get_offset_of_plateIsOn_19() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___plateIsOn_19)); }
 	inline bool get_plateIsOn_19() const { return ___plateIsOn_19; }
 	inline bool* get_address_of_plateIsOn_19() { return &___plateIsOn_19; }
 	inline void set_plateIsOn_19(bool value)
@@ -4904,28 +4938,20 @@ public:
 		___plateIsOn_19 = value;
 	}
 
-	inline static int32_t get_offset_of_animationIsPlaying_20() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___animationIsPlaying_20)); }
-	inline bool get_animationIsPlaying_20() const { return ___animationIsPlaying_20; }
-	inline bool* get_address_of_animationIsPlaying_20() { return &___animationIsPlaying_20; }
-	inline void set_animationIsPlaying_20(bool value)
+	inline static int32_t get_offset_of_planeIsOn_23() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___planeIsOn_23)); }
+	inline bool get_planeIsOn_23() const { return ___planeIsOn_23; }
+	inline bool* get_address_of_planeIsOn_23() { return &___planeIsOn_23; }
+	inline void set_planeIsOn_23(bool value)
 	{
-		___animationIsPlaying_20 = value;
+		___planeIsOn_23 = value;
 	}
 
-	inline static int32_t get_offset_of_textIsUpdated_21() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textIsUpdated_21)); }
-	inline bool get_textIsUpdated_21() const { return ___textIsUpdated_21; }
-	inline bool* get_address_of_textIsUpdated_21() { return &___textIsUpdated_21; }
-	inline void set_textIsUpdated_21(bool value)
+	inline static int32_t get_offset_of_readytoReloadText_24() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___readytoReloadText_24)); }
+	inline bool get_readytoReloadText_24() const { return ___readytoReloadText_24; }
+	inline bool* get_address_of_readytoReloadText_24() { return &___readytoReloadText_24; }
+	inline void set_readytoReloadText_24(bool value)
 	{
-		___textIsUpdated_21 = value;
-	}
-
-	inline static int32_t get_offset_of_planeIsOn_22() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___planeIsOn_22)); }
-	inline bool get_planeIsOn_22() const { return ___planeIsOn_22; }
-	inline bool* get_address_of_planeIsOn_22() { return &___planeIsOn_22; }
-	inline void set_planeIsOn_22(bool value)
-	{
-		___planeIsOn_22 = value;
+		___readytoReloadText_24 = value;
 	}
 };
 
@@ -8518,8 +8544,8 @@ extern const int32_t g_FieldOffsetTable1878[2] =
 	LookAt_t2293208666::get_offset_of_targetPosition_3(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1879 = { sizeof (MrNo_t3401754408), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1880 = { sizeof (previzCtrl_t930159927), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable1880[21] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1880 = { sizeof (previzCtrl_t930159927), -1, sizeof(previzCtrl_t930159927_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable1880[23] = 
 {
 	previzCtrl_t930159927::get_offset_of_debugBox_2(),
 	previzCtrl_t930159927::get_offset_of_guideText_3(),
@@ -8538,10 +8564,12 @@ extern const int32_t g_FieldOffsetTable1880[21] =
 	previzCtrl_t930159927::get_offset_of_text_16(),
 	previzCtrl_t930159927::get_offset_of_previzAnim_17(),
 	previzCtrl_t930159927::get_offset_of_brainAnim_18(),
-	previzCtrl_t930159927::get_offset_of_plateIsOn_19(),
-	previzCtrl_t930159927::get_offset_of_animationIsPlaying_20(),
-	previzCtrl_t930159927::get_offset_of_textIsUpdated_21(),
-	previzCtrl_t930159927::get_offset_of_planeIsOn_22(),
+	previzCtrl_t930159927_StaticFields::get_offset_of_plateIsOn_19(),
+	previzCtrl_t930159927::get_offset_of_playgroundIsDetected_20(),
+	previzCtrl_t930159927::get_offset_of_animationIsPlaying_21(),
+	previzCtrl_t930159927::get_offset_of_textIsUpdated_22(),
+	previzCtrl_t930159927_StaticFields::get_offset_of_planeIsOn_23(),
+	previzCtrl_t930159927_StaticFields::get_offset_of_readytoReloadText_24(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1881 = { sizeof (U3CtextCreateU3Ec__Iterator0_t382157024), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable1881[7] = 
