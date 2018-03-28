@@ -21,12 +21,15 @@ public class previzCtrl : MonoBehaviour {
 	public Camera camera;
 	public ParticleSystem readingParticle;
 	public Text myText;
-	public string[] itemText = new string[]{"PiyoPiyo"};
+	public string[] itemText = new string[]{"PiyoPiyo", "HogeHoge", "PukaPuka"};
 	public GameObject textRoot;
 	public GameObject brain;
 	public Button reload;
 	public Button liked;
 	public Button disliked;
+	public Button reset;
+
+	//public Material text;
 
 
 	private GameObject textObject;
@@ -36,24 +39,36 @@ public class previzCtrl : MonoBehaviour {
 
 	private Animator previzAnim;
 	private Animator brainAnim;
-	public static bool plateIsOn = false;
+
 	private bool playgroundIsDetected = false;
 	private bool animationIsPlaying = false;
 	private bool textIsUpdated = false;
-	public static bool planeIsOn = false;
+	private bool textIsOn = false;
+	private bool piyopiyo = false;
+	private bool CoroutineTextCreate_IsRunning = false;
 
+	public static bool plateIsOn = false;
+	public static bool planeIsOn = false;
 	public static bool readytoReloadText = false;
 
 
 	void Start () {
 		reload = reload.GetComponent<Button>();
 		reload.onClick.AddListener(textIsReload);
+		reload.gameObject.SetActive(false);
 
 		liked = liked.GetComponent<Button>();
 		liked.onClick.AddListener(answerIsliked);
+		liked.gameObject.SetActive(false);
+
 
 		disliked = disliked.GetComponent<Button>();
 		disliked.onClick.AddListener(answerIsDisliked);
+		disliked.gameObject.SetActive(false);
+
+		reset = reset.GetComponent<Button>();
+		reset.onClick.AddListener(playGroundIsReset);
+		reset.gameObject.SetActive(false);
 
 		previzAnim = plane.GetComponent<Animator>();
 		brainAnim = brain.GetComponent<Animator>();
@@ -68,16 +83,17 @@ public class previzCtrl : MonoBehaviour {
 		// textObject = FlyingText.GetObject(itemText[0]);
 
 		//-----Loading Text -----  for UnityEditor
-		textObject = FlyingText.GetObject(itemText[0]);
-
-		textObject.transform.parent = textRoot.transform;
-		textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-		textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-		textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+		// textObject = FlyingText.GetObject(itemText[0]);
+		//
+		// textObject.transform.parent = textRoot.transform;
+		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
 		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
 		// foreach (var rb in rigidbodies) {
 		// 	rb.useGravity = false;
 		// }
+
 		SetObjectInvisible(plane, plateIsOn);
 	}
 
@@ -91,11 +107,14 @@ public class previzCtrl : MonoBehaviour {
 								plane.transform.position = UnityARMatrixOps.GetPosition(hitResult.worldTransform);
 								//Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, plane.transform.position.y, Camera.main.transform.position.z);
 								//plane.transform.LookAt(targetPosition);
-								Destroy(debugBox);
 								StartCoroutine(brainAnimation(textObject, text, animationIsPlaying));
 								plateIsOn = true;
 								readytoReloadText = true;
+								reload.gameObject.SetActive(true);
+								reset.gameObject.SetActive(true);
+								SetObjectInvisible(debugBox, plateIsOn);
 								SetObjectInvisible(plane, plateIsOn);
+								debugBoxRenderer.enabled = false;
 							}
 								// StartCoroutine(playBrainAnimation(textObject, text, animationIsPlaying));
 								// StartCoroutine(stopBrainAnimation(animationIsPlaying));
@@ -115,28 +134,64 @@ public class previzCtrl : MonoBehaviour {
 			return false;
 	}
 
+//Button functions
 
 	void textIsReload(){
-		StartCoroutine(brainAnimation(textObject, text, animationIsPlaying));
-		Debug.Log("on");
+		StartCoroutine(test());
+		reload.gameObject.SetActive(false);
+		liked.gameObject.SetActive(true);
+		disliked.gameObject.SetActive(true);
+		Debug.Log(piyopiyo);
 	}
 
 
 	void answerIsliked(){
 		brainAnim.SetTrigger("Liked");
-		Debug.Log("on2");
+		Destroy(textObject);
+		reload.gameObject.SetActive(true);
+		liked.gameObject.SetActive(false);
+		disliked.gameObject.SetActive(false);
+		Debug.Log("liked");
+		piyopiyo = false;
 	}
 
 	void answerIsDisliked(){
 		brainAnim.SetTrigger("Disliked");
-		Debug.Log("on3");
+		Destroy(textObject);
+		reload.gameObject.SetActive(true);
+		liked.gameObject.SetActive(false);
+		disliked.gameObject.SetActive(false);
+		Debug.Log("disliked");
+		piyopiyo = false;
 	}
 
 
-  //Switching object's visibility
-	void SetObjectInvisible(GameObject TargetObjects, bool plateIsOn)
+	void playGroundIsReset()
 	{
-		if(plateIsOn != true){
+		previzAnim.SetTrigger("Back");
+		Destroy(textObject);
+		readingParticle.Stop();
+		readingParticle.Clear();
+
+		plateIsOn = false;
+		playgroundIsDetected = false;
+		//readytoReloadText = false;
+		animationIsPlaying = false;
+		reload.gameObject.SetActive(false);
+		liked.gameObject.SetActive(false);
+		disliked.gameObject.SetActive(false);
+		reset.gameObject.SetActive(false);
+
+		SetObjectInvisible(plane, plateIsOn);
+		Debug.Log("Stop");
+	}
+
+
+
+  //Switching object's visibility
+	void SetObjectInvisible(GameObject TargetObjects, bool visibility)
+	{
+		if(visibility != true){
 			Component[] Components = TargetObjects.GetComponentsInChildren(typeof(Renderer));
 			foreach(Component c in Components )
 			{
@@ -154,24 +209,95 @@ public class previzCtrl : MonoBehaviour {
 	}
 
 
-	IEnumerator textCreate(GameObject textObject, string text){
-		text = QRCodeReader.possible;
-		string[] textArray = text.Split(","[0]);
-		textObject  = FlyingText.GetObject(textArray[0]);
-		textObject.transform.parent = textRoot.transform;
-		textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-		textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-		textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-		yield return null;
+
+	IEnumerator textCreate(GameObject textObject, string text, bool textIsCreated, int random){
+		if(textIsCreated != true)
+		{
+			text = itemText[random];
+			//text = QRCodeReader.possible;
+			string[] textArray = text.Split(","[0]);
+			textObject  = FlyingText.GetObject(textArray[0]);
+			textObject.transform.parent = textRoot.transform;
+			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+			textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+			textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+			yield return CoroutineTextCreate_IsRunning = false;
+		}else{
+			// text = itemText[0];
+			//text = QRCodeReader.possible;
+			Destroy(textObject);
+			Debug.Log("TextOFF");
+			// string[] textArray = text.Split(","[0]);
+			// textObject  = FlyingText.GetObject(textArray[0]);
+			// textObject.transform.parent = textRoot.transform;
+			// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+			// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+			// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+			yield return CoroutineTextCreate_IsRunning = false;;
+		}
+
 	}
 
-	IEnumerator textUpdate(GameObject textObject, string text){
+	IEnumerator textDestroy(GameObject textObject, float delay)
+	{
+		Destroy(textObject);
+		yield return piyopiyo = false;
+	}
+
+
+
+	// IEnumerator Fadeout(float aValue, float aTime)
+	// {
+	// 	float alphaTextMain  = textMain.color.a;
+	// 	float alphaTextEdge  = textEdge.color.a;
+	// 	for(float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime){
+	// 		Color newColorMain = new Color(textMain.color.r,textMain.color.g,textMain.color.b, Mathf.Lerp(alphaTextMain,aValue,t));
+	// 		Color newColorEdge = new Color(textEdge.color.r,textEdge.color.g,textEdge.color.b, Mathf.Lerp(alphaTextEdge,aValue,t));
+	// 		textMain.color = newColorMain;
+	// 		textEdge.color = newColorEdge;
+	// 		yield return null;
+	// 	}
+	// 	// Destroy(textRoot);
+	// 	Destroy(textObject);
+	// 	TextBounceAnim.SetTrigger("TextOn");
+	// 	yield return null;
+  // }
+
+	IEnumerator test()
+	{
+		if(piyopiyo == false){
 			text = QRCodeReader.possible;
 			string[] textArray = text.Split(","[0]);
-			FlyingText.UpdateObject(textObject, textArray[0]);
-			textIsUpdated = true;
-			yield return null;
+			textObject  = FlyingText.GetObject(textArray[0]);
+			textObject.transform.parent = textRoot.transform;
+			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+			textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+			textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+			Debug.Log("TextOn");
+			yield return piyopiyo = true;
+		}else
+		{
+			Destroy(textObject);
+			Debug.Log("TextOFF");
+			yield return piyopiyo = false;
+		}
 	}
+
+
+
+	//
+	// IEnumerator textDestroy(GameObject textObject){
+	// 	Destroy(textObject);
+	// 	yield return null;
+	// }
+
+	// IEnumerator textUpdate(GameObject textObject, string text){
+	// 		text = QRCodeReader.possible;
+	// 		string[] textArray = text.Split(","[0]);
+	// 		FlyingText.UpdateObject(textObject, textArray[0]);
+	// 		textIsUpdated = true;
+	// 		yield return null;
+	// }
 
 
 	// IEnumerator stopBrainAnimation(bool animationIsPlaying){
@@ -187,7 +313,7 @@ public class previzCtrl : MonoBehaviour {
 
 	IEnumerator brainAnimation(GameObject textObject, string text, bool animationIsPlaying){
 		if(animationIsPlaying == false){
-			StartCoroutine(textUpdate(textObject,text));
+			//StartCoroutine(textCreate(textObject,text));
 			previzAnim.SetTrigger("Play");
 			readingParticle.Play();
 			animationIsPlaying = true;
@@ -201,6 +327,7 @@ public class previzCtrl : MonoBehaviour {
 			yield return animationIsPlaying = false;
 		}
 	}
+
 
 
 
@@ -261,6 +388,11 @@ public class previzCtrl : MonoBehaviour {
 				// 		}
 				// 	}
 			}
+		}else
+		{
+			// liked.gameObject.SetActive(true);
+			// disliked.gameObject.SetActive(true);
+
 		}
 
 
