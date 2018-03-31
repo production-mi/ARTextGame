@@ -29,6 +29,10 @@ public class previzCtrl : MonoBehaviour {
 	public Button disliked;
 	public Button reset;
 
+	public ParticleSystem fireworks01;
+	public ParticleSystem fireworks02;
+	public ParticleSystem lightning;
+
 	//public Material text;
 
 
@@ -74,6 +78,9 @@ public class previzCtrl : MonoBehaviour {
 		brainAnim = brain.GetComponent<Animator>();
 
 		debugBoxRenderer = debugBox.GetComponent<MeshRenderer>();
+		fireworks01 = fireworks01.GetComponent<ParticleSystem>();
+		fireworks02 = fireworks02.GetComponent<ParticleSystem>();
+		lightning = lightning.GetComponent<ParticleSystem>();
 
 		//StartCoroutine(textCreate(textObject,text));
 
@@ -147,6 +154,8 @@ public class previzCtrl : MonoBehaviour {
 
 	void answerIsliked(){
 		brainAnim.SetTrigger("Liked");
+		fireworks01.Play();
+		fireworks02.Play();
 		Destroy(textObject);
 		reload.gameObject.SetActive(true);
 		liked.gameObject.SetActive(false);
@@ -157,6 +166,7 @@ public class previzCtrl : MonoBehaviour {
 
 	void answerIsDisliked(){
 		brainAnim.SetTrigger("Disliked");
+		lightning.Play();
 		Destroy(textObject);
 		reload.gameObject.SetActive(true);
 		liked.gameObject.SetActive(false);
