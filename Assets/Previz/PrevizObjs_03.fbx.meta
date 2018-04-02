@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 812a56f08528b4d71a4395257b125b49
+timeCreated: 1522611038
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Brain
+    100002: Brain_Ctrl
+    100004: Circle_01
+    100006: Circle_01_Ctrl
+    100008: Circle_02
+    100010: Circle_02_Ctrl
+    100012: CircleSmall_01
+    100014: CircleSmall_01_Ctrl
+    100016: CircleSmall_02
+    100018: CircleSmall_02_Ctrl
+    100020: CircleSmall_03
+    100022: CircleSmall_03_Ctrl
+    100024: CrossPlane
+    100026: CrossPlane_Ctrl
+    100028: DepthBar
+    100030: DepthBar_Ctrl
+    100032: GroundMarker
+    100034: GroundMarker_Ctrl
+    100036: GuideCross_01
+    100038: GuideCross_01_Ctrl
+    100040: GuideCross_02
+    100042: GuideCross_02_Ctrl
+    100044: GuideCross_03
+    100046: GuideCross_03_Ctrl
+    100048: GuideCross_04
+    100050: GuideCross_04_Ctrl
+    100052: InfoPlate_02
+    100054: InfoPlateCtrl
+    100056: Lader
+    100058: Lader_Ctrl
+    100060: Memori
+    100062: Memori_Ctrl
+    100064: //RootNode
+    400000: Brain
+    400002: Brain_Ctrl
+    400004: Circle_01
+    400006: Circle_01_Ctrl
+    400008: Circle_02
+    400010: Circle_02_Ctrl
+    400012: CircleSmall_01
+    400014: CircleSmall_01_Ctrl
+    400016: CircleSmall_02
+    400018: CircleSmall_02_Ctrl
+    400020: CircleSmall_03
+    400022: CircleSmall_03_Ctrl
+    400024: CrossPlane
+    400026: CrossPlane_Ctrl
+    400028: DepthBar
+    400030: DepthBar_Ctrl
+    400032: GroundMarker
+    400034: GroundMarker_Ctrl
+    400036: GuideCross_01
+    400038: GuideCross_01_Ctrl
+    400040: GuideCross_02
+    400042: GuideCross_02_Ctrl
+    400044: GuideCross_03
+    400046: GuideCross_03_Ctrl
+    400048: GuideCross_04
+    400050: GuideCross_04_Ctrl
+    400052: InfoPlate_02
+    400054: InfoPlateCtrl
+    400056: Lader
+    400058: Lader_Ctrl
+    400060: Memori
+    400062: Memori_Ctrl
+    400064: //RootNode
+    2300000: GroundMarker
+    3300000: GroundMarker
+    4300000: Brain
+    4300002: Lader
+    4300004: GuideCross_04
+    4300006: GuideCross_03
+    4300008: GuideCross_02
+    4300010: GuideCross_01
+    4300012: CircleSmall_03
+    4300014: CircleSmall_02
+    4300016: CircleSmall_01
+    4300018: Circle_02
+    4300020: Circle_01
+    4300022: GroundMarker
+    4300024: Memori
+    4300026: InfoPlate_02
+    4300028: CrossPlane
+    4300030: DepthBar
+    7400000: Take 001
+    7400002: In
+    7400004: Loop
+    7400006: Freeze
+    9500000: //RootNode
+    13700000: Brain
+    13700002: Circle_01
+    13700004: Circle_02
+    13700006: CircleSmall_01
+    13700008: CircleSmall_02
+    13700010: CircleSmall_03
+    13700012: CrossPlane
+    13700014: DepthBar
+    13700016: GuideCross_01
+    13700018: GuideCross_02
+    13700020: GuideCross_03
+    13700022: GuideCross_04
+    13700024: InfoPlate_02
+    13700026: Lader
+    13700028: Memori
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrainMAT
+    second: {fileID: 2100000, guid: 3eedfaca67ffacf4fab44b58bd043114, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CircleMAT_01
+    second: {fileID: 2100000, guid: c945dd0c4bd275240807df6e0e6c6205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CircleMAT_02
+    second: {fileID: 2100000, guid: d4093710ee154424495161a27489ecc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CrossPlane_MAT
+    second: {fileID: 2100000, guid: 073f8c3d00e0f43cc86d0a8b88ebb2be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GroundMarkerMAT
+    second: {fileID: 2100000, guid: 8d52cca52ac1d854bb8194d9875ee541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InfoPlateMAT
+    second: {fileID: 2100000, guid: e766e54d5aa4a304da661b51709a8a97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LaderMAT
+    second: {fileID: 2100000, guid: d22bccd4d6dac714ab53e56b22b7f5e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MemoriMAT
+    second: {fileID: 2100000, guid: 05718067cfba94441b47ee4745ddfbb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SimpleTransparencyMAT
+    second: {fileID: 2100000, guid: 448675b63368af24a82e79db8b0641ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: blinn6
+    second: {fileID: 2100000, guid: 7cb7f38384d6f41478f44880ccd3d770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 08cd85ebf7c354992a6b904246449bc7, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: In
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Loop
+      takeName: Take 001
+      firstFrame: 16
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Freeze
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

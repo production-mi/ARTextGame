@@ -13,6 +13,7 @@ public class previzCtrl : MonoBehaviour {
 
 
 	public GameObject debugBox;
+	public GameObject brainRefMesh;
 	public Text guideText;
 	private MeshRenderer debugBoxRenderer;
 
@@ -24,6 +25,7 @@ public class previzCtrl : MonoBehaviour {
 	public string[] itemText = new string[]{"PiyoPiyo", "HogeHoge", "PukaPuka"};
 	public GameObject textRoot;
 	public GameObject brain;
+	public GameObject GuideAnimation;
 	public Button reload;
 	public Button liked;
 	public Button disliked;
@@ -40,10 +42,15 @@ public class previzCtrl : MonoBehaviour {
 	private string text;
 
 
-
+	private Animator brainrefAnim;
 	private Animator previzAnim;
 	private Animator brainAnim;
+	private Animator GuideAnim;
 
+
+	private Renderer brainRefAnimMeshRender;
+
+	private bool Initialized = false;
 	private bool playgroundIsDetected = false;
 	private bool animationIsPlaying = false;
 	private bool textIsUpdated = false;
@@ -54,6 +61,7 @@ public class previzCtrl : MonoBehaviour {
 	public static bool plateIsOn = false;
 	public static bool planeIsOn = false;
 	public static bool readytoReloadText = false;
+
 
 
 	void Start () {
@@ -74,10 +82,14 @@ public class previzCtrl : MonoBehaviour {
 		reset.onClick.AddListener(playGroundIsReset);
 		reset.gameObject.SetActive(false);
 
+		brainRefAnimMeshRender = brainRefMesh.GetComponent<Renderer>();
+
+		brainrefAnim = debugBox.GetComponent<Animator>();
 		previzAnim = plane.GetComponent<Animator>();
 		brainAnim = brain.GetComponent<Animator>();
+		GuideAnim = GuideAnimation.GetComponent<Animator>();
 
-		debugBoxRenderer = debugBox.GetComponent<MeshRenderer>();
+		//debugBoxRenderer = debugBox.GetComponent<MeshRenderer>();
 		fireworks01 = fireworks01.GetComponent<ParticleSystem>();
 		fireworks02 = fireworks02.GetComponent<ParticleSystem>();
 		lightning = lightning.GetComponent<ParticleSystem>();
@@ -102,6 +114,7 @@ public class previzCtrl : MonoBehaviour {
 		// }
 
 		SetObjectInvisible(plane, plateIsOn);
+		Initialized = true;
 	}
 
 	bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes, bool playground)
@@ -345,7 +358,7 @@ public class previzCtrl : MonoBehaviour {
 	void Update()
 	{
 
-	  if(plateIsOn != true)
+	  if(plateIsOn != true && Initialized == true)
 		{
 			//Look at the camera direction
 			Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
@@ -356,13 +369,19 @@ public class previzCtrl : MonoBehaviour {
 			var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 			RaycastHit hit;
 			if(Physics.Raycast (ray, out hit, 500) && hit.transform.gameObject.tag == "ARPlate"){
-				debugBoxRenderer.enabled = true;
+				//debugBoxRenderer.enabled = true;
+				brainRefAnimMeshRender.enabled = true;
 				playgroundIsDetected = true;
 				guideText.enabled = false;
+				GuideAnimation.SetActive(false);
+				brainrefAnim.SetTrigger("Play");
 			}else{
-				debugBoxRenderer.enabled = false;
+				//debugBoxRenderer.enabled = false;
+				brainRefAnimMeshRender.enabled = false;
+				brainrefAnim.SetTrigger("Back");
 				playgroundIsDetected = false;
 				guideText.enabled = true;
+				GuideAnimation.SetActive(true);
 			}
 			var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));
 			ARPoint point = new ARPoint{ x = screenPosition.x, y = screenPosition.y};
@@ -400,7 +419,8 @@ public class previzCtrl : MonoBehaviour {
 			}
 		}else
 		{
-			// liked.gameObject.SetActive(true);
+			brainRefAnimMeshRender.enabled = false;
+			brainrefAnim.SetTrigger("back");
 			// disliked.gameObject.SetActive(true);
 
 		}
