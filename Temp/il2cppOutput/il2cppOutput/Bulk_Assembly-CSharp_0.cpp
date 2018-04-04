@@ -971,6 +971,7 @@ extern const uint32_t previzCtrl_brainAnimation_m1986808291_MetadataUsageId;
 extern RuntimeField* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D8E7629AD5AF686202B8CB7C014505C432FFE31E6_0_FieldInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2165571547;
 extern Il2CppCodeGenString* _stringLiteral69878724;
+extern Il2CppCodeGenString* _stringLiteral2778557519;
 extern const uint32_t previzCtrl_Update_m3917845437_MetadataUsageId;
 extern const uint32_t previzCtrl__cctor_m3639323815_MetadataUsageId;
 extern const uint32_t U3CbrainAnimationU3Ec__Iterator3_MoveNext_m2215230069_MetadataUsageId;
@@ -36178,7 +36179,7 @@ IL_01c1:
 	}
 	{
 		// return;
-		goto IL_01fe;
+		goto IL_021a;
 	}
 
 IL_01e4:
@@ -36199,14 +36200,24 @@ IL_01eb:
 		}
 	}
 	{
-		goto IL_01fe;
+		goto IL_021a;
 	}
 
 IL_01fc:
 	{
+		// brainRefAnimMeshRender.enabled = false;
+		Renderer_t257310565 * L_60 = __this->get_brainRefAnimMeshRender_27();
+		// brainRefAnimMeshRender.enabled = false;
+		NullCheck(L_60);
+		Renderer_set_enabled_m383916764(L_60, (bool)0, /*hidden argument*/NULL);
+		// brainrefAnim.SetTrigger("back");
+		Animator_t69676727 * L_61 = __this->get_brainrefAnim_23();
+		// brainrefAnim.SetTrigger("back");
+		NullCheck(L_61);
+		Animator_SetTrigger_m2003713590(L_61, _stringLiteral2778557519, /*hidden argument*/NULL);
 	}
 
-IL_01fe:
+IL_021a:
 	{
 		// }
 		return;
