@@ -2,6 +2,10 @@ void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.Animation
 
+		//System.Boolean UnityEngine.Animation::PlayDefaultAnimation(UnityEngine.PlayMode)
+		void Register_UnityEngine_Animation_PlayDefaultAnimation();
+		Register_UnityEngine_Animation_PlayDefaultAnimation();
+
 		//System.Int32 UnityEngine.Animation::GetStateCount()
 		void Register_UnityEngine_Animation_GetStateCount();
 		Register_UnityEngine_Animation_GetStateCount();
@@ -843,6 +847,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_GUIUtility_Internal_GetDefaultSkin();
 
 	//End Registrations for type : UnityEngine.GUIUtility
+
+	//Start Registrations for type : UnityEngine.Handheld
+
+		//System.Void UnityEngine.Handheld::Vibrate()
+		void Register_UnityEngine_Handheld_Vibrate();
+		Register_UnityEngine_Handheld_Vibrate();
+
+	//End Registrations for type : UnityEngine.Handheld
 
 	//Start Registrations for type : UnityEngine.Input
 

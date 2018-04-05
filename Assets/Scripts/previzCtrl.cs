@@ -47,6 +47,8 @@ public class previzCtrl : MonoBehaviour {
 	private Animator brainAnim;
 	private Animator GuideAnim;
 
+	private Animation guideAnimClip;
+
 
 	private Renderer brainRefAnimMeshRender;
 
@@ -94,6 +96,10 @@ public class previzCtrl : MonoBehaviour {
 		fireworks02 = fireworks02.GetComponent<ParticleSystem>();
 		lightning = lightning.GetComponent<ParticleSystem>();
 
+
+
+		guideAnimClip = GuideAnimation.GetComponent<Animation>();
+
 		//StartCoroutine(textCreate(textObject,text));
 
 		// //--------Loading Text------- for Build
@@ -115,6 +121,7 @@ public class previzCtrl : MonoBehaviour {
 
 		SetObjectInvisible(plane, plateIsOn);
 		Initialized = true;
+		guideAnimClip.Play();
 	}
 
 	bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes, bool playground)
@@ -157,6 +164,7 @@ public class previzCtrl : MonoBehaviour {
 //Button functions
 
 	void textIsReload(){
+		Handheld.Vibrate();
 		StartCoroutine(test());
 		reload.gameObject.SetActive(false);
 		liked.gameObject.SetActive(true);
@@ -166,6 +174,7 @@ public class previzCtrl : MonoBehaviour {
 
 
 	void answerIsliked(){
+		Handheld.Vibrate();
 		brainAnim.SetTrigger("Liked");
 		fireworks01.Play();
 		fireworks02.Play();
@@ -178,6 +187,7 @@ public class previzCtrl : MonoBehaviour {
 	}
 
 	void answerIsDisliked(){
+		Handheld.Vibrate();
 		brainAnim.SetTrigger("Disliked");
 		lightning.Play();
 		Destroy(textObject);
@@ -374,6 +384,7 @@ public class previzCtrl : MonoBehaviour {
 				playgroundIsDetected = true;
 				guideText.enabled = false;
 				GuideAnimation.SetActive(false);
+				guideAnimClip.Play(PlayMode.StopAll);
 				brainrefAnim.SetTrigger("Play");
 			}else{
 				//debugBoxRenderer.enabled = false;
@@ -381,6 +392,7 @@ public class previzCtrl : MonoBehaviour {
 				brainrefAnim.SetTrigger("Back");
 				playgroundIsDetected = false;
 				guideText.enabled = true;
+				guideAnimClip.Play();
 				GuideAnimation.SetActive(true);
 			}
 			var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));

@@ -2429,6 +2429,7 @@ const RuntimeMethod* previzCtrl_answerIsDisliked_m2539371203_RuntimeMethod_var;
 const RuntimeMethod* previzCtrl_playGroundIsReset_m2373016830_RuntimeMethod_var;
 const RuntimeMethod* GameObject_GetComponent_TisAnimator_t69676727_m2717502299_RuntimeMethod_var;
 const RuntimeMethod* Component_GetComponent_TisParticleSystem_t3394631041_m943859897_RuntimeMethod_var;
+const RuntimeMethod* GameObject_GetComponent_TisAnimation_t2068071072_m3567791250_RuntimeMethod_var;
 const RuntimeMethod* TextCtrl_TextReset_m813924207_RuntimeMethod_var;
 const RuntimeMethod* TextCtrl_IsLiked_m3611601960_RuntimeMethod_var;
 const RuntimeMethod* TextCtrl_IsDisLiked_m3127825976_RuntimeMethod_var;
@@ -5644,7 +5645,7 @@ Il2CppCodeGenString* _stringLiteral3025533088;
 Il2CppCodeGenString* _stringLiteral3687436746;
 Il2CppCodeGenString* _stringLiteral2779811765;
 Il2CppCodeGenString* _stringLiteral273729679;
-extern void** const g_MetadataUsages[5627] = 
+extern void** const g_MetadataUsages[5628] = 
 {
 	(void**)(&Contraction_t1673853792_0_0_0_var),
 	(void**)(&Level2Map_t3322505726_0_0_0_var),
@@ -8058,6 +8059,7 @@ extern void** const g_MetadataUsages[5627] =
 	(void**)(&previzCtrl_playGroundIsReset_m2373016830_RuntimeMethod_var),
 	(void**)(&GameObject_GetComponent_TisAnimator_t69676727_m2717502299_RuntimeMethod_var),
 	(void**)(&Component_GetComponent_TisParticleSystem_t3394631041_m943859897_RuntimeMethod_var),
+	(void**)(&GameObject_GetComponent_TisAnimation_t2068071072_m3567791250_RuntimeMethod_var),
 	(void**)(&TextCtrl_TextReset_m813924207_RuntimeMethod_var),
 	(void**)(&TextCtrl_IsLiked_m3611601960_RuntimeMethod_var),
 	(void**)(&TextCtrl_IsDisLiked_m3127825976_RuntimeMethod_var),

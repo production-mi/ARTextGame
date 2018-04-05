@@ -8145,6 +8145,7 @@ extern "C" void Gradient_Finalize_m3546076046 ();
 extern "C" void GUIElement__ctor_m4263933191 ();
 extern "C" void GUILayer_HitTest_m4124054285 ();
 extern "C" void GUILayer_INTERNAL_CALL_HitTest_m381183969 ();
+extern "C" void Handheld_Vibrate_m752722291 ();
 extern "C" void HeaderAttribute__ctor_m2991758471 ();
 extern "C" void IL2CPPStructAlignmentAttribute__ctor_m3421252534 ();
 extern "C" void Input_GetAxisRaw_m1913129537 ();
@@ -8973,6 +8974,9 @@ extern "C" void TextGenerator_get_verts_m670653604 ();
 extern "C" void TextGenerator_get_characters_m2585748644 ();
 extern "C" void TextGenerator_get_lines_m2017467099 ();
 extern "C" void UIVertex__cctor_m1794480453 ();
+extern "C" void Animation_Play_m690047637 ();
+extern "C" void Animation_Play_m2328042413 ();
+extern "C" void Animation_PlayDefaultAnimation_m1882712782 ();
 extern "C" void Animation_GetEnumerator_m4136519145 ();
 extern "C" void Animation_GetStateAtIndex_m1480862767 ();
 extern "C" void Animation_GetStateCount_m2765794865 ();
@@ -11899,7 +11903,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[11882] = 
+extern const Il2CppMethodPointer g_MethodPointers[11886] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -20029,6 +20033,7 @@ extern const Il2CppMethodPointer g_MethodPointers[11882] =
 	GUIElement__ctor_m4263933191,
 	GUILayer_HitTest_m4124054285,
 	GUILayer_INTERNAL_CALL_HitTest_m381183969,
+	Handheld_Vibrate_m752722291,
 	HeaderAttribute__ctor_m2991758471,
 	IL2CPPStructAlignmentAttribute__ctor_m3421252534,
 	Input_GetAxisRaw_m1913129537,
@@ -20857,6 +20862,9 @@ extern const Il2CppMethodPointer g_MethodPointers[11882] =
 	TextGenerator_get_characters_m2585748644,
 	TextGenerator_get_lines_m2017467099,
 	UIVertex__cctor_m1794480453,
+	Animation_Play_m690047637,
+	Animation_Play_m2328042413,
+	Animation_PlayDefaultAnimation_m1882712782,
 	Animation_GetEnumerator_m4136519145,
 	Animation_GetStateAtIndex_m1480862767,
 	Animation_GetStateCount_m2765794865,

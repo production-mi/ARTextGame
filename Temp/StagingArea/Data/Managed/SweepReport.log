@@ -2,7 +2,7 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2251
+  Total Type Removals = 2249
     Nested = 181
     Interfaces = 141
     Abstract Classes = 150
@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 175
   Total Field Removals = 747
-  Total Method Removals = 11891
+  Total Method Removals = 11902
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9396,7 +9396,7 @@ Summary:
 Assembly: UnityEngine.AnimationModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 41
+  Total Type Removals = 40
     Nested = 0
     Interfaces = 1
     Abstract Classes = 3
@@ -9405,7 +9405,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 0
-  Total Method Removals = 647
+  Total Method Removals = 644
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.Animation
@@ -9444,13 +9444,10 @@ Summary:
         INTERNAL_set_localBounds(UnityEngine.Bounds&)
         Internal_StopByName(System.String)
         IsPlaying(System.String)
-        Play()
         Play(System.String)
         Play(System.String,UnityEngine.AnimationPlayMode)
         Play(System.String,UnityEngine.PlayMode)
         Play(UnityEngine.AnimationPlayMode)
-        Play(UnityEngine.PlayMode)
-        PlayDefaultAnimation(UnityEngine.PlayMode)
         PlayQueued(System.String)
         PlayQueued(System.String,UnityEngine.QueueMode)
         PlayQueued(System.String,UnityEngine.QueueMode,UnityEngine.PlayMode)
@@ -10089,7 +10086,6 @@ Summary:
     UnityEngine.MatchTargetWeightMask
     UnityEngine.Motion
     UnityEngine.Playables.AnimationPlayableUtilities
-    UnityEngine.PlayMode
     UnityEngine.QueueMode
     UnityEngine.RuntimeAnimatorController
     UnityEngine.SharedBetweenAnimatorsAttribute
@@ -10413,7 +10409,7 @@ Summary:
 Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 403
+  Total Type Removals = 402
     Nested = 9
     Interfaces = 10
     Abstract Classes = 17
@@ -10422,7 +10418,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 47
   Total Field Removals = 27
-  Total Method Removals = 2721
+  Total Method Removals = 2735
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11379,6 +11375,20 @@ Summary:
         userAcceleration_Internal(System.Int32)
     UnityEngine.Halo
     UnityEngine.Handheld
+        .ctor()
+        ClearShaderCache()
+        get_use32BitDisplayBuffer()
+        GetActivityIndicatorStyle()
+        INTERNAL_CALL_PlayFullScreenMovie(System.String,UnityEngine.Color&,UnityEngine.FullScreenMovieControlMode,UnityEngine.FullScreenMovieScalingMode)
+        PlayFullScreenMovie(System.String)
+        PlayFullScreenMovie(System.String,UnityEngine.Color)
+        PlayFullScreenMovie(System.String,UnityEngine.Color,UnityEngine.FullScreenMovieControlMode)
+        PlayFullScreenMovie(System.String,UnityEngine.Color,UnityEngine.FullScreenMovieControlMode,UnityEngine.FullScreenMovieScalingMode)
+        set_use32BitDisplayBuffer(System.Boolean)
+        SetActivityIndicatorStyle(UnityEngine.iOS.ActivityIndicatorStyle)
+        SetActivityIndicatorStyleImpl(System.Int32)
+        StartActivityIndicator()
+        StopActivityIndicator()
     UnityEngine.Hash128
     UnityEngine.HelpURLAttribute
     UnityEngine.HideInInspector
@@ -16261,7 +16271,7 @@ Summary:
 ---------------------------------------------------
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1029
+  Total: 1027
 ---------------------------------------------------
 JetBrains.Annotations.AssertionMethodAttribute
 JetBrains.Annotations.BaseTypeRequiredAttribute
@@ -16749,7 +16759,6 @@ UnityEngine.GUIStateObjects
 UnityEngine.GUIText
 UnityEngine.GUITexture
 UnityEngine.Halo
-UnityEngine.Handheld
 UnityEngine.Hash128
 UnityEngine.HeadDoF
 UnityEngine.HelpURLAttribute
@@ -17010,7 +17019,6 @@ UnityEngine.Playables.PlayState
 UnityEngine.Playables.ScriptPlayable`1
 UnityEngine.PlayerPrefs
 UnityEngine.PlayerPrefsException
-UnityEngine.PlayMode
 UnityEngine.PointEffector2D
 UnityEngine.PolygonCollider2D
 UnityEngine.Pose
