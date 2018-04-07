@@ -175,7 +175,7 @@ public class previzCtrl : MonoBehaviour {
 		Handheld.Vibrate();
 		//answerTextCreate(answer, text);
 		//answerTextRenderer.enabled = true;
-		StartCoroutine(test());
+		StartCoroutine(test(textObject));
 		brainAnim.SetTrigger("Looking");
 		reload.gameObject.SetActive(false);
 		liked.gameObject.SetActive(true);
@@ -202,6 +202,7 @@ public class previzCtrl : MonoBehaviour {
 		Handheld.Vibrate();
 		brainAnim.SetTrigger("Disliked_Shock");
 		lightning.Play();
+		Smoke.Play();
 		//answerTextRenderer.enabled = false;
 		var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
 		foreach (var rb in rigidbodies) {
@@ -323,12 +324,12 @@ public class previzCtrl : MonoBehaviour {
 	// 	yield return null;
   // }
 
-	IEnumerator test()
+	IEnumerator test(GameObject textObject)
 	{
-		if(piyopiyo == false){
+		if(textObject == null){
 			text = QRCodeReader.possible;
 			string[] textArray = text.Split(","[0]);
-			textObject  = FlyingText.GetObject(textArray[0]);
+			textObject  = FlyingText.GetObjects(textArray[0]);
 			textObject.transform.parent = textRoot.transform;
 			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 			textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
@@ -339,12 +340,12 @@ public class previzCtrl : MonoBehaviour {
 			}
 
 			Debug.Log("TextOn");
-			yield return piyopiyo = true;
+			yield return textObject;
 		}else
 		{
 			Destroy(textObject);
 			Debug.Log("TextOFF");
-			yield return piyopiyo = false;
+			yield return textObject = null;
 		}
 	}
 
