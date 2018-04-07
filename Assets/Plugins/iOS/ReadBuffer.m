@@ -22,7 +22,7 @@ VNCoreMLModel* _faceClassificationModel;
 
 void ReadBuffer(void* cvPixelBufferPtr)
 {
-    if (reading) return;
+    if (reading || cvPixelBufferPtr == nil) return;
     reading = YES;
     
     CIImage* image = [[CIImage imageWithCVPixelBuffer:cvPixelBufferPtr]imageByApplyingCGOrientation:kCGImagePropertyOrientationRight];

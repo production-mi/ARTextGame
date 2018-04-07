@@ -21,11 +21,11 @@ public class previzCtrl : MonoBehaviour {
 	public GameObject plane;
 	public Camera camera;
 	public ParticleSystem readingParticle;
-	public Text myText;
 	public string[] itemText = new string[]{"PiyoPiyo", "HogeHoge", "PukaPuka"};
 	public GameObject textRoot;
 	public GameObject brain;
 	public GameObject GuideAnimation;
+	public GameObject answerText;
 	public Button reload;
 	public Button liked;
 	public Button disliked;
@@ -34,12 +34,15 @@ public class previzCtrl : MonoBehaviour {
 	public ParticleSystem fireworks01;
 	public ParticleSystem fireworks02;
 	public ParticleSystem lightning;
+	public ParticleSystem Appearing;
+	public ParticleSystem Smoke;
 
 	//public Material text;
 
 
 	private GameObject textObject;
 	private string text;
+	private TextMesh answer;
 
 
 	private Animator brainrefAnim;
@@ -51,6 +54,7 @@ public class previzCtrl : MonoBehaviour {
 
 
 	private Renderer brainRefAnimMeshRender;
+	private Renderer answerTextRenderer;
 
 	private bool Initialized = false;
 	private bool playgroundIsDetected = false;
@@ -85,6 +89,8 @@ public class previzCtrl : MonoBehaviour {
 		reset.gameObject.SetActive(false);
 
 		brainRefAnimMeshRender = brainRefMesh.GetComponent<Renderer>();
+		answerTextRenderer = answerText.GetComponent<Renderer>();
+		answer = answerText.GetComponent<TextMesh>();
 
 		brainrefAnim = debugBox.GetComponent<Animator>();
 		previzAnim = plane.GetComponent<Animator>();
@@ -95,6 +101,8 @@ public class previzCtrl : MonoBehaviour {
 		fireworks01 = fireworks01.GetComponent<ParticleSystem>();
 		fireworks02 = fireworks02.GetComponent<ParticleSystem>();
 		lightning = lightning.GetComponent<ParticleSystem>();
+		Appearing = Appearing.GetComponent<ParticleSystem>();
+		Smoke = Smoke.GetComponent<ParticleSystem>();
 
 
 
@@ -134,9 +142,9 @@ public class previzCtrl : MonoBehaviour {
 								plane.transform.position = UnityARMatrixOps.GetPosition(hitResult.worldTransform);
 								//Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, plane.transform.position.y, Camera.main.transform.position.z);
 								//plane.transform.LookAt(targetPosition);
+								readytoReloadText = true;
 								StartCoroutine(brainAnimation(textObject, text, animationIsPlaying));
 								plateIsOn = true;
-								readytoReloadText = true;
 								reload.gameObject.SetActive(true);
 								reset.gameObject.SetActive(true);
 								SetObjectInvisible(debugBox, plateIsOn);
@@ -165,7 +173,10 @@ public class previzCtrl : MonoBehaviour {
 
 	void textIsReload(){
 		Handheld.Vibrate();
+		//answerTextCreate(answer, text);
+		//answerTextRenderer.enabled = true;
 		StartCoroutine(test());
+		brainAnim.SetTrigger("Looking");
 		reload.gameObject.SetActive(false);
 		liked.gameObject.SetActive(true);
 		disliked.gameObject.SetActive(true);
@@ -178,6 +189,7 @@ public class previzCtrl : MonoBehaviour {
 		brainAnim.SetTrigger("Liked");
 		fireworks01.Play();
 		fireworks02.Play();
+		//answerTextRenderer.enabled = false;
 		Destroy(textObject);
 		reload.gameObject.SetActive(true);
 		liked.gameObject.SetActive(false);
@@ -188,8 +200,14 @@ public class previzCtrl : MonoBehaviour {
 
 	void answerIsDisliked(){
 		Handheld.Vibrate();
-		brainAnim.SetTrigger("Disliked");
+		brainAnim.SetTrigger("Disliked_Shock");
 		lightning.Play();
+		//answerTextRenderer.enabled = false;
+		var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+		foreach (var rb in rigidbodies) {
+			rb.useGravity = true;
+			rb.AddExplosionForce (320.0f, new Vector3(0, -3, -5.5f), 7.0f, 3.0f);
+		}
 		Destroy(textObject);
 		reload.gameObject.SetActive(true);
 		liked.gameObject.SetActive(false);
@@ -202,7 +220,8 @@ public class previzCtrl : MonoBehaviour {
 	void playGroundIsReset()
 	{
 		previzAnim.SetTrigger("Back");
-		Destroy(textObject);
+		answerTextRenderer.enabled = false;
+		//Destroy(textObject);
 		readingParticle.Stop();
 		readingParticle.Clear();
 
@@ -240,6 +259,14 @@ public class previzCtrl : MonoBehaviour {
 			}
 		}
 	}
+
+	// IEnumerator answerTextCreate(TextMesh answer, string text)
+	// {
+	// 	text = QRCodeReader.possible;
+	// 	string[] textArray = text.Split(","[0]);
+	// 	answer.text= textArray[0];
+	// 	yield return null;
+	// }
 
 
 
@@ -306,6 +333,11 @@ public class previzCtrl : MonoBehaviour {
 			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 			textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 			textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+			var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+			foreach (var rb in rigidbodies) {
+				rb.useGravity = false;
+			}
+
 			Debug.Log("TextOn");
 			yield return piyopiyo = true;
 		}else
@@ -346,16 +378,15 @@ public class previzCtrl : MonoBehaviour {
 
 	IEnumerator brainAnimation(GameObject textObject, string text, bool animationIsPlaying){
 		if(animationIsPlaying == false){
-			//StartCoroutine(textCreate(textObject,text));
 			previzAnim.SetTrigger("Play");
-			readingParticle.Play();
+			Appearing.Play();
 			animationIsPlaying = true;
 			Debug.Log("Play");
 			yield return animationIsPlaying = true;
 		}else if(animationIsPlaying == true){
 			previzAnim.SetTrigger("Back");
-			readingParticle.Stop();
-			readingParticle.Clear();
+			//readingParticle.Stop();
+			//readingParticle.Clear();
 			Debug.Log("Stop");
 			yield return animationIsPlaying = false;
 		}
@@ -367,6 +398,10 @@ public class previzCtrl : MonoBehaviour {
 
 	void Update()
 	{
+
+		if(Input.GetKeyDown("space")){
+			answerTextRenderer.enabled = true;
+		}
 
 	  if(plateIsOn != true && Initialized == true)
 		{
@@ -432,7 +467,7 @@ public class previzCtrl : MonoBehaviour {
 		}else
 		{
 			brainRefAnimMeshRender.enabled = false;
-			brainrefAnim.SetTrigger("back");
+			//brainrefAnim.SetTrigger("back");
 			// disliked.gameObject.SetActive(true);
 
 		}
