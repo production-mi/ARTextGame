@@ -348,14 +348,14 @@ struct Animation_t2068071072;
 struct Type_t;
 // UnityEngine.Component[]
 struct ComponentU5BU5D_t4136971630;
-// UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0
-struct U3CtextCreateU3Ec__Iterator0_t382157024;
-// UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1
-struct U3CtextDestroyU3Ec__Iterator1_t2298180387;
-// UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2
-struct U3CtestU3Ec__Iterator2_t2422432017;
-// UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3
-struct U3CbrainAnimationU3Ec__Iterator3_t3637772874;
+// UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0
+struct U3CtextDestroyU3Ec__Iterator0_t2298180388;
+// UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1
+struct U3CtestU3Ec__Iterator1_t3988515958;
+// UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2
+struct U3CbrainAnimationU3Ec__Iterator2_t908889519;
+// UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3
+struct U3CbreakTextU3Ec__Iterator3_t1253770968;
 // UnityEngine.Behaviour
 struct Behaviour_t955675639;
 // System.Char[]
@@ -955,7 +955,6 @@ extern const uint32_t previzCtrl_textIsReload_m3446469270_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral3645111795;
 extern Il2CppCodeGenString* _stringLiteral3645070547;
 extern const uint32_t previzCtrl_answerIsliked_m1305478849_MetadataUsageId;
-extern const RuntimeMethod* GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322_RuntimeMethod_var;
 extern Il2CppCodeGenString* _stringLiteral600791746;
 extern Il2CppCodeGenString* _stringLiteral1895234089;
 extern const uint32_t previzCtrl_answerIsDisliked_m2539371203_MetadataUsageId;
@@ -966,30 +965,30 @@ extern const RuntimeType* Renderer_t257310565_0_0_0_var;
 extern RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 extern RuntimeClass* Renderer_t257310565_il2cpp_TypeInfo_var;
 extern const uint32_t previzCtrl_SetObjectInvisible_m4193672493_MetadataUsageId;
-extern RuntimeClass* U3CtextCreateU3Ec__Iterator0_t382157024_il2cpp_TypeInfo_var;
-extern const uint32_t previzCtrl_textCreate_m1153876363_MetadataUsageId;
-extern RuntimeClass* U3CtextDestroyU3Ec__Iterator1_t2298180387_il2cpp_TypeInfo_var;
+extern RuntimeClass* U3CtextDestroyU3Ec__Iterator0_t2298180388_il2cpp_TypeInfo_var;
 extern const uint32_t previzCtrl_textDestroy_m1344926564_MetadataUsageId;
-extern RuntimeClass* U3CtestU3Ec__Iterator2_t2422432017_il2cpp_TypeInfo_var;
-extern const uint32_t previzCtrl_test_m3444838778_MetadataUsageId;
-extern RuntimeClass* U3CbrainAnimationU3Ec__Iterator3_t3637772874_il2cpp_TypeInfo_var;
-extern const uint32_t previzCtrl_brainAnimation_m1986808291_MetadataUsageId;
+extern RuntimeClass* U3CtestU3Ec__Iterator1_t3988515958_il2cpp_TypeInfo_var;
+extern const uint32_t previzCtrl_test_m1165146324_MetadataUsageId;
+extern RuntimeClass* U3CbrainAnimationU3Ec__Iterator2_t908889519_il2cpp_TypeInfo_var;
+extern const uint32_t previzCtrl_brainAnimation_m991228850_MetadataUsageId;
+extern RuntimeClass* U3CbreakTextU3Ec__Iterator3_t1253770968_il2cpp_TypeInfo_var;
+extern const uint32_t previzCtrl_breakText_m2194579506_MetadataUsageId;
 extern RuntimeField* U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D8E7629AD5AF686202B8CB7C014505C432FFE31E6_0_FieldInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1144830560;
 extern Il2CppCodeGenString* _stringLiteral2165571547;
 extern Il2CppCodeGenString* _stringLiteral69878724;
+extern Il2CppCodeGenString* _stringLiteral2778557519;
 extern const uint32_t previzCtrl_Update_m3917845437_MetadataUsageId;
 extern const uint32_t previzCtrl__cctor_m3639323815_MetadataUsageId;
-extern const uint32_t U3CbrainAnimationU3Ec__Iterator3_MoveNext_m2215230069_MetadataUsageId;
-extern const uint32_t U3CbrainAnimationU3Ec__Iterator3_Reset_m3004762434_MetadataUsageId;
+extern const uint32_t U3CbrainAnimationU3Ec__Iterator2_MoveNext_m3428292148_MetadataUsageId;
+extern const uint32_t U3CbrainAnimationU3Ec__Iterator2_Reset_m618622439_MetadataUsageId;
+extern const RuntimeMethod* GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322_RuntimeMethod_var;
+extern const uint32_t U3CbreakTextU3Ec__Iterator3_MoveNext_m1510200311_MetadataUsageId;
+extern const uint32_t U3CbreakTextU3Ec__Iterator3_Reset_m2251084004_MetadataUsageId;
 extern RuntimeClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1523810746;
-extern const uint32_t U3CtestU3Ec__Iterator2_MoveNext_m1422929710_MetadataUsageId;
-extern const uint32_t U3CtestU3Ec__Iterator2_Reset_m1896025993_MetadataUsageId;
-extern const uint32_t U3CtextCreateU3Ec__Iterator0_MoveNext_m875238595_MetadataUsageId;
-extern const uint32_t U3CtextCreateU3Ec__Iterator0_Reset_m575424252_MetadataUsageId;
-extern const uint32_t U3CtextDestroyU3Ec__Iterator1_MoveNext_m273120130_MetadataUsageId;
-extern const uint32_t U3CtextDestroyU3Ec__Iterator1_Reset_m2008895947_MetadataUsageId;
+extern const uint32_t U3CtestU3Ec__Iterator1_MoveNext_m2645322609_MetadataUsageId;
+extern const uint32_t U3CtestU3Ec__Iterator1_Reset_m3015627822_MetadataUsageId;
+extern const uint32_t U3CtextDestroyU3Ec__Iterator0_MoveNext_m3388465885_MetadataUsageId;
+extern const uint32_t U3CtextDestroyU3Ec__Iterator0_Reset_m2012381836_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral3513490258;
 extern const uint32_t SubMessageIds_get_editorInitARKit_m61535324_MetadataUsageId;
 extern const uint32_t TextCtrl__ctor_m648663823_MetadataUsageId;
@@ -2283,145 +2282,31 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MESSAGEEVENTARGS_T301283622_H
-#ifndef U3CTEXTCREATEU3EC__ITERATOR0_T382157024_H
-#define U3CTEXTCREATEU3EC__ITERATOR0_T382157024_H
+#ifndef U3CTEXTDESTROYU3EC__ITERATOR0_T2298180388_H
+#define U3CTEXTDESTROYU3EC__ITERATOR0_T2298180388_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0
-struct  U3CtextCreateU3Ec__Iterator0_t382157024  : public RuntimeObject
+// UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0
+struct  U3CtextDestroyU3Ec__Iterator0_t2298180388  : public RuntimeObject
 {
 public:
-	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::textIsCreated
-	bool ___textIsCreated_0;
-	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::random
-	int32_t ___random_1;
-	// System.String UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::text
-	String_t* ___text_2;
-	// System.String[] UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::<textArray>__1
-	StringU5BU5D_t1642385972* ___U3CtextArrayU3E__1_3;
-	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::textObject
-	GameObject_t1756533147 * ___textObject_4;
-	// UnityEngine.XR.iOS.previzCtrl UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::$this
-	previzCtrl_t930159927 * ___U24this_5;
-	// System.Object UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::$current
-	RuntimeObject * ___U24current_6;
-	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::$disposing
-	bool ___U24disposing_7;
-	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::$PC
-	int32_t ___U24PC_8;
-
-public:
-	inline static int32_t get_offset_of_textIsCreated_0() { return static_cast<int32_t>(offsetof(U3CtextCreateU3Ec__Iterator0_t382157024, ___textIsCreated_0)); }
-	inline bool get_textIsCreated_0() const { return ___textIsCreated_0; }
-	inline bool* get_address_of_textIsCreated_0() { return &___textIsCreated_0; }
-	inline void set_textIsCreated_0(bool value)
-	{
-		___textIsCreated_0 = value;
-	}
-
-	inline static int32_t get_offset_of_random_1() { return static_cast<int32_t>(offsetof(U3CtextCreateU3Ec__Iterator0_t382157024, ___random_1)); }
-	inline int32_t get_random_1() const { return ___random_1; }
-	inline int32_t* get_address_of_random_1() { return &___random_1; }
-	inline void set_random_1(int32_t value)
-	{
-		___random_1 = value;
-	}
-
-	inline static int32_t get_offset_of_text_2() { return static_cast<int32_t>(offsetof(U3CtextCreateU3Ec__Iterator0_t382157024, ___text_2)); }
-	inline String_t* get_text_2() const { return ___text_2; }
-	inline String_t** get_address_of_text_2() { return &___text_2; }
-	inline void set_text_2(String_t* value)
-	{
-		___text_2 = value;
-		Il2CppCodeGenWriteBarrier((&___text_2), value);
-	}
-
-	inline static int32_t get_offset_of_U3CtextArrayU3E__1_3() { return static_cast<int32_t>(offsetof(U3CtextCreateU3Ec__Iterator0_t382157024, ___U3CtextArrayU3E__1_3)); }
-	inline StringU5BU5D_t1642385972* get_U3CtextArrayU3E__1_3() const { return ___U3CtextArrayU3E__1_3; }
-	inline StringU5BU5D_t1642385972** get_address_of_U3CtextArrayU3E__1_3() { return &___U3CtextArrayU3E__1_3; }
-	inline void set_U3CtextArrayU3E__1_3(StringU5BU5D_t1642385972* value)
-	{
-		___U3CtextArrayU3E__1_3 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CtextArrayU3E__1_3), value);
-	}
-
-	inline static int32_t get_offset_of_textObject_4() { return static_cast<int32_t>(offsetof(U3CtextCreateU3Ec__Iterator0_t382157024, ___textObject_4)); }
-	inline GameObject_t1756533147 * get_textObject_4() const { return ___textObject_4; }
-	inline GameObject_t1756533147 ** get_address_of_textObject_4() { return &___textObject_4; }
-	inline void set_textObject_4(GameObject_t1756533147 * value)
-	{
-		___textObject_4 = value;
-		Il2CppCodeGenWriteBarrier((&___textObject_4), value);
-	}
-
-	inline static int32_t get_offset_of_U24this_5() { return static_cast<int32_t>(offsetof(U3CtextCreateU3Ec__Iterator0_t382157024, ___U24this_5)); }
-	inline previzCtrl_t930159927 * get_U24this_5() const { return ___U24this_5; }
-	inline previzCtrl_t930159927 ** get_address_of_U24this_5() { return &___U24this_5; }
-	inline void set_U24this_5(previzCtrl_t930159927 * value)
-	{
-		___U24this_5 = value;
-		Il2CppCodeGenWriteBarrier((&___U24this_5), value);
-	}
-
-	inline static int32_t get_offset_of_U24current_6() { return static_cast<int32_t>(offsetof(U3CtextCreateU3Ec__Iterator0_t382157024, ___U24current_6)); }
-	inline RuntimeObject * get_U24current_6() const { return ___U24current_6; }
-	inline RuntimeObject ** get_address_of_U24current_6() { return &___U24current_6; }
-	inline void set_U24current_6(RuntimeObject * value)
-	{
-		___U24current_6 = value;
-		Il2CppCodeGenWriteBarrier((&___U24current_6), value);
-	}
-
-	inline static int32_t get_offset_of_U24disposing_7() { return static_cast<int32_t>(offsetof(U3CtextCreateU3Ec__Iterator0_t382157024, ___U24disposing_7)); }
-	inline bool get_U24disposing_7() const { return ___U24disposing_7; }
-	inline bool* get_address_of_U24disposing_7() { return &___U24disposing_7; }
-	inline void set_U24disposing_7(bool value)
-	{
-		___U24disposing_7 = value;
-	}
-
-	inline static int32_t get_offset_of_U24PC_8() { return static_cast<int32_t>(offsetof(U3CtextCreateU3Ec__Iterator0_t382157024, ___U24PC_8)); }
-	inline int32_t get_U24PC_8() const { return ___U24PC_8; }
-	inline int32_t* get_address_of_U24PC_8() { return &___U24PC_8; }
-	inline void set_U24PC_8(int32_t value)
-	{
-		___U24PC_8 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U3CTEXTCREATEU3EC__ITERATOR0_T382157024_H
-#ifndef U3CTEXTDESTROYU3EC__ITERATOR1_T2298180387_H
-#define U3CTEXTDESTROYU3EC__ITERATOR1_T2298180387_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1
-struct  U3CtextDestroyU3Ec__Iterator1_t2298180387  : public RuntimeObject
-{
-public:
-	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::textObject
+	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::textObject
 	GameObject_t1756533147 * ___textObject_0;
-	// UnityEngine.XR.iOS.previzCtrl UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::$this
+	// UnityEngine.XR.iOS.previzCtrl UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::$this
 	previzCtrl_t930159927 * ___U24this_1;
-	// System.Object UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::$current
+	// System.Object UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::$current
 	RuntimeObject * ___U24current_2;
-	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::$disposing
+	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::$disposing
 	bool ___U24disposing_3;
-	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::$PC
+	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::$PC
 	int32_t ___U24PC_4;
 
 public:
-	inline static int32_t get_offset_of_textObject_0() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator1_t2298180387, ___textObject_0)); }
+	inline static int32_t get_offset_of_textObject_0() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator0_t2298180388, ___textObject_0)); }
 	inline GameObject_t1756533147 * get_textObject_0() const { return ___textObject_0; }
 	inline GameObject_t1756533147 ** get_address_of_textObject_0() { return &___textObject_0; }
 	inline void set_textObject_0(GameObject_t1756533147 * value)
@@ -2430,7 +2315,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___textObject_0), value);
 	}
 
-	inline static int32_t get_offset_of_U24this_1() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator1_t2298180387, ___U24this_1)); }
+	inline static int32_t get_offset_of_U24this_1() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator0_t2298180388, ___U24this_1)); }
 	inline previzCtrl_t930159927 * get_U24this_1() const { return ___U24this_1; }
 	inline previzCtrl_t930159927 ** get_address_of_U24this_1() { return &___U24this_1; }
 	inline void set_U24this_1(previzCtrl_t930159927 * value)
@@ -2439,7 +2324,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U24this_1), value);
 	}
 
-	inline static int32_t get_offset_of_U24current_2() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator1_t2298180387, ___U24current_2)); }
+	inline static int32_t get_offset_of_U24current_2() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator0_t2298180388, ___U24current_2)); }
 	inline RuntimeObject * get_U24current_2() const { return ___U24current_2; }
 	inline RuntimeObject ** get_address_of_U24current_2() { return &___U24current_2; }
 	inline void set_U24current_2(RuntimeObject * value)
@@ -2448,7 +2333,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___U24current_2), value);
 	}
 
-	inline static int32_t get_offset_of_U24disposing_3() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator1_t2298180387, ___U24disposing_3)); }
+	inline static int32_t get_offset_of_U24disposing_3() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator0_t2298180388, ___U24disposing_3)); }
 	inline bool get_U24disposing_3() const { return ___U24disposing_3; }
 	inline bool* get_address_of_U24disposing_3() { return &___U24disposing_3; }
 	inline void set_U24disposing_3(bool value)
@@ -2456,7 +2341,7 @@ public:
 		___U24disposing_3 = value;
 	}
 
-	inline static int32_t get_offset_of_U24PC_4() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator1_t2298180387, ___U24PC_4)); }
+	inline static int32_t get_offset_of_U24PC_4() { return static_cast<int32_t>(offsetof(U3CtextDestroyU3Ec__Iterator0_t2298180388, ___U24PC_4)); }
 	inline int32_t get_U24PC_4() const { return ___U24PC_4; }
 	inline int32_t* get_address_of_U24PC_4() { return &___U24PC_4; }
 	inline void set_U24PC_4(int32_t value)
@@ -2468,193 +2353,265 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CTEXTDESTROYU3EC__ITERATOR1_T2298180387_H
-#ifndef U3CTESTU3EC__ITERATOR2_T2422432017_H
-#define U3CTESTU3EC__ITERATOR2_T2422432017_H
+#endif // U3CTEXTDESTROYU3EC__ITERATOR0_T2298180388_H
+#ifndef U3CTESTU3EC__ITERATOR1_T3988515958_H
+#define U3CTESTU3EC__ITERATOR1_T3988515958_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2
-struct  U3CtestU3Ec__Iterator2_t2422432017  : public RuntimeObject
+// UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1
+struct  U3CtestU3Ec__Iterator1_t3988515958  : public RuntimeObject
 {
 public:
-	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::textObject
-	GameObject_t1756533147 * ___textObject_0;
-	// System.String[] UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::<textArray>__1
-	StringU5BU5D_t1642385972* ___U3CtextArrayU3E__1_1;
-	// UnityEngine.Rigidbody[] UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::<rigidbodies>__1
-	RigidbodyU5BU5D_t3881993182* ___U3CrigidbodiesU3E__1_2;
-	// UnityEngine.Rigidbody[] UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::$locvar0
-	RigidbodyU5BU5D_t3881993182* ___U24locvar0_3;
-	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::$locvar1
-	int32_t ___U24locvar1_4;
-	// UnityEngine.XR.iOS.previzCtrl UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::$this
-	previzCtrl_t930159927 * ___U24this_5;
-	// System.Object UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::$current
-	RuntimeObject * ___U24current_6;
-	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::$disposing
-	bool ___U24disposing_7;
-	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::$PC
-	int32_t ___U24PC_8;
+	// System.String[] UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::<textArray>__1
+	StringU5BU5D_t1642385972* ___U3CtextArrayU3E__1_0;
+	// UnityEngine.Rigidbody[] UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::<rigidbodies>__1
+	RigidbodyU5BU5D_t3881993182* ___U3CrigidbodiesU3E__1_1;
+	// UnityEngine.Rigidbody[] UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::$locvar0
+	RigidbodyU5BU5D_t3881993182* ___U24locvar0_2;
+	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::$locvar1
+	int32_t ___U24locvar1_3;
+	// UnityEngine.XR.iOS.previzCtrl UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::$this
+	previzCtrl_t930159927 * ___U24this_4;
+	// System.Object UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::$current
+	RuntimeObject * ___U24current_5;
+	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::$disposing
+	bool ___U24disposing_6;
+	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::$PC
+	int32_t ___U24PC_7;
 
 public:
-	inline static int32_t get_offset_of_textObject_0() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator2_t2422432017, ___textObject_0)); }
-	inline GameObject_t1756533147 * get_textObject_0() const { return ___textObject_0; }
-	inline GameObject_t1756533147 ** get_address_of_textObject_0() { return &___textObject_0; }
-	inline void set_textObject_0(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_U3CtextArrayU3E__1_0() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator1_t3988515958, ___U3CtextArrayU3E__1_0)); }
+	inline StringU5BU5D_t1642385972* get_U3CtextArrayU3E__1_0() const { return ___U3CtextArrayU3E__1_0; }
+	inline StringU5BU5D_t1642385972** get_address_of_U3CtextArrayU3E__1_0() { return &___U3CtextArrayU3E__1_0; }
+	inline void set_U3CtextArrayU3E__1_0(StringU5BU5D_t1642385972* value)
 	{
-		___textObject_0 = value;
-		Il2CppCodeGenWriteBarrier((&___textObject_0), value);
+		___U3CtextArrayU3E__1_0 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CtextArrayU3E__1_0), value);
 	}
 
-	inline static int32_t get_offset_of_U3CtextArrayU3E__1_1() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator2_t2422432017, ___U3CtextArrayU3E__1_1)); }
-	inline StringU5BU5D_t1642385972* get_U3CtextArrayU3E__1_1() const { return ___U3CtextArrayU3E__1_1; }
-	inline StringU5BU5D_t1642385972** get_address_of_U3CtextArrayU3E__1_1() { return &___U3CtextArrayU3E__1_1; }
-	inline void set_U3CtextArrayU3E__1_1(StringU5BU5D_t1642385972* value)
+	inline static int32_t get_offset_of_U3CrigidbodiesU3E__1_1() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator1_t3988515958, ___U3CrigidbodiesU3E__1_1)); }
+	inline RigidbodyU5BU5D_t3881993182* get_U3CrigidbodiesU3E__1_1() const { return ___U3CrigidbodiesU3E__1_1; }
+	inline RigidbodyU5BU5D_t3881993182** get_address_of_U3CrigidbodiesU3E__1_1() { return &___U3CrigidbodiesU3E__1_1; }
+	inline void set_U3CrigidbodiesU3E__1_1(RigidbodyU5BU5D_t3881993182* value)
 	{
-		___U3CtextArrayU3E__1_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CtextArrayU3E__1_1), value);
+		___U3CrigidbodiesU3E__1_1 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CrigidbodiesU3E__1_1), value);
 	}
 
-	inline static int32_t get_offset_of_U3CrigidbodiesU3E__1_2() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator2_t2422432017, ___U3CrigidbodiesU3E__1_2)); }
-	inline RigidbodyU5BU5D_t3881993182* get_U3CrigidbodiesU3E__1_2() const { return ___U3CrigidbodiesU3E__1_2; }
-	inline RigidbodyU5BU5D_t3881993182** get_address_of_U3CrigidbodiesU3E__1_2() { return &___U3CrigidbodiesU3E__1_2; }
-	inline void set_U3CrigidbodiesU3E__1_2(RigidbodyU5BU5D_t3881993182* value)
+	inline static int32_t get_offset_of_U24locvar0_2() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator1_t3988515958, ___U24locvar0_2)); }
+	inline RigidbodyU5BU5D_t3881993182* get_U24locvar0_2() const { return ___U24locvar0_2; }
+	inline RigidbodyU5BU5D_t3881993182** get_address_of_U24locvar0_2() { return &___U24locvar0_2; }
+	inline void set_U24locvar0_2(RigidbodyU5BU5D_t3881993182* value)
 	{
-		___U3CrigidbodiesU3E__1_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U3CrigidbodiesU3E__1_2), value);
+		___U24locvar0_2 = value;
+		Il2CppCodeGenWriteBarrier((&___U24locvar0_2), value);
 	}
 
-	inline static int32_t get_offset_of_U24locvar0_3() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator2_t2422432017, ___U24locvar0_3)); }
-	inline RigidbodyU5BU5D_t3881993182* get_U24locvar0_3() const { return ___U24locvar0_3; }
-	inline RigidbodyU5BU5D_t3881993182** get_address_of_U24locvar0_3() { return &___U24locvar0_3; }
-	inline void set_U24locvar0_3(RigidbodyU5BU5D_t3881993182* value)
+	inline static int32_t get_offset_of_U24locvar1_3() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator1_t3988515958, ___U24locvar1_3)); }
+	inline int32_t get_U24locvar1_3() const { return ___U24locvar1_3; }
+	inline int32_t* get_address_of_U24locvar1_3() { return &___U24locvar1_3; }
+	inline void set_U24locvar1_3(int32_t value)
 	{
-		___U24locvar0_3 = value;
-		Il2CppCodeGenWriteBarrier((&___U24locvar0_3), value);
+		___U24locvar1_3 = value;
 	}
 
-	inline static int32_t get_offset_of_U24locvar1_4() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator2_t2422432017, ___U24locvar1_4)); }
-	inline int32_t get_U24locvar1_4() const { return ___U24locvar1_4; }
-	inline int32_t* get_address_of_U24locvar1_4() { return &___U24locvar1_4; }
-	inline void set_U24locvar1_4(int32_t value)
+	inline static int32_t get_offset_of_U24this_4() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator1_t3988515958, ___U24this_4)); }
+	inline previzCtrl_t930159927 * get_U24this_4() const { return ___U24this_4; }
+	inline previzCtrl_t930159927 ** get_address_of_U24this_4() { return &___U24this_4; }
+	inline void set_U24this_4(previzCtrl_t930159927 * value)
 	{
-		___U24locvar1_4 = value;
+		___U24this_4 = value;
+		Il2CppCodeGenWriteBarrier((&___U24this_4), value);
 	}
 
-	inline static int32_t get_offset_of_U24this_5() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator2_t2422432017, ___U24this_5)); }
-	inline previzCtrl_t930159927 * get_U24this_5() const { return ___U24this_5; }
-	inline previzCtrl_t930159927 ** get_address_of_U24this_5() { return &___U24this_5; }
-	inline void set_U24this_5(previzCtrl_t930159927 * value)
+	inline static int32_t get_offset_of_U24current_5() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator1_t3988515958, ___U24current_5)); }
+	inline RuntimeObject * get_U24current_5() const { return ___U24current_5; }
+	inline RuntimeObject ** get_address_of_U24current_5() { return &___U24current_5; }
+	inline void set_U24current_5(RuntimeObject * value)
 	{
-		___U24this_5 = value;
-		Il2CppCodeGenWriteBarrier((&___U24this_5), value);
+		___U24current_5 = value;
+		Il2CppCodeGenWriteBarrier((&___U24current_5), value);
 	}
 
-	inline static int32_t get_offset_of_U24current_6() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator2_t2422432017, ___U24current_6)); }
-	inline RuntimeObject * get_U24current_6() const { return ___U24current_6; }
-	inline RuntimeObject ** get_address_of_U24current_6() { return &___U24current_6; }
-	inline void set_U24current_6(RuntimeObject * value)
+	inline static int32_t get_offset_of_U24disposing_6() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator1_t3988515958, ___U24disposing_6)); }
+	inline bool get_U24disposing_6() const { return ___U24disposing_6; }
+	inline bool* get_address_of_U24disposing_6() { return &___U24disposing_6; }
+	inline void set_U24disposing_6(bool value)
 	{
-		___U24current_6 = value;
-		Il2CppCodeGenWriteBarrier((&___U24current_6), value);
+		___U24disposing_6 = value;
 	}
 
-	inline static int32_t get_offset_of_U24disposing_7() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator2_t2422432017, ___U24disposing_7)); }
-	inline bool get_U24disposing_7() const { return ___U24disposing_7; }
-	inline bool* get_address_of_U24disposing_7() { return &___U24disposing_7; }
-	inline void set_U24disposing_7(bool value)
+	inline static int32_t get_offset_of_U24PC_7() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator1_t3988515958, ___U24PC_7)); }
+	inline int32_t get_U24PC_7() const { return ___U24PC_7; }
+	inline int32_t* get_address_of_U24PC_7() { return &___U24PC_7; }
+	inline void set_U24PC_7(int32_t value)
 	{
-		___U24disposing_7 = value;
-	}
-
-	inline static int32_t get_offset_of_U24PC_8() { return static_cast<int32_t>(offsetof(U3CtestU3Ec__Iterator2_t2422432017, ___U24PC_8)); }
-	inline int32_t get_U24PC_8() const { return ___U24PC_8; }
-	inline int32_t* get_address_of_U24PC_8() { return &___U24PC_8; }
-	inline void set_U24PC_8(int32_t value)
-	{
-		___U24PC_8 = value;
+		___U24PC_7 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CTESTU3EC__ITERATOR2_T2422432017_H
-#ifndef U3CBRAINANIMATIONU3EC__ITERATOR3_T3637772874_H
-#define U3CBRAINANIMATIONU3EC__ITERATOR3_T3637772874_H
+#endif // U3CTESTU3EC__ITERATOR1_T3988515958_H
+#ifndef U3CBRAINANIMATIONU3EC__ITERATOR2_T908889519_H
+#define U3CBRAINANIMATIONU3EC__ITERATOR2_T908889519_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3
-struct  U3CbrainAnimationU3Ec__Iterator3_t3637772874  : public RuntimeObject
+// UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2
+struct  U3CbrainAnimationU3Ec__Iterator2_t908889519  : public RuntimeObject
 {
 public:
-	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::animationIsPlaying
-	bool ___animationIsPlaying_0;
-	// UnityEngine.XR.iOS.previzCtrl UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::$this
-	previzCtrl_t930159927 * ___U24this_1;
-	// System.Object UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::$current
-	RuntimeObject * ___U24current_2;
-	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::$disposing
-	bool ___U24disposing_3;
-	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::$PC
-	int32_t ___U24PC_4;
+	// UnityEngine.XR.iOS.previzCtrl UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::$this
+	previzCtrl_t930159927 * ___U24this_0;
+	// System.Object UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::$current
+	RuntimeObject * ___U24current_1;
+	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::$disposing
+	bool ___U24disposing_2;
+	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::$PC
+	int32_t ___U24PC_3;
 
 public:
-	inline static int32_t get_offset_of_animationIsPlaying_0() { return static_cast<int32_t>(offsetof(U3CbrainAnimationU3Ec__Iterator3_t3637772874, ___animationIsPlaying_0)); }
-	inline bool get_animationIsPlaying_0() const { return ___animationIsPlaying_0; }
-	inline bool* get_address_of_animationIsPlaying_0() { return &___animationIsPlaying_0; }
-	inline void set_animationIsPlaying_0(bool value)
+	inline static int32_t get_offset_of_U24this_0() { return static_cast<int32_t>(offsetof(U3CbrainAnimationU3Ec__Iterator2_t908889519, ___U24this_0)); }
+	inline previzCtrl_t930159927 * get_U24this_0() const { return ___U24this_0; }
+	inline previzCtrl_t930159927 ** get_address_of_U24this_0() { return &___U24this_0; }
+	inline void set_U24this_0(previzCtrl_t930159927 * value)
 	{
-		___animationIsPlaying_0 = value;
+		___U24this_0 = value;
+		Il2CppCodeGenWriteBarrier((&___U24this_0), value);
 	}
 
-	inline static int32_t get_offset_of_U24this_1() { return static_cast<int32_t>(offsetof(U3CbrainAnimationU3Ec__Iterator3_t3637772874, ___U24this_1)); }
-	inline previzCtrl_t930159927 * get_U24this_1() const { return ___U24this_1; }
-	inline previzCtrl_t930159927 ** get_address_of_U24this_1() { return &___U24this_1; }
-	inline void set_U24this_1(previzCtrl_t930159927 * value)
+	inline static int32_t get_offset_of_U24current_1() { return static_cast<int32_t>(offsetof(U3CbrainAnimationU3Ec__Iterator2_t908889519, ___U24current_1)); }
+	inline RuntimeObject * get_U24current_1() const { return ___U24current_1; }
+	inline RuntimeObject ** get_address_of_U24current_1() { return &___U24current_1; }
+	inline void set_U24current_1(RuntimeObject * value)
 	{
-		___U24this_1 = value;
-		Il2CppCodeGenWriteBarrier((&___U24this_1), value);
+		___U24current_1 = value;
+		Il2CppCodeGenWriteBarrier((&___U24current_1), value);
 	}
 
-	inline static int32_t get_offset_of_U24current_2() { return static_cast<int32_t>(offsetof(U3CbrainAnimationU3Ec__Iterator3_t3637772874, ___U24current_2)); }
-	inline RuntimeObject * get_U24current_2() const { return ___U24current_2; }
-	inline RuntimeObject ** get_address_of_U24current_2() { return &___U24current_2; }
-	inline void set_U24current_2(RuntimeObject * value)
+	inline static int32_t get_offset_of_U24disposing_2() { return static_cast<int32_t>(offsetof(U3CbrainAnimationU3Ec__Iterator2_t908889519, ___U24disposing_2)); }
+	inline bool get_U24disposing_2() const { return ___U24disposing_2; }
+	inline bool* get_address_of_U24disposing_2() { return &___U24disposing_2; }
+	inline void set_U24disposing_2(bool value)
 	{
-		___U24current_2 = value;
-		Il2CppCodeGenWriteBarrier((&___U24current_2), value);
+		___U24disposing_2 = value;
 	}
 
-	inline static int32_t get_offset_of_U24disposing_3() { return static_cast<int32_t>(offsetof(U3CbrainAnimationU3Ec__Iterator3_t3637772874, ___U24disposing_3)); }
-	inline bool get_U24disposing_3() const { return ___U24disposing_3; }
-	inline bool* get_address_of_U24disposing_3() { return &___U24disposing_3; }
-	inline void set_U24disposing_3(bool value)
+	inline static int32_t get_offset_of_U24PC_3() { return static_cast<int32_t>(offsetof(U3CbrainAnimationU3Ec__Iterator2_t908889519, ___U24PC_3)); }
+	inline int32_t get_U24PC_3() const { return ___U24PC_3; }
+	inline int32_t* get_address_of_U24PC_3() { return &___U24PC_3; }
+	inline void set_U24PC_3(int32_t value)
 	{
-		___U24disposing_3 = value;
-	}
-
-	inline static int32_t get_offset_of_U24PC_4() { return static_cast<int32_t>(offsetof(U3CbrainAnimationU3Ec__Iterator3_t3637772874, ___U24PC_4)); }
-	inline int32_t get_U24PC_4() const { return ___U24PC_4; }
-	inline int32_t* get_address_of_U24PC_4() { return &___U24PC_4; }
-	inline void set_U24PC_4(int32_t value)
-	{
-		___U24PC_4 = value;
+		___U24PC_3 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CBRAINANIMATIONU3EC__ITERATOR3_T3637772874_H
+#endif // U3CBRAINANIMATIONU3EC__ITERATOR2_T908889519_H
+#ifndef U3CBREAKTEXTU3EC__ITERATOR3_T1253770968_H
+#define U3CBREAKTEXTU3EC__ITERATOR3_T1253770968_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3
+struct  U3CbreakTextU3Ec__Iterator3_t1253770968  : public RuntimeObject
+{
+public:
+	// UnityEngine.Rigidbody[] UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::<rigidbodies>__1
+	RigidbodyU5BU5D_t3881993182* ___U3CrigidbodiesU3E__1_0;
+	// UnityEngine.Rigidbody[] UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::$locvar0
+	RigidbodyU5BU5D_t3881993182* ___U24locvar0_1;
+	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::$locvar1
+	int32_t ___U24locvar1_2;
+	// UnityEngine.XR.iOS.previzCtrl UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::$this
+	previzCtrl_t930159927 * ___U24this_3;
+	// System.Object UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::$current
+	RuntimeObject * ___U24current_4;
+	// System.Boolean UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::$disposing
+	bool ___U24disposing_5;
+	// System.Int32 UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::$PC
+	int32_t ___U24PC_6;
+
+public:
+	inline static int32_t get_offset_of_U3CrigidbodiesU3E__1_0() { return static_cast<int32_t>(offsetof(U3CbreakTextU3Ec__Iterator3_t1253770968, ___U3CrigidbodiesU3E__1_0)); }
+	inline RigidbodyU5BU5D_t3881993182* get_U3CrigidbodiesU3E__1_0() const { return ___U3CrigidbodiesU3E__1_0; }
+	inline RigidbodyU5BU5D_t3881993182** get_address_of_U3CrigidbodiesU3E__1_0() { return &___U3CrigidbodiesU3E__1_0; }
+	inline void set_U3CrigidbodiesU3E__1_0(RigidbodyU5BU5D_t3881993182* value)
+	{
+		___U3CrigidbodiesU3E__1_0 = value;
+		Il2CppCodeGenWriteBarrier((&___U3CrigidbodiesU3E__1_0), value);
+	}
+
+	inline static int32_t get_offset_of_U24locvar0_1() { return static_cast<int32_t>(offsetof(U3CbreakTextU3Ec__Iterator3_t1253770968, ___U24locvar0_1)); }
+	inline RigidbodyU5BU5D_t3881993182* get_U24locvar0_1() const { return ___U24locvar0_1; }
+	inline RigidbodyU5BU5D_t3881993182** get_address_of_U24locvar0_1() { return &___U24locvar0_1; }
+	inline void set_U24locvar0_1(RigidbodyU5BU5D_t3881993182* value)
+	{
+		___U24locvar0_1 = value;
+		Il2CppCodeGenWriteBarrier((&___U24locvar0_1), value);
+	}
+
+	inline static int32_t get_offset_of_U24locvar1_2() { return static_cast<int32_t>(offsetof(U3CbreakTextU3Ec__Iterator3_t1253770968, ___U24locvar1_2)); }
+	inline int32_t get_U24locvar1_2() const { return ___U24locvar1_2; }
+	inline int32_t* get_address_of_U24locvar1_2() { return &___U24locvar1_2; }
+	inline void set_U24locvar1_2(int32_t value)
+	{
+		___U24locvar1_2 = value;
+	}
+
+	inline static int32_t get_offset_of_U24this_3() { return static_cast<int32_t>(offsetof(U3CbreakTextU3Ec__Iterator3_t1253770968, ___U24this_3)); }
+	inline previzCtrl_t930159927 * get_U24this_3() const { return ___U24this_3; }
+	inline previzCtrl_t930159927 ** get_address_of_U24this_3() { return &___U24this_3; }
+	inline void set_U24this_3(previzCtrl_t930159927 * value)
+	{
+		___U24this_3 = value;
+		Il2CppCodeGenWriteBarrier((&___U24this_3), value);
+	}
+
+	inline static int32_t get_offset_of_U24current_4() { return static_cast<int32_t>(offsetof(U3CbreakTextU3Ec__Iterator3_t1253770968, ___U24current_4)); }
+	inline RuntimeObject * get_U24current_4() const { return ___U24current_4; }
+	inline RuntimeObject ** get_address_of_U24current_4() { return &___U24current_4; }
+	inline void set_U24current_4(RuntimeObject * value)
+	{
+		___U24current_4 = value;
+		Il2CppCodeGenWriteBarrier((&___U24current_4), value);
+	}
+
+	inline static int32_t get_offset_of_U24disposing_5() { return static_cast<int32_t>(offsetof(U3CbreakTextU3Ec__Iterator3_t1253770968, ___U24disposing_5)); }
+	inline bool get_U24disposing_5() const { return ___U24disposing_5; }
+	inline bool* get_address_of_U24disposing_5() { return &___U24disposing_5; }
+	inline void set_U24disposing_5(bool value)
+	{
+		___U24disposing_5 = value;
+	}
+
+	inline static int32_t get_offset_of_U24PC_6() { return static_cast<int32_t>(offsetof(U3CbreakTextU3Ec__Iterator3_t1253770968, ___U24PC_6)); }
+	inline int32_t get_U24PC_6() const { return ___U24PC_6; }
+	inline int32_t* get_address_of_U24PC_6() { return &___U24PC_6; }
+	inline void set_U24PC_6(int32_t value)
+	{
+		___U24PC_6 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U3CBREAKTEXTU3EC__ITERATOR3_T1253770968_H
 #ifndef SUBMESSAGEIDS_T3304728981_H
 #define SUBMESSAGEIDS_T3304728981_H
 #ifdef __clang__
@@ -15704,6 +15661,8 @@ public:
 	bool ___piyopiyo_38;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::CoroutineTextCreate_IsRunning
 	bool ___CoroutineTextCreate_IsRunning_39;
+	// System.Boolean UnityEngine.XR.iOS.previzCtrl::breakTextIsRunning
+	bool ___breakTextIsRunning_40;
 
 public:
 	inline static int32_t get_offset_of_debugBox_2() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___debugBox_2)); }
@@ -16040,41 +15999,49 @@ public:
 	{
 		___CoroutineTextCreate_IsRunning_39 = value;
 	}
+
+	inline static int32_t get_offset_of_breakTextIsRunning_40() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___breakTextIsRunning_40)); }
+	inline bool get_breakTextIsRunning_40() const { return ___breakTextIsRunning_40; }
+	inline bool* get_address_of_breakTextIsRunning_40() { return &___breakTextIsRunning_40; }
+	inline void set_breakTextIsRunning_40(bool value)
+	{
+		___breakTextIsRunning_40 = value;
+	}
 };
 
 struct previzCtrl_t930159927_StaticFields
 {
 public:
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::plateIsOn
-	bool ___plateIsOn_40;
+	bool ___plateIsOn_41;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::planeIsOn
-	bool ___planeIsOn_41;
+	bool ___planeIsOn_42;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::readytoReloadText
-	bool ___readytoReloadText_42;
+	bool ___readytoReloadText_43;
 
 public:
-	inline static int32_t get_offset_of_plateIsOn_40() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___plateIsOn_40)); }
-	inline bool get_plateIsOn_40() const { return ___plateIsOn_40; }
-	inline bool* get_address_of_plateIsOn_40() { return &___plateIsOn_40; }
-	inline void set_plateIsOn_40(bool value)
+	inline static int32_t get_offset_of_plateIsOn_41() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___plateIsOn_41)); }
+	inline bool get_plateIsOn_41() const { return ___plateIsOn_41; }
+	inline bool* get_address_of_plateIsOn_41() { return &___plateIsOn_41; }
+	inline void set_plateIsOn_41(bool value)
 	{
-		___plateIsOn_40 = value;
+		___plateIsOn_41 = value;
 	}
 
-	inline static int32_t get_offset_of_planeIsOn_41() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___planeIsOn_41)); }
-	inline bool get_planeIsOn_41() const { return ___planeIsOn_41; }
-	inline bool* get_address_of_planeIsOn_41() { return &___planeIsOn_41; }
-	inline void set_planeIsOn_41(bool value)
+	inline static int32_t get_offset_of_planeIsOn_42() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___planeIsOn_42)); }
+	inline bool get_planeIsOn_42() const { return ___planeIsOn_42; }
+	inline bool* get_address_of_planeIsOn_42() { return &___planeIsOn_42; }
+	inline void set_planeIsOn_42(bool value)
 	{
-		___planeIsOn_41 = value;
+		___planeIsOn_42 = value;
 	}
 
-	inline static int32_t get_offset_of_readytoReloadText_42() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___readytoReloadText_42)); }
-	inline bool get_readytoReloadText_42() const { return ___readytoReloadText_42; }
-	inline bool* get_address_of_readytoReloadText_42() { return &___readytoReloadText_42; }
-	inline void set_readytoReloadText_42(bool value)
+	inline static int32_t get_offset_of_readytoReloadText_43() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___readytoReloadText_43)); }
+	inline bool get_readytoReloadText_43() const { return ___readytoReloadText_43; }
+	inline bool* get_address_of_readytoReloadText_43() { return &___readytoReloadText_43; }
+	inline void set_readytoReloadText_43(bool value)
 	{
-		___readytoReloadText_42 = value;
+		___readytoReloadText_43 = value;
 	}
 };
 
@@ -19934,14 +19901,12 @@ extern "C"  void MarshalDirectionalLightEstimate_RotateForUnity_m317214218 (Mars
 extern "C"  void previzCtrl_SetObjectInvisible_m4193672493 (previzCtrl_t930159927 * __this, GameObject_t1756533147 * ___TargetObjects0, bool ___visibility1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Animation::Play()
 extern "C"  bool Animation_Play_m690047637 (Animation_t2068071072 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::brainAnimation(UnityEngine.GameObject,System.String,System.Boolean)
-extern "C"  RuntimeObject* previzCtrl_brainAnimation_m1986808291 (previzCtrl_t930159927 * __this, GameObject_t1756533147 * ___textObject0, String_t* ___text1, bool ___animationIsPlaying2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.Handheld::Vibrate()
-extern "C"  void Handheld_Vibrate_m752722291 (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::test(UnityEngine.GameObject)
-extern "C"  RuntimeObject* previzCtrl_test_m3444838778 (previzCtrl_t930159927 * __this, GameObject_t1756533147 * ___textObject0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.Rigidbody>()
-#define GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322(__this, method) ((  RigidbodyU5BU5D_t3881993182* (*) (GameObject_t1756533147 *, const RuntimeMethod*))GameObject_GetComponentsInChildren_TisRuntimeObject_m1467294482_gshared)(__this, method)
+// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::brainAnimation()
+extern "C"  RuntimeObject* previzCtrl_brainAnimation_m991228850 (previzCtrl_t930159927 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::test()
+extern "C"  RuntimeObject* previzCtrl_test_m1165146324 (previzCtrl_t930159927 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::breakText()
+extern "C"  RuntimeObject* previzCtrl_breakText_m2194579506 (previzCtrl_t930159927 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ParticleSystem::Stop()
 extern "C"  void ParticleSystem_Stop_m3868680149 (ParticleSystem_t3394631041 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ParticleSystem::Clear()
@@ -19950,16 +19915,14 @@ extern "C"  void ParticleSystem_Clear_m1052596698 (ParticleSystem_t3394631041 * 
 extern "C"  Type_t * Type_GetTypeFromHandle_m432505302 (RuntimeObject * __this /* static, unused */, RuntimeTypeHandle_t2330101084  p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Component[] UnityEngine.GameObject::GetComponentsInChildren(System.Type)
 extern "C"  ComponentU5BU5D_t4136971630* GameObject_GetComponentsInChildren_m2244720521 (GameObject_t1756533147 * __this, Type_t * p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::.ctor()
-extern "C"  void U3CtextCreateU3Ec__Iterator0__ctor_m1409539637 (U3CtextCreateU3Ec__Iterator0_t382157024 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::.ctor()
-extern "C"  void U3CtextDestroyU3Ec__Iterator1__ctor_m1482163334 (U3CtextDestroyU3Ec__Iterator1_t2298180387 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::.ctor()
-extern "C"  void U3CtestU3Ec__Iterator2__ctor_m4229440250 (U3CtestU3Ec__Iterator2_t2422432017 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::.ctor()
-extern "C"  void U3CbrainAnimationU3Ec__Iterator3__ctor_m1929696363 (U3CbrainAnimationU3Ec__Iterator3_t3637772874 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Input::GetKeyDown(System.String)
-extern "C"  bool Input_GetKeyDown_m3563899393 (RuntimeObject * __this /* static, unused */, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::.ctor()
+extern "C"  void U3CtextDestroyU3Ec__Iterator0__ctor_m1485640775 (U3CtextDestroyU3Ec__Iterator0_t2298180388 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::.ctor()
+extern "C"  void U3CtestU3Ec__Iterator1__ctor_m165143839 (U3CtestU3Ec__Iterator1_t3988515958 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::.ctor()
+extern "C"  void U3CbrainAnimationU3Ec__Iterator2__ctor_m3838523664 (U3CbrainAnimationU3Ec__Iterator2_t908889519 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::.ctor()
+extern "C"  void U3CbreakTextU3Ec__Iterator3__ctor_m3448899537 (U3CbreakTextU3Ec__Iterator3_t1253770968 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Ray::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)
 extern "C"  void Ray__ctor_m2480021746 (Ray_t2469606224 * __this, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Physics::Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single)
@@ -19978,6 +19941,10 @@ extern "C"  bool Animation_Play_m2328042413 (Animation_t2068071072 * __this, int
 extern "C"  void RuntimeHelpers_InitializeArray_m3920580167 (RuntimeObject * __this /* static, unused */, RuntimeArray * p0, RuntimeFieldHandle_t2331729674  p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.XR.iOS.previzCtrl::HitTestWithResultType(UnityEngine.XR.iOS.ARPoint,UnityEngine.XR.iOS.ARHitTestResultType,System.Boolean)
 extern "C"  bool previzCtrl_HitTestWithResultType_m1300480189 (previzCtrl_t930159927 * __this, ARPoint_t3436811567  ___point0, int64_t ___resultTypes1, bool ___playground2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.Rigidbody>()
+#define GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322(__this, method) ((  RigidbodyU5BU5D_t3881993182* (*) (GameObject_t1756533147 *, const RuntimeMethod*))GameObject_GetComponentsInChildren_TisRuntimeObject_m1467294482_gshared)(__this, method)
+// System.Void UnityEngine.Object::Destroy(UnityEngine.Object,System.Single)
+extern "C"  void Object_Destroy_m682534386 (RuntimeObject * __this /* static, unused */, Object_t1021602117 * p0, float p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.String[] System.String::Split(System.Char[])
 extern "C"  StringU5BU5D_t1642385972* String_Split_m3326265864 (String_t* __this, CharU5BU5D_t1328083999* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform::set_parent(UnityEngine.Transform)
@@ -29199,7 +29166,7 @@ extern "C"  void QRCodeReader_Update_m1388300513 (QRCodeReader_t3711862773 * __t
 		Initobj (UnityARCamera_t4198559457_il2cpp_TypeInfo_var, (&V_1));
 		// if(previzCtrl.readytoReloadText == true)
 		IL2CPP_RUNTIME_CLASS_INIT(previzCtrl_t930159927_il2cpp_TypeInfo_var);
-		bool L_2 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_readytoReloadText_42();
+		bool L_2 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_readytoReloadText_43();
 		if (!L_2)
 		{
 			goto IL_0042;
@@ -35200,6 +35167,8 @@ extern "C"  void previzCtrl__ctor_m2963547266 (previzCtrl_t930159927 * __this, c
 		__this->set_piyopiyo_38((bool)0);
 		// private bool CoroutineTextCreate_IsRunning = false;
 		__this->set_CoroutineTextCreate_IsRunning_39((bool)0);
+		// private bool breakTextIsRunning = false;
+		__this->set_breakTextIsRunning_40((bool)0);
 		MonoBehaviour__ctor_m1825328214(__this, /*hidden argument*/NULL);
 		return;
 	}
@@ -35395,7 +35364,7 @@ extern "C"  void previzCtrl_Start_m4257261626 (previzCtrl_t930159927 * __this, c
 		// SetObjectInvisible(plane, plateIsOn);
 		GameObject_t1756533147 * L_58 = __this->get_plane_6();
 		IL2CPP_RUNTIME_CLASS_INIT(previzCtrl_t930159927_il2cpp_TypeInfo_var);
-		bool L_59 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_40();
+		bool L_59 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_41();
 		// SetObjectInvisible(plane, plateIsOn);
 		previzCtrl_SetObjectInvisible_m4193672493(__this, L_58, L_59, /*hidden argument*/NULL);
 		// Initialized = true;
@@ -35447,14 +35416,14 @@ extern "C"  bool previzCtrl_HitTestWithResultType_m1300480189 (previzCtrl_t93015
 		int32_t L_5 = List_1_get_Count_m323201712(L_4, /*hidden argument*/List_1_get_Count_m323201712_RuntimeMethod_var);
 		if ((((int32_t)L_5) <= ((int32_t)0)))
 		{
-			goto IL_011e;
+			goto IL_010c;
 		}
 	}
 	{
 		bool L_6 = ___playground2;
 		if (!L_6)
 		{
-			goto IL_011e;
+			goto IL_010c;
 		}
 	}
 	{
@@ -35470,7 +35439,7 @@ IL_0029:
 	try
 	{ // begin try (depth: 1)
 		{
-			goto IL_00fe;
+			goto IL_00ec;
 		}
 
 IL_002e:
@@ -35495,7 +35464,7 @@ IL_002e:
 			int32_t L_14 = Input_get_touchCount_m814531925(NULL /*static, unused*/, /*hidden argument*/NULL);
 			if ((((int32_t)L_14) <= ((int32_t)0)))
 			{
-				goto IL_00f7;
+				goto IL_00e5;
 			}
 		}
 
@@ -35514,107 +35483,104 @@ IL_005e:
 			Transform_set_position_m2942701431(L_16, L_18, /*hidden argument*/NULL);
 			// readytoReloadText = true;
 			IL2CPP_RUNTIME_CLASS_INIT(previzCtrl_t930159927_il2cpp_TypeInfo_var);
-			((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_readytoReloadText_42((bool)1);
-			// StartCoroutine(brainAnimation(textObject, text, animationIsPlaying));
-			GameObject_t1756533147 * L_19 = __this->get_textObject_23();
-			String_t* L_20 = __this->get_text_24();
-			bool L_21 = __this->get_animationIsPlaying_35();
-			// StartCoroutine(brainAnimation(textObject, text, animationIsPlaying));
-			RuntimeObject* L_22 = previzCtrl_brainAnimation_m1986808291(__this, L_19, L_20, L_21, /*hidden argument*/NULL);
-			// StartCoroutine(brainAnimation(textObject, text, animationIsPlaying));
-			MonoBehaviour_StartCoroutine_m2678710497(__this, L_22, /*hidden argument*/NULL);
+			((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_readytoReloadText_43((bool)1);
+			// StartCoroutine(brainAnimation());
+			// StartCoroutine(brainAnimation());
+			RuntimeObject* L_19 = previzCtrl_brainAnimation_m991228850(__this, /*hidden argument*/NULL);
+			// StartCoroutine(brainAnimation());
+			MonoBehaviour_StartCoroutine_m2678710497(__this, L_19, /*hidden argument*/NULL);
 			// plateIsOn = true;
-			((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_plateIsOn_40((bool)1);
+			((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_plateIsOn_41((bool)1);
 			// reload.gameObject.SetActive(true);
-			Button_t2872111280 * L_23 = __this->get_reload_14();
+			Button_t2872111280 * L_20 = __this->get_reload_14();
 			// reload.gameObject.SetActive(true);
+			NullCheck(L_20);
+			GameObject_t1756533147 * L_21 = Component_get_gameObject_m2159020946(L_20, /*hidden argument*/NULL);
+			// reload.gameObject.SetActive(true);
+			NullCheck(L_21);
+			GameObject_SetActive_m2693135142(L_21, (bool)1, /*hidden argument*/NULL);
+			// reset.gameObject.SetActive(true);
+			Button_t2872111280 * L_22 = __this->get_reset_17();
+			// reset.gameObject.SetActive(true);
+			NullCheck(L_22);
+			GameObject_t1756533147 * L_23 = Component_get_gameObject_m2159020946(L_22, /*hidden argument*/NULL);
+			// reset.gameObject.SetActive(true);
 			NullCheck(L_23);
-			GameObject_t1756533147 * L_24 = Component_get_gameObject_m2159020946(L_23, /*hidden argument*/NULL);
-			// reload.gameObject.SetActive(true);
-			NullCheck(L_24);
-			GameObject_SetActive_m2693135142(L_24, (bool)1, /*hidden argument*/NULL);
-			// reset.gameObject.SetActive(true);
-			Button_t2872111280 * L_25 = __this->get_reset_17();
-			// reset.gameObject.SetActive(true);
-			NullCheck(L_25);
-			GameObject_t1756533147 * L_26 = Component_get_gameObject_m2159020946(L_25, /*hidden argument*/NULL);
-			// reset.gameObject.SetActive(true);
-			NullCheck(L_26);
-			GameObject_SetActive_m2693135142(L_26, (bool)1, /*hidden argument*/NULL);
+			GameObject_SetActive_m2693135142(L_23, (bool)1, /*hidden argument*/NULL);
 			// SetObjectInvisible(debugBox, plateIsOn);
-			GameObject_t1756533147 * L_27 = __this->get_debugBox_2();
-			bool L_28 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_40();
+			GameObject_t1756533147 * L_24 = __this->get_debugBox_2();
+			bool L_25 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_41();
 			// SetObjectInvisible(debugBox, plateIsOn);
-			previzCtrl_SetObjectInvisible_m4193672493(__this, L_27, L_28, /*hidden argument*/NULL);
+			previzCtrl_SetObjectInvisible_m4193672493(__this, L_24, L_25, /*hidden argument*/NULL);
 			// SetObjectInvisible(plane, plateIsOn);
-			GameObject_t1756533147 * L_29 = __this->get_plane_6();
-			bool L_30 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_40();
+			GameObject_t1756533147 * L_26 = __this->get_plane_6();
+			bool L_27 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_41();
 			// SetObjectInvisible(plane, plateIsOn);
-			previzCtrl_SetObjectInvisible_m4193672493(__this, L_29, L_30, /*hidden argument*/NULL);
+			previzCtrl_SetObjectInvisible_m4193672493(__this, L_26, L_27, /*hidden argument*/NULL);
 			// debugBoxRenderer.enabled = false;
-			MeshRenderer_t1268241104 * L_31 = __this->get_debugBoxRenderer_5();
+			MeshRenderer_t1268241104 * L_28 = __this->get_debugBoxRenderer_5();
 			// debugBoxRenderer.enabled = false;
-			NullCheck(L_31);
-			Renderer_set_enabled_m383916764(L_31, (bool)0, /*hidden argument*/NULL);
+			NullCheck(L_28);
+			Renderer_set_enabled_m383916764(L_28, (bool)0, /*hidden argument*/NULL);
 		}
 
-IL_00f7:
+IL_00e5:
 		{
 			// return true;
 			V_3 = (bool)1;
-			IL2CPP_LEAVE(0x125, FINALLY_010f);
+			IL2CPP_LEAVE(0x113, FINALLY_00fd);
 		}
 
-IL_00fe:
+IL_00ec:
 		{
 			// foreach (var hitResult in hitResults) {
-			bool L_32 = Enumerator_MoveNext_m3860421825((&V_2), /*hidden argument*/Enumerator_MoveNext_m3860421825_RuntimeMethod_var);
-			if (L_32)
+			bool L_29 = Enumerator_MoveNext_m3860421825((&V_2), /*hidden argument*/Enumerator_MoveNext_m3860421825_RuntimeMethod_var);
+			if (L_29)
 			{
 				goto IL_002e;
 			}
 		}
 
-IL_010a:
+IL_00f8:
 		{
-			IL2CPP_LEAVE(0x11D, FINALLY_010f);
+			IL2CPP_LEAVE(0x10B, FINALLY_00fd);
 		}
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
-		goto FINALLY_010f;
+		goto FINALLY_00fd;
 	}
 
-FINALLY_010f:
+FINALLY_00fd:
 	{ // begin finally (depth: 1)
 		// foreach (var hitResult in hitResults) {
 		Enumerator_Dispose_m3109677227((&V_2), /*hidden argument*/Enumerator_Dispose_m3109677227_RuntimeMethod_var);
-		IL2CPP_END_FINALLY(271)
+		IL2CPP_END_FINALLY(253)
 	} // end finally (depth: 1)
-	IL2CPP_CLEANUP(271)
+	IL2CPP_CLEANUP(253)
 	{
-		IL2CPP_JUMP_TBL(0x125, IL_0125)
-		IL2CPP_JUMP_TBL(0x11D, IL_011d)
+		IL2CPP_JUMP_TBL(0x113, IL_0113)
+		IL2CPP_JUMP_TBL(0x10B, IL_010b)
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
 	}
 
-IL_011d:
+IL_010b:
 	{
 	}
 
-IL_011e:
+IL_010c:
 	{
 		// return false;
 		V_3 = (bool)0;
-		goto IL_0125;
+		goto IL_0113;
 	}
 
-IL_0125:
+IL_0113:
 	{
 		// }
-		bool L_33 = V_3;
-		return L_33;
+		bool L_30 = V_3;
+		return L_30;
 	}
 }
 // System.Void UnityEngine.XR.iOS.previzCtrl::textIsReload()
@@ -35627,50 +35593,47 @@ extern "C"  void previzCtrl_textIsReload_m3446469270 (previzCtrl_t930159927 * __
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Handheld.Vibrate();
-		Handheld_Vibrate_m752722291(NULL /*static, unused*/, /*hidden argument*/NULL);
-		// StartCoroutine(test(textObject));
-		GameObject_t1756533147 * L_0 = __this->get_textObject_23();
-		// StartCoroutine(test(textObject));
-		RuntimeObject* L_1 = previzCtrl_test_m3444838778(__this, L_0, /*hidden argument*/NULL);
-		// StartCoroutine(test(textObject));
-		MonoBehaviour_StartCoroutine_m2678710497(__this, L_1, /*hidden argument*/NULL);
+		// StartCoroutine(test());
+		// StartCoroutine(test());
+		RuntimeObject* L_0 = previzCtrl_test_m1165146324(__this, /*hidden argument*/NULL);
+		// StartCoroutine(test());
+		MonoBehaviour_StartCoroutine_m2678710497(__this, L_0, /*hidden argument*/NULL);
 		// brainAnim.SetTrigger("Looking");
-		Animator_t69676727 * L_2 = __this->get_brainAnim_28();
+		Animator_t69676727 * L_1 = __this->get_brainAnim_28();
 		// brainAnim.SetTrigger("Looking");
-		NullCheck(L_2);
-		Animator_SetTrigger_m2003713590(L_2, _stringLiteral4110283923, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Animator_SetTrigger_m2003713590(L_1, _stringLiteral4110283923, /*hidden argument*/NULL);
 		// reload.gameObject.SetActive(false);
-		Button_t2872111280 * L_3 = __this->get_reload_14();
+		Button_t2872111280 * L_2 = __this->get_reload_14();
+		// reload.gameObject.SetActive(false);
+		NullCheck(L_2);
+		GameObject_t1756533147 * L_3 = Component_get_gameObject_m2159020946(L_2, /*hidden argument*/NULL);
 		// reload.gameObject.SetActive(false);
 		NullCheck(L_3);
-		GameObject_t1756533147 * L_4 = Component_get_gameObject_m2159020946(L_3, /*hidden argument*/NULL);
-		// reload.gameObject.SetActive(false);
-		NullCheck(L_4);
-		GameObject_SetActive_m2693135142(L_4, (bool)0, /*hidden argument*/NULL);
+		GameObject_SetActive_m2693135142(L_3, (bool)0, /*hidden argument*/NULL);
 		// liked.gameObject.SetActive(true);
-		Button_t2872111280 * L_5 = __this->get_liked_15();
+		Button_t2872111280 * L_4 = __this->get_liked_15();
+		// liked.gameObject.SetActive(true);
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_5 = Component_get_gameObject_m2159020946(L_4, /*hidden argument*/NULL);
 		// liked.gameObject.SetActive(true);
 		NullCheck(L_5);
-		GameObject_t1756533147 * L_6 = Component_get_gameObject_m2159020946(L_5, /*hidden argument*/NULL);
-		// liked.gameObject.SetActive(true);
-		NullCheck(L_6);
-		GameObject_SetActive_m2693135142(L_6, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m2693135142(L_5, (bool)1, /*hidden argument*/NULL);
 		// disliked.gameObject.SetActive(true);
-		Button_t2872111280 * L_7 = __this->get_disliked_16();
+		Button_t2872111280 * L_6 = __this->get_disliked_16();
+		// disliked.gameObject.SetActive(true);
+		NullCheck(L_6);
+		GameObject_t1756533147 * L_7 = Component_get_gameObject_m2159020946(L_6, /*hidden argument*/NULL);
 		// disliked.gameObject.SetActive(true);
 		NullCheck(L_7);
-		GameObject_t1756533147 * L_8 = Component_get_gameObject_m2159020946(L_7, /*hidden argument*/NULL);
-		// disliked.gameObject.SetActive(true);
-		NullCheck(L_8);
-		GameObject_SetActive_m2693135142(L_8, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m2693135142(L_7, (bool)1, /*hidden argument*/NULL);
 		// Debug.Log(piyopiyo);
-		bool L_9 = __this->get_piyopiyo_38();
-		bool L_10 = L_9;
-		RuntimeObject * L_11 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_10);
+		bool L_8 = __this->get_piyopiyo_38();
+		bool L_9 = L_8;
+		RuntimeObject * L_10 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_9);
 		// Debug.Log(piyopiyo);
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m2923680153(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		Debug_Log_m2923680153(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -35685,8 +35648,6 @@ extern "C"  void previzCtrl_answerIsliked_m1305478849 (previzCtrl_t930159927 * _
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Handheld.Vibrate();
-		Handheld_Vibrate_m752722291(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// brainAnim.SetTrigger("Liked");
 		Animator_t69676727 * L_0 = __this->get_brainAnim_28();
 		// brainAnim.SetTrigger("Liked");
@@ -35750,13 +35711,7 @@ extern "C"  void previzCtrl_answerIsDisliked_m2539371203 (previzCtrl_t930159927 
 		il2cpp_codegen_initialize_method (previzCtrl_answerIsDisliked_m2539371203_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	RigidbodyU5BU5D_t3881993182* V_0 = NULL;
-	Rigidbody_t4233889191 * V_1 = NULL;
-	RigidbodyU5BU5D_t3881993182* V_2 = NULL;
-	int32_t V_3 = 0;
 	{
-		// Handheld.Vibrate();
-		Handheld_Vibrate_m752722291(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// brainAnim.SetTrigger("Disliked_Shock");
 		Animator_t69676727 * L_0 = __this->get_brainAnim_28();
 		// brainAnim.SetTrigger("Disliked_Shock");
@@ -35772,87 +35727,35 @@ extern "C"  void previzCtrl_answerIsDisliked_m2539371203 (previzCtrl_t930159927 
 		// Smoke.Play();
 		NullCheck(L_2);
 		ParticleSystem_Play_m2510524101(L_2, /*hidden argument*/NULL);
-		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
-		GameObject_t1756533147 * L_3 = __this->get_textObject_23();
-		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
-		NullCheck(L_3);
-		RigidbodyU5BU5D_t3881993182* L_4 = GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322(L_3, /*hidden argument*/GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322_RuntimeMethod_var);
-		V_0 = L_4;
-		// foreach (var rb in rigidbodies) {
-		RigidbodyU5BU5D_t3881993182* L_5 = V_0;
-		V_2 = L_5;
-		V_3 = 0;
-		goto IL_007c;
-	}
-
-IL_0042:
-	{
-		// foreach (var rb in rigidbodies) {
-		RigidbodyU5BU5D_t3881993182* L_6 = V_2;
-		int32_t L_7 = V_3;
+		// StartCoroutine(breakText());
+		// StartCoroutine(breakText());
+		RuntimeObject* L_3 = previzCtrl_breakText_m2194579506(__this, /*hidden argument*/NULL);
+		// StartCoroutine(breakText());
+		MonoBehaviour_StartCoroutine_m2678710497(__this, L_3, /*hidden argument*/NULL);
+		// reload.gameObject.SetActive(true);
+		Button_t2872111280 * L_4 = __this->get_reload_14();
+		// reload.gameObject.SetActive(true);
+		NullCheck(L_4);
+		GameObject_t1756533147 * L_5 = Component_get_gameObject_m2159020946(L_4, /*hidden argument*/NULL);
+		// reload.gameObject.SetActive(true);
+		NullCheck(L_5);
+		GameObject_SetActive_m2693135142(L_5, (bool)1, /*hidden argument*/NULL);
+		// liked.gameObject.SetActive(false);
+		Button_t2872111280 * L_6 = __this->get_liked_15();
+		// liked.gameObject.SetActive(false);
 		NullCheck(L_6);
-		int32_t L_8 = L_7;
-		Rigidbody_t4233889191 * L_9 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
-		V_1 = L_9;
-		// rb.useGravity = true;
-		Rigidbody_t4233889191 * L_10 = V_1;
-		// rb.useGravity = true;
-		NullCheck(L_10);
-		Rigidbody_set_useGravity_m1509734510(L_10, (bool)1, /*hidden argument*/NULL);
-		// rb.AddExplosionForce (320.0f, new Vector3(0, -3, -5.5f), 7.0f, 3.0f);
-		Rigidbody_t4233889191 * L_11 = V_1;
-		// rb.AddExplosionForce (320.0f, new Vector3(0, -3, -5.5f), 7.0f, 3.0f);
-		Vector3_t2243707580  L_12;
-		memset(&L_12, 0, sizeof(L_12));
-		Vector3__ctor_m1555724485((&L_12), (0.0f), (-3.0f), (-5.5f), /*hidden argument*/NULL);
-		// rb.AddExplosionForce (320.0f, new Vector3(0, -3, -5.5f), 7.0f, 3.0f);
-		NullCheck(L_11);
-		Rigidbody_AddExplosionForce_m1991510258(L_11, (320.0f), L_12, (7.0f), (3.0f), /*hidden argument*/NULL);
-		// foreach (var rb in rigidbodies) {
-		int32_t L_13 = V_3;
-		V_3 = ((int32_t)((int32_t)L_13+(int32_t)1));
-	}
-
-IL_007c:
-	{
-		int32_t L_14 = V_3;
-		RigidbodyU5BU5D_t3881993182* L_15 = V_2;
-		NullCheck(L_15);
-		if ((((int32_t)L_14) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_15)->max_length)))))))
-		{
-			goto IL_0042;
-		}
-	}
-	{
-		// Destroy(textObject);
-		GameObject_t1756533147 * L_16 = __this->get_textObject_23();
-		// Destroy(textObject);
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object_Destroy_m3959286051(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
-		// reload.gameObject.SetActive(true);
-		Button_t2872111280 * L_17 = __this->get_reload_14();
-		// reload.gameObject.SetActive(true);
-		NullCheck(L_17);
-		GameObject_t1756533147 * L_18 = Component_get_gameObject_m2159020946(L_17, /*hidden argument*/NULL);
-		// reload.gameObject.SetActive(true);
-		NullCheck(L_18);
-		GameObject_SetActive_m2693135142(L_18, (bool)1, /*hidden argument*/NULL);
+		GameObject_t1756533147 * L_7 = Component_get_gameObject_m2159020946(L_6, /*hidden argument*/NULL);
 		// liked.gameObject.SetActive(false);
-		Button_t2872111280 * L_19 = __this->get_liked_15();
-		// liked.gameObject.SetActive(false);
-		NullCheck(L_19);
-		GameObject_t1756533147 * L_20 = Component_get_gameObject_m2159020946(L_19, /*hidden argument*/NULL);
-		// liked.gameObject.SetActive(false);
-		NullCheck(L_20);
-		GameObject_SetActive_m2693135142(L_20, (bool)0, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		GameObject_SetActive_m2693135142(L_7, (bool)0, /*hidden argument*/NULL);
 		// disliked.gameObject.SetActive(false);
-		Button_t2872111280 * L_21 = __this->get_disliked_16();
+		Button_t2872111280 * L_8 = __this->get_disliked_16();
 		// disliked.gameObject.SetActive(false);
-		NullCheck(L_21);
-		GameObject_t1756533147 * L_22 = Component_get_gameObject_m2159020946(L_21, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		GameObject_t1756533147 * L_9 = Component_get_gameObject_m2159020946(L_8, /*hidden argument*/NULL);
 		// disliked.gameObject.SetActive(false);
-		NullCheck(L_22);
-		GameObject_SetActive_m2693135142(L_22, (bool)0, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		GameObject_SetActive_m2693135142(L_9, (bool)0, /*hidden argument*/NULL);
 		// Debug.Log("disliked");
 		// Debug.Log("disliked");
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
@@ -35895,7 +35798,7 @@ extern "C"  void previzCtrl_playGroundIsReset_m2373016830 (previzCtrl_t930159927
 		ParticleSystem_Clear_m1052596698(L_3, /*hidden argument*/NULL);
 		// plateIsOn = false;
 		IL2CPP_RUNTIME_CLASS_INIT(previzCtrl_t930159927_il2cpp_TypeInfo_var);
-		((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_plateIsOn_40((bool)0);
+		((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_plateIsOn_41((bool)0);
 		// playgroundIsDetected = false;
 		__this->set_playgroundIsDetected_34((bool)0);
 		// animationIsPlaying = false;
@@ -35934,7 +35837,7 @@ extern "C"  void previzCtrl_playGroundIsReset_m2373016830 (previzCtrl_t930159927
 		GameObject_SetActive_m2693135142(L_11, (bool)0, /*hidden argument*/NULL);
 		// SetObjectInvisible(plane, plateIsOn);
 		GameObject_t1756533147 * L_12 = __this->get_plane_6();
-		bool L_13 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_40();
+		bool L_13 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_41();
 		// SetObjectInvisible(plane, plateIsOn);
 		previzCtrl_SetObjectInvisible_m4193672493(__this, L_12, L_13, /*hidden argument*/NULL);
 		// Debug.Log("Stop");
@@ -36082,51 +35985,6 @@ IL_0098:
 		return;
 	}
 }
-// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::textCreate(UnityEngine.GameObject,System.String,System.Boolean,System.Int32)
-extern "C"  RuntimeObject* previzCtrl_textCreate_m1153876363 (previzCtrl_t930159927 * __this, GameObject_t1756533147 * ___textObject0, String_t* ___text1, bool ___textIsCreated2, int32_t ___random3, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (previzCtrl_textCreate_m1153876363_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	U3CtextCreateU3Ec__Iterator0_t382157024 * V_0 = NULL;
-	RuntimeObject* V_1 = NULL;
-	{
-		U3CtextCreateU3Ec__Iterator0_t382157024 * L_0 = (U3CtextCreateU3Ec__Iterator0_t382157024 *)il2cpp_codegen_object_new(U3CtextCreateU3Ec__Iterator0_t382157024_il2cpp_TypeInfo_var);
-		U3CtextCreateU3Ec__Iterator0__ctor_m1409539637(L_0, /*hidden argument*/NULL);
-		V_0 = L_0;
-		U3CtextCreateU3Ec__Iterator0_t382157024 * L_1 = V_0;
-		bool L_2 = ___textIsCreated2;
-		NullCheck(L_1);
-		L_1->set_textIsCreated_0(L_2);
-		U3CtextCreateU3Ec__Iterator0_t382157024 * L_3 = V_0;
-		int32_t L_4 = ___random3;
-		NullCheck(L_3);
-		L_3->set_random_1(L_4);
-		U3CtextCreateU3Ec__Iterator0_t382157024 * L_5 = V_0;
-		String_t* L_6 = ___text1;
-		NullCheck(L_5);
-		L_5->set_text_2(L_6);
-		U3CtextCreateU3Ec__Iterator0_t382157024 * L_7 = V_0;
-		GameObject_t1756533147 * L_8 = ___textObject0;
-		NullCheck(L_7);
-		L_7->set_textObject_4(L_8);
-		U3CtextCreateU3Ec__Iterator0_t382157024 * L_9 = V_0;
-		NullCheck(L_9);
-		L_9->set_U24this_5(__this);
-		U3CtextCreateU3Ec__Iterator0_t382157024 * L_10 = V_0;
-		V_1 = L_10;
-		goto IL_0031;
-	}
-
-IL_0031:
-	{
-		RuntimeObject* L_11 = V_1;
-		return L_11;
-	}
-}
 // System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::textDestroy(UnityEngine.GameObject,System.Single)
 extern "C"  RuntimeObject* previzCtrl_textDestroy_m1344926564 (previzCtrl_t930159927 * __this, GameObject_t1756533147 * ___textObject0, float ___delay1, const RuntimeMethod* method)
 {
@@ -36136,20 +35994,20 @@ extern "C"  RuntimeObject* previzCtrl_textDestroy_m1344926564 (previzCtrl_t93015
 		il2cpp_codegen_initialize_method (previzCtrl_textDestroy_m1344926564_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CtextDestroyU3Ec__Iterator1_t2298180387 * V_0 = NULL;
+	U3CtextDestroyU3Ec__Iterator0_t2298180388 * V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		U3CtextDestroyU3Ec__Iterator1_t2298180387 * L_0 = (U3CtextDestroyU3Ec__Iterator1_t2298180387 *)il2cpp_codegen_object_new(U3CtextDestroyU3Ec__Iterator1_t2298180387_il2cpp_TypeInfo_var);
-		U3CtextDestroyU3Ec__Iterator1__ctor_m1482163334(L_0, /*hidden argument*/NULL);
+		U3CtextDestroyU3Ec__Iterator0_t2298180388 * L_0 = (U3CtextDestroyU3Ec__Iterator0_t2298180388 *)il2cpp_codegen_object_new(U3CtextDestroyU3Ec__Iterator0_t2298180388_il2cpp_TypeInfo_var);
+		U3CtextDestroyU3Ec__Iterator0__ctor_m1485640775(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
-		U3CtextDestroyU3Ec__Iterator1_t2298180387 * L_1 = V_0;
+		U3CtextDestroyU3Ec__Iterator0_t2298180388 * L_1 = V_0;
 		GameObject_t1756533147 * L_2 = ___textObject0;
 		NullCheck(L_1);
 		L_1->set_textObject_0(L_2);
-		U3CtextDestroyU3Ec__Iterator1_t2298180387 * L_3 = V_0;
+		U3CtextDestroyU3Ec__Iterator0_t2298180388 * L_3 = V_0;
 		NullCheck(L_3);
 		L_3->set_U24this_1(__this);
-		U3CtextDestroyU3Ec__Iterator1_t2298180387 * L_4 = V_0;
+		U3CtextDestroyU3Ec__Iterator0_t2298180388 * L_4 = V_0;
 		V_1 = L_4;
 		goto IL_001b;
 	}
@@ -36160,70 +36018,91 @@ IL_001b:
 		return L_5;
 	}
 }
-// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::test(UnityEngine.GameObject)
-extern "C"  RuntimeObject* previzCtrl_test_m3444838778 (previzCtrl_t930159927 * __this, GameObject_t1756533147 * ___textObject0, const RuntimeMethod* method)
+// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::test()
+extern "C"  RuntimeObject* previzCtrl_test_m1165146324 (previzCtrl_t930159927 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (previzCtrl_test_m3444838778_MetadataUsageId);
+		il2cpp_codegen_initialize_method (previzCtrl_test_m1165146324_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CtestU3Ec__Iterator2_t2422432017 * V_0 = NULL;
+	U3CtestU3Ec__Iterator1_t3988515958 * V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		U3CtestU3Ec__Iterator2_t2422432017 * L_0 = (U3CtestU3Ec__Iterator2_t2422432017 *)il2cpp_codegen_object_new(U3CtestU3Ec__Iterator2_t2422432017_il2cpp_TypeInfo_var);
-		U3CtestU3Ec__Iterator2__ctor_m4229440250(L_0, /*hidden argument*/NULL);
+		U3CtestU3Ec__Iterator1_t3988515958 * L_0 = (U3CtestU3Ec__Iterator1_t3988515958 *)il2cpp_codegen_object_new(U3CtestU3Ec__Iterator1_t3988515958_il2cpp_TypeInfo_var);
+		U3CtestU3Ec__Iterator1__ctor_m165143839(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
-		U3CtestU3Ec__Iterator2_t2422432017 * L_1 = V_0;
-		GameObject_t1756533147 * L_2 = ___textObject0;
+		U3CtestU3Ec__Iterator1_t3988515958 * L_1 = V_0;
 		NullCheck(L_1);
-		L_1->set_textObject_0(L_2);
-		U3CtestU3Ec__Iterator2_t2422432017 * L_3 = V_0;
-		NullCheck(L_3);
-		L_3->set_U24this_5(__this);
-		U3CtestU3Ec__Iterator2_t2422432017 * L_4 = V_0;
-		V_1 = L_4;
-		goto IL_001b;
+		L_1->set_U24this_4(__this);
+		U3CtestU3Ec__Iterator1_t3988515958 * L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0014;
 	}
 
-IL_001b:
+IL_0014:
 	{
-		RuntimeObject* L_5 = V_1;
-		return L_5;
+		RuntimeObject* L_3 = V_1;
+		return L_3;
 	}
 }
-// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::brainAnimation(UnityEngine.GameObject,System.String,System.Boolean)
-extern "C"  RuntimeObject* previzCtrl_brainAnimation_m1986808291 (previzCtrl_t930159927 * __this, GameObject_t1756533147 * ___textObject0, String_t* ___text1, bool ___animationIsPlaying2, const RuntimeMethod* method)
+// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::brainAnimation()
+extern "C"  RuntimeObject* previzCtrl_brainAnimation_m991228850 (previzCtrl_t930159927 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (previzCtrl_brainAnimation_m1986808291_MetadataUsageId);
+		il2cpp_codegen_initialize_method (previzCtrl_brainAnimation_m991228850_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CbrainAnimationU3Ec__Iterator3_t3637772874 * V_0 = NULL;
+	U3CbrainAnimationU3Ec__Iterator2_t908889519 * V_0 = NULL;
 	RuntimeObject* V_1 = NULL;
 	{
-		U3CbrainAnimationU3Ec__Iterator3_t3637772874 * L_0 = (U3CbrainAnimationU3Ec__Iterator3_t3637772874 *)il2cpp_codegen_object_new(U3CbrainAnimationU3Ec__Iterator3_t3637772874_il2cpp_TypeInfo_var);
-		U3CbrainAnimationU3Ec__Iterator3__ctor_m1929696363(L_0, /*hidden argument*/NULL);
+		U3CbrainAnimationU3Ec__Iterator2_t908889519 * L_0 = (U3CbrainAnimationU3Ec__Iterator2_t908889519 *)il2cpp_codegen_object_new(U3CbrainAnimationU3Ec__Iterator2_t908889519_il2cpp_TypeInfo_var);
+		U3CbrainAnimationU3Ec__Iterator2__ctor_m3838523664(L_0, /*hidden argument*/NULL);
 		V_0 = L_0;
-		U3CbrainAnimationU3Ec__Iterator3_t3637772874 * L_1 = V_0;
-		bool L_2 = ___animationIsPlaying2;
+		U3CbrainAnimationU3Ec__Iterator2_t908889519 * L_1 = V_0;
 		NullCheck(L_1);
-		L_1->set_animationIsPlaying_0(L_2);
-		U3CbrainAnimationU3Ec__Iterator3_t3637772874 * L_3 = V_0;
-		NullCheck(L_3);
-		L_3->set_U24this_1(__this);
-		U3CbrainAnimationU3Ec__Iterator3_t3637772874 * L_4 = V_0;
-		V_1 = L_4;
-		goto IL_001b;
+		L_1->set_U24this_0(__this);
+		U3CbrainAnimationU3Ec__Iterator2_t908889519 * L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0014;
 	}
 
-IL_001b:
+IL_0014:
 	{
-		RuntimeObject* L_5 = V_1;
-		return L_5;
+		RuntimeObject* L_3 = V_1;
+		return L_3;
+	}
+}
+// System.Collections.IEnumerator UnityEngine.XR.iOS.previzCtrl::breakText()
+extern "C"  RuntimeObject* previzCtrl_breakText_m2194579506 (previzCtrl_t930159927 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (previzCtrl_breakText_m2194579506_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CbreakTextU3Ec__Iterator3_t1253770968 * V_0 = NULL;
+	RuntimeObject* V_1 = NULL;
+	{
+		U3CbreakTextU3Ec__Iterator3_t1253770968 * L_0 = (U3CbreakTextU3Ec__Iterator3_t1253770968 *)il2cpp_codegen_object_new(U3CbreakTextU3Ec__Iterator3_t1253770968_il2cpp_TypeInfo_var);
+		U3CbreakTextU3Ec__Iterator3__ctor_m3448899537(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CbreakTextU3Ec__Iterator3_t1253770968 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_U24this_3(__this);
+		U3CbreakTextU3Ec__Iterator3_t1253770968 * L_2 = V_0;
+		V_1 = L_2;
+		goto IL_0014;
+	}
+
+IL_0014:
+	{
+		RuntimeObject* L_3 = V_1;
+		return L_3;
 	}
 }
 // System.Void UnityEngine.XR.iOS.previzCtrl::Update()
@@ -36258,287 +36137,273 @@ extern "C"  void previzCtrl_Update_m3917845437 (previzCtrl_t930159927 * __this, 
 	ARHitTestResultTypeU5BU5D_t1303085420* V_11 = NULL;
 	int32_t V_12 = 0;
 	{
-		// if(Input.GetKeyDown("space")){
-		// if(Input.GetKeyDown("space")){
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
-		bool L_0 = Input_GetKeyDown_m3563899393(NULL /*static, unused*/, _stringLiteral1144830560, /*hidden argument*/NULL);
-		if (!L_0)
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		// answerTextRenderer.enabled = true;
-		Renderer_t257310565 * L_1 = __this->get_answerTextRenderer_32();
-		// answerTextRenderer.enabled = true;
-		NullCheck(L_1);
-		Renderer_set_enabled_m383916764(L_1, (bool)1, /*hidden argument*/NULL);
-	}
-
-IL_001e:
-	{
 		// if(plateIsOn != true && Initialized == true)
 		IL2CPP_RUNTIME_CLASS_INIT(previzCtrl_t930159927_il2cpp_TypeInfo_var);
-		bool L_2 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_40();
-		if (L_2)
+		bool L_0 = ((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->get_plateIsOn_41();
+		if (L_0)
 		{
-			goto IL_0232;
+			goto IL_0215;
 		}
 	}
 	{
-		bool L_3 = __this->get_Initialized_33();
-		if (!L_3)
+		bool L_1 = __this->get_Initialized_33();
+		if (!L_1)
 		{
-			goto IL_0232;
+			goto IL_0215;
 		}
 	}
 	{
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
-		Camera_t189460977 * L_4 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_2 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
-		NullCheck(L_4);
-		Transform_t3275118058 * L_5 = Component_get_transform_m3374354972(L_4, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Transform_t3275118058 * L_3 = Component_get_transform_m3374354972(L_2, /*hidden argument*/NULL);
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
-		NullCheck(L_5);
-		Vector3_t2243707580  L_6 = Transform_get_position_m2304215762(L_5, /*hidden argument*/NULL);
-		V_1 = L_6;
-		float L_7 = (&V_1)->get_x_1();
-		GameObject_t1756533147 * L_8 = __this->get_debugBox_2();
+		NullCheck(L_3);
+		Vector3_t2243707580  L_4 = Transform_get_position_m2304215762(L_3, /*hidden argument*/NULL);
+		V_1 = L_4;
+		float L_5 = (&V_1)->get_x_1();
+		GameObject_t1756533147 * L_6 = __this->get_debugBox_2();
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
-		NullCheck(L_8);
-		Transform_t3275118058 * L_9 = GameObject_get_transform_m3490276752(L_8, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Transform_t3275118058 * L_7 = GameObject_get_transform_m3490276752(L_6, /*hidden argument*/NULL);
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
-		NullCheck(L_9);
-		Vector3_t2243707580  L_10 = Transform_get_position_m2304215762(L_9, /*hidden argument*/NULL);
-		V_2 = L_10;
-		float L_11 = (&V_2)->get_y_2();
+		NullCheck(L_7);
+		Vector3_t2243707580  L_8 = Transform_get_position_m2304215762(L_7, /*hidden argument*/NULL);
+		V_2 = L_8;
+		float L_9 = (&V_2)->get_y_2();
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
-		Camera_t189460977 * L_12 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_10 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
-		NullCheck(L_12);
-		Transform_t3275118058 * L_13 = Component_get_transform_m3374354972(L_12, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Transform_t3275118058 * L_11 = Component_get_transform_m3374354972(L_10, /*hidden argument*/NULL);
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
-		NullCheck(L_13);
-		Vector3_t2243707580  L_14 = Transform_get_position_m2304215762(L_13, /*hidden argument*/NULL);
-		V_3 = L_14;
-		float L_15 = (&V_3)->get_z_3();
+		NullCheck(L_11);
+		Vector3_t2243707580  L_12 = Transform_get_position_m2304215762(L_11, /*hidden argument*/NULL);
+		V_3 = L_12;
+		float L_13 = (&V_3)->get_z_3();
 		// Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, debugBox.transform.position.y, Camera.main.transform.position.z);
-		Vector3__ctor_m1555724485((&V_0), L_7, L_11, L_15, /*hidden argument*/NULL);
+		Vector3__ctor_m1555724485((&V_0), L_5, L_9, L_13, /*hidden argument*/NULL);
 		// debugBox.transform.LookAt(targetPosition);
-		GameObject_t1756533147 * L_16 = __this->get_debugBox_2();
+		GameObject_t1756533147 * L_14 = __this->get_debugBox_2();
 		// debugBox.transform.LookAt(targetPosition);
-		NullCheck(L_16);
-		Transform_t3275118058 * L_17 = GameObject_get_transform_m3490276752(L_16, /*hidden argument*/NULL);
-		Vector3_t2243707580  L_18 = V_0;
+		NullCheck(L_14);
+		Transform_t3275118058 * L_15 = GameObject_get_transform_m3490276752(L_14, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_16 = V_0;
 		// debugBox.transform.LookAt(targetPosition);
+		NullCheck(L_15);
+		Transform_LookAt_m1970949065(L_15, L_16, /*hidden argument*/NULL);
+		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+		Camera_t189460977 * L_17 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
+		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 		NullCheck(L_17);
-		Transform_LookAt_m1970949065(L_17, L_18, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_18 = Component_get_transform_m3374354972(L_17, /*hidden argument*/NULL);
 		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
+		NullCheck(L_18);
+		Vector3_t2243707580  L_19 = Transform_get_position_m2304215762(L_18, /*hidden argument*/NULL);
 		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-		Camera_t189460977 * L_19 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
-		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-		NullCheck(L_19);
-		Transform_t3275118058 * L_20 = Component_get_transform_m3374354972(L_19, /*hidden argument*/NULL);
+		Camera_t189460977 * L_20 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 		NullCheck(L_20);
-		Vector3_t2243707580  L_21 = Transform_get_position_m2304215762(L_20, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_21 = Component_get_transform_m3374354972(L_20, /*hidden argument*/NULL);
 		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-		Camera_t189460977 * L_22 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Vector3_t2243707580  L_22 = Transform_get_forward_m2144220796(L_21, /*hidden argument*/NULL);
 		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-		NullCheck(L_22);
-		Transform_t3275118058 * L_23 = Component_get_transform_m3374354972(L_22, /*hidden argument*/NULL);
-		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-		NullCheck(L_23);
-		Vector3_t2243707580  L_24 = Transform_get_forward_m2144220796(L_23, /*hidden argument*/NULL);
-		// var ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-		Ray__ctor_m2480021746((&V_4), L_21, L_24, /*hidden argument*/NULL);
+		Ray__ctor_m2480021746((&V_4), L_19, L_22, /*hidden argument*/NULL);
 		// if(Physics.Raycast (ray, out hit, 500) && hit.transform.gameObject.tag == "ARPlate"){
-		Ray_t2469606224  L_25 = V_4;
+		Ray_t2469606224  L_23 = V_4;
 		// if(Physics.Raycast (ray, out hit, 500) && hit.transform.gameObject.tag == "ARPlate"){
-		bool L_26 = Physics_Raycast_m240935337(NULL /*static, unused*/, L_25, (&V_5), (500.0f), /*hidden argument*/NULL);
-		if (!L_26)
+		bool L_24 = Physics_Raycast_m240935337(NULL /*static, unused*/, L_23, (&V_5), (500.0f), /*hidden argument*/NULL);
+		if (!L_24)
 		{
-			goto IL_0139;
+			goto IL_011c;
 		}
 	}
 	{
 		// if(Physics.Raycast (ray, out hit, 500) && hit.transform.gameObject.tag == "ARPlate"){
-		Transform_t3275118058 * L_27 = RaycastHit_get_transform_m2333455049((&V_5), /*hidden argument*/NULL);
+		Transform_t3275118058 * L_25 = RaycastHit_get_transform_m2333455049((&V_5), /*hidden argument*/NULL);
 		// if(Physics.Raycast (ray, out hit, 500) && hit.transform.gameObject.tag == "ARPlate"){
-		NullCheck(L_27);
-		GameObject_t1756533147 * L_28 = Component_get_gameObject_m2159020946(L_27, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		GameObject_t1756533147 * L_26 = Component_get_gameObject_m2159020946(L_25, /*hidden argument*/NULL);
 		// if(Physics.Raycast (ray, out hit, 500) && hit.transform.gameObject.tag == "ARPlate"){
-		NullCheck(L_28);
-		String_t* L_29 = GameObject_get_tag_m3359901967(L_28, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		String_t* L_27 = GameObject_get_tag_m3359901967(L_26, /*hidden argument*/NULL);
 		// if(Physics.Raycast (ray, out hit, 500) && hit.transform.gameObject.tag == "ARPlate"){
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
-		bool L_30 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_29, _stringLiteral2165571547, /*hidden argument*/NULL);
-		if (!L_30)
+		bool L_28 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_27, _stringLiteral2165571547, /*hidden argument*/NULL);
+		if (!L_28)
 		{
-			goto IL_0139;
+			goto IL_011c;
 		}
 	}
 	{
 		// brainRefAnimMeshRender.enabled = true;
-		Renderer_t257310565 * L_31 = __this->get_brainRefAnimMeshRender_31();
+		Renderer_t257310565 * L_29 = __this->get_brainRefAnimMeshRender_31();
 		// brainRefAnimMeshRender.enabled = true;
-		NullCheck(L_31);
-		Renderer_set_enabled_m383916764(L_31, (bool)1, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Renderer_set_enabled_m383916764(L_29, (bool)1, /*hidden argument*/NULL);
 		// playgroundIsDetected = true;
 		__this->set_playgroundIsDetected_34((bool)1);
 		// guideText.enabled = false;
-		Text_t356221433 * L_32 = __this->get_guideText_4();
+		Text_t356221433 * L_30 = __this->get_guideText_4();
 		// guideText.enabled = false;
+		NullCheck(L_30);
+		Behaviour_set_enabled_m602406666(L_30, (bool)0, /*hidden argument*/NULL);
+		// GuideAnimation.SetActive(false);
+		GameObject_t1756533147 * L_31 = __this->get_GuideAnimation_12();
+		// GuideAnimation.SetActive(false);
+		NullCheck(L_31);
+		GameObject_SetActive_m2693135142(L_31, (bool)0, /*hidden argument*/NULL);
+		// guideAnimClip.Play(PlayMode.StopAll);
+		Animation_t2068071072 * L_32 = __this->get_guideAnimClip_30();
+		// guideAnimClip.Play(PlayMode.StopAll);
 		NullCheck(L_32);
-		Behaviour_set_enabled_m602406666(L_32, (bool)0, /*hidden argument*/NULL);
-		// GuideAnimation.SetActive(false);
-		GameObject_t1756533147 * L_33 = __this->get_GuideAnimation_12();
-		// GuideAnimation.SetActive(false);
+		Animation_Play_m2328042413(L_32, 4, /*hidden argument*/NULL);
+		// brainrefAnim.SetTrigger("Play");
+		Animator_t69676727 * L_33 = __this->get_brainrefAnim_26();
+		// brainrefAnim.SetTrigger("Play");
 		NullCheck(L_33);
-		GameObject_SetActive_m2693135142(L_33, (bool)0, /*hidden argument*/NULL);
-		// guideAnimClip.Play(PlayMode.StopAll);
-		Animation_t2068071072 * L_34 = __this->get_guideAnimClip_30();
-		// guideAnimClip.Play(PlayMode.StopAll);
-		NullCheck(L_34);
-		Animation_Play_m2328042413(L_34, 4, /*hidden argument*/NULL);
-		// brainrefAnim.SetTrigger("Play");
-		Animator_t69676727 * L_35 = __this->get_brainrefAnim_26();
-		// brainrefAnim.SetTrigger("Play");
-		NullCheck(L_35);
-		Animator_SetTrigger_m2003713590(L_35, _stringLiteral69878724, /*hidden argument*/NULL);
-		goto IL_0182;
+		Animator_SetTrigger_m2003713590(L_33, _stringLiteral69878724, /*hidden argument*/NULL);
+		goto IL_0165;
 	}
 
-IL_0139:
+IL_011c:
 	{
 		// brainRefAnimMeshRender.enabled = false;
-		Renderer_t257310565 * L_36 = __this->get_brainRefAnimMeshRender_31();
+		Renderer_t257310565 * L_34 = __this->get_brainRefAnimMeshRender_31();
 		// brainRefAnimMeshRender.enabled = false;
-		NullCheck(L_36);
-		Renderer_set_enabled_m383916764(L_36, (bool)0, /*hidden argument*/NULL);
+		NullCheck(L_34);
+		Renderer_set_enabled_m383916764(L_34, (bool)0, /*hidden argument*/NULL);
 		// brainrefAnim.SetTrigger("Back");
-		Animator_t69676727 * L_37 = __this->get_brainrefAnim_26();
+		Animator_t69676727 * L_35 = __this->get_brainrefAnim_26();
 		// brainrefAnim.SetTrigger("Back");
-		NullCheck(L_37);
-		Animator_SetTrigger_m2003713590(L_37, _stringLiteral2778558511, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		Animator_SetTrigger_m2003713590(L_35, _stringLiteral2778558511, /*hidden argument*/NULL);
 		// playgroundIsDetected = false;
 		__this->set_playgroundIsDetected_34((bool)0);
 		// guideText.enabled = true;
-		Text_t356221433 * L_38 = __this->get_guideText_4();
+		Text_t356221433 * L_36 = __this->get_guideText_4();
 		// guideText.enabled = true;
+		NullCheck(L_36);
+		Behaviour_set_enabled_m602406666(L_36, (bool)1, /*hidden argument*/NULL);
+		// guideAnimClip.Play();
+		Animation_t2068071072 * L_37 = __this->get_guideAnimClip_30();
+		// guideAnimClip.Play();
+		NullCheck(L_37);
+		Animation_Play_m690047637(L_37, /*hidden argument*/NULL);
+		// GuideAnimation.SetActive(true);
+		GameObject_t1756533147 * L_38 = __this->get_GuideAnimation_12();
+		// GuideAnimation.SetActive(true);
 		NullCheck(L_38);
-		Behaviour_set_enabled_m602406666(L_38, (bool)1, /*hidden argument*/NULL);
-		// guideAnimClip.Play();
-		Animation_t2068071072 * L_39 = __this->get_guideAnimClip_30();
-		// guideAnimClip.Play();
-		NullCheck(L_39);
-		Animation_Play_m690047637(L_39, /*hidden argument*/NULL);
-		// GuideAnimation.SetActive(true);
-		GameObject_t1756533147 * L_40 = __this->get_GuideAnimation_12();
-		// GuideAnimation.SetActive(true);
-		NullCheck(L_40);
-		GameObject_SetActive_m2693135142(L_40, (bool)1, /*hidden argument*/NULL);
+		GameObject_SetActive_m2693135142(L_38, (bool)1, /*hidden argument*/NULL);
 	}
 
-IL_0182:
+IL_0165:
 	{
 		// var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));
-		Camera_t189460977 * L_41 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_39 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));
-		int32_t L_42 = Screen_get_width_m3526633787(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_40 = Screen_get_width_m3526633787(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));
-		int32_t L_43 = Screen_get_height_m3831644396(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_41 = Screen_get_height_m3831644396(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));
-		Camera_t189460977 * L_44 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Camera_t189460977 * L_42 = Camera_get_main_m881971336(NULL /*static, unused*/, /*hidden argument*/NULL);
 		// var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));
-		NullCheck(L_44);
-		float L_45 = Camera_get_nearClipPlane_m2824342520(L_44, /*hidden argument*/NULL);
+		NullCheck(L_42);
+		float L_43 = Camera_get_nearClipPlane_m2824342520(L_42, /*hidden argument*/NULL);
 		// var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));
-		Vector3_t2243707580  L_46;
-		memset(&L_46, 0, sizeof(L_46));
-		Vector3__ctor_m1555724485((&L_46), (((float)((float)((int32_t)((int32_t)L_42/(int32_t)2))))), (((float)((float)((int32_t)((int32_t)L_43/(int32_t)2))))), L_45, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_44;
+		memset(&L_44, 0, sizeof(L_44));
+		Vector3__ctor_m1555724485((&L_44), (((float)((float)((int32_t)((int32_t)L_40/(int32_t)2))))), (((float)((float)((int32_t)((int32_t)L_41/(int32_t)2))))), L_43, /*hidden argument*/NULL);
 		// var screenPosition = Camera.main.ScreenToViewportPoint( new Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane));
-		NullCheck(L_41);
-		Vector3_t2243707580  L_47 = Camera_ScreenToViewportPoint_m3458250415(L_41, L_46, /*hidden argument*/NULL);
-		V_6 = L_47;
+		NullCheck(L_39);
+		Vector3_t2243707580  L_45 = Camera_ScreenToViewportPoint_m3458250415(L_39, L_44, /*hidden argument*/NULL);
+		V_6 = L_45;
 		// ARPoint point = new ARPoint{ x = screenPosition.x, y = screenPosition.y};
 		Initobj (ARPoint_t3436811567_il2cpp_TypeInfo_var, (&V_8));
 		// ARPoint point = new ARPoint{ x = screenPosition.x, y = screenPosition.y};
-		float L_48 = (&V_6)->get_x_1();
-		(&V_8)->set_x_0((((double)((double)L_48))));
+		float L_46 = (&V_6)->get_x_1();
+		(&V_8)->set_x_0((((double)((double)L_46))));
 		// ARPoint point = new ARPoint{ x = screenPosition.x, y = screenPosition.y};
-		float L_49 = (&V_6)->get_y_2();
-		(&V_8)->set_y_1((((double)((double)L_49))));
-		ARPoint_t3436811567  L_50 = V_8;
-		V_7 = L_50;
+		float L_47 = (&V_6)->get_y_2();
+		(&V_8)->set_y_1((((double)((double)L_47))));
+		ARPoint_t3436811567  L_48 = V_8;
+		V_7 = L_48;
 		// ARHitTestResultType[] resultTypes = {
-		ARHitTestResultTypeU5BU5D_t1303085420* L_51 = ((ARHitTestResultTypeU5BU5D_t1303085420*)SZArrayNew(ARHitTestResultTypeU5BU5D_t1303085420_il2cpp_TypeInfo_var, (uint32_t)3));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_51, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D8E7629AD5AF686202B8CB7C014505C432FFE31E6_0_FieldInfo_var), /*hidden argument*/NULL);
-		V_9 = L_51;
+		ARHitTestResultTypeU5BU5D_t1303085420* L_49 = ((ARHitTestResultTypeU5BU5D_t1303085420*)SZArrayNew(ARHitTestResultTypeU5BU5D_t1303085420_il2cpp_TypeInfo_var, (uint32_t)3));
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (RuntimeArray *)(RuntimeArray *)L_49, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305142____U24fieldU2D8E7629AD5AF686202B8CB7C014505C432FFE31E6_0_FieldInfo_var), /*hidden argument*/NULL);
+		V_9 = L_49;
 		// foreach (ARHitTestResultType resultType in resultTypes)
-		ARHitTestResultTypeU5BU5D_t1303085420* L_52 = V_9;
-		V_11 = L_52;
+		ARHitTestResultTypeU5BU5D_t1303085420* L_50 = V_9;
+		V_11 = L_50;
 		V_12 = 0;
-		goto IL_0221;
+		goto IL_0204;
 	}
 
-IL_01f7:
+IL_01da:
 	{
 		// foreach (ARHitTestResultType resultType in resultTypes)
-		ARHitTestResultTypeU5BU5D_t1303085420* L_53 = V_11;
-		int32_t L_54 = V_12;
-		NullCheck(L_53);
-		int32_t L_55 = L_54;
-		int64_t L_56 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_55));
-		V_10 = L_56;
+		ARHitTestResultTypeU5BU5D_t1303085420* L_51 = V_11;
+		int32_t L_52 = V_12;
+		NullCheck(L_51);
+		int32_t L_53 = L_52;
+		int64_t L_54 = (L_51)->GetAt(static_cast<il2cpp_array_size_t>(L_53));
+		V_10 = L_54;
 		// if (HitTestWithResultType (point, resultType, playgroundIsDetected))
-		ARPoint_t3436811567  L_57 = V_7;
-		int64_t L_58 = V_10;
-		bool L_59 = __this->get_playgroundIsDetected_34();
+		ARPoint_t3436811567  L_55 = V_7;
+		int64_t L_56 = V_10;
+		bool L_57 = __this->get_playgroundIsDetected_34();
 		// if (HitTestWithResultType (point, resultType, playgroundIsDetected))
-		bool L_60 = previzCtrl_HitTestWithResultType_m1300480189(__this, L_57, L_58, L_59, /*hidden argument*/NULL);
-		if (!L_60)
+		bool L_58 = previzCtrl_HitTestWithResultType_m1300480189(__this, L_55, L_56, L_57, /*hidden argument*/NULL);
+		if (!L_58)
 		{
-			goto IL_021a;
+			goto IL_01fd;
 		}
 	}
 	{
 		// return;
-		goto IL_0240;
+		goto IL_0233;
 	}
 
-IL_021a:
+IL_01fd:
 	{
 		// foreach (ARHitTestResultType resultType in resultTypes)
-		int32_t L_61 = V_12;
-		V_12 = ((int32_t)((int32_t)L_61+(int32_t)1));
+		int32_t L_59 = V_12;
+		V_12 = ((int32_t)((int32_t)L_59+(int32_t)1));
 	}
 
-IL_0221:
+IL_0204:
 	{
-		int32_t L_62 = V_12;
-		ARHitTestResultTypeU5BU5D_t1303085420* L_63 = V_11;
-		NullCheck(L_63);
-		if ((((int32_t)L_62) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_63)->max_length)))))))
+		int32_t L_60 = V_12;
+		ARHitTestResultTypeU5BU5D_t1303085420* L_61 = V_11;
+		NullCheck(L_61);
+		if ((((int32_t)L_60) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_61)->max_length)))))))
 		{
-			goto IL_01f7;
+			goto IL_01da;
 		}
 	}
 	{
-		goto IL_0240;
+		goto IL_0233;
 	}
 
-IL_0232:
+IL_0215:
 	{
 		// brainRefAnimMeshRender.enabled = false;
-		Renderer_t257310565 * L_64 = __this->get_brainRefAnimMeshRender_31();
+		Renderer_t257310565 * L_62 = __this->get_brainRefAnimMeshRender_31();
 		// brainRefAnimMeshRender.enabled = false;
-		NullCheck(L_64);
-		Renderer_set_enabled_m383916764(L_64, (bool)0, /*hidden argument*/NULL);
+		NullCheck(L_62);
+		Renderer_set_enabled_m383916764(L_62, (bool)0, /*hidden argument*/NULL);
+		// brainrefAnim.SetTrigger("back");
+		Animator_t69676727 * L_63 = __this->get_brainrefAnim_26();
+		// brainrefAnim.SetTrigger("back");
+		NullCheck(L_63);
+		Animator_SetTrigger_m2003713590(L_63, _stringLiteral2778557519, /*hidden argument*/NULL);
 	}
 
-IL_0240:
+IL_0233:
 	{
 		// }
 		return;
@@ -36555,37 +36420,37 @@ extern "C"  void previzCtrl__cctor_m3639323815 (RuntimeObject * __this /* static
 	}
 	{
 		// public static bool plateIsOn = false;
-		((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_plateIsOn_40((bool)0);
+		((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_plateIsOn_41((bool)0);
 		// public static bool planeIsOn = false;
-		((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_planeIsOn_41((bool)0);
+		((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_planeIsOn_42((bool)0);
 		// public static bool readytoReloadText = false;
-		((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_readytoReloadText_42((bool)0);
+		((previzCtrl_t930159927_StaticFields*)il2cpp_codegen_static_fields_for(previzCtrl_t930159927_il2cpp_TypeInfo_var))->set_readytoReloadText_43((bool)0);
 		return;
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::.ctor()
-extern "C"  void U3CbrainAnimationU3Ec__Iterator3__ctor_m1929696363 (U3CbrainAnimationU3Ec__Iterator3_t3637772874 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::.ctor()
+extern "C"  void U3CbrainAnimationU3Ec__Iterator2__ctor_m3838523664 (U3CbrainAnimationU3Ec__Iterator2_t908889519 * __this, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Boolean UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::MoveNext()
-extern "C"  bool U3CbrainAnimationU3Ec__Iterator3_MoveNext_m2215230069 (U3CbrainAnimationU3Ec__Iterator3_t3637772874 * __this, const RuntimeMethod* method)
+// System.Boolean UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::MoveNext()
+extern "C"  bool U3CbrainAnimationU3Ec__Iterator2_MoveNext_m3428292148 (U3CbrainAnimationU3Ec__Iterator2_t908889519 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CbrainAnimationU3Ec__Iterator3_MoveNext_m2215230069_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CbrainAnimationU3Ec__Iterator2_MoveNext_m3428292148_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	uint32_t V_0 = 0;
 	bool V_1 = false;
 	{
-		int32_t L_0 = __this->get_U24PC_4();
+		int32_t L_0 = __this->get_U24PC_3();
 		V_0 = L_0;
-		__this->set_U24PC_4((-1));
+		__this->set_U24PC_3((-1));
 		uint32_t L_1 = V_0;
 		switch (L_1)
 		{
@@ -36595,146 +36460,144 @@ extern "C"  bool U3CbrainAnimationU3Ec__Iterator3_MoveNext_m2215230069 (U3Cbrain
 			}
 			case 1:
 			{
-				goto IL_0091;
+				goto IL_008a;
 			}
 			case 2:
 			{
-				goto IL_00eb;
+				goto IL_00e4;
 			}
 		}
 	}
 	{
-		goto IL_00f3;
+		goto IL_00ec;
 	}
 
 IL_0025:
 	{
 		// if(animationIsPlaying == false){
-		bool L_2 = __this->get_animationIsPlaying_0();
-		if (L_2)
+		previzCtrl_t930159927 * L_2 = __this->get_U24this_0();
+		NullCheck(L_2);
+		bool L_3 = L_2->get_animationIsPlaying_35();
+		if (L_3)
 		{
-			goto IL_0097;
+			goto IL_0090;
 		}
 	}
 	{
-		// previzAnim.SetTrigger("Play");
-		previzCtrl_t930159927 * L_3 = __this->get_U24this_1();
-		NullCheck(L_3);
-		Animator_t69676727 * L_4 = L_3->get_previzAnim_27();
-		// previzAnim.SetTrigger("Play");
+		// Appearing.Play();
+		previzCtrl_t930159927 * L_4 = __this->get_U24this_0();
 		NullCheck(L_4);
-		Animator_SetTrigger_m2003713590(L_4, _stringLiteral69878724, /*hidden argument*/NULL);
+		ParticleSystem_t3394631041 * L_5 = L_4->get_Appearing_21();
 		// Appearing.Play();
-		previzCtrl_t930159927 * L_5 = __this->get_U24this_1();
 		NullCheck(L_5);
-		ParticleSystem_t3394631041 * L_6 = L_5->get_Appearing_21();
-		// Appearing.Play();
+		ParticleSystem_Play_m2510524101(L_5, /*hidden argument*/NULL);
+		// previzAnim.SetTrigger("Play");
+		previzCtrl_t930159927 * L_6 = __this->get_U24this_0();
 		NullCheck(L_6);
-		ParticleSystem_Play_m2510524101(L_6, /*hidden argument*/NULL);
-		// animationIsPlaying = true;
-		__this->set_animationIsPlaying_0((bool)1);
-		// Debug.Log("Play");
-		// Debug.Log("Play");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral69878724, /*hidden argument*/NULL);
+		Animator_t69676727 * L_7 = L_6->get_previzAnim_27();
+		// previzAnim.SetTrigger("Play");
+		NullCheck(L_7);
+		Animator_SetTrigger_m2003713590(L_7, _stringLiteral69878724, /*hidden argument*/NULL);
 		// yield return animationIsPlaying = true;
-		int32_t L_7 = 1;
-		V_1 = (bool)L_7;
-		__this->set_animationIsPlaying_0((bool)L_7);
-		bool L_8 = V_1;
-		bool L_9 = L_8;
-		RuntimeObject * L_10 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_9);
-		__this->set_U24current_2(L_10);
-		bool L_11 = __this->get_U24disposing_3();
-		if (L_11)
+		previzCtrl_t930159927 * L_8 = __this->get_U24this_0();
+		int32_t L_9 = 1;
+		V_1 = (bool)L_9;
+		NullCheck(L_8);
+		L_8->set_animationIsPlaying_35((bool)L_9);
+		bool L_10 = V_1;
+		bool L_11 = L_10;
+		RuntimeObject * L_12 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_11);
+		__this->set_U24current_1(L_12);
+		bool L_13 = __this->get_U24disposing_2();
+		if (L_13)
 		{
-			goto IL_008c;
+			goto IL_0085;
 		}
 	}
 	{
-		__this->set_U24PC_4(1);
+		__this->set_U24PC_3(1);
 	}
 
-IL_008c:
+IL_0085:
 	{
-		goto IL_00f5;
+		goto IL_00ee;
 	}
 
-IL_0091:
+IL_008a:
 	{
-		goto IL_00ec;
+		goto IL_00e5;
 	}
 
-IL_0097:
+IL_0090:
 	{
 		// }else if(animationIsPlaying == true){
-		bool L_12 = __this->get_animationIsPlaying_0();
-		if (!L_12)
-		{
-			goto IL_00ec;
-		}
-	}
-	{
-		// previzAnim.SetTrigger("Back");
-		previzCtrl_t930159927 * L_13 = __this->get_U24this_1();
-		NullCheck(L_13);
-		Animator_t69676727 * L_14 = L_13->get_previzAnim_27();
-		// previzAnim.SetTrigger("Back");
+		previzCtrl_t930159927 * L_14 = __this->get_U24this_0();
 		NullCheck(L_14);
-		Animator_SetTrigger_m2003713590(L_14, _stringLiteral2778558511, /*hidden argument*/NULL);
-		// Debug.Log("Stop");
-		// Debug.Log("Stop");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral3833953726, /*hidden argument*/NULL);
-		// yield return animationIsPlaying = false;
-		int32_t L_15 = 0;
-		V_1 = (bool)L_15;
-		__this->set_animationIsPlaying_0((bool)L_15);
-		bool L_16 = V_1;
-		bool L_17 = L_16;
-		RuntimeObject * L_18 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_17);
-		__this->set_U24current_2(L_18);
-		bool L_19 = __this->get_U24disposing_3();
-		if (L_19)
+		bool L_15 = L_14->get_animationIsPlaying_35();
+		if (!L_15)
 		{
-			goto IL_00e6;
+			goto IL_00e5;
 		}
 	}
 	{
-		__this->set_U24PC_4(2);
+		// previzAnim.SetTrigger("Back");
+		previzCtrl_t930159927 * L_16 = __this->get_U24this_0();
+		NullCheck(L_16);
+		Animator_t69676727 * L_17 = L_16->get_previzAnim_27();
+		// previzAnim.SetTrigger("Back");
+		NullCheck(L_17);
+		Animator_SetTrigger_m2003713590(L_17, _stringLiteral2778558511, /*hidden argument*/NULL);
+		// yield return animationIsPlaying = false;
+		previzCtrl_t930159927 * L_18 = __this->get_U24this_0();
+		int32_t L_19 = 0;
+		V_1 = (bool)L_19;
+		NullCheck(L_18);
+		L_18->set_animationIsPlaying_35((bool)L_19);
+		bool L_20 = V_1;
+		bool L_21 = L_20;
+		RuntimeObject * L_22 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_21);
+		__this->set_U24current_1(L_22);
+		bool L_23 = __this->get_U24disposing_2();
+		if (L_23)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		__this->set_U24PC_3(2);
 	}
 
-IL_00e6:
+IL_00df:
 	{
-		goto IL_00f5;
+		goto IL_00ee;
 	}
 
-IL_00eb:
+IL_00e4:
 	{
+	}
+
+IL_00e5:
+	{
+		// }
+		__this->set_U24PC_3((-1));
 	}
 
 IL_00ec:
 	{
-		// }
-		__this->set_U24PC_4((-1));
-	}
-
-IL_00f3:
-	{
 		return (bool)0;
 	}
 
-IL_00f5:
+IL_00ee:
 	{
 		return (bool)1;
 	}
 }
-// System.Object UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  RuntimeObject * U3CbrainAnimationU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m302476921 (U3CbrainAnimationU3Ec__Iterator3_t3637772874 * __this, const RuntimeMethod* method)
+// System.Object UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  RuntimeObject * U3CbrainAnimationU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1997462324 (U3CbrainAnimationU3Ec__Iterator2_t908889519 * __this, const RuntimeMethod* method)
 {
 	RuntimeObject * V_0 = NULL;
 	{
-		RuntimeObject * L_0 = __this->get_U24current_2();
+		RuntimeObject * L_0 = __this->get_U24current_1();
 		V_0 = L_0;
 		goto IL_000c;
 	}
@@ -36745,12 +36608,12 @@ IL_000c:
 		return L_1;
 	}
 }
-// System.Object UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::System.Collections.IEnumerator.get_Current()
-extern "C"  RuntimeObject * U3CbrainAnimationU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m1897181569 (U3CbrainAnimationU3Ec__Iterator3_t3637772874 * __this, const RuntimeMethod* method)
+// System.Object UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::System.Collections.IEnumerator.get_Current()
+extern "C"  RuntimeObject * U3CbrainAnimationU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m2119333436 (U3CbrainAnimationU3Ec__Iterator2_t908889519 * __this, const RuntimeMethod* method)
 {
 	RuntimeObject * V_0 = NULL;
 	{
-		RuntimeObject * L_0 = __this->get_U24current_2();
+		RuntimeObject * L_0 = __this->get_U24current_1();
 		V_0 = L_0;
 		goto IL_000c;
 	}
@@ -36761,22 +36624,22 @@ IL_000c:
 		return L_1;
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::Dispose()
-extern "C"  void U3CbrainAnimationU3Ec__Iterator3_Dispose_m1609185352 (U3CbrainAnimationU3Ec__Iterator3_t3637772874 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::Dispose()
+extern "C"  void U3CbrainAnimationU3Ec__Iterator2_Dispose_m2581354253 (U3CbrainAnimationU3Ec__Iterator2_t908889519 * __this, const RuntimeMethod* method)
 {
 	{
-		__this->set_U24disposing_3((bool)1);
-		__this->set_U24PC_4((-1));
+		__this->set_U24disposing_2((bool)1);
+		__this->set_U24PC_3((-1));
 		return;
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator3::Reset()
-extern "C"  void U3CbrainAnimationU3Ec__Iterator3_Reset_m3004762434 (U3CbrainAnimationU3Ec__Iterator3_t3637772874 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<brainAnimation>c__Iterator2::Reset()
+extern "C"  void U3CbrainAnimationU3Ec__Iterator2_Reset_m618622439 (U3CbrainAnimationU3Ec__Iterator2_t908889519 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CbrainAnimationU3Ec__Iterator3_Reset_m3004762434_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CbrainAnimationU3Ec__Iterator2_Reset_m618622439_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -36785,30 +36648,30 @@ extern "C"  void U3CbrainAnimationU3Ec__Iterator3_Reset_m3004762434 (U3CbrainAni
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::.ctor()
-extern "C"  void U3CtestU3Ec__Iterator2__ctor_m4229440250 (U3CtestU3Ec__Iterator2_t2422432017 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::.ctor()
+extern "C"  void U3CbreakTextU3Ec__Iterator3__ctor_m3448899537 (U3CbreakTextU3Ec__Iterator3_t1253770968 * __this, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Boolean UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::MoveNext()
-extern "C"  bool U3CtestU3Ec__Iterator2_MoveNext_m1422929710 (U3CtestU3Ec__Iterator2_t2422432017 * __this, const RuntimeMethod* method)
+// System.Boolean UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::MoveNext()
+extern "C"  bool U3CbreakTextU3Ec__Iterator3_MoveNext_m1510200311 (U3CbreakTextU3Ec__Iterator3_t1253770968 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CtestU3Ec__Iterator2_MoveNext_m1422929710_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CbreakTextU3Ec__Iterator3_MoveNext_m1510200311_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	uint32_t V_0 = 0;
 	Rigidbody_t4233889191 * V_1 = NULL;
-	GameObject_t1756533147 * V_2 = NULL;
+	bool V_2 = false;
 	{
-		int32_t L_0 = __this->get_U24PC_8();
+		int32_t L_0 = __this->get_U24PC_6();
 		V_0 = L_0;
-		__this->set_U24PC_8((-1));
+		__this->set_U24PC_6((-1));
 		uint32_t L_1 = V_0;
 		switch (L_1)
 		{
@@ -36818,236 +36681,165 @@ extern "C"  bool U3CtestU3Ec__Iterator2_MoveNext_m1422929710 (U3CtestU3Ec__Itera
 			}
 			case 1:
 			{
-				goto IL_01a2;
+				goto IL_00ee;
 			}
 			case 2:
 			{
-				goto IL_01e2;
+				goto IL_0132;
 			}
 		}
 	}
 	{
-		goto IL_01ea;
+		goto IL_0139;
 	}
 
 IL_0025:
 	{
-		// if(textObject == null){
-		GameObject_t1756533147 * L_2 = __this->get_textObject_0();
-		// if(textObject == null){
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		bool L_3 = Object_op_Equality_m2516226135(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
-		if (!L_3)
+		// if(breakTextIsRunning == false)
+		previzCtrl_t930159927 * L_2 = __this->get_U24this_3();
+		NullCheck(L_2);
+		bool L_3 = L_2->get_breakTextIsRunning_40();
+		if (L_3)
 		{
-			goto IL_01a8;
+			goto IL_0104;
 		}
 	}
 	{
-		// text = QRCodeReader.possible;
-		previzCtrl_t930159927 * L_4 = __this->get_U24this_5();
-		String_t* L_5 = ((QRCodeReader_t3711862773_StaticFields*)il2cpp_codegen_static_fields_for(QRCodeReader_t3711862773_il2cpp_TypeInfo_var))->get_possible_4();
+		// breakTextIsRunning = true;
+		previzCtrl_t930159927 * L_4 = __this->get_U24this_3();
 		NullCheck(L_4);
-		L_4->set_text_24(L_5);
-		// string[] textArray = text.Split(","[0]);
-		previzCtrl_t930159927 * L_6 = __this->get_U24this_5();
+		L_4->set_breakTextIsRunning_40((bool)1);
+		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+		previzCtrl_t930159927 * L_5 = __this->get_U24this_3();
+		NullCheck(L_5);
+		GameObject_t1756533147 * L_6 = L_5->get_textObject_23();
+		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
 		NullCheck(L_6);
-		String_t* L_7 = L_6->get_text_24();
-		CharU5BU5D_t1328083999* L_8 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
-		// string[] textArray = text.Split(","[0]);
-		NullCheck(_stringLiteral372029314);
-		Il2CppChar L_9 = String_get_Chars_m4230566705(_stringLiteral372029314, 0, /*hidden argument*/NULL);
-		NullCheck(L_8);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)L_9);
-		// string[] textArray = text.Split(","[0]);
-		NullCheck(L_7);
-		StringU5BU5D_t1642385972* L_10 = String_Split_m3326265864(L_7, L_8, /*hidden argument*/NULL);
-		__this->set_U3CtextArrayU3E__1_1(L_10);
-		// textObject  = FlyingText.GetObjects(textArray[0]);
-		StringU5BU5D_t1642385972* L_11 = __this->get_U3CtextArrayU3E__1_1();
-		NullCheck(L_11);
-		int32_t L_12 = 0;
-		String_t* L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
-		// textObject  = FlyingText.GetObjects(textArray[0]);
-		IL2CPP_RUNTIME_CLASS_INIT(FlyingText_t2702037808_il2cpp_TypeInfo_var);
-		GameObject_t1756533147 * L_14 = FlyingText_GetObjects_m4072616461(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
-		__this->set_textObject_0(L_14);
-		// textObject.transform.parent = textRoot.transform;
-		GameObject_t1756533147 * L_15 = __this->get_textObject_0();
-		// textObject.transform.parent = textRoot.transform;
-		NullCheck(L_15);
-		Transform_t3275118058 * L_16 = GameObject_get_transform_m3490276752(L_15, /*hidden argument*/NULL);
-		previzCtrl_t930159927 * L_17 = __this->get_U24this_5();
-		NullCheck(L_17);
-		GameObject_t1756533147 * L_18 = L_17->get_textRoot_10();
-		// textObject.transform.parent = textRoot.transform;
+		RigidbodyU5BU5D_t3881993182* L_7 = GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322(L_6, /*hidden argument*/GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322_RuntimeMethod_var);
+		__this->set_U3CrigidbodiesU3E__1_0(L_7);
+		// foreach (var rb in rigidbodies)
+		RigidbodyU5BU5D_t3881993182* L_8 = __this->get_U3CrigidbodiesU3E__1_0();
+		__this->set_U24locvar0_1(L_8);
+		__this->set_U24locvar1_2(0);
+		goto IL_00c0;
+	}
+
+IL_0072:
+	{
+		// foreach (var rb in rigidbodies)
+		RigidbodyU5BU5D_t3881993182* L_9 = __this->get_U24locvar0_1();
+		int32_t L_10 = __this->get_U24locvar1_2();
+		NullCheck(L_9);
+		int32_t L_11 = L_10;
+		Rigidbody_t4233889191 * L_12 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		V_1 = L_12;
+		// rb.useGravity = true;
+		Rigidbody_t4233889191 * L_13 = V_1;
+		// rb.useGravity = true;
+		NullCheck(L_13);
+		Rigidbody_set_useGravity_m1509734510(L_13, (bool)1, /*hidden argument*/NULL);
+		// rb.AddExplosionForce (130.0f, new Vector3(0, -2.5f, 3.0f), 12.0f, 60.0f);
+		Rigidbody_t4233889191 * L_14 = V_1;
+		// rb.AddExplosionForce (130.0f, new Vector3(0, -2.5f, 3.0f), 12.0f, 60.0f);
+		Vector3_t2243707580  L_15;
+		memset(&L_15, 0, sizeof(L_15));
+		Vector3__ctor_m1555724485((&L_15), (0.0f), (-2.5f), (3.0f), /*hidden argument*/NULL);
+		// rb.AddExplosionForce (130.0f, new Vector3(0, -2.5f, 3.0f), 12.0f, 60.0f);
+		NullCheck(L_14);
+		Rigidbody_AddExplosionForce_m1991510258(L_14, (130.0f), L_15, (12.0f), (60.0f), /*hidden argument*/NULL);
+		// foreach (var rb in rigidbodies)
+		int32_t L_16 = __this->get_U24locvar1_2();
+		__this->set_U24locvar1_2(((int32_t)((int32_t)L_16+(int32_t)1)));
+	}
+
+IL_00c0:
+	{
+		int32_t L_17 = __this->get_U24locvar1_2();
+		RigidbodyU5BU5D_t3881993182* L_18 = __this->get_U24locvar0_1();
 		NullCheck(L_18);
-		Transform_t3275118058 * L_19 = GameObject_get_transform_m3490276752(L_18, /*hidden argument*/NULL);
-		// textObject.transform.parent = textRoot.transform;
-		NullCheck(L_16);
-		Transform_set_parent_m3178143156(L_16, L_19, /*hidden argument*/NULL);
-		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-		GameObject_t1756533147 * L_20 = __this->get_textObject_0();
-		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+		if ((((int32_t)L_17) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_18)->max_length)))))))
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		// yield return null;
+		__this->set_U24current_4(NULL);
+		bool L_19 = __this->get_U24disposing_5();
+		if (L_19)
+		{
+			goto IL_00e9;
+		}
+	}
+	{
+		__this->set_U24PC_6(1);
+	}
+
+IL_00e9:
+	{
+		goto IL_013b;
+	}
+
+IL_00ee:
+	{
+		// Destroy(textObject, 0.5f);
+		previzCtrl_t930159927 * L_20 = __this->get_U24this_3();
 		NullCheck(L_20);
-		Transform_t3275118058 * L_21 = GameObject_get_transform_m3490276752(L_20, /*hidden argument*/NULL);
-		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-		Vector3_t2243707580  L_22;
-		memset(&L_22, 0, sizeof(L_22));
-		Vector3__ctor_m1555724485((&L_22), (0.7f), (0.7f), (0.7f), /*hidden argument*/NULL);
-		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-		NullCheck(L_21);
-		Transform_set_localScale_m1442831667(L_21, L_22, /*hidden argument*/NULL);
-		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-		GameObject_t1756533147 * L_23 = __this->get_textObject_0();
-		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-		NullCheck(L_23);
-		Transform_t3275118058 * L_24 = GameObject_get_transform_m3490276752(L_23, /*hidden argument*/NULL);
-		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-		Vector3_t2243707580  L_25;
-		memset(&L_25, 0, sizeof(L_25));
-		Vector3__ctor_m1555724485((&L_25), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-		NullCheck(L_24);
-		Transform_set_localPosition_m1073050816(L_24, L_25, /*hidden argument*/NULL);
-		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-		GameObject_t1756533147 * L_26 = __this->get_textObject_0();
-		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-		NullCheck(L_26);
-		Transform_t3275118058 * L_27 = GameObject_get_transform_m3490276752(L_26, /*hidden argument*/NULL);
-		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-		Quaternion_t4030073918  L_28;
-		memset(&L_28, 0, sizeof(L_28));
-		Quaternion__ctor_m2707026792((&L_28), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-		NullCheck(L_27);
-		Transform_set_localRotation_m3053695533(L_27, L_28, /*hidden argument*/NULL);
-		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
-		GameObject_t1756533147 * L_29 = __this->get_textObject_0();
-		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
-		NullCheck(L_29);
-		RigidbodyU5BU5D_t3881993182* L_30 = GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322(L_29, /*hidden argument*/GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322_RuntimeMethod_var);
-		__this->set_U3CrigidbodiesU3E__1_2(L_30);
-		// foreach (var rb in rigidbodies) {
-		RigidbodyU5BU5D_t3881993182* L_31 = __this->get_U3CrigidbodiesU3E__1_2();
-		__this->set_U24locvar0_3(L_31);
-		__this->set_U24locvar1_4(0);
-		goto IL_0165;
-	}
-
-IL_0140:
-	{
-		// foreach (var rb in rigidbodies) {
-		RigidbodyU5BU5D_t3881993182* L_32 = __this->get_U24locvar0_3();
-		int32_t L_33 = __this->get_U24locvar1_4();
-		NullCheck(L_32);
-		int32_t L_34 = L_33;
-		Rigidbody_t4233889191 * L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
-		V_1 = L_35;
-		// rb.useGravity = false;
-		Rigidbody_t4233889191 * L_36 = V_1;
-		// rb.useGravity = false;
-		NullCheck(L_36);
-		Rigidbody_set_useGravity_m1509734510(L_36, (bool)0, /*hidden argument*/NULL);
-		// foreach (var rb in rigidbodies) {
-		int32_t L_37 = __this->get_U24locvar1_4();
-		__this->set_U24locvar1_4(((int32_t)((int32_t)L_37+(int32_t)1)));
-	}
-
-IL_0165:
-	{
-		int32_t L_38 = __this->get_U24locvar1_4();
-		RigidbodyU5BU5D_t3881993182* L_39 = __this->get_U24locvar0_3();
-		NullCheck(L_39);
-		if ((((int32_t)L_38) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_39)->max_length)))))))
-		{
-			goto IL_0140;
-		}
-	}
-	{
-		// Debug.Log("TextOn");
-		// Debug.Log("TextOn");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral696661832, /*hidden argument*/NULL);
-		// yield return textObject;
-		GameObject_t1756533147 * L_40 = __this->get_textObject_0();
-		__this->set_U24current_6(L_40);
-		bool L_41 = __this->get_U24disposing_7();
-		if (L_41)
-		{
-			goto IL_019d;
-		}
-	}
-	{
-		__this->set_U24PC_8(1);
-	}
-
-IL_019d:
-	{
-		goto IL_01ec;
-	}
-
-IL_01a2:
-	{
-		goto IL_01e3;
-	}
-
-IL_01a8:
-	{
-		// Destroy(textObject);
-		GameObject_t1756533147 * L_42 = __this->get_textObject_0();
-		// Destroy(textObject);
+		GameObject_t1756533147 * L_21 = L_20->get_textObject_23();
+		// Destroy(textObject, 0.5f);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object_Destroy_m3959286051(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
-		// Debug.Log("TextOFF");
-		// Debug.Log("TextOFF");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral1523810746, /*hidden argument*/NULL);
-		// yield return textObject = null;
-		V_2 = (GameObject_t1756533147 *)NULL;
-		__this->set_textObject_0((GameObject_t1756533147 *)NULL);
-		GameObject_t1756533147 * L_43 = V_2;
-		__this->set_U24current_6(L_43);
-		bool L_44 = __this->get_U24disposing_7();
-		if (L_44)
+		Object_Destroy_m682534386(NULL /*static, unused*/, L_21, (0.5f), /*hidden argument*/NULL);
+	}
+
+IL_0104:
+	{
+		// yield return breakTextIsRunning = false;
+		previzCtrl_t930159927 * L_22 = __this->get_U24this_3();
+		int32_t L_23 = 0;
+		V_2 = (bool)L_23;
+		NullCheck(L_22);
+		L_22->set_breakTextIsRunning_40((bool)L_23);
+		bool L_24 = V_2;
+		bool L_25 = L_24;
+		RuntimeObject * L_26 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_25);
+		__this->set_U24current_4(L_26);
+		bool L_27 = __this->get_U24disposing_5();
+		if (L_27)
 		{
-			goto IL_01dd;
+			goto IL_012d;
 		}
 	}
 	{
-		__this->set_U24PC_8(2);
+		__this->set_U24PC_6(2);
 	}
 
-IL_01dd:
+IL_012d:
 	{
-		goto IL_01ec;
+		goto IL_013b;
 	}
 
-IL_01e2:
-	{
-	}
-
-IL_01e3:
+IL_0132:
 	{
 		// }
-		__this->set_U24PC_8((-1));
+		__this->set_U24PC_6((-1));
 	}
 
-IL_01ea:
+IL_0139:
 	{
 		return (bool)0;
 	}
 
-IL_01ec:
+IL_013b:
 	{
 		return (bool)1;
 	}
 }
-// System.Object UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  RuntimeObject * U3CtestU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m261676394 (U3CtestU3Ec__Iterator2_t2422432017 * __this, const RuntimeMethod* method)
+// System.Object UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  RuntimeObject * U3CbreakTextU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m337331379 (U3CbreakTextU3Ec__Iterator3_t1253770968 * __this, const RuntimeMethod* method)
 {
 	RuntimeObject * V_0 = NULL;
 	{
-		RuntimeObject * L_0 = __this->get_U24current_6();
+		RuntimeObject * L_0 = __this->get_U24current_4();
 		V_0 = L_0;
 		goto IL_000c;
 	}
@@ -37058,12 +36850,12 @@ IL_000c:
 		return L_1;
 	}
 }
-// System.Object UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::System.Collections.IEnumerator.get_Current()
-extern "C"  RuntimeObject * U3CtestU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m1398084594 (U3CtestU3Ec__Iterator2_t2422432017 * __this, const RuntimeMethod* method)
+// System.Object UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::System.Collections.IEnumerator.get_Current()
+extern "C"  RuntimeObject * U3CbreakTextU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m1044036827 (U3CbreakTextU3Ec__Iterator3_t1253770968 * __this, const RuntimeMethod* method)
 {
 	RuntimeObject * V_0 = NULL;
 	{
-		RuntimeObject * L_0 = __this->get_U24current_6();
+		RuntimeObject * L_0 = __this->get_U24current_4();
 		V_0 = L_0;
 		goto IL_000c;
 	}
@@ -37074,22 +36866,22 @@ IL_000c:
 		return L_1;
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::Dispose()
-extern "C"  void U3CtestU3Ec__Iterator2_Dispose_m3205950851 (U3CtestU3Ec__Iterator2_t2422432017 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::Dispose()
+extern "C"  void U3CbreakTextU3Ec__Iterator3_Dispose_m2899199090 (U3CbreakTextU3Ec__Iterator3_t1253770968 * __this, const RuntimeMethod* method)
 {
 	{
-		__this->set_U24disposing_7((bool)1);
-		__this->set_U24PC_8((-1));
+		__this->set_U24disposing_5((bool)1);
+		__this->set_U24PC_6((-1));
 		return;
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator2::Reset()
-extern "C"  void U3CtestU3Ec__Iterator2_Reset_m1896025993 (U3CtestU3Ec__Iterator2_t2422432017 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<breakText>c__Iterator3::Reset()
+extern "C"  void U3CbreakTextU3Ec__Iterator3_Reset_m2251084004 (U3CbreakTextU3Ec__Iterator3_t1253770968 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CtestU3Ec__Iterator2_Reset_m1896025993_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CbreakTextU3Ec__Iterator3_Reset_m2251084004_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -37098,71 +36890,70 @@ extern "C"  void U3CtestU3Ec__Iterator2_Reset_m1896025993 (U3CtestU3Ec__Iterator
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::.ctor()
-extern "C"  void U3CtextCreateU3Ec__Iterator0__ctor_m1409539637 (U3CtextCreateU3Ec__Iterator0_t382157024 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::.ctor()
+extern "C"  void U3CtestU3Ec__Iterator1__ctor_m165143839 (U3CtestU3Ec__Iterator1_t3988515958 * __this, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Boolean UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::MoveNext()
-extern "C"  bool U3CtextCreateU3Ec__Iterator0_MoveNext_m875238595 (U3CtextCreateU3Ec__Iterator0_t382157024 * __this, const RuntimeMethod* method)
+// System.Boolean UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::MoveNext()
+extern "C"  bool U3CtestU3Ec__Iterator1_MoveNext_m2645322609 (U3CtestU3Ec__Iterator1_t3988515958 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CtextCreateU3Ec__Iterator0_MoveNext_m875238595_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CtestU3Ec__Iterator1_MoveNext_m2645322609_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	uint32_t V_0 = 0;
-	bool V_1 = false;
+	Rigidbody_t4233889191 * V_1 = NULL;
 	{
-		int32_t L_0 = __this->get_U24PC_8();
+		int32_t L_0 = __this->get_U24PC_7();
 		V_0 = L_0;
-		__this->set_U24PC_8((-1));
+		__this->set_U24PC_7((-1));
 		uint32_t L_1 = V_0;
 		switch (L_1)
 		{
 			case 0:
 			{
-				goto IL_0025;
+				goto IL_0021;
 			}
 			case 1:
 			{
-				goto IL_0141;
-			}
-			case 2:
-			{
-				goto IL_018b;
+				goto IL_01bc;
 			}
 		}
 	}
 	{
-		goto IL_0193;
+		goto IL_01c4;
 	}
 
-IL_0025:
+IL_0021:
 	{
-		// if(textIsCreated != true)
-		bool L_2 = __this->get_textIsCreated_0();
-		if (L_2)
+		// if(textObject == null){
+		previzCtrl_t930159927 * L_2 = __this->get_U24this_4();
+		NullCheck(L_2);
+		GameObject_t1756533147 * L_3 = L_2->get_textObject_23();
+		// if(textObject == null){
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_4 = Object_op_Equality_m2516226135(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
 		{
-			goto IL_0147;
+			goto IL_01bd;
 		}
 	}
 	{
-		// text = itemText[random];
-		previzCtrl_t930159927 * L_3 = __this->get_U24this_5();
-		NullCheck(L_3);
-		StringU5BU5D_t1642385972* L_4 = L_3->get_itemText_9();
-		int32_t L_5 = __this->get_random_1();
-		NullCheck(L_4);
-		int32_t L_6 = L_5;
-		String_t* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		__this->set_text_2(L_7);
+		// text = QRCodeReader.possible;
+		previzCtrl_t930159927 * L_5 = __this->get_U24this_4();
+		String_t* L_6 = ((QRCodeReader_t3711862773_StaticFields*)il2cpp_codegen_static_fields_for(QRCodeReader_t3711862773_il2cpp_TypeInfo_var))->get_possible_4();
+		NullCheck(L_5);
+		L_5->set_text_24(L_6);
 		// string[] textArray = text.Split(","[0]);
-		String_t* L_8 = __this->get_text_2();
+		previzCtrl_t930159927 * L_7 = __this->get_U24this_4();
+		NullCheck(L_7);
+		String_t* L_8 = L_7->get_text_24();
 		CharU5BU5D_t1328083999* L_9 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
 		// string[] textArray = text.Split(","[0]);
 		NullCheck(_stringLiteral372029314);
@@ -37172,158 +36963,167 @@ IL_0025:
 		// string[] textArray = text.Split(","[0]);
 		NullCheck(L_8);
 		StringU5BU5D_t1642385972* L_11 = String_Split_m3326265864(L_8, L_9, /*hidden argument*/NULL);
-		__this->set_U3CtextArrayU3E__1_3(L_11);
-		// textObject  = FlyingText.GetObject(textArray[0]);
-		StringU5BU5D_t1642385972* L_12 = __this->get_U3CtextArrayU3E__1_3();
-		NullCheck(L_12);
-		int32_t L_13 = 0;
-		String_t* L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
-		// textObject  = FlyingText.GetObject(textArray[0]);
+		__this->set_U3CtextArrayU3E__1_0(L_11);
+		// textObject  = FlyingText.GetObjects(textArray[0]);
+		previzCtrl_t930159927 * L_12 = __this->get_U24this_4();
+		StringU5BU5D_t1642385972* L_13 = __this->get_U3CtextArrayU3E__1_0();
+		NullCheck(L_13);
+		int32_t L_14 = 0;
+		String_t* L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		// textObject  = FlyingText.GetObjects(textArray[0]);
 		IL2CPP_RUNTIME_CLASS_INIT(FlyingText_t2702037808_il2cpp_TypeInfo_var);
-		GameObject_t1756533147 * L_15 = FlyingText_GetObject_m417193976(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
-		__this->set_textObject_4(L_15);
+		GameObject_t1756533147 * L_16 = FlyingText_GetObjects_m4072616461(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		L_12->set_textObject_23(L_16);
 		// textObject.transform.parent = textRoot.transform;
-		GameObject_t1756533147 * L_16 = __this->get_textObject_4();
-		// textObject.transform.parent = textRoot.transform;
-		NullCheck(L_16);
-		Transform_t3275118058 * L_17 = GameObject_get_transform_m3490276752(L_16, /*hidden argument*/NULL);
-		previzCtrl_t930159927 * L_18 = __this->get_U24this_5();
-		NullCheck(L_18);
-		GameObject_t1756533147 * L_19 = L_18->get_textRoot_10();
-		// textObject.transform.parent = textRoot.transform;
-		NullCheck(L_19);
-		Transform_t3275118058 * L_20 = GameObject_get_transform_m3490276752(L_19, /*hidden argument*/NULL);
-		// textObject.transform.parent = textRoot.transform;
+		previzCtrl_t930159927 * L_17 = __this->get_U24this_4();
 		NullCheck(L_17);
-		Transform_set_parent_m3178143156(L_17, L_20, /*hidden argument*/NULL);
-		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-		GameObject_t1756533147 * L_21 = __this->get_textObject_4();
-		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+		GameObject_t1756533147 * L_18 = L_17->get_textObject_23();
+		// textObject.transform.parent = textRoot.transform;
+		NullCheck(L_18);
+		Transform_t3275118058 * L_19 = GameObject_get_transform_m3490276752(L_18, /*hidden argument*/NULL);
+		previzCtrl_t930159927 * L_20 = __this->get_U24this_4();
+		NullCheck(L_20);
+		GameObject_t1756533147 * L_21 = L_20->get_textRoot_10();
+		// textObject.transform.parent = textRoot.transform;
 		NullCheck(L_21);
 		Transform_t3275118058 * L_22 = GameObject_get_transform_m3490276752(L_21, /*hidden argument*/NULL);
+		// textObject.transform.parent = textRoot.transform;
+		NullCheck(L_19);
+		Transform_set_parent_m3178143156(L_19, L_22, /*hidden argument*/NULL);
 		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-		Vector3_t2243707580  L_23;
-		memset(&L_23, 0, sizeof(L_23));
-		Vector3__ctor_m1555724485((&L_23), (0.7f), (0.7f), (0.7f), /*hidden argument*/NULL);
+		previzCtrl_t930159927 * L_23 = __this->get_U24this_4();
+		NullCheck(L_23);
+		GameObject_t1756533147 * L_24 = L_23->get_textObject_23();
 		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-		NullCheck(L_22);
-		Transform_set_localScale_m1442831667(L_22, L_23, /*hidden argument*/NULL);
-		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-		GameObject_t1756533147 * L_24 = __this->get_textObject_4();
-		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 		NullCheck(L_24);
 		Transform_t3275118058 * L_25 = GameObject_get_transform_m3490276752(L_24, /*hidden argument*/NULL);
-		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 		Vector3_t2243707580  L_26;
 		memset(&L_26, 0, sizeof(L_26));
-		Vector3__ctor_m1555724485((&L_26), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+		Vector3__ctor_m1555724485((&L_26), (0.7f), (0.7f), (0.7f), /*hidden argument*/NULL);
+		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 		NullCheck(L_25);
-		Transform_set_localPosition_m1073050816(L_25, L_26, /*hidden argument*/NULL);
-		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-		GameObject_t1756533147 * L_27 = __this->get_textObject_4();
-		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+		Transform_set_localScale_m1442831667(L_25, L_26, /*hidden argument*/NULL);
+		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+		previzCtrl_t930159927 * L_27 = __this->get_U24this_4();
 		NullCheck(L_27);
-		Transform_t3275118058 * L_28 = GameObject_get_transform_m3490276752(L_27, /*hidden argument*/NULL);
-		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-		Quaternion_t4030073918  L_29;
-		memset(&L_29, 0, sizeof(L_29));
-		Quaternion__ctor_m2707026792((&L_29), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
-		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+		GameObject_t1756533147 * L_28 = L_27->get_textObject_23();
+		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 		NullCheck(L_28);
-		Transform_set_localRotation_m3053695533(L_28, L_29, /*hidden argument*/NULL);
-		// yield return CoroutineTextCreate_IsRunning = false;
-		previzCtrl_t930159927 * L_30 = __this->get_U24this_5();
-		int32_t L_31 = 0;
-		V_1 = (bool)L_31;
-		NullCheck(L_30);
-		L_30->set_CoroutineTextCreate_IsRunning_39((bool)L_31);
-		bool L_32 = V_1;
-		bool L_33 = L_32;
-		RuntimeObject * L_34 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_33);
-		__this->set_U24current_6(L_34);
-		bool L_35 = __this->get_U24disposing_7();
-		if (L_35)
+		Transform_t3275118058 * L_29 = GameObject_get_transform_m3490276752(L_28, /*hidden argument*/NULL);
+		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+		Vector3_t2243707580  L_30;
+		memset(&L_30, 0, sizeof(L_30));
+		Vector3__ctor_m1555724485((&L_30), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+		NullCheck(L_29);
+		Transform_set_localPosition_m1073050816(L_29, L_30, /*hidden argument*/NULL);
+		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+		previzCtrl_t930159927 * L_31 = __this->get_U24this_4();
+		NullCheck(L_31);
+		GameObject_t1756533147 * L_32 = L_31->get_textObject_23();
+		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+		NullCheck(L_32);
+		Transform_t3275118058 * L_33 = GameObject_get_transform_m3490276752(L_32, /*hidden argument*/NULL);
+		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+		Quaternion_t4030073918  L_34;
+		memset(&L_34, 0, sizeof(L_34));
+		Quaternion__ctor_m2707026792((&L_34), (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+		NullCheck(L_33);
+		Transform_set_localRotation_m3053695533(L_33, L_34, /*hidden argument*/NULL);
+		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+		previzCtrl_t930159927 * L_35 = __this->get_U24this_4();
+		NullCheck(L_35);
+		GameObject_t1756533147 * L_36 = L_35->get_textObject_23();
+		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+		NullCheck(L_36);
+		RigidbodyU5BU5D_t3881993182* L_37 = GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322(L_36, /*hidden argument*/GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322_RuntimeMethod_var);
+		__this->set_U3CrigidbodiesU3E__1_1(L_37);
+		// foreach (var rb in rigidbodies) {
+		RigidbodyU5BU5D_t3881993182* L_38 = __this->get_U3CrigidbodiesU3E__1_1();
+		__this->set_U24locvar0_2(L_38);
+		__this->set_U24locvar1_3(0);
+		goto IL_0184;
+	}
+
+IL_015f:
+	{
+		// foreach (var rb in rigidbodies) {
+		RigidbodyU5BU5D_t3881993182* L_39 = __this->get_U24locvar0_2();
+		int32_t L_40 = __this->get_U24locvar1_3();
+		NullCheck(L_39);
+		int32_t L_41 = L_40;
+		Rigidbody_t4233889191 * L_42 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_41));
+		V_1 = L_42;
+		// rb.useGravity = false;
+		Rigidbody_t4233889191 * L_43 = V_1;
+		// rb.useGravity = false;
+		NullCheck(L_43);
+		Rigidbody_set_useGravity_m1509734510(L_43, (bool)0, /*hidden argument*/NULL);
+		// foreach (var rb in rigidbodies) {
+		int32_t L_44 = __this->get_U24locvar1_3();
+		__this->set_U24locvar1_3(((int32_t)((int32_t)L_44+(int32_t)1)));
+	}
+
+IL_0184:
+	{
+		int32_t L_45 = __this->get_U24locvar1_3();
+		RigidbodyU5BU5D_t3881993182* L_46 = __this->get_U24locvar0_2();
+		NullCheck(L_46);
+		if ((((int32_t)L_45) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_46)->max_length)))))))
 		{
-			goto IL_013c;
+			goto IL_015f;
 		}
 	}
 	{
-		__this->set_U24PC_8(1);
-	}
-
-IL_013c:
-	{
-		goto IL_0195;
-	}
-
-IL_0141:
-	{
-		goto IL_018c;
-	}
-
-IL_0147:
-	{
-		// Destroy(textObject);
-		GameObject_t1756533147 * L_36 = __this->get_textObject_4();
-		// Destroy(textObject);
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
-		Object_Destroy_m3959286051(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
-		// Debug.Log("TextOFF");
-		// Debug.Log("TextOFF");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
-		Debug_Log_m2923680153(NULL /*static, unused*/, _stringLiteral1523810746, /*hidden argument*/NULL);
-		// yield return CoroutineTextCreate_IsRunning = false;;
-		previzCtrl_t930159927 * L_37 = __this->get_U24this_5();
-		int32_t L_38 = 0;
-		V_1 = (bool)L_38;
-		NullCheck(L_37);
-		L_37->set_CoroutineTextCreate_IsRunning_39((bool)L_38);
-		bool L_39 = V_1;
-		bool L_40 = L_39;
-		RuntimeObject * L_41 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_40);
-		__this->set_U24current_6(L_41);
-		bool L_42 = __this->get_U24disposing_7();
-		if (L_42)
+		// yield return textObject;
+		previzCtrl_t930159927 * L_47 = __this->get_U24this_4();
+		NullCheck(L_47);
+		GameObject_t1756533147 * L_48 = L_47->get_textObject_23();
+		__this->set_U24current_5(L_48);
+		bool L_49 = __this->get_U24disposing_6();
+		if (L_49)
 		{
-			goto IL_0186;
+			goto IL_01b7;
 		}
 	}
 	{
-		__this->set_U24PC_8(2);
+		__this->set_U24PC_7(1);
 	}
 
-IL_0186:
+IL_01b7:
 	{
-		goto IL_0195;
+		goto IL_01c6;
 	}
 
-IL_018b:
+IL_01bc:
 	{
 	}
 
-IL_018c:
+IL_01bd:
 	{
 		// }
-		__this->set_U24PC_8((-1));
+		__this->set_U24PC_7((-1));
 	}
 
-IL_0193:
+IL_01c4:
 	{
 		return (bool)0;
 	}
 
-IL_0195:
+IL_01c6:
 	{
 		return (bool)1;
 	}
 }
-// System.Object UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  RuntimeObject * U3CtextCreateU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1735563571 (U3CtextCreateU3Ec__Iterator0_t382157024 * __this, const RuntimeMethod* method)
+// System.Object UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  RuntimeObject * U3CtestU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2098881445 (U3CtestU3Ec__Iterator1_t3988515958 * __this, const RuntimeMethod* method)
 {
 	RuntimeObject * V_0 = NULL;
 	{
-		RuntimeObject * L_0 = __this->get_U24current_6();
+		RuntimeObject * L_0 = __this->get_U24current_5();
 		V_0 = L_0;
 		goto IL_000c;
 	}
@@ -37334,12 +37134,12 @@ IL_000c:
 		return L_1;
 	}
 }
-// System.Object UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::System.Collections.IEnumerator.get_Current()
-extern "C"  RuntimeObject * U3CtextCreateU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m103200955 (U3CtextCreateU3Ec__Iterator0_t382157024 * __this, const RuntimeMethod* method)
+// System.Object UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::System.Collections.IEnumerator.get_Current()
+extern "C"  RuntimeObject * U3CtestU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m856584493 (U3CtestU3Ec__Iterator1_t3988515958 * __this, const RuntimeMethod* method)
 {
 	RuntimeObject * V_0 = NULL;
 	{
-		RuntimeObject * L_0 = __this->get_U24current_6();
+		RuntimeObject * L_0 = __this->get_U24current_5();
 		V_0 = L_0;
 		goto IL_000c;
 	}
@@ -37350,22 +37150,22 @@ IL_000c:
 		return L_1;
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::Dispose()
-extern "C"  void U3CtextCreateU3Ec__Iterator0_Dispose_m1027505842 (U3CtextCreateU3Ec__Iterator0_t382157024 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::Dispose()
+extern "C"  void U3CtestU3Ec__Iterator1_Dispose_m4227763892 (U3CtestU3Ec__Iterator1_t3988515958 * __this, const RuntimeMethod* method)
 {
 	{
-		__this->set_U24disposing_7((bool)1);
-		__this->set_U24PC_8((-1));
+		__this->set_U24disposing_6((bool)1);
+		__this->set_U24PC_7((-1));
 		return;
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<textCreate>c__Iterator0::Reset()
-extern "C"  void U3CtextCreateU3Ec__Iterator0_Reset_m575424252 (U3CtextCreateU3Ec__Iterator0_t382157024 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<test>c__Iterator1::Reset()
+extern "C"  void U3CtestU3Ec__Iterator1_Reset_m3015627822 (U3CtestU3Ec__Iterator1_t3988515958 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CtextCreateU3Ec__Iterator0_Reset_m575424252_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CtestU3Ec__Iterator1_Reset_m3015627822_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -37374,21 +37174,21 @@ extern "C"  void U3CtextCreateU3Ec__Iterator0_Reset_m575424252 (U3CtextCreateU3E
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::.ctor()
-extern "C"  void U3CtextDestroyU3Ec__Iterator1__ctor_m1482163334 (U3CtextDestroyU3Ec__Iterator1_t2298180387 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::.ctor()
+extern "C"  void U3CtextDestroyU3Ec__Iterator0__ctor_m1485640775 (U3CtextDestroyU3Ec__Iterator0_t2298180388 * __this, const RuntimeMethod* method)
 {
 	{
 		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
-// System.Boolean UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::MoveNext()
-extern "C"  bool U3CtextDestroyU3Ec__Iterator1_MoveNext_m273120130 (U3CtextDestroyU3Ec__Iterator1_t2298180387 * __this, const RuntimeMethod* method)
+// System.Boolean UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::MoveNext()
+extern "C"  bool U3CtextDestroyU3Ec__Iterator0_MoveNext_m3388465885 (U3CtextDestroyU3Ec__Iterator0_t2298180388 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CtextDestroyU3Ec__Iterator1_MoveNext_m273120130_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CtextDestroyU3Ec__Iterator0_MoveNext_m3388465885_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	uint32_t V_0 = 0;
@@ -37462,8 +37262,8 @@ IL_0064:
 		return (bool)1;
 	}
 }
-// System.Object UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::System.Collections.Generic.IEnumerator<object>.get_Current()
-extern "C"  RuntimeObject * U3CtextDestroyU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m757707988 (U3CtextDestroyU3Ec__Iterator1_t2298180387 * __this, const RuntimeMethod* method)
+// System.Object UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  RuntimeObject * U3CtextDestroyU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m762884917 (U3CtextDestroyU3Ec__Iterator0_t2298180388 * __this, const RuntimeMethod* method)
 {
 	RuntimeObject * V_0 = NULL;
 	{
@@ -37478,8 +37278,8 @@ IL_000c:
 		return L_1;
 	}
 }
-// System.Object UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::System.Collections.IEnumerator.get_Current()
-extern "C"  RuntimeObject * U3CtextDestroyU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m1085583084 (U3CtextDestroyU3Ec__Iterator1_t2298180387 * __this, const RuntimeMethod* method)
+// System.Object UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::System.Collections.IEnumerator.get_Current()
+extern "C"  RuntimeObject * U3CtextDestroyU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m122819533 (U3CtextDestroyU3Ec__Iterator0_t2298180388 * __this, const RuntimeMethod* method)
 {
 	RuntimeObject * V_0 = NULL;
 	{
@@ -37494,8 +37294,8 @@ IL_000c:
 		return L_1;
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::Dispose()
-extern "C"  void U3CtextDestroyU3Ec__Iterator1_Dispose_m2907294701 (U3CtextDestroyU3Ec__Iterator1_t2298180387 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::Dispose()
+extern "C"  void U3CtextDestroyU3Ec__Iterator0_Dispose_m3022326990 (U3CtextDestroyU3Ec__Iterator0_t2298180388 * __this, const RuntimeMethod* method)
 {
 	{
 		__this->set_U24disposing_3((bool)1);
@@ -37503,13 +37303,13 @@ extern "C"  void U3CtextDestroyU3Ec__Iterator1_Dispose_m2907294701 (U3CtextDestr
 		return;
 	}
 }
-// System.Void UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator1::Reset()
-extern "C"  void U3CtextDestroyU3Ec__Iterator1_Reset_m2008895947 (U3CtextDestroyU3Ec__Iterator1_t2298180387 * __this, const RuntimeMethod* method)
+// System.Void UnityEngine.XR.iOS.previzCtrl/<textDestroy>c__Iterator0::Reset()
+extern "C"  void U3CtextDestroyU3Ec__Iterator0_Reset_m2012381836 (U3CtextDestroyU3Ec__Iterator0_t2298180388 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (U3CtextDestroyU3Ec__Iterator1_Reset_m2008895947_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CtextDestroyU3Ec__Iterator0_Reset_m2012381836_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{

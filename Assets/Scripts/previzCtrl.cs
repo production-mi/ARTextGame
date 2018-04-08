@@ -63,6 +63,7 @@ public class previzCtrl : MonoBehaviour {
 	private bool textIsOn = false;
 	private bool piyopiyo = false;
 	private bool CoroutineTextCreate_IsRunning = false;
+	private bool breakTextIsRunning = false;
 
 	public static bool plateIsOn = false;
 	public static bool planeIsOn = false;
@@ -117,6 +118,23 @@ public class previzCtrl : MonoBehaviour {
 
 		//-----Loading Text -----  for UnityEditor
 		// textObject = FlyingText.GetObject(itemText[0]);
+
+
+
+		//
+		// text = itemText[0];
+		// //text = QRCodeReader.possible;
+		// //string[] textArray = text.Split(","[0]);
+		// textObject  = FlyingText.GetObjects(text);
+		// textObject.transform.parent = textRoot.transform;
+		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+		// var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+		// foreach (var rb in rigidbodies) {
+		// 	rb.useGravity = false;
+		// }
+
 		//
 		// textObject.transform.parent = textRoot.transform;
 		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
@@ -143,7 +161,7 @@ public class previzCtrl : MonoBehaviour {
 								//Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, plane.transform.position.y, Camera.main.transform.position.z);
 								//plane.transform.LookAt(targetPosition);
 								readytoReloadText = true;
-								StartCoroutine(brainAnimation(textObject, text, animationIsPlaying));
+								StartCoroutine(brainAnimation());
 								plateIsOn = true;
 								reload.gameObject.SetActive(true);
 								reset.gameObject.SetActive(true);
@@ -151,18 +169,6 @@ public class previzCtrl : MonoBehaviour {
 								SetObjectInvisible(plane, plateIsOn);
 								debugBoxRenderer.enabled = false;
 							}
-								// StartCoroutine(playBrainAnimation(textObject, text, animationIsPlaying));
-								// StartCoroutine(stopBrainAnimation(animationIsPlaying));
-								// if(animationIsPlaying == false){
-								// 	previzAnim.SetTrigger("Play");
-								// 	readingParticle.Play();
-								// 	animationIsPlaying = true;
-								// }else if(animationIsPlaying == true){
-								// 	previzAnim.SetTrigger("Back");
-								// 	readingParticle.Stop();
-								// 	readingParticle.Clear();
-								// 	animationIsPlaying = false;
-								// }
 							return true;
 					}
 			}
@@ -171,11 +177,10 @@ public class previzCtrl : MonoBehaviour {
 
 //Button functions
 
-	void textIsReload(){
-		Handheld.Vibrate();
+ void textIsReload(){
 		//answerTextCreate(answer, text);
 		//answerTextRenderer.enabled = true;
-		StartCoroutine(test(textObject));
+		StartCoroutine(test());
 		brainAnim.SetTrigger("Looking");
 		reload.gameObject.SetActive(false);
 		liked.gameObject.SetActive(true);
@@ -185,7 +190,6 @@ public class previzCtrl : MonoBehaviour {
 
 
 	void answerIsliked(){
-		Handheld.Vibrate();
 		brainAnim.SetTrigger("Liked");
 		fireworks01.Play();
 		fireworks02.Play();
@@ -199,17 +203,11 @@ public class previzCtrl : MonoBehaviour {
 	}
 
 	void answerIsDisliked(){
-		Handheld.Vibrate();
 		brainAnim.SetTrigger("Disliked_Shock");
 		lightning.Play();
 		Smoke.Play();
 		//answerTextRenderer.enabled = false;
-		var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
-		foreach (var rb in rigidbodies) {
-			rb.useGravity = true;
-			rb.AddExplosionForce (320.0f, new Vector3(0, -3, -5.5f), 7.0f, 3.0f);
-		}
-		Destroy(textObject);
+		StartCoroutine(breakText());
 		reload.gameObject.SetActive(true);
 		liked.gameObject.SetActive(false);
 		disliked.gameObject.SetActive(false);
@@ -234,7 +232,6 @@ public class previzCtrl : MonoBehaviour {
 		liked.gameObject.SetActive(false);
 		disliked.gameObject.SetActive(false);
 		reset.gameObject.SetActive(false);
-
 		SetObjectInvisible(plane, plateIsOn);
 		Debug.Log("Stop");
 	}
@@ -261,43 +258,34 @@ public class previzCtrl : MonoBehaviour {
 		}
 	}
 
-	// IEnumerator answerTextCreate(TextMesh answer, string text)
-	// {
-	// 	text = QRCodeReader.possible;
-	// 	string[] textArray = text.Split(","[0]);
-	// 	answer.text= textArray[0];
-	// 	yield return null;
+
+	// IEnumerator textCreate(GameObject textObject, string text, bool textIsCreated, int random){
+	// 	if(textIsCreated != true)
+	// 	{
+	// 		text = itemText[random];
+	// 		//text = QRCodeReader.possible;
+	// 		string[] textArray = text.Split(","[0]);
+	// 		textObject  = FlyingText.GetObject(textArray[0]);
+	// 		textObject.transform.parent = textRoot.transform;
+	// 		textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+	// 		textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+	// 		textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+	// 		yield return CoroutineTextCreate_IsRunning = false;
+	// 	}else{
+	// 		// text = itemText[0];
+	// 		//text = QRCodeReader.possible;
+	// 		Destroy(textObject);
+	// 		Debug.Log("TextOFF");
+	// 		// string[] textArray = text.Split(","[0]);
+	// 		// textObject  = FlyingText.GetObject(textArray[0]);
+	// 		// textObject.transform.parent = textRoot.transform;
+	// 		// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+	// 		// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+	// 		// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+	// 		yield return CoroutineTextCreate_IsRunning = false;;
+	// 	}
+	//
 	// }
-
-
-
-	IEnumerator textCreate(GameObject textObject, string text, bool textIsCreated, int random){
-		if(textIsCreated != true)
-		{
-			text = itemText[random];
-			//text = QRCodeReader.possible;
-			string[] textArray = text.Split(","[0]);
-			textObject  = FlyingText.GetObject(textArray[0]);
-			textObject.transform.parent = textRoot.transform;
-			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-			textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-			textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-			yield return CoroutineTextCreate_IsRunning = false;
-		}else{
-			// text = itemText[0];
-			//text = QRCodeReader.possible;
-			Destroy(textObject);
-			Debug.Log("TextOFF");
-			// string[] textArray = text.Split(","[0]);
-			// textObject  = FlyingText.GetObject(textArray[0]);
-			// textObject.transform.parent = textRoot.transform;
-			// textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
-			// textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-			// textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-			yield return CoroutineTextCreate_IsRunning = false;;
-		}
-
-	}
 
 	IEnumerator textDestroy(GameObject textObject, float delay)
 	{
@@ -324,10 +312,11 @@ public class previzCtrl : MonoBehaviour {
 	// 	yield return null;
   // }
 
-	IEnumerator test(GameObject textObject)
+	IEnumerator test()
 	{
 		if(textObject == null){
 			text = QRCodeReader.possible;
+			//text = itemText[0];
 			string[] textArray = text.Split(","[0]);
 			textObject  = FlyingText.GetObjects(textArray[0]);
 			textObject.transform.parent = textRoot.transform;
@@ -338,14 +327,7 @@ public class previzCtrl : MonoBehaviour {
 			foreach (var rb in rigidbodies) {
 				rb.useGravity = false;
 			}
-
-			Debug.Log("TextOn");
 			yield return textObject;
-		}else
-		{
-			Destroy(textObject);
-			Debug.Log("TextOFF");
-			yield return textObject = null;
 		}
 	}
 
@@ -377,20 +359,32 @@ public class previzCtrl : MonoBehaviour {
 	// 	}
 	// }
 
-	IEnumerator brainAnimation(GameObject textObject, string text, bool animationIsPlaying){
+	IEnumerator brainAnimation(){
 		if(animationIsPlaying == false){
-			previzAnim.SetTrigger("Play");
 			Appearing.Play();
-			animationIsPlaying = true;
-			Debug.Log("Play");
+			previzAnim.SetTrigger("Play");
 			yield return animationIsPlaying = true;
 		}else if(animationIsPlaying == true){
 			previzAnim.SetTrigger("Back");
-			//readingParticle.Stop();
-			//readingParticle.Clear();
-			Debug.Log("Stop");
 			yield return animationIsPlaying = false;
 		}
+	}
+
+	IEnumerator breakText()
+	{
+		if(breakTextIsRunning == false)
+		{
+			breakTextIsRunning = true;
+			var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+			foreach (var rb in rigidbodies)
+			{
+				rb.useGravity = true;
+				rb.AddExplosionForce (130.0f, new Vector3(0, -2.5f, 3.0f), 12.0f, 60.0f);
+			}
+			yield return null;
+			Destroy(textObject, 0.5f);
+		}
+		yield return breakTextIsRunning = false;
 	}
 
 
@@ -399,10 +393,15 @@ public class previzCtrl : MonoBehaviour {
 
 	void Update()
 	{
-
-		if(Input.GetKeyDown("space")){
-			answerTextRenderer.enabled = true;
-		}
+		// Debug.Log(textObject);
+		// if(Input.GetKeyDown("space")){
+		// 	//answerTextRenderer.enabled = true;
+		// 	StartCoroutine(breakText());
+		// }
+		//
+		// if(Input.GetKeyDown("tab")){
+		// 	textIsReload();
+		// }
 
 	  if(plateIsOn != true && Initialized == true)
 		{
@@ -468,8 +467,8 @@ public class previzCtrl : MonoBehaviour {
 		}else
 		{
 			brainRefAnimMeshRender.enabled = false;
-			//brainrefAnim.SetTrigger("back");
-			// disliked.gameObject.SetActive(true);
+			brainrefAnim.SetTrigger("back");
+			//disliked.gameObject.SetActive(true);
 
 		}
 

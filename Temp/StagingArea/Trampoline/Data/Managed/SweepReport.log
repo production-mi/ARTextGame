@@ -2,7 +2,7 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2248
+  Total Type Removals = 2249
     Nested = 181
     Interfaces = 141
     Abstract Classes = 150
@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 175
   Total Field Removals = 747
-  Total Method Removals = 11927
+  Total Method Removals = 11915
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -10409,7 +10409,7 @@ Summary:
 Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 402
+  Total Type Removals = 403
     Nested = 9
     Interfaces = 10
     Abstract Classes = 17
@@ -10418,7 +10418,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 47
   Total Field Removals = 27
-  Total Method Removals = 2733
+  Total Method Removals = 2721
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11375,20 +11375,6 @@ Summary:
         userAcceleration_Internal(System.Int32)
     UnityEngine.Halo
     UnityEngine.Handheld
-        .ctor()
-        ClearShaderCache()
-        get_use32BitDisplayBuffer()
-        GetActivityIndicatorStyle()
-        INTERNAL_CALL_PlayFullScreenMovie(System.String,UnityEngine.Color&,UnityEngine.FullScreenMovieControlMode,UnityEngine.FullScreenMovieScalingMode)
-        PlayFullScreenMovie(System.String)
-        PlayFullScreenMovie(System.String,UnityEngine.Color)
-        PlayFullScreenMovie(System.String,UnityEngine.Color,UnityEngine.FullScreenMovieControlMode)
-        PlayFullScreenMovie(System.String,UnityEngine.Color,UnityEngine.FullScreenMovieControlMode,UnityEngine.FullScreenMovieScalingMode)
-        set_use32BitDisplayBuffer(System.Boolean)
-        SetActivityIndicatorStyle(UnityEngine.iOS.ActivityIndicatorStyle)
-        SetActivityIndicatorStyleImpl(System.Int32)
-        StartActivityIndicator()
-        StopActivityIndicator()
     UnityEngine.Hash128
     UnityEngine.HelpURLAttribute
     UnityEngine.HideInInspector
@@ -11445,8 +11431,10 @@ Summary:
         GetJoystickNames()
         GetKey(System.String)
         GetKey(UnityEngine.KeyCode)
+        GetKeyDown(System.String)
         GetKeyDown(UnityEngine.KeyCode)
         GetKeyDownInt(System.Int32)
+        GetKeyDownString(System.String)
         GetKeyInt(System.Int32)
         GetKeyString(System.String)
         GetKeyUp(System.String)
@@ -16296,7 +16284,7 @@ Summary:
 ---------------------------------------------------
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1026
+  Total: 1027
 ---------------------------------------------------
 JetBrains.Annotations.AssertionMethodAttribute
 JetBrains.Annotations.BaseTypeRequiredAttribute
@@ -16784,6 +16772,7 @@ UnityEngine.GUIStateObjects
 UnityEngine.GUIText
 UnityEngine.GUITexture
 UnityEngine.Halo
+UnityEngine.Handheld
 UnityEngine.Hash128
 UnityEngine.HeadDoF
 UnityEngine.HelpURLAttribute

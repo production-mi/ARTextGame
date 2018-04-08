@@ -145,6 +145,7 @@
      <None Include="Assets\FlyingText3D\Resources\VertexLitColor.shader" />
      <None Include="Assets\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
      <None Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShaderLinear.shader" />
+     <None Include="Assets\Shaders\HologramVer2.shader" />
      <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\MobileARShadow.shader" />
      <None Include="Assets\FlyingText3D\Extras\FlyingText3D changelog.txt" />
      <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\InstancedSurfaceShader.shader" />

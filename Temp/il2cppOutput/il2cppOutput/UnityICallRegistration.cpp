@@ -848,23 +848,11 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.GUIUtility
 
-	//Start Registrations for type : UnityEngine.Handheld
-
-		//System.Void UnityEngine.Handheld::Vibrate()
-		void Register_UnityEngine_Handheld_Vibrate();
-		Register_UnityEngine_Handheld_Vibrate();
-
-	//End Registrations for type : UnityEngine.Handheld
-
 	//Start Registrations for type : UnityEngine.Input
 
 		//System.Boolean UnityEngine.Input::GetButtonDown(System.String)
 		void Register_UnityEngine_Input_GetButtonDown();
 		Register_UnityEngine_Input_GetButtonDown();
-
-		//System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
-		void Register_UnityEngine_Input_GetKeyDownString();
-		Register_UnityEngine_Input_GetKeyDownString();
 
 		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButton();

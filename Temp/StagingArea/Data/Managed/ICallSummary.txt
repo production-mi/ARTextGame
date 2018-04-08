@@ -178,9 +178,7 @@ UnityEngine.GUIUtility::get_systemCopyBuffer
 UnityEngine.GUIUtility::Internal_ExitGUI
 UnityEngine.GUIUtility::set_systemCopyBuffer
 UnityEngine.GUIUtility::Internal_GetDefaultSkin
-UnityEngine.Handheld::Vibrate
 UnityEngine.Input::GetButtonDown
-UnityEngine.Input::GetKeyDownString
 UnityEngine.Input::GetMouseButton
 UnityEngine.Input::GetMouseButtonDown
 UnityEngine.Input::GetMouseButtonUp
