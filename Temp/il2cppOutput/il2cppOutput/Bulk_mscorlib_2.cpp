@@ -53130,10 +53130,20 @@ extern "C"  double Math_Cos_m43596019 (RuntimeObject * __this /* static, unused 
 {
 	return cos(___d0);
 }
+// System.Double System.Math::Tan(System.Double)
+extern "C"  double Math_Tan_m2337827751 (RuntimeObject * __this /* static, unused */, double ___a0, const RuntimeMethod* method)
+{
+	return tan(___a0);
+}
 // System.Double System.Math::Acos(System.Double)
 extern "C"  double Math_Acos_m2218287828 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)
 {
 	return acos(___d0);
+}
+// System.Double System.Math::Exp(System.Double)
+extern "C"  double Math_Exp_m3283777797 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)
+{
+	return exp(___d0);
 }
 // System.Double System.Math::Log(System.Double)
 extern "C"  double Math_Log_m3371716878 (RuntimeObject * __this /* static, unused */, double ___d0, const RuntimeMethod* method)

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: HoloText
+  m_Shader: {fileID: 4800000, guid: 48d3151bbaf634b22bf0f8058846bf08, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisolveTexture:
+        m_Texture: {fileID: 2800000, guid: 70976333360a046c1bcf8dc7cb1f593c, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 7.503752, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Amount: 0.748
+    - _Amplitude: 0
+    - _CutoutThresh: 0
+    - _DisolveSize: -1.72
+    - _DisolveY: 1.8735754
+    - _Distance: 0
+    - _GlitchIntensity: 0.09
+    - _GlitchSpeed: 50
+    - _GlowSpeed: 1
+    - _GlowTiling: 0.01
+    - _RimPower: 0.672
+    - _ScanSpeed: 3.1
+    - _ScanTiling: 800
+    - _Speed: 0
+    - _StartingY: -0.3
+    - _Transparency: 0.566
+    m_Colors:
+    - _RimColor: {r: 0.49264705, g: 0.91602427, b: 1, a: 1}
+    - _TintColor: {r: 0.092776805, g: 0.41438386, b: 0.5735294, a: 0.103}

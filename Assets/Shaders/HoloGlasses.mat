@@ -27,8 +27,10 @@ Material:
     - _Amplitude: 0
     - _CutoutThresh: 0
     - _Distance: 0
+    - _GlitchIntensity: 0.025
+    - _GlitchSpeed: 50
     - _ScanSpeed: 5
-    - _ScanTiling: 4.91
+    - _ScanTiling: 800
     - _Speed: 0
     - _Transparency: 0.946
     m_Colors:

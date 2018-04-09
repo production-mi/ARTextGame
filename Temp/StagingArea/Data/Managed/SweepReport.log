@@ -2,16 +2,16 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2249
+  Total Type Removals = 2224
     Nested = 181
     Interfaces = 141
     Abstract Classes = 150
     Generic Types = 85
     Generic Interfaces = 6
     Generic Abstract Classes = 3
-    Attributes = 175
-  Total Field Removals = 747
-  Total Method Removals = 11915
+    Attributes = 172
+  Total Field Removals = 752
+  Total Method Removals = 12020
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -556,7 +556,7 @@ Summary:
     Generic Abstract Classes = 1
     Attributes = 85
   Total Field Removals = 468
-  Total Method Removals = 4874
+  Total Method Removals = 4871
   References Removed = 0
 ---------------------------------------------------
     <PrivateImplementationDetails>
@@ -2847,7 +2847,6 @@ Summary:
         Cosh(System.Double)
         DivRem(System.Int32,System.Int32,System.Int32&)
         DivRem(System.Int64,System.Int64,System.Int64&)
-        Exp(System.Double)
         Floor(System.Decimal)
         IEEERemainder(System.Double,System.Double)
         Log10(System.Double)
@@ -2882,7 +2881,6 @@ Summary:
         Sign(System.SByte)
         Sign(System.Single)
         Sinh(System.Double)
-        Tan(System.Double)
         Tanh(System.Double)
         Truncate(System.Decimal)
         Truncate(System.Double)
@@ -4947,7 +4945,6 @@ Summary:
         SecureStringToGlobalAllocUnicode(System.Security.SecureString)
         SetComObjectData(System.Object,System.Object,System.Object)
         SizeOf(System.Object)
-        SizeOf(System.Type)
         StringToBSTR(System.String)
         StringToCoTaskMemAnsi(System.String)
         StringToCoTaskMemAuto(System.String)
@@ -10409,16 +10406,16 @@ Summary:
 Assembly: UnityEngine.CoreModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 403
+  Total Type Removals = 379
     Nested = 9
     Interfaces = 10
     Abstract Classes = 17
     Generic Types = 5
     Generic Interfaces = 0
     Generic Abstract Classes = 0
-    Attributes = 47
-  Total Field Removals = 27
-  Total Method Removals = 2721
+    Attributes = 44
+  Total Field Removals = 32
+  Total Method Removals = 2846
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -10458,27 +10455,15 @@ Summary:
     UnityEngine.AndroidReflection
     UnityEngine.AnimationCurve
         AddKey(System.Single,System.Single)
-        AddKey(UnityEngine.Keyframe)
-        AddKey_Internal(UnityEngine.Keyframe)
         EaseInOut(System.Single,System.Single,System.Single,System.Single)
-        Evaluate(System.Single)
-        get_Item(System.Int32)
-        get_keys()
-        get_length()
         get_postWrapMode()
         get_preWrapMode()
-        GetKey_Internal(System.Int32)
-        GetKeys()
-        INTERNAL_CALL_AddKey_Internal(UnityEngine.AnimationCurve,UnityEngine.Keyframe&)
-        INTERNAL_CALL_GetKey_Internal(UnityEngine.AnimationCurve,System.Int32,UnityEngine.Keyframe&)
         INTERNAL_CALL_MoveKey(UnityEngine.AnimationCurve,System.Int32,UnityEngine.Keyframe&)
         Linear(System.Single,System.Single,System.Single,System.Single)
         MoveKey(System.Int32,UnityEngine.Keyframe)
         RemoveKey(System.Int32)
-        set_keys(UnityEngine.Keyframe[])
         set_postWrapMode(UnityEngine.WrapMode)
         set_preWrapMode(UnityEngine.WrapMode)
-        SetKeys(UnityEngine.Keyframe[])
         SmoothTangents(System.Int32,System.Single)
     UnityEngine.AnisotropicFiltering
     UnityEngine.Apple.ReplayKit.ReplayKit
@@ -10519,7 +10504,6 @@ Summary:
         get_isFocused()
         get_isHumanControllingUs()
         get_isLoadingLevel()
-        get_isMobilePlatform()
         get_isPlayer()
         get_isShowingSplashScreen()
         get_isTestRun()
@@ -10682,21 +10666,16 @@ Summary:
         CalculateObliqueMatrix(UnityEngine.Vector4)
         CopyFrom(UnityEngine.Camera)
         get_activeTexture()
-        get_actualRenderingPath()
         get_allCameras()
-        get_allowHDR()
         get_allowMSAA()
         get_areVRStereoViewMatricesWithinSingleCullTolerance()
-        get_aspect()
         get_cameraToWorldMatrix()
         get_cameraType()
         get_clearStencilAfterLightingPass()
         get_commandBufferCount()
         get_cullingMatrix()
         get_current()
-        get_depthTextureMode()
         get_far()
-        get_fieldOfView()
         get_forceIntoRenderTexture()
         get_fov()
         get_hdr()
@@ -10705,14 +10684,8 @@ Summary:
         get_near()
         get_nonJitteredProjectionMatrix()
         get_opaqueSortMode()
-        get_orthographic()
-        get_orthographicSize()
-        get_pixelHeight()
-        get_pixelWidth()
         get_PreviewCullingLayer()
         get_previousViewProjectionMatrix()
-        get_projectionMatrix()
-        get_rect()
         get_renderingPath()
         get_scene()
         get_stereoActiveEye()
@@ -10726,7 +10699,6 @@ Summary:
         get_useJitteredProjectionMatrixForTransparentRendering()
         get_useOcclusionCulling()
         get_velocity()
-        get_worldToCameraMatrix()
         GetCameraBufferWarnings()
         GetCommandBuffers(UnityEngine.Rendering.CameraEvent)
         GetStereoProjectionMatrices()
@@ -10740,7 +10712,6 @@ Summary:
         INTERNAL_CALL_ResetAspect(UnityEngine.Camera)
         INTERNAL_CALL_ResetCullingMatrix(UnityEngine.Camera)
         INTERNAL_CALL_ResetFieldOfView(UnityEngine.Camera)
-        INTERNAL_CALL_ResetProjectionMatrix(UnityEngine.Camera)
         INTERNAL_CALL_ResetReplacementShader(UnityEngine.Camera)
         INTERNAL_CALL_ResetWorldToCameraMatrix(UnityEngine.Camera)
         INTERNAL_CALL_SetStereoProjectionMatrices(UnityEngine.Camera,UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
@@ -10756,17 +10727,13 @@ Summary:
         INTERNAL_get_cullingMatrix(UnityEngine.Matrix4x4&)
         INTERNAL_get_nonJitteredProjectionMatrix(UnityEngine.Matrix4x4&)
         INTERNAL_get_previousViewProjectionMatrix(UnityEngine.Matrix4x4&)
-        INTERNAL_get_projectionMatrix(UnityEngine.Matrix4x4&)
-        INTERNAL_get_rect(UnityEngine.Rect&)
         INTERNAL_get_scene(UnityEngine.SceneManagement.Scene&)
         INTERNAL_get_transparencySortAxis(UnityEngine.Vector3&)
         INTERNAL_get_velocity(UnityEngine.Vector3&)
-        INTERNAL_get_worldToCameraMatrix(UnityEngine.Matrix4x4&)
         Internal_RenderToCubemapRT(UnityEngine.RenderTexture,System.Int32)
         Internal_RenderToCubemapTexture(UnityEngine.Cubemap,System.Int32)
         INTERNAL_set_backgroundColor(UnityEngine.Color&)
         INTERNAL_set_cullingMatrix(UnityEngine.Matrix4x4&)
-        INTERNAL_set_nonJitteredProjectionMatrix(UnityEngine.Matrix4x4&)
         INTERNAL_set_pixelRect(UnityEngine.Rect&)
         INTERNAL_set_rect(UnityEngine.Rect&)
         INTERNAL_set_scene(UnityEngine.SceneManagement.Scene&)
@@ -10787,7 +10754,6 @@ Summary:
         ResetAspect()
         ResetCullingMatrix()
         ResetFieldOfView()
-        ResetProjectionMatrix()
         ResetReplacementShader()
         ResetStereoProjectionMatrices()
         ResetStereoViewMatrices()
@@ -10803,7 +10769,6 @@ Summary:
         set_cullingMask(System.Int32)
         set_cullingMatrix(UnityEngine.Matrix4x4)
         set_depth(System.Single)
-        set_depthTextureMode(UnityEngine.DepthTextureMode)
         set_eventMask(System.Int32)
         set_far(System.Single)
         set_farClipPlane(System.Single)
@@ -10815,7 +10780,6 @@ Summary:
         set_layerCullSpherical(System.Boolean)
         set_near(System.Single)
         set_nearClipPlane(System.Single)
-        set_nonJitteredProjectionMatrix(UnityEngine.Matrix4x4)
         set_opaqueSortMode(UnityEngine.Rendering.OpaqueSortMode)
         set_orthographic(System.Boolean)
         set_orthographicSize(System.Single)
@@ -10831,7 +10795,6 @@ Summary:
         set_targetTexture(UnityEngine.RenderTexture)
         set_transparencySortAxis(UnityEngine.Vector3)
         set_transparencySortMode(UnityEngine.TransparencySortMode)
-        set_useJitteredProjectionMatrixForTransparentRendering(System.Boolean)
         set_useOcclusionCulling(System.Boolean)
         set_worldToCameraMatrix(UnityEngine.Matrix4x4)
         SetReplacementShader(UnityEngine.Shader,System.String)
@@ -10874,7 +10837,6 @@ Summary:
         get_gamma()
         get_grayscale()
         get_Item(System.Int32)
-        get_linear()
         get_maxColorComponent()
         HSVToRGB(System.Single,System.Single,System.Single)
         HSVToRGB(System.Single,System.Single,System.Single,System.Boolean)
@@ -10896,8 +10858,8 @@ Summary:
         LerpUnclamped(UnityEngine.Color32,UnityEngine.Color32,System.Single)
         ToString(System.String)
     UnityEngine.ColorGamut
-    UnityEngine.ColorSpace
     UnityEngine.ColorUsageAttribute
+        .ctor(System.Boolean,System.Boolean,System.Single,System.Single,System.Single,System.Single)
     UnityEngine.ColorUtility
     UnityEngine.CombineInstance
     UnityEngine.CombineInstanceHelper
@@ -10928,8 +10890,38 @@ Summary:
         SendMessageUpwards(System.String,UnityEngine.SendMessageOptions)
         set_tag(System.String)
     UnityEngine.ComputeBuffer
-    UnityEngine.ComputeBufferType
+        .ctor(System.Int32,System.Int32,UnityEngine.ComputeBufferType)
+        CopyCount(UnityEngine.ComputeBuffer,UnityEngine.ComputeBuffer,System.Int32)
+        get_count()
+        get_stride()
+        GetData(System.Array)
+        GetData(System.Array,System.Int32,System.Int32,System.Int32)
+        GetNativeBufferPtr()
+        INTERNAL_CALL_GetNativeBufferPtr(UnityEngine.ComputeBuffer,System.IntPtr&)
+        InternalGetData(System.Array,System.Int32,System.Int32,System.Int32,System.Int32)
+        SetCounterValue(System.UInt32)
+        SetData(System.Array,System.Int32,System.Int32,System.Int32)
     UnityEngine.ComputeShader
+        .ctor()
+        DispatchIndirect(System.Int32,UnityEngine.ComputeBuffer)
+        DispatchIndirect(System.Int32,UnityEngine.ComputeBuffer,System.UInt32)
+        GetKernelThreadGroupSizes(System.Int32,System.UInt32&,System.UInt32&,System.UInt32&)
+        HasKernel(System.String)
+        Internal_DispatchIndirect(System.Int32,UnityEngine.ComputeBuffer,System.UInt32)
+        Internal_SetFloats(System.Int32,System.Single[])
+        Internal_SetInts(System.Int32,System.Int32[])
+        SetBool(System.Int32,System.Boolean)
+        SetBool(System.String,System.Boolean)
+        SetFloat(System.Int32,System.Single)
+        SetFloat(System.String,System.Single)
+        SetFloats(System.Int32,System.Single[])
+        SetFloats(System.String,System.Single[])
+        SetInt(System.Int32,System.Int32)
+        SetInt(System.String,System.Int32)
+        SetInts(System.Int32,System.Int32[])
+        SetInts(System.String,System.Int32[])
+        SetTextureFromGlobal(System.Int32,System.Int32,System.Int32)
+        SetTextureFromGlobal(System.Int32,System.String,System.String)
     UnityEngine.ConnectionTesterStatus
     UnityEngine.ContextMenu
         menuItem
@@ -11136,7 +11128,6 @@ Summary:
         .ctor(System.Int32)
         set_order(System.Int32)
     UnityEngine.DelayedAttribute
-    UnityEngine.DepthTextureMode
     UnityEngine.DeviceOrientation
     UnityEngine.DeviceType
     UnityEngine.Diagnostics.PlayerConnection
@@ -11321,6 +11312,53 @@ Summary:
     UnityEngine.GeometryUtility
     UnityEngine.Gizmos
     UnityEngine.GL
+        LINE_STRIP
+        LINES
+        QUADS
+        TRIANGLE_STRIP
+        TRIANGLES
+        .ctor()
+        ClearWithSkybox(System.Boolean,UnityEngine.Camera)
+        Color(UnityEngine.Color)
+        Flush()
+        get_invertCulling()
+        get_modelview()
+        get_sRGBWrite()
+        get_wireframe()
+        GetGPUProjectionMatrix(UnityEngine.Matrix4x4,System.Boolean)
+        INTERNAL_CALL_Color(UnityEngine.Color&)
+        INTERNAL_CALL_GetGPUProjectionMatrix(UnityEngine.Matrix4x4&,System.Boolean,UnityEngine.Matrix4x4&)
+        INTERNAL_CALL_LoadProjectionMatrix(UnityEngine.Matrix4x4&)
+        INTERNAL_CALL_MultiTexCoord(System.Int32,UnityEngine.Vector3&)
+        INTERNAL_CALL_MultMatrix(UnityEngine.Matrix4x4&)
+        INTERNAL_CALL_TexCoord(UnityEngine.Vector3&)
+        INTERNAL_CALL_Vertex(UnityEngine.Vector3&)
+        INTERNAL_CALL_Viewport(UnityEngine.Rect&)
+        INTERNAL_get_modelview(UnityEngine.Matrix4x4&)
+        INTERNAL_set_modelview(UnityEngine.Matrix4x4&)
+        InvalidateState()
+        IssuePluginEvent(System.Int32)
+        IssuePluginEvent(System.IntPtr,System.Int32)
+        IssuePluginEventInternal(System.IntPtr,System.Int32)
+        LoadIdentity()
+        LoadPixelMatrix()
+        LoadPixelMatrix(System.Single,System.Single,System.Single,System.Single)
+        LoadPixelMatrixArgs(System.Single,System.Single,System.Single,System.Single)
+        LoadProjectionMatrix(UnityEngine.Matrix4x4)
+        MultiTexCoord(System.Int32,UnityEngine.Vector3)
+        MultiTexCoord2(System.Int32,System.Single,System.Single)
+        MultiTexCoord3(System.Int32,System.Single,System.Single,System.Single)
+        MultMatrix(UnityEngine.Matrix4x4)
+        RenderTargetBarrier()
+        set_invertCulling(System.Boolean)
+        set_modelview(UnityEngine.Matrix4x4)
+        set_sRGBWrite(System.Boolean)
+        set_wireframe(System.Boolean)
+        SetRevertBackfacing(System.Boolean)
+        TexCoord(UnityEngine.Vector3)
+        TexCoord3(System.Single,System.Single,System.Single)
+        Vertex(UnityEngine.Vector3)
+        Viewport(UnityEngine.Rect)
     UnityEngine.GlobalJavaObjectRef
     UnityEngine.Gradient
         Evaluate(System.Single)
@@ -11336,6 +11374,133 @@ Summary:
     UnityEngine.GradientColorKey
     UnityEngine.GradientMode
     UnityEngine.Graphics
+        .ctor()
+        Blit(UnityEngine.Texture,UnityEngine.Material)
+        Blit(UnityEngine.Texture,UnityEngine.Material,System.Int32)
+        Blit(UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material)
+        Blit(UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Vector2,UnityEngine.Vector2)
+        BlitMultiTap(UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material,UnityEngine.Vector2[])
+        CheckLoadActionValid(UnityEngine.Rendering.RenderBufferLoadAction,System.String)
+        CheckStoreActionValid(UnityEngine.Rendering.RenderBufferStoreAction,System.String)
+        ClearRandomWriteTargets()
+        ConvertTexture(UnityEngine.Texture,System.Int32,UnityEngine.Texture,System.Int32)
+        ConvertTexture(UnityEngine.Texture,UnityEngine.Texture)
+        ConvertTexture_Full(UnityEngine.Texture,UnityEngine.Texture)
+        ConvertTexture_Slice(UnityEngine.Texture,System.Int32,UnityEngine.Texture,System.Int32)
+        CopyTexture(UnityEngine.Texture,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Texture,System.Int32,System.Int32,System.Int32,System.Int32)
+        CopyTexture(UnityEngine.Texture,System.Int32,System.Int32,UnityEngine.Texture,System.Int32,System.Int32)
+        CopyTexture(UnityEngine.Texture,System.Int32,UnityEngine.Texture,System.Int32)
+        CopyTexture(UnityEngine.Texture,UnityEngine.Texture)
+        CopyTexture_Full(UnityEngine.Texture,UnityEngine.Texture)
+        CopyTexture_Region(UnityEngine.Texture,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Texture,System.Int32,System.Int32,System.Int32,System.Int32)
+        CopyTexture_Slice(UnityEngine.Texture,System.Int32,System.Int32,UnityEngine.Texture,System.Int32,System.Int32)
+        CopyTexture_Slice_AllMips(UnityEngine.Texture,System.Int32,UnityEngine.Texture,System.Int32)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,System.Boolean)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,System.Boolean,System.Boolean)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,System.Boolean,System.Boolean,System.Boolean)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,UnityEngine.Transform)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,UnityEngine.Transform,System.Boolean)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,System.Boolean)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,System.Boolean,System.Boolean)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,System.Boolean,System.Boolean,System.Boolean)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,UnityEngine.Transform)
+        DrawMesh(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,UnityEngine.Transform,System.Boolean)
+        DrawMeshImpl(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.Camera,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,UnityEngine.Transform,System.Boolean)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Collections.Generic.List`1<UnityEngine.Matrix4x4>)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Collections.Generic.List`1<UnityEngine.Matrix4x4>,UnityEngine.MaterialPropertyBlock)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Collections.Generic.List`1<UnityEngine.Matrix4x4>,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Collections.Generic.List`1<UnityEngine.Matrix4x4>,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Collections.Generic.List`1<UnityEngine.Matrix4x4>,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Collections.Generic.List`1<UnityEngine.Matrix4x4>,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32,UnityEngine.Camera)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Matrix4x4[])
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Matrix4x4[],System.Int32)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Matrix4x4[],System.Int32,UnityEngine.MaterialPropertyBlock)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Matrix4x4[],System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Matrix4x4[],System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Matrix4x4[],System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32)
+        DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Matrix4x4[],System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32,UnityEngine.Camera)
+        DrawMeshInstancedImpl(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Collections.Generic.List`1<UnityEngine.Matrix4x4>,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32,UnityEngine.Camera)
+        DrawMeshInstancedImpl(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Matrix4x4[],System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32,UnityEngine.Camera)
+        DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds,UnityEngine.ComputeBuffer)
+        DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds,UnityEngine.ComputeBuffer,System.Int32)
+        DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock)
+        DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode)
+        DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean)
+        DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32)
+        DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32,UnityEngine.Camera)
+        DrawMeshInstancedIndirectImpl(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32,UnityEngine.Camera)
+        DrawMeshNow(UnityEngine.Mesh,UnityEngine.Matrix4x4)
+        DrawMeshNow(UnityEngine.Mesh,UnityEngine.Matrix4x4,System.Int32)
+        DrawMeshNow(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion)
+        DrawMeshNow(UnityEngine.Mesh,UnityEngine.Vector3,UnityEngine.Quaternion,System.Int32)
+        DrawProcedural(UnityEngine.MeshTopology,System.Int32)
+        DrawProcedural(UnityEngine.MeshTopology,System.Int32,System.Int32)
+        DrawProceduralIndirect(UnityEngine.MeshTopology,UnityEngine.ComputeBuffer)
+        DrawProceduralIndirect(UnityEngine.MeshTopology,UnityEngine.ComputeBuffer,System.Int32)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,System.Int32,System.Int32,System.Int32,System.Int32)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Material)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Material,System.Int32)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Material)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Material,System.Int32)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Int32)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color,UnityEngine.Material)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color,UnityEngine.Material,System.Int32)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Material)
+        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Material,System.Int32)
+        DrawTextureImpl(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color,UnityEngine.Material,System.Int32)
+        ExecuteCommandBuffer(UnityEngine.Rendering.CommandBuffer)
+        ExtractArrayFromList(System.Object)
+        get_activeColorBuffer()
+        get_activeColorGamut()
+        get_activeDepthBuffer()
+        get_activeTier()
+        GetActiveColorBuffer(UnityEngine.RenderBuffer&)
+        GetActiveDepthBuffer(UnityEngine.RenderBuffer&)
+        Internal_BlitMultiTap(UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Material,UnityEngine.Vector2[])
+        INTERNAL_CALL_Blit(UnityEngine.Texture,UnityEngine.RenderTexture,UnityEngine.Vector2&,UnityEngine.Vector2&)
+        INTERNAL_CALL_Internal_DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds&,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32,UnityEngine.Camera)
+        INTERNAL_CALL_Internal_DrawMeshNow1(UnityEngine.Mesh,System.Int32,UnityEngine.Vector3&,UnityEngine.Quaternion&)
+        INTERNAL_CALL_Internal_DrawMeshNow2(UnityEngine.Mesh,System.Int32,UnityEngine.Matrix4x4&)
+        Internal_DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Matrix4x4[],System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32,UnityEngine.Camera)
+        Internal_DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,UnityEngine.Bounds,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,System.Int32,UnityEngine.Camera)
+        Internal_DrawMeshMatrix(UnityEngine.Internal_DrawMeshMatrixArguments&,UnityEngine.MaterialPropertyBlock,UnityEngine.Material,UnityEngine.Mesh,UnityEngine.Camera)
+        Internal_DrawMeshNow1(UnityEngine.Mesh,System.Int32,UnityEngine.Vector3,UnityEngine.Quaternion)
+        Internal_DrawMeshNow2(UnityEngine.Mesh,System.Int32,UnityEngine.Matrix4x4)
+        Internal_SetMRTFullSetup(UnityEngine.RenderBuffer[],UnityEngine.RenderBuffer&,System.Int32,UnityEngine.CubemapFace,System.Int32,UnityEngine.Rendering.RenderBufferLoadAction[],UnityEngine.Rendering.RenderBufferStoreAction[],UnityEngine.Rendering.RenderBufferLoadAction,UnityEngine.Rendering.RenderBufferStoreAction)
+        Internal_SetNullRT()
+        Internal_SetRandomWriteTargetBuffer(System.Int32,UnityEngine.ComputeBuffer,System.Boolean)
+        Internal_SetRandomWriteTargetRT(System.Int32,UnityEngine.RenderTexture)
+        Internal_SetRTSimple(UnityEngine.RenderBuffer&,UnityEngine.RenderBuffer&,System.Int32,UnityEngine.CubemapFace,System.Int32)
+        set_activeTier(UnityEngine.Rendering.GraphicsTier)
+        SetRandomWriteTarget(System.Int32,UnityEngine.ComputeBuffer)
+        SetRandomWriteTarget(System.Int32,UnityEngine.ComputeBuffer,System.Boolean)
+        SetRandomWriteTarget(System.Int32,UnityEngine.RenderTexture)
+        SetRenderTarget(UnityEngine.RenderBuffer,UnityEngine.RenderBuffer)
+        SetRenderTarget(UnityEngine.RenderBuffer,UnityEngine.RenderBuffer,System.Int32)
+        SetRenderTarget(UnityEngine.RenderBuffer,UnityEngine.RenderBuffer,System.Int32,UnityEngine.CubemapFace)
+        SetRenderTarget(UnityEngine.RenderBuffer,UnityEngine.RenderBuffer,System.Int32,UnityEngine.CubemapFace,System.Int32)
+        SetRenderTarget(UnityEngine.RenderTargetSetup)
+        SetRenderTarget(UnityEngine.RenderTexture)
+        SetRenderTarget(UnityEngine.RenderTexture,System.Int32)
+        SetRenderTarget(UnityEngine.RenderTexture,System.Int32,UnityEngine.CubemapFace)
+        SetRenderTarget(UnityEngine.RenderTexture,System.Int32,UnityEngine.CubemapFace,System.Int32)
+        SetRenderTargetImpl(UnityEngine.RenderBuffer,UnityEngine.RenderBuffer,System.Int32,UnityEngine.CubemapFace,System.Int32)
+        SetRenderTargetImpl(UnityEngine.RenderTargetSetup)
+        SetRenderTargetImpl(UnityEngine.RenderTexture,System.Int32,UnityEngine.CubemapFace,System.Int32)
     UnityEngine.GUIElement
         GetScreenRect()
         GetScreenRect(UnityEngine.Camera)
@@ -11377,7 +11542,6 @@ Summary:
     UnityEngine.Handheld
     UnityEngine.Hash128
     UnityEngine.HelpURLAttribute
-    UnityEngine.HideInInspector
     UnityEngine.HostData
     UnityEngine.IExposedPropertyTable
     UnityEngine.ILogger
@@ -11399,7 +11563,6 @@ Summary:
         set_filterLogType(UnityEngine.LogType)
         set_logEnabled(System.Boolean)
         set_logHandler(UnityEngine.ILogHandler)
-    UnityEngine.ImageEffectAllowedInSceneView
     UnityEngine.ImageEffectOpaque
     UnityEngine.ImageEffectTransformsToLDR
     UnityEngine.Input
@@ -11430,12 +11593,6 @@ Summary:
         GetButtonUp(System.String)
         GetJoystickNames()
         GetKey(System.String)
-        GetKey(UnityEngine.KeyCode)
-        GetKeyDown(System.String)
-        GetKeyDown(UnityEngine.KeyCode)
-        GetKeyDownInt(System.Int32)
-        GetKeyDownString(System.String)
-        GetKeyInt(System.Int32)
         GetKeyString(System.String)
         GetKeyUp(System.String)
         GetKeyUp(UnityEngine.KeyCode)
@@ -11451,7 +11608,6 @@ Summary:
         set_multiTouchEnabled(System.Boolean)
         set_simulateMouseWithTouches(System.Boolean)
     UnityEngine.Internal_DrawMeshMatrixArguments
-    UnityEngine.Internal_DrawTextureArguments
     UnityEngine.InternalStaticBatchingUtility
     UnityEngine.iOS.ActivityIndicatorStyle
     UnityEngine.iOS.CalendarIdentifier
@@ -11507,16 +11663,13 @@ Summary:
     UnityEngine.jvalue
     UnityEngine.Keyframe
         .ctor(System.Single,System.Single)
-        .ctor(System.Single,System.Single,System.Single,System.Single)
         get_inTangent()
         get_outTangent()
         get_tangentMode()
-        get_time()
         get_value()
         set_inTangent(System.Single)
         set_outTangent(System.Single)
         set_tangentMode(System.Int32)
-        set_time(System.Single)
         set_value(System.Single)
     UnityEngine.LayerMask
         get_value()
@@ -11714,7 +11867,6 @@ Summary:
         INTERNAL_CALL_GetTextureScaleAndOffsetImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
         INTERNAL_CALL_GetVectorImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
         INTERNAL_CALL_SetTextureScaleImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector2&)
-        INTERNAL_CALL_SetVectorImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
         Internal_CreateWithString(UnityEngine.Material,System.String)
         IsKeywordEnabled(System.String)
         Lerp(UnityEngine.Material,UnityEngine.Material,System.Single)
@@ -11726,25 +11878,18 @@ Summary:
         set_mainTextureScale(UnityEngine.Vector2)
         set_renderQueue(System.Int32)
         set_shader(UnityEngine.Shader)
-        set_shaderKeywords(System.String[])
-        SetBuffer(System.Int32,UnityEngine.ComputeBuffer)
-        SetBuffer(System.String,UnityEngine.ComputeBuffer)
-        SetBufferImpl(System.Int32,UnityEngine.ComputeBuffer)
         SetColorArray(System.Int32,System.Collections.Generic.List`1<UnityEngine.Color>)
         SetColorArray(System.Int32,UnityEngine.Color[])
         SetColorArray(System.Int32,UnityEngine.Color[],System.Int32)
         SetColorArray(System.String,System.Collections.Generic.List`1<UnityEngine.Color>)
         SetColorArray(System.String,UnityEngine.Color[])
         SetColorArrayImpl(System.Int32,UnityEngine.Color[],System.Int32)
-        SetFloat(System.Int32,System.Single)
-        SetFloat(System.String,System.Single)
         SetFloatArray(System.Int32,System.Collections.Generic.List`1<System.Single>)
         SetFloatArray(System.Int32,System.Single[])
         SetFloatArray(System.Int32,System.Single[],System.Int32)
         SetFloatArray(System.String,System.Collections.Generic.List`1<System.Single>)
         SetFloatArray(System.String,System.Single[])
         SetFloatArrayImpl(System.Int32,System.Single[],System.Int32)
-        SetFloatImpl(System.Int32,System.Single)
         SetMatrixArray(System.Int32,System.Collections.Generic.List`1<UnityEngine.Matrix4x4>)
         SetMatrixArray(System.Int32,UnityEngine.Matrix4x4[])
         SetMatrixArray(System.Int32,UnityEngine.Matrix4x4[],System.Int32)
@@ -11752,12 +11897,10 @@ Summary:
         SetMatrixArray(System.String,UnityEngine.Matrix4x4[])
         SetMatrixArrayImpl(System.Int32,UnityEngine.Matrix4x4[],System.Int32)
         SetOverrideTag(System.String,System.String)
-        SetPass(System.Int32)
         SetShaderPassEnabled(System.String,System.Boolean)
         SetTextureScale(System.Int32,UnityEngine.Vector2)
         SetTextureScale(System.String,UnityEngine.Vector2)
         SetTextureScaleImpl(System.Int32,UnityEngine.Vector2)
-        SetVector(System.Int32,UnityEngine.Vector4)
         SetVector(System.String,UnityEngine.Vector4)
         SetVectorArray(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector4>)
         SetVectorArray(System.Int32,UnityEngine.Vector4[])
@@ -11765,7 +11908,6 @@ Summary:
         SetVectorArray(System.String,System.Collections.Generic.List`1<UnityEngine.Vector4>)
         SetVectorArray(System.String,UnityEngine.Vector4[])
         SetVectorArrayImpl(System.Int32,UnityEngine.Vector4[],System.Int32)
-        SetVectorImpl(System.Int32,UnityEngine.Vector4)
     UnityEngine.MaterialGlobalIlluminationFlags
     UnityEngine.MaterialPropertyBlock
         AddColor(System.Int32,UnityEngine.Color)
@@ -11861,16 +12003,12 @@ Summary:
         ClosestPowerOfTwo(System.Int32)
         CorrelatedColorTemperatureToRGB(System.Single)
         DeltaAngle(System.Single,System.Single)
-        Exp(System.Single)
         FloatToHalf(System.Single)
         Gamma(System.Single,System.Single,System.Single)
-        GammaToLinearSpace(System.Single)
         HalfToFloat(System.UInt16)
         INTERNAL_CALL_CorrelatedColorTemperatureToRGB(System.Single,UnityEngine.Color&)
         IsPowerOfTwo(System.Int32)
         LerpAngle(System.Single,System.Single,System.Single)
-        LerpUnclamped(System.Single,System.Single,System.Single)
-        LinearToGammaSpace(System.Single)
         LineIntersection(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2&)
         LineSegmentIntersection(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2&)
         Log(System.Single)
@@ -11891,7 +12029,6 @@ Summary:
         SmoothDampAngle(System.Single,System.Single,System.Single&,System.Single,System.Single)
         SmoothDampAngle(System.Single,System.Single,System.Single&,System.Single,System.Single,System.Single)
         SmoothStep(System.Single,System.Single,System.Single)
-        Tan(System.Single)
     UnityEngine.Matrix4x4
         Determinant(UnityEngine.Matrix4x4)
         Frustum(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
@@ -11899,7 +12036,6 @@ Summary:
         FrustumInternal(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
         get_decomposeProjection()
         get_determinant()
-        get_inverse()
         get_isIdentity()
         get_lossyScale()
         get_rotation()
@@ -11908,29 +12044,23 @@ Summary:
         GetRow(System.Int32)
         INTERNAL_CALL_Determinant(UnityEngine.Matrix4x4&)
         INTERNAL_CALL_FrustumInternal(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,UnityEngine.Matrix4x4&)
-        INTERNAL_CALL_Inverse(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_Invert(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_LookAt(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Matrix4x4&)
-        INTERNAL_CALL_Ortho(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_Perspective(System.Single,System.Single,System.Single,System.Single,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_Transpose(UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
         INTERNAL_get_decomposeProjection(UnityEngine.FrustumPlanes&)
         INTERNAL_get_lossyScale(UnityEngine.Vector3&)
         INTERNAL_get_rotation(UnityEngine.Quaternion&)
-        Inverse(UnityEngine.Matrix4x4)
         Invert(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4&)
         LookAt(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
         MultiplyPoint(UnityEngine.Vector3)
         MultiplyVector(UnityEngine.Vector3)
         op_Equality(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
         op_Inequality(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
-        op_Multiply(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
         op_Multiply(UnityEngine.Matrix4x4,UnityEngine.Vector4)
-        Ortho(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
         Perspective(System.Single,System.Single,System.Single,System.Single)
         Rotate(UnityEngine.Quaternion)
         Scale(UnityEngine.Vector3)
-        SetRow(System.Int32,UnityEngine.Vector4)
         SetTRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
         ToString(System.String)
         TransformPlane(UnityEngine.Plane)
@@ -12005,14 +12135,9 @@ Summary:
         set_uv3(UnityEngine.Vector2[])
         set_uv4(UnityEngine.Vector2[])
         SetColors(System.Collections.Generic.List`1<UnityEngine.Color>)
-        SetIndices(System.Int32[],UnityEngine.MeshTopology,System.Int32)
-        SetIndices(System.Int32[],UnityEngine.MeshTopology,System.Int32,System.Boolean)
         SetIndicesImpl(System.Int32,UnityEngine.MeshTopology,System.Array,System.Int32)
-        SetIndicesImpl(System.Int32,UnityEngine.MeshTopology,System.Array,System.Int32,System.Boolean)
         SetUVs(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector3>)
         SetUVs(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector4>)
-        UploadMeshData(System.Boolean)
-        UploadMeshDataImpl(System.Boolean)
     UnityEngine.MeshFilter
         .ctor()
         get_sharedMesh()
@@ -12022,7 +12147,6 @@ Summary:
         get_additionalVertexStreams()
         set_additionalVertexStreams(UnityEngine.Mesh)
     UnityEngine.MeshSubsetCombineUtility
-    UnityEngine.MeshTopology
     UnityEngine.MissingComponentException
     UnityEngine.MissingReferenceException
     UnityEngine.MonoBehaviour
@@ -12035,7 +12159,6 @@ Summary:
         IsInvoking()
         IsInvoking(System.String)
         print(System.Object)
-        set_useGUILayout(System.Boolean)
         StartCoroutine(System.String)
         StartCoroutine(System.String,System.Object)
         StartCoroutine_Auto(System.Collections.IEnumerator)
@@ -12080,8 +12203,6 @@ Summary:
         FindObjectsOfTypeIncludingAssets(System.Type)
         FindSceneObjectsOfType(System.Type)
         get_hideFlags()
-        GetInstanceID()
-        GetOffsetOfInstanceIDInCPlusPlusObject()
         Instantiate(UnityEngine.Object)
         Instantiate(UnityEngine.Object,UnityEngine.Transform)
         Instantiate(UnityEngine.Object,UnityEngine.Transform,System.Boolean)
@@ -12408,6 +12529,72 @@ Summary:
         .ctor()
     UnityEngine.QualityLevel
     UnityEngine.QualitySettings
+        .ctor()
+        DecreaseLevel()
+        DecreaseLevel(System.Boolean)
+        get_anisotropicFiltering()
+        get_antiAliasing()
+        get_asyncUploadBufferSize()
+        get_asyncUploadTimeSlice()
+        get_billboardsFaceCameraPosition()
+        get_blendWeights()
+        get_currentLevel()
+        get_desiredColorSpace()
+        get_lodBias()
+        get_masterTextureLimit()
+        get_maximumLODLevel()
+        get_maxQueuedFrames()
+        get_names()
+        get_particleRaycastBudget()
+        get_pixelLightCount()
+        get_realtimeReflectionProbes()
+        get_resolutionScalingFixedDPIFactor()
+        get_shadowCascade2Split()
+        get_shadowCascade4Split()
+        get_shadowCascades()
+        get_shadowDistance()
+        get_shadowmaskMode()
+        get_shadowNearPlaneOffset()
+        get_shadowProjection()
+        get_shadowResolution()
+        get_shadows()
+        get_softParticles()
+        get_softVegetation()
+        get_vSyncCount()
+        GetQualityLevel()
+        IncreaseLevel()
+        IncreaseLevel(System.Boolean)
+        INTERNAL_get_shadowCascade4Split(UnityEngine.Vector3&)
+        INTERNAL_set_shadowCascade4Split(UnityEngine.Vector3&)
+        set_anisotropicFiltering(UnityEngine.AnisotropicFiltering)
+        set_antiAliasing(System.Int32)
+        set_asyncUploadBufferSize(System.Int32)
+        set_asyncUploadTimeSlice(System.Int32)
+        set_billboardsFaceCameraPosition(System.Boolean)
+        set_blendWeights(UnityEngine.BlendWeights)
+        set_currentLevel(UnityEngine.QualityLevel)
+        set_lodBias(System.Single)
+        set_masterTextureLimit(System.Int32)
+        set_maximumLODLevel(System.Int32)
+        set_maxQueuedFrames(System.Int32)
+        set_particleRaycastBudget(System.Int32)
+        set_pixelLightCount(System.Int32)
+        set_realtimeReflectionProbes(System.Boolean)
+        set_resolutionScalingFixedDPIFactor(System.Single)
+        set_shadowCascade2Split(System.Single)
+        set_shadowCascade4Split(UnityEngine.Vector3)
+        set_shadowCascades(System.Int32)
+        set_shadowDistance(System.Single)
+        set_shadowmaskMode(UnityEngine.ShadowmaskMode)
+        set_shadowNearPlaneOffset(System.Single)
+        set_shadowProjection(UnityEngine.ShadowProjection)
+        set_shadowResolution(UnityEngine.ShadowResolution)
+        set_shadows(UnityEngine.ShadowQuality)
+        set_softParticles(System.Boolean)
+        set_softVegetation(System.Boolean)
+        set_vSyncCount(System.Int32)
+        SetQualityLevel(System.Int32)
+        SetQualityLevel(System.Int32,System.Boolean)
     UnityEngine.Quaternion
         Angle(UnityEngine.Quaternion,UnityEngine.Quaternion)
         AngleAxis(System.Single,UnityEngine.Vector3)
@@ -12468,7 +12655,6 @@ Summary:
         get_rotationUniform()
         get_seed()
         get_state()
-        get_value()
         GetRandomUnitCircle(UnityEngine.Vector2&)
         InitState(System.Int32)
         INTERNAL_get_insideUnitSphere(UnityEngine.Vector3&)
@@ -12531,6 +12717,13 @@ Summary:
     UnityEngine.ReflectionProbe
     UnityEngine.RejectDragAndDropMaterial
     UnityEngine.RenderBuffer
+        get_loadAction()
+        get_storeAction()
+        GetNativeRenderBufferPtr()
+        set_loadAction(UnityEngine.Rendering.RenderBufferLoadAction)
+        set_storeAction(UnityEngine.Rendering.RenderBufferStoreAction)
+        SetLoadAction(UnityEngine.Rendering.RenderBufferLoadAction)
+        SetStoreAction(UnityEngine.Rendering.RenderBufferStoreAction)
     UnityEngine.RenderBufferHelper
     UnityEngine.Renderer
         .ctor()
@@ -12604,15 +12797,10 @@ Summary:
     UnityEngine.Rendering.CameraHDRMode
     UnityEngine.Rendering.CommandBuffer
         BeginSample(System.String)
-        Blit(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier)
         Blit(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Material)
-        Blit(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Material,System.Int32)
         Blit(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Vector2,UnityEngine.Vector2)
         Blit(UnityEngine.Texture,UnityEngine.Rendering.RenderTargetIdentifier)
-        Blit(UnityEngine.Texture,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Material,System.Int32)
         Blit(UnityEngine.Texture,UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Vector2,UnityEngine.Vector2)
-        Blit_Identifier(UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Material,System.Int32,UnityEngine.Vector2,UnityEngine.Vector2)
-        Clear()
         ClearRandomWriteTargets()
         ClearRenderTarget(System.Boolean,System.Boolean,UnityEngine.Color)
         ClearRenderTarget(System.Boolean,System.Boolean,UnityEngine.Color,System.Single)
@@ -12627,8 +12815,6 @@ Summary:
         DispatchCompute(UnityEngine.ComputeShader,System.Int32,UnityEngine.ComputeBuffer,System.UInt32)
         DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material)
         DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32)
-        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,System.Int32)
-        DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,System.Int32,UnityEngine.MaterialPropertyBlock)
         DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Int32,UnityEngine.Matrix4x4[])
         DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Int32,UnityEngine.Matrix4x4[],System.Int32)
         DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Int32,UnityEngine.Matrix4x4[],System.Int32,UnityEngine.MaterialPropertyBlock)
@@ -12650,12 +12836,8 @@ Summary:
         get_sizeInBytes()
         GetTemporaryRT(System.Int32,System.Int32,System.Int32)
         GetTemporaryRT(System.Int32,System.Int32,System.Int32,System.Int32)
-        GetTemporaryRT(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.FilterMode)
-        GetTemporaryRT(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.FilterMode,UnityEngine.RenderTextureFormat)
-        GetTemporaryRT(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.FilterMode,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite)
         GetTemporaryRT(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.FilterMode,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32)
         GetTemporaryRT(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.FilterMode,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32,System.Boolean)
-        GetTemporaryRT(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.FilterMode,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32,System.Boolean,UnityEngine.RenderTextureMemoryless)
         GetTemporaryRT(System.Int32,UnityEngine.RenderTextureDescriptor)
         GetTemporaryRT(System.Int32,UnityEngine.RenderTextureDescriptor,UnityEngine.FilterMode)
         GetTemporaryRTArray(System.Int32,System.Int32,System.Int32,System.Int32)
@@ -12665,23 +12847,19 @@ Summary:
         GetTemporaryRTArray(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.FilterMode,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite)
         GetTemporaryRTArray(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.FilterMode,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32)
         GetTemporaryRTArray(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.FilterMode,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32,System.Boolean)
-        INTERNAL_CALL_Blit_Identifier(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Material,System.Int32,UnityEngine.Vector2&,UnityEngine.Vector2&)
         INTERNAL_CALL_ClearRenderTarget(UnityEngine.Rendering.CommandBuffer,System.Boolean,System.Boolean,UnityEngine.Color&,System.Single)
         INTERNAL_CALL_GetTemporaryRT(UnityEngine.Rendering.CommandBuffer,System.Int32,UnityEngine.RenderTextureDescriptor&,UnityEngine.FilterMode)
-        INTERNAL_CALL_Internal_DrawMesh(UnityEngine.Rendering.CommandBuffer,UnityEngine.Mesh,UnityEngine.Matrix4x4&,UnityEngine.Material,System.Int32,System.Int32,UnityEngine.MaterialPropertyBlock)
         INTERNAL_CALL_Internal_DrawProcedural(UnityEngine.Rendering.CommandBuffer,UnityEngine.Matrix4x4&,UnityEngine.Material,System.Int32,UnityEngine.MeshTopology,System.Int32,System.Int32,UnityEngine.MaterialPropertyBlock)
         INTERNAL_CALL_Internal_DrawProceduralIndirect(UnityEngine.Rendering.CommandBuffer,UnityEngine.Matrix4x4&,UnityEngine.Material,System.Int32,UnityEngine.MeshTopology,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock)
         INTERNAL_CALL_SetComputeVectorParam(UnityEngine.Rendering.CommandBuffer,UnityEngine.ComputeShader,System.String,UnityEngine.Vector4&)
         INTERNAL_CALL_SetGlobalColor(UnityEngine.Rendering.CommandBuffer,System.Int32,UnityEngine.Color&)
         INTERNAL_CALL_SetGlobalMatrix(UnityEngine.Rendering.CommandBuffer,System.Int32,UnityEngine.Matrix4x4&)
-        INTERNAL_CALL_SetGlobalVector(UnityEngine.Rendering.CommandBuffer,System.Int32,UnityEngine.Vector4&)
         INTERNAL_CALL_SetProjectionMatrix(UnityEngine.Rendering.CommandBuffer,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_SetViewMatrix(UnityEngine.Rendering.CommandBuffer,UnityEngine.Matrix4x4&)
         INTERNAL_CALL_SetViewport(UnityEngine.Rendering.CommandBuffer,UnityEngine.Rect&)
         INTERNAL_CALL_SetViewProjectionMatrices(UnityEngine.Rendering.CommandBuffer,UnityEngine.Matrix4x4&,UnityEngine.Matrix4x4&)
         Internal_DispatchCompute(UnityEngine.ComputeShader,System.Int32,System.Int32,System.Int32,System.Int32)
         Internal_DispatchComputeIndirect(UnityEngine.ComputeShader,System.Int32,UnityEngine.ComputeBuffer,System.UInt32)
-        Internal_DrawMesh(UnityEngine.Mesh,UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,System.Int32,UnityEngine.MaterialPropertyBlock)
         Internal_DrawMeshInstanced(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Int32,UnityEngine.Matrix4x4[],System.Int32,UnityEngine.MaterialPropertyBlock)
         Internal_DrawMeshInstancedIndirect(UnityEngine.Mesh,System.Int32,UnityEngine.Material,System.Int32,UnityEngine.ComputeBuffer,System.Int32,UnityEngine.MaterialPropertyBlock)
         Internal_DrawProcedural(UnityEngine.Matrix4x4,UnityEngine.Material,System.Int32,UnityEngine.MeshTopology,System.Int32,System.Int32,UnityEngine.MaterialPropertyBlock)
@@ -12701,8 +12879,6 @@ Summary:
         IssuePluginEventAndDataInternal(System.IntPtr,System.Int32,System.IntPtr)
         IssuePluginEventInternal(System.IntPtr,System.Int32)
         Release()
-        ReleaseTemporaryRT(System.Int32)
-        set_name(System.String)
         SetComputeBufferParam(UnityEngine.ComputeShader,System.Int32,System.String,UnityEngine.ComputeBuffer)
         SetComputeFloatParam(UnityEngine.ComputeShader,System.String,System.Single)
         SetComputeFloatParams(UnityEngine.ComputeShader,System.String,System.Single[])
@@ -12715,7 +12891,6 @@ Summary:
         SetGlobalColor(System.Int32,UnityEngine.Color)
         SetGlobalColor(System.String,UnityEngine.Color)
         SetGlobalDepthBias(System.Single,System.Single)
-        SetGlobalFloat(System.Int32,System.Single)
         SetGlobalFloat(System.String,System.Single)
         SetGlobalFloatArray(System.Int32,System.Collections.Generic.List`1<System.Single>)
         SetGlobalFloatArray(System.Int32,System.Single[])
@@ -12729,10 +12904,7 @@ Summary:
         SetGlobalMatrixArray(System.String,System.Collections.Generic.List`1<UnityEngine.Matrix4x4>)
         SetGlobalMatrixArray(System.String,UnityEngine.Matrix4x4[])
         SetGlobalMatrixArrayListImpl(System.Int32,System.Object)
-        SetGlobalTexture(System.Int32,UnityEngine.Rendering.RenderTargetIdentifier)
         SetGlobalTexture(System.String,UnityEngine.Rendering.RenderTargetIdentifier)
-        SetGlobalTexture_Impl(System.Int32,UnityEngine.Rendering.RenderTargetIdentifier&)
-        SetGlobalVector(System.Int32,UnityEngine.Vector4)
         SetGlobalVector(System.String,UnityEngine.Vector4)
         SetGlobalVectorArray(System.Int32,System.Collections.Generic.List`1<UnityEngine.Vector4>)
         SetGlobalVectorArray(System.Int32,UnityEngine.Vector4[])
@@ -12753,9 +12925,7 @@ Summary:
         SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,System.Int32)
         SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,System.Int32,UnityEngine.CubemapFace)
         SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier,System.Int32,UnityEngine.CubemapFace,System.Int32)
-        SetRenderTarget(UnityEngine.Rendering.RenderTargetIdentifier[],UnityEngine.Rendering.RenderTargetIdentifier)
         SetRenderTarget_ColDepth(UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Rendering.RenderTargetIdentifier&,System.Int32,UnityEngine.CubemapFace,System.Int32)
-        SetRenderTarget_Multiple(UnityEngine.Rendering.RenderTargetIdentifier[],UnityEngine.Rendering.RenderTargetIdentifier&)
         SetRenderTarget_Single(UnityEngine.Rendering.RenderTargetIdentifier&,System.Int32,UnityEngine.CubemapFace,System.Int32)
         SetShadowSamplingMode(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.ShadowSamplingMode)
         SetShadowSamplingMode_Impl(UnityEngine.Rendering.RenderTargetIdentifier&,UnityEngine.Rendering.ShadowSamplingMode)
@@ -12765,7 +12935,6 @@ Summary:
     UnityEngine.Rendering.CopyTextureSupport
     UnityEngine.Rendering.CullMode
     UnityEngine.Rendering.DefaultReflectionMode
-    UnityEngine.Rendering.GraphicsDeviceType
     UnityEngine.Rendering.GraphicsSettings
     UnityEngine.Rendering.GraphicsTier
     UnityEngine.Rendering.LightEvent
@@ -12786,23 +12955,18 @@ Summary:
     UnityEngine.Rendering.RenderBufferStoreAction
     UnityEngine.Rendering.RenderQueue
     UnityEngine.Rendering.RenderTargetIdentifier
-        .ctor(System.Int32)
         .ctor(System.Int32,System.Int32,UnityEngine.CubemapFace,System.Int32)
         .ctor(System.String)
         .ctor(System.String,System.Int32,UnityEngine.CubemapFace,System.Int32)
         .ctor(UnityEngine.RenderBuffer,System.Int32,UnityEngine.CubemapFace,System.Int32)
-        .ctor(UnityEngine.Texture)
         .ctor(UnityEngine.Texture,System.Int32,UnityEngine.CubemapFace,System.Int32)
         op_Equality(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier)
-        op_Implicit(System.Int32)
         op_Implicit(System.String)
         op_Implicit(UnityEngine.RenderBuffer)
-        op_Implicit(UnityEngine.Texture)
         op_Inequality(UnityEngine.Rendering.RenderTargetIdentifier,UnityEngine.Rendering.RenderTargetIdentifier)
     UnityEngine.Rendering.ShaderHardwareTier
     UnityEngine.Rendering.ShadowCastingMode
     UnityEngine.Rendering.ShadowMapPass
-    UnityEngine.Rendering.ShadowSamplingMode
     UnityEngine.Rendering.SortingGroup
     UnityEngine.Rendering.SphericalHarmonicsL2
         AddAmbientLight(UnityEngine.Color)
@@ -12821,8 +12985,6 @@ Summary:
         op_Multiply(System.Single,UnityEngine.Rendering.SphericalHarmonicsL2)
         op_Multiply(UnityEngine.Rendering.SphericalHarmonicsL2,System.Single)
     UnityEngine.Rendering.SplashScreen
-    UnityEngine.Rendering.TextureDimension
-    UnityEngine.RenderingPath
     UnityEngine.RenderSettings
         .ctor()
         get_ambientEquatorColor()
@@ -12838,12 +13000,6 @@ Summary:
         get_defaultReflectionResolution()
         get_flareFadeSpeed()
         get_flareStrength()
-        get_fog()
-        get_fogColor()
-        get_fogDensity()
-        get_fogEndDistance()
-        get_fogMode()
-        get_fogStartDistance()
         get_haloStrength()
         get_reflectionBounces()
         get_reflectionIntensity()
@@ -12856,7 +13012,6 @@ Summary:
         INTERNAL_get_ambientLight(UnityEngine.Color&)
         INTERNAL_get_ambientProbe(UnityEngine.Rendering.SphericalHarmonicsL2&)
         INTERNAL_get_ambientSkyColor(UnityEngine.Color&)
-        INTERNAL_get_fogColor(UnityEngine.Color&)
         INTERNAL_get_subtractiveShadowColor(UnityEngine.Color&)
         INTERNAL_set_ambientEquatorColor(UnityEngine.Color&)
         INTERNAL_set_ambientGroundColor(UnityEngine.Color&)
@@ -12886,80 +13041,50 @@ Summary:
     UnityEngine.RenderTargetSetup
     UnityEngine.RenderTexture
         .ctor(System.Int32,System.Int32,System.Int32)
-        .ctor(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat)
         .ctor(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite)
         .ctor(UnityEngine.RenderTexture)
         .ctor(UnityEngine.RenderTextureDescriptor)
-        Create()
         DiscardContents()
         DiscardContents(System.Boolean,System.Boolean)
         GenerateMips()
-        get_active()
         get_antiAliasing()
         get_autoGenerateMips()
-        get_colorBuffer()
-        get_depth()
-        get_depthBuffer()
         get_descriptor()
         get_dimension()
         get_enabled()
         get_enableRandomWrite()
-        get_format()
         get_isCubemap()
         get_isPowerOfTwo()
         get_isVolume()
         get_memorylessMode()
-        get_sRGB()
         get_useMipMap()
         get_volumeDepth()
         get_vrUsage()
         GetActiveVRUsage()
-        GetColorBuffer(UnityEngine.RenderBuffer&)
-        GetDepthBuffer(UnityEngine.RenderBuffer&)
         GetDescriptor()
         GetNativeDepthBufferPtr()
         GetTemporary(System.Int32,System.Int32)
         GetTemporary(System.Int32,System.Int32,System.Int32)
-        GetTemporary(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat)
-        GetTemporary(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite)
         GetTemporary(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32)
         GetTemporary(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32,UnityEngine.RenderTextureMemoryless)
-        GetTemporary(System.Int32,System.Int32,System.Int32,UnityEngine.RenderTextureFormat,UnityEngine.RenderTextureReadWrite,System.Int32,UnityEngine.RenderTextureMemoryless,UnityEngine.VRTextureUsage)
-        GetTemporary(UnityEngine.RenderTextureDescriptor)
-        GetTemporary_Internal(UnityEngine.RenderTextureDescriptor)
         GetTexelOffset()
-        INTERNAL_CALL_Create(UnityEngine.RenderTexture)
         INTERNAL_CALL_DiscardContents(UnityEngine.RenderTexture)
         INTERNAL_CALL_GenerateMips(UnityEngine.RenderTexture)
         INTERNAL_CALL_GetDescriptor(UnityEngine.RenderTexture,UnityEngine.RenderTextureDescriptor&)
         INTERNAL_CALL_GetNativeDepthBufferPtr(UnityEngine.RenderTexture,System.IntPtr&)
-        INTERNAL_CALL_GetTemporary_Internal(UnityEngine.RenderTextureDescriptor&)
-        INTERNAL_CALL_IsCreated(UnityEngine.RenderTexture)
         INTERNAL_CALL_MarkRestoreExpected(UnityEngine.RenderTexture)
-        INTERNAL_CALL_Release(UnityEngine.RenderTexture)
         INTERNAL_CALL_SetRenderTextureDescriptor(UnityEngine.RenderTexture,UnityEngine.RenderTextureDescriptor&)
-        Internal_CreateRenderTexture(UnityEngine.RenderTexture)
         Internal_GetDimension(UnityEngine.RenderTexture)
         Internal_GetVRUsage(UnityEngine.RenderTexture)
         Internal_SetDimension(UnityEngine.RenderTexture,UnityEngine.Rendering.TextureDimension)
-        Internal_SetHeight(UnityEngine.RenderTexture,System.Int32)
-        Internal_SetSRGBReadWrite(UnityEngine.RenderTexture,System.Boolean)
         Internal_SetVRUsage(UnityEngine.RenderTexture,UnityEngine.VRTextureUsage)
-        Internal_SetWidth(UnityEngine.RenderTexture,System.Int32)
-        IsCreated()
         MarkRestoreExpected()
-        Release()
-        ReleaseTemporary(UnityEngine.RenderTexture)
-        set_active(UnityEngine.RenderTexture)
         set_antiAliasing(System.Int32)
         set_autoGenerateMips(System.Boolean)
-        set_depth(System.Int32)
         set_descriptor(UnityEngine.RenderTextureDescriptor)
         set_dimension(UnityEngine.Rendering.TextureDimension)
         set_enabled(System.Boolean)
         set_enableRandomWrite(System.Boolean)
-        set_format(UnityEngine.RenderTextureFormat)
-        set_height(System.Int32)
         set_isCubemap(System.Boolean)
         set_isPowerOfTwo(System.Boolean)
         set_isVolume(System.Boolean)
@@ -12967,17 +13092,26 @@ Summary:
         set_useMipMap(System.Boolean)
         set_volumeDepth(System.Int32)
         set_vrUsage(UnityEngine.VRTextureUsage)
-        set_width(System.Int32)
         SetBorderColor(UnityEngine.Color)
         SetGlobalShaderProperty(System.String)
         SetRenderTextureDescriptor(UnityEngine.RenderTextureDescriptor)
         SupportsStencil(UnityEngine.RenderTexture)
-        ValidateRenderTextureDesc(UnityEngine.RenderTextureDescriptor)
-    UnityEngine.RenderTextureCreationFlags
     UnityEngine.RenderTextureDescriptor
-    UnityEngine.RenderTextureFormat
-    UnityEngine.RenderTextureMemoryless
-    UnityEngine.RenderTextureReadWrite
+        .ctor(System.Int32,System.Int32,UnityEngine.RenderTextureFormat)
+        get_autoGenerateMips()
+        get_colorFormat()
+        get_createdFromScript()
+        get_dimension()
+        get_enableRandomWrite()
+        get_flags()
+        get_memoryless()
+        get_shadowSamplingMode()
+        get_sRGB()
+        get_useMipMap()
+        get_vrUsage()
+        set_autoGenerateMips(System.Boolean)
+        set_enableRandomWrite(System.Boolean)
+        set_useMipMap(System.Boolean)
     UnityEngine.RequireComponent
         .ctor(System.Type,System.Type,System.Type)
     UnityEngine.Resolution
@@ -12992,7 +13126,6 @@ Summary:
         .ctor()
         FindObjectsOfTypeAll(System.Type)
         FindObjectsOfTypeAll<T>()
-        Load<T>(System.String)
         LoadAll(System.String)
         LoadAll(System.String,System.Type)
         LoadAll<T>(System.String)
@@ -13338,14 +13471,12 @@ Summary:
         get_deviceUniqueIdentifier()
         get_graphicsDeviceID()
         get_graphicsDeviceName()
-        get_graphicsDeviceType()
         get_graphicsDeviceVendor()
         get_graphicsDeviceVendorID()
         get_graphicsDeviceVersion()
         get_graphicsMemorySize()
         get_graphicsMultiThreaded()
         get_graphicsPixelFillrate()
-        get_graphicsShaderLevel()
         get_graphicsUVStartsAtTop()
         get_maxCubemapSize()
         get_maxRenderTextureSize()
@@ -13355,19 +13486,16 @@ Summary:
         get_processorCount()
         get_processorFrequency()
         get_processorType()
-        get_supportedRenderTargetCount()
         get_supports2DArrayTextures()
         get_supports3DRenderTextures()
         get_supports3DTextures()
         get_supportsAccelerometer()
         get_supportsAudio()
-        get_supportsComputeShaders()
         get_supportsCubemapArrayTextures()
         get_supportsGyroscope()
         get_supportsImageEffects()
         get_supportsInstancing()
         get_supportsLocationService()
-        get_supportsMotionVectors()
         get_supportsRawShadowDepthSampling()
         get_supportsRenderTextures()
         get_supportsRenderToCubemap()
@@ -13378,8 +13506,6 @@ Summary:
         get_supportsVibration()
         get_systemMemorySize()
         get_usesReversedZBuffer()
-        SupportsRenderTextureFormat(UnityEngine.RenderTextureFormat)
-        SupportsTextureFormat(UnityEngine.TextureFormat)
     UnityEngine.SystemLanguage
     UnityEngine.TexGenMode
     UnityEngine.TextAreaAttribute
@@ -13391,7 +13517,6 @@ Summary:
         get_anisoLevel()
         get_anisotropicFiltering()
         get_dimension()
-        get_filterMode()
         get_masterTextureLimit()
         get_mipMapBias()
         get_wrapModeU()
@@ -13401,20 +13526,15 @@ Summary:
         GetNativeTexturePtr()
         INTERNAL_CALL_GetNativeTexturePtr(UnityEngine.Texture,System.IntPtr&)
         Internal_GetDimension(UnityEngine.Texture)
-        set_anisoLevel(System.Int32)
         set_anisotropicFiltering(UnityEngine.AnisotropicFiltering)
         set_dimension(UnityEngine.Rendering.TextureDimension)
-        set_height(System.Int32)
         set_masterTextureLimit(System.Int32)
         set_mipMapBias(System.Single)
-        set_width(System.Int32)
         set_wrapModeU(UnityEngine.TextureWrapMode)
         set_wrapModeV(UnityEngine.TextureWrapMode)
         set_wrapModeW(UnityEngine.TextureWrapMode)
         SetGlobalAnisotropicFilteringLimits(System.Int32,System.Int32)
     UnityEngine.Texture2D
-        .ctor(System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean)
-        .ctor(System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean,System.Boolean)
         Apply(System.Boolean)
         Compress(System.Boolean)
         GenerateAtlas(UnityEngine.Vector2[],System.Int32,System.Int32,System.Collections.Generic.List`1<UnityEngine.Rect>)
@@ -13433,7 +13553,6 @@ Summary:
         INTERNAL_CALL_Compress(UnityEngine.Texture2D,System.Boolean)
         INTERNAL_CALL_GetPixel(UnityEngine.Texture2D,System.Int32,System.Int32,UnityEngine.Color&)
         INTERNAL_CALL_ReadPixels(UnityEngine.Texture2D,UnityEngine.Rect&,System.Int32,System.Int32,System.Boolean)
-        INTERNAL_CALL_SetPixel(UnityEngine.Texture2D,System.Int32,System.Int32,UnityEngine.Color&)
         Internal_ResizeWH(System.Int32,System.Int32)
         LoadRawTextureData(System.Byte[])
         LoadRawTextureData(System.IntPtr,System.Int32)
@@ -13446,11 +13565,7 @@ Summary:
         ReadPixels(UnityEngine.Rect,System.Int32,System.Int32,System.Boolean)
         Resize(System.Int32,System.Int32)
         Resize(System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean)
-        SetPixel(System.Int32,System.Int32,UnityEngine.Color)
         SetPixels(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color[])
-        SetPixels(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color[],System.Int32)
-        SetPixels(UnityEngine.Color[])
-        SetPixels(UnityEngine.Color[],System.Int32)
     UnityEngine.Texture2D/EXRFlags
     UnityEngine.Texture2DArray
     UnityEngine.Texture3D
@@ -13462,7 +13577,6 @@ Summary:
         get_fixedTime()
         get_fixedUnscaledDeltaTime()
         get_fixedUnscaledTime()
-        get_frameCount()
         get_inFixedTimeStep()
         get_maximumDeltaTime()
         get_maximumParticleDeltaTime()
@@ -13690,9 +13804,7 @@ Summary:
         Normalize()
         Normalize(UnityEngine.Vector4)
         op_Addition(UnityEngine.Vector4,UnityEngine.Vector4)
-        op_Implicit(UnityEngine.Vector2)
         op_Implicit(UnityEngine.Vector4)
-        op_Inequality(UnityEngine.Vector4,UnityEngine.Vector4)
         op_Multiply(System.Single,UnityEngine.Vector4)
         op_Multiply(UnityEngine.Vector4,System.Single)
         op_UnaryNegation(UnityEngine.Vector4)
@@ -13702,7 +13814,6 @@ Summary:
         Set(System.Single,System.Single,System.Single,System.Single)
         SqrMagnitude()
         ToString(System.String)
-    UnityEngine.VRTextureUsage
     UnityEngine.WaitForFixedUpdate
         .ctor()
     UnityEngine.WaitUntil
@@ -13842,7 +13953,7 @@ Summary:
 Assembly: UnityEngine.IMGUIModule
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 29
+  Total Type Removals = 28
     Nested = 12
     Interfaces = 1
     Abstract Classes = 1
@@ -13851,7 +13962,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 21
-  Total Method Removals = 704
+  Total Method Removals = 692
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.CursorPositionStylePainterParameters
@@ -13941,7 +14052,6 @@ Summary:
         Button(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.GUIStyle)
         CalcMouseRects(UnityEngine.Rect,UnityEngine.GUIContent[],System.Int32,System.Single,System.Single,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,System.Boolean,UnityEngine.GUI/ToolbarButtonSize)
         CalcTotalHorizSpacing(System.Int32,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle)
-        CalculateScaledTextureRects(UnityEngine.Rect,UnityEngine.ScaleMode,System.Single,UnityEngine.Rect&,UnityEngine.Rect&)
         CleanupRoots()
         DoBeginScrollView(UnityEngine.Rect,UnityEngine.Vector2,UnityEngine.Rect,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle)
         DoButtonGrid(UnityEngine.Rect,System.Int32,UnityEngine.GUIContent[],System.String[],System.Int32,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUI/ToolbarButtonSize)
@@ -13954,12 +14064,6 @@ Summary:
         DoWindow(System.Int32,UnityEngine.Rect,UnityEngine.GUI/WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUISkin,System.Boolean)
         DragWindow()
         DragWindow(UnityEngine.Rect)
-        DrawTexture(UnityEngine.Rect,UnityEngine.Texture)
-        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode)
-        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean)
-        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single)
-        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single,UnityEngine.Color,System.Single,System.Single)
-        DrawTexture(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.ScaleMode,System.Boolean,System.Single,UnityEngine.Color,UnityEngine.Vector4,System.Single)
         DrawTextureWithTexCoords(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect)
         DrawTextureWithTexCoords(UnityEngine.Rect,UnityEngine.Texture,UnityEngine.Rect,System.Boolean)
         EndClip()
@@ -13971,17 +14075,13 @@ Summary:
         FocusControl(System.String)
         FocusWindow(System.Int32)
         get_backgroundColor()
-        get_blendMaterial()
-        get_blitMaterial()
         get_changed()
-        get_color()
         get_contentColor()
         get_depth()
         get_enabled()
         get_matrix()
         get_mouseTooltip()
         get_nextScrollStepTime()
-        get_roundedRectMaterial()
         get_scrollTroughSide()
         get_tooltip()
         get_tooltipRect()
@@ -14004,7 +14104,6 @@ Summary:
         Internal_DoWindow(System.Int32,System.Int32,UnityEngine.Rect,UnityEngine.GUI/WindowFunction,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUISkin,System.Boolean)
         Internal_EndWindows()
         INTERNAL_get_backgroundColor(UnityEngine.Color&)
-        INTERNAL_get_color(UnityEngine.Color&)
         INTERNAL_get_contentColor(UnityEngine.Color&)
         Internal_GetMouseTooltip()
         Internal_GetTooltip()
@@ -14495,7 +14594,6 @@ Summary:
     UnityEngine.IStylePainter
     UnityEngine.PlatformSelection
     UnityEngine.RectStylePainterParameters
-    UnityEngine.ScaleMode
     UnityEngine.ScrollViewState
         apply
         position
@@ -15432,7 +15530,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 7
-  Total Method Removals = 449
+  Total Method Removals = 444
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.BoxCollider
@@ -15804,13 +15902,11 @@ Summary:
         AddRelativeTorque(System.Single,System.Single,System.Single)
         AddRelativeTorque(System.Single,System.Single,System.Single,UnityEngine.ForceMode)
         AddRelativeTorque(UnityEngine.Vector3)
-        AddRelativeTorque(UnityEngine.Vector3,UnityEngine.ForceMode)
         AddTorque(System.Single,System.Single,System.Single)
         AddTorque(System.Single,System.Single,System.Single,UnityEngine.ForceMode)
         AddTorque(UnityEngine.Vector3,UnityEngine.ForceMode)
         ClosestPointOnBounds(UnityEngine.Vector3)
         get_angularDrag()
-        get_angularVelocity()
         get_centerOfMass()
         get_collisionDetectionMode()
         get_constraints()
@@ -15842,7 +15938,6 @@ Summary:
         INTERNAL_CALL_AddForce(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
         INTERNAL_CALL_AddForceAtPosition(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.ForceMode)
         INTERNAL_CALL_AddRelativeForce(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
-        INTERNAL_CALL_AddRelativeTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
         INTERNAL_CALL_ClosestPointOnBounds(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&)
         INTERNAL_CALL_GetPointVelocity(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&)
         INTERNAL_CALL_GetRelativePointVelocity(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&)
@@ -15856,7 +15951,6 @@ Summary:
         INTERNAL_CALL_SweepTest(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.RaycastHit&,System.Single,UnityEngine.QueryTriggerInteraction)
         INTERNAL_CALL_SweepTestAll(UnityEngine.Rigidbody,UnityEngine.Vector3&,System.Single,UnityEngine.QueryTriggerInteraction)
         INTERNAL_CALL_WakeUp(UnityEngine.Rigidbody)
-        INTERNAL_get_angularVelocity(UnityEngine.Vector3&)
         INTERNAL_get_centerOfMass(UnityEngine.Vector3&)
         INTERNAL_get_inertiaTensor(UnityEngine.Vector3&)
         INTERNAL_get_inertiaTensorRotation(UnityEngine.Quaternion&)
@@ -15889,7 +15983,6 @@ Summary:
         set_interpolation(UnityEngine.RigidbodyInterpolation)
         set_isKinematic(System.Boolean)
         set_mass(System.Single)
-        set_maxAngularVelocity(System.Single)
         set_maxDepenetrationVelocity(System.Single)
         set_position(UnityEngine.Vector3)
         set_rotation(UnityEngine.Quaternion)
@@ -16284,7 +16377,7 @@ Summary:
 ---------------------------------------------------
 ---------------------------------------------------
 Mono.Cecil.ExportedType Removals:
-  Total: 1027
+  Total: 1002
 ---------------------------------------------------
 JetBrains.Annotations.AssertionMethodAttribute
 JetBrains.Annotations.BaseTypeRequiredAttribute
@@ -16489,8 +16582,6 @@ UnityEngine.CollisionDetectionMode
 UnityEngine.CollisionDetectionMode2D
 UnityEngine.CollisionFlags
 UnityEngine.ColorGamut
-UnityEngine.ColorSpace
-UnityEngine.ColorUsageAttribute
 UnityEngine.ColorUtility
 UnityEngine.CombineInstance
 UnityEngine.CombineInstanceHelper
@@ -16498,9 +16589,6 @@ UnityEngine.Compass
 UnityEngine.CompositeCollider2D
 UnityEngine.CompositeCollider2D/GenerationType
 UnityEngine.CompositeCollider2D/GeometryType
-UnityEngine.ComputeBuffer
-UnityEngine.ComputeBufferType
-UnityEngine.ComputeShader
 UnityEngine.ConfigurableJoint
 UnityEngine.ConfigurableJointMotion
 UnityEngine.Connect.UnityConnectSettings
@@ -16543,7 +16631,6 @@ UnityEngine.CustomRenderTextureUpdateMode
 UnityEngine.CustomRenderTextureUpdateZone
 UnityEngine.CustomRenderTextureUpdateZoneSpace
 UnityEngine.DelayedAttribute
-UnityEngine.DepthTextureMode
 UnityEngine.DetailPrototype
 UnityEngine.DetailRenderMode
 UnityEngine.DeviceOrientation
@@ -16741,12 +16828,10 @@ UnityEngine.FullScreenMovieControlMode
 UnityEngine.FullScreenMovieScalingMode
 UnityEngine.GeometryUtility
 UnityEngine.Gizmos
-UnityEngine.GL
 UnityEngine.GlobalJavaObjectRef
 UnityEngine.GradientAlphaKey
 UnityEngine.GradientColorKey
 UnityEngine.GradientMode
-UnityEngine.Graphics
 UnityEngine.Grid
 UnityEngine.GridBrushBase
 UnityEngine.GridBrushBase/FlipAxis
@@ -16776,7 +16861,6 @@ UnityEngine.Handheld
 UnityEngine.Hash128
 UnityEngine.HeadDoF
 UnityEngine.HelpURLAttribute
-UnityEngine.HideInInspector
 UnityEngine.HingeJoint
 UnityEngine.HingeJoint2D
 UnityEngine.HostData
@@ -16788,13 +16872,11 @@ UnityEngine.HumanPoseHandler
 UnityEngine.HumanTrait
 UnityEngine.IExposedPropertyTable
 UnityEngine.ImageConversion
-UnityEngine.ImageEffectAllowedInSceneView
 UnityEngine.ImageEffectOpaque
 UnityEngine.ImageEffectTransformsToLDR
 UnityEngine.Internal.VR.VRTestMock
 UnityEngine.Internal_DrawArguments
 UnityEngine.Internal_DrawMeshMatrixArguments
-UnityEngine.Internal_DrawTextureArguments
 UnityEngine.Internal_DrawWithTextSelectionArguments
 UnityEngine.InternalEmitParticleArguments
 UnityEngine.InternalStaticBatchingUtility
@@ -16862,7 +16944,6 @@ UnityEngine.MeshSubsetCombineUtility
 UnityEngine.MeshSubsetCombineUtility/MeshContainer
 UnityEngine.MeshSubsetCombineUtility/MeshInstance
 UnityEngine.MeshSubsetCombineUtility/SubMeshInstance
-UnityEngine.MeshTopology
 UnityEngine.Microphone
 UnityEngine.MissingComponentException
 UnityEngine.MissingReferenceException
@@ -17050,7 +17131,6 @@ UnityEngine.Profiling.Recorder
 UnityEngine.Profiling.Sampler
 UnityEngine.Projector
 UnityEngine.QualityLevel
-UnityEngine.QualitySettings
 UnityEngine.QueueMode
 UnityEngine.Random/State
 UnityEngine.Ray2D
@@ -17060,7 +17140,6 @@ UnityEngine.RectStylePainterParameters
 UnityEngine.ReflectionProbe
 UnityEngine.RejectDragAndDropMaterial
 UnityEngine.RelativeJoint2D
-UnityEngine.RenderBuffer
 UnityEngine.RenderBufferHelper
 UnityEngine.RendererExtensions
 UnityEngine.Rendering.BlendMode
@@ -17072,7 +17151,6 @@ UnityEngine.Rendering.CameraHDRMode
 UnityEngine.Rendering.CopyTextureSupport
 UnityEngine.Rendering.CullMode
 UnityEngine.Rendering.DefaultReflectionMode
-UnityEngine.Rendering.GraphicsDeviceType
 UnityEngine.Rendering.GraphicsSettings
 UnityEngine.Rendering.GraphicsTier
 UnityEngine.Rendering.LightEvent
@@ -17095,18 +17173,10 @@ UnityEngine.Rendering.RenderQueue
 UnityEngine.Rendering.ShaderHardwareTier
 UnityEngine.Rendering.ShadowCastingMode
 UnityEngine.Rendering.ShadowMapPass
-UnityEngine.Rendering.ShadowSamplingMode
 UnityEngine.Rendering.SortingGroup
 UnityEngine.Rendering.SplashScreen
-UnityEngine.Rendering.TextureDimension
 UnityEngine.Rendering.UVChannelFlags
-UnityEngine.RenderingPath
 UnityEngine.RenderTargetSetup
-UnityEngine.RenderTextureCreationFlags
-UnityEngine.RenderTextureDescriptor
-UnityEngine.RenderTextureFormat
-UnityEngine.RenderTextureMemoryless
-UnityEngine.RenderTextureReadWrite
 UnityEngine.RigidbodyConstraints
 UnityEngine.RigidbodyConstraints2D
 UnityEngine.RigidbodyInterpolation
@@ -17121,7 +17191,6 @@ UnityEngine.RuntimeAnimatorController
 UnityEngine.RuntimeInitializeLoadType
 UnityEngine.RuntimeInitializeOnLoadMethodAttribute
 UnityEngine.RuntimeUndo
-UnityEngine.ScaleMode
 UnityEngine.SceneManagement.Scene/LoadingState
 UnityEngine.SceneManagement.SceneUtility
 UnityEngine.ScreenCapture
@@ -17236,7 +17305,6 @@ UnityEngine.Video.VideoRenderMode
 UnityEngine.Video.VideoSource
 UnityEngine.Video.VideoTimeReference
 UnityEngine.Video.VideoTimeSource
-UnityEngine.VRTextureUsage
 UnityEngine.WaitUntil
 UnityEngine.WaitWhile
 UnityEngine.WebCamDevice

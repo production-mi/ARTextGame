@@ -35,7 +35,7 @@ public class previzCtrl : MonoBehaviour {
 	public ParticleSystem fireworks02;
 	public ParticleSystem lightning;
 	public ParticleSystem Appearing;
-	public ParticleSystem Smoke;
+	//public ParticleSystem Smoke;
 
 	//public Material text;
 
@@ -103,11 +103,12 @@ public class previzCtrl : MonoBehaviour {
 		fireworks02 = fireworks02.GetComponent<ParticleSystem>();
 		lightning = lightning.GetComponent<ParticleSystem>();
 		Appearing = Appearing.GetComponent<ParticleSystem>();
-		Smoke = Smoke.GetComponent<ParticleSystem>();
+		//Smoke = Smoke.GetComponent<ParticleSystem>();
 
 
 
 		guideAnimClip = GuideAnimation.GetComponent<Animation>();
+
 
 		//StartCoroutine(textCreate(textObject,text));
 
@@ -157,10 +158,13 @@ public class previzCtrl : MonoBehaviour {
 					foreach (var hitResult in hitResults) {
 							debugBox.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 							if(Input.touchCount > 0){
+								//Vector3 pos = new Vector3(UnityARMatrixOps.GetPosition(hitResult.worldTransform).x, 0, UnityARMatrixOps.GetPosition(hitResult.worldTransform).z);
 								plane.transform.position = UnityARMatrixOps.GetPosition(hitResult.worldTransform);
+
+								//plane.transform.position = UnityARMatrixOps.GetPosition(hitResult.worldTransform);
 								//Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, plane.transform.position.y, Camera.main.transform.position.z);
 								//plane.transform.LookAt(targetPosition);
-								readytoReloadText = true;
+								//readytoReloadText = true;
 								StartCoroutine(brainAnimation());
 								plateIsOn = true;
 								reload.gameObject.SetActive(true);
@@ -180,12 +184,14 @@ public class previzCtrl : MonoBehaviour {
  void textIsReload(){
 		//answerTextCreate(answer, text);
 		//answerTextRenderer.enabled = true;
+		//QRCodeReader.IsDetecting = true;
+		QRCodeReader.IsDetecting = true;
 		StartCoroutine(test());
 		brainAnim.SetTrigger("Looking");
 		reload.gameObject.SetActive(false);
 		liked.gameObject.SetActive(true);
 		disliked.gameObject.SetActive(true);
-		Debug.Log(piyopiyo);
+		Debug.Log(text);
 	}
 
 
@@ -199,19 +205,21 @@ public class previzCtrl : MonoBehaviour {
 		liked.gameObject.SetActive(false);
 		disliked.gameObject.SetActive(false);
 		Debug.Log("liked");
+		text = null;
 		piyopiyo = false;
 	}
 
 	void answerIsDisliked(){
 		brainAnim.SetTrigger("Disliked_Shock");
 		lightning.Play();
-		Smoke.Play();
+		//Smoke.Play();
 		//answerTextRenderer.enabled = false;
 		StartCoroutine(breakText());
 		reload.gameObject.SetActive(true);
 		liked.gameObject.SetActive(false);
 		disliked.gameObject.SetActive(false);
 		Debug.Log("disliked");
+		text = null;
 		piyopiyo = false;
 	}
 
@@ -233,6 +241,7 @@ public class previzCtrl : MonoBehaviour {
 		disliked.gameObject.SetActive(false);
 		reset.gameObject.SetActive(false);
 		SetObjectInvisible(plane, plateIsOn);
+		text = null;
 		Debug.Log("Stop");
 	}
 
@@ -315,19 +324,31 @@ public class previzCtrl : MonoBehaviour {
 	IEnumerator test()
 	{
 		if(textObject == null){
-			text = QRCodeReader.possible;
+			StartCoroutine(getStrings());
 			//text = itemText[0];
 			string[] textArray = text.Split(","[0]);
 			textObject  = FlyingText.GetObjects(textArray[0]);
 			textObject.transform.parent = textRoot.transform;
-			textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+			textObject.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
 			textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
 			textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
 			var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
 			foreach (var rb in rigidbodies) {
 				rb.useGravity = false;
 			}
+			//QRCodeReader.IsDetecting = false;
+			text = null;
 			yield return textObject;
+		}
+	}
+
+	IEnumerator getStrings()
+	{
+		text = QRCodeReader.possible;
+		if(text != null)
+		{
+			QRCodeReader.IsDetecting = false;
+			yield return text;
 		}
 	}
 
@@ -393,15 +414,14 @@ public class previzCtrl : MonoBehaviour {
 
 	void Update()
 	{
-		// Debug.Log(textObject);
-		// if(Input.GetKeyDown("space")){
-		// 	//answerTextRenderer.enabled = true;
-		// 	StartCoroutine(breakText());
-		// }
-		//
-		// if(Input.GetKeyDown("tab")){
-		// 	textIsReload();
-		// }
+		if(Input.GetKeyDown("space")){
+			answerTextRenderer.enabled = true;
+			//StartCoroutine(breakText());
+		}
+
+		if(Input.GetKeyDown("tab")){
+			textIsReload();
+		}
 
 	  if(plateIsOn != true && Initialized == true)
 		{

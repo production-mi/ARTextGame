@@ -8,7 +8,7 @@ using UnityEngine.XR.iOS;
 
 	public class QRCodeReader : MonoBehaviour {
 	private IntPtr cvPixelBufferPtr;
-	private bool IsDetecting;
+	public static bool IsDetecting;
 	public static String possible;
 
 
@@ -111,93 +111,19 @@ using UnityEngine.XR.iOS;
 		}
 
 		private void ARFrameUpdated(UnityARCamera camera) {
-			if(IsDetecting == true){
-				ReadBuffer(camera.videoParams.cvPixelBufferPtr);
-			}
-			// Matrix4x4 tmp = new Matrix4x4 (
-			// 	camera.displayTransform.column0,
-			// 	camera.displayTransform.column1,
-			// 	camera.displayTransform.column2,
-			// 	camera.displayTransform.column3
-			// );
-			// displayTransformInverse = tmp.inverse;
+			// if(IsDetecting == true){
+			// 	ReadBuffer(camera.videoParams.cvPixelBufferPtr);
+			// }
+			ReadBuffer(camera.videoParams.cvPixelBufferPtr);
 		}
 
 		void Update () {
 			ARTextureHandles handles = UnityARSessionNativeInterface.GetARSessionNativeInterface ().GetARVideoTextureHandles ();
 			UnityARCamera scamera = new UnityARCamera ();
-
-			if(previzCtrl.readytoReloadText == true)
-			{
-				if(Input.touchCount > 0)
-				{
-					IsDetecting = true;
-				}
-				else{
-					IsDetecting = false;
-				}
-
-			}
-
-			// if(Input.touchCount > 0)
-			// {
-			// 	var touch = Input.GetTouch(0);
-			// 	if(touch.phase == TouchPhase.Began){
-			// 		ReadBuffer(camera.videoParams.cvPixelBufferPtr);
-			// 		};
-			// }
-			// if (handles.textureY != System.IntPtr.Zero) {
-			// 	//ReadQRCode (handles.textureY.ToInt64 ());
-			// }
-			//CVPixelBufferRef capturedBuffer = UnityARSessionNativeInterface.GetARSessionNativeInterface ().GetARCamCapturedBuffer();
-			// if (capturedImage.capturedImage != System.IntPtr.Zero) {
-			// 	ReadQRCode (capturedImage.capturedImage.ToInt64 ());
-			// }
 		}
-
-		// private Vector3 VideoTextureToViewportPoint(Vector2 videoTexturePoint) {
-		// 	Vector4 column0 = displayTransformInverse.GetColumn(0);
-		// 	Vector4 column1 = displayTransformInverse.GetColumn(1);
-		// 	float x = column0.x * videoTexturePoint.x + column0.y * videoTexturePoint.y + column0.z;
-		// 	float y = column1.x * videoTexturePoint.x + column1.y * videoTexturePoint.y + column1.z;
-		// 	return new Vector3 (x, y);
-		// }
-
-		// void OnReadQRCode(string arg) {
-		// 	float[] videoTexCorners = GetQRCodeCorners ();
-		//
-		// 	corners[0] = new Vector2 (videoTexCorners [0], videoTexCorners [1]);
-		// 	corners[1] = new Vector2 (videoTexCorners [2], videoTexCorners [3]);
-		// 	corners[2] = new Vector2 (videoTexCorners [4], videoTexCorners [5]);
-		// 	corners[3] = new Vector2 (videoTexCorners [6], videoTexCorners [7]);
-		//
-		// 	// corners[0] = VideoTextureToViewportPoint(new Vector2 (videoTexCorners [0], videoTexCorners [1]));
-		// 	// corners[1] = VideoTextureToViewportPoint(new Vector2 (videoTexCorners [2], videoTexCorners [3]));
-		// 	// corners[2] = VideoTextureToViewportPoint(new Vector2 (videoTexCorners [4], videoTexCorners [5]));
-		// 	// corners[3] = VideoTextureToViewportPoint(new Vector2 (videoTexCorners [6], videoTexCorners [7]));
-		//
-	  //       Debug.Log (videoTexCorners[0]);
-	  //       Debug.Log (corners[3]);
-		// }
 
 		void OnGetPossibleName(string arg) {
 			possible = GetPossibleName();
 		}
 
-		// void OnRenderObject() {
-		// 	material.SetPass (0);
-		//
-		// 	GL.PushMatrix ();
-		// 	GL.LoadOrtho ();
-		//
-		// 	GL.Begin (GL.QUADS);
-		//
-		// 	GL.Vertex (corners[0]);
-		// 	GL.Vertex (corners[1]);
-		// 	GL.Vertex (corners[3]);
-		// 	GL.Vertex (corners[2]);
-		//
-		// 	GL.End ();
-		// 	GL.PopMatrix ();
-		// }
 	}

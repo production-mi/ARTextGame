@@ -19598,6 +19598,13 @@ extern "C"  uint8_t Marshal_ReadByte_m536122811 (RuntimeObject * __this /* stati
 	using namespace il2cpp::icalls;
 	return  ((Marshal_ReadByte_m536122811_ftn)mscorlib::System::Runtime::InteropServices::Marshal::ReadByte) (___ptr0, ___ofs1);
 }
+// System.Int32 System.Runtime.InteropServices.Marshal::SizeOf(System.Type)
+extern "C"  int32_t Marshal_SizeOf_m2982427619 (RuntimeObject * __this /* static, unused */, Type_t * ___t0, const RuntimeMethod* method)
+{
+	typedef int32_t (*Marshal_SizeOf_m2982427619_ftn) (Type_t *);
+	using namespace il2cpp::icalls;
+	return  ((Marshal_SizeOf_m2982427619_ftn)mscorlib::System::Runtime::InteropServices::Marshal::SizeOf) (___t0);
+}
 // System.Void System.Runtime.InteropServices.Marshal::WriteByte(System.IntPtr,System.Int32,System.Byte)
 extern "C"  void Marshal_WriteByte_m2971909611 (RuntimeObject * __this /* static, unused */, intptr_t ___ptr0, int32_t ___ofs1, uint8_t ___val2, const RuntimeMethod* method)
 {

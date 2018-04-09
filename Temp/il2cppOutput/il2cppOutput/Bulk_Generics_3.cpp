@@ -18,6 +18,46 @@
 #include "codegen/il2cpp-codegen.h"
 #include "object-internals.h"
 
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.InputField/LineType>
+struct EqualityComparer_1_t1504954627;
+// System.Type
+struct Type_t;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>
+struct EqualityComparer_1_t145593767;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Scrollbar/Direction>
+struct EqualityComparer_1_t2270411192;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Selectable/Transition>
+struct EqualityComparer_1_t3473744736;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Slider/Direction>
+struct EqualityComparer_1_t98958593;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>
+struct EqualityComparer_1_t4221938579;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>
+struct EqualityComparer_1_t1630272071;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>
+struct EqualityComparer_1_t2194913145;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIVertex>
+struct EqualityComparer_1_t4072861385;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector2>
+struct EqualityComparer_1_t817342850;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector3>
+struct EqualityComparer_1_t817342851;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector4>
+struct EqualityComparer_1_t817342852;
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct EqualityComparer_1_t1849148296;
+// System.Collections.Generic.GenericComparer`1<System.Boolean>
+struct GenericComparer_1_t1563550222;
+// System.Collections.Generic.GenericComparer`1<System.Byte>
+struct GenericComparer_1_t1421079940;
+// System.Collections.Generic.GenericComparer`1<System.Char>
+struct GenericComparer_1_t1192456842;
+// System.Collections.Generic.GenericComparer`1<System.DateTime>
+struct GenericComparer_1_t2726148469;
+// System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>
+struct GenericComparer_1_t3395931706;
+// System.Collections.Generic.GenericComparer`1<System.Guid>
+struct GenericComparer_1_t271577097;
 // System.Collections.Generic.GenericComparer`1<System.Int32>
 struct GenericComparer_1_t4104820248;
 // System.Collections.Generic.GenericComparer`1<System.Object>
@@ -80,39 +120,59 @@ struct ArgumentNullException_t628810857;
 struct ArgumentException_t3259014390;
 // System.NotImplementedException
 struct NotImplementedException_t2785117854;
+// System.IntPtr[]
+struct IntPtrU5BU5D_t169632028;
+// System.Collections.IDictionary
+struct IDictionary_t596158605;
+// System.Int32[]
+struct Int32U5BU5D_t3030399641;
+// System.Collections.Generic.HashSet`1/Link<System.Object>[]
+struct LinkU5BU5D_t3597933550;
+// System.Char[]
+struct CharU5BU5D_t1328083999;
 // System.Collections.Hashtable
 struct Hashtable_t909839986;
 // System.Collections.ArrayList
 struct ArrayList_t4252133567;
 // System.Runtime.Serialization.IFormatterConverter
 struct IFormatterConverter_t1473156697;
-// System.Int32[]
-struct Int32U5BU5D_t3030399641;
-// System.Char[]
-struct CharU5BU5D_t1328083999;
-// System.Collections.Generic.HashSet`1/Link<System.Object>[]
-struct LinkU5BU5D_t3597933550;
-// System.IntPtr[]
-struct IntPtrU5BU5D_t169632028;
-// System.Collections.IDictionary
-struct IDictionary_t596158605;
-// UnityEngine.Sprite
-struct Sprite_t309593783;
 // System.Void
 struct Void_t1841601450;
-// System.Security.Cryptography.RandomNumberGenerator
-struct RandomNumberGenerator_t2510243513;
 // System.Byte
 struct Byte_t3683104436;
 // System.Double
 struct Double_t4078015681;
 // System.UInt16
 struct UInt16_t986882611;
-// UnityEngine.UI.Selectable
-struct Selectable_t1490392188;
+// UnityEngine.Sprite
+struct Sprite_t309593783;
+// System.Security.Cryptography.RandomNumberGenerator
+struct RandomNumberGenerator_t2510243513;
 // System.String[]
 struct StringU5BU5D_t1642385972;
+// UnityEngine.UI.Selectable
+struct Selectable_t1490392188;
+// System.Type[]
+struct TypeU5BU5D_t1664964607;
+// System.Reflection.MemberFilter
+struct MemberFilter_t3405857066;
 
+extern const RuntimeType* GenericEqualityComparer_1_t2202941003_0_0_0_var;
+extern RuntimeClass* Type_t_il2cpp_TypeInfo_var;
+extern RuntimeClass* TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var;
+extern const uint32_t EqualityComparer_1__cctor_m1409799842_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m656572377_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m3555705685_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m232418593_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m2291550712_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m1505141729_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m4227328699_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m3612636681_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m3435088969_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m173784124_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m550556087_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m2666196678_MetadataUsageId;
+extern const uint32_t EqualityComparer_1__cctor_m3654182831_MetadataUsageId;
 extern RuntimeClass* InvalidOperationException_t721527559_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2382073330;
 extern const uint32_t Enumerator_System_Collections_IEnumerator_get_Current_m2899861010_MetadataUsageId;
@@ -140,6 +200,7 @@ extern RuntimeClass* NotImplementedException_t2785117854_il2cpp_TypeInfo_var;
 extern const uint32_t HashSet_1_GetObjectData_m2935317189_MetadataUsageId;
 extern const uint32_t HashSet_1_OnDeserialization_m1222146673_MetadataUsageId;
 
+struct TypeU5BU5D_t1664964607;
 struct ObjectU5BU5D_t3614634134;
 struct Int32U5BU5D_t3030399641;
 struct LinkU5BU5D_t3597933550;
@@ -174,33 +235,33 @@ struct Il2CppArrayBounds;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEARRAY_H
-#ifndef EQUALITYCOMPARER_1_T650145203_H
-#define EQUALITYCOMPARER_1_T650145203_H
+#ifndef COMPARER_1_T1423610712_H
+#define COMPARER_1_T1423610712_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.EqualityComparer`1<System.Single>
-struct  EqualityComparer_1_t650145203  : public RuntimeObject
+// System.Collections.Generic.Comparer`1<System.Guid>
+struct  Comparer_1_t1423610712  : public RuntimeObject
 {
 public:
 
 public:
 };
 
-struct EqualityComparer_1_t650145203_StaticFields
+struct Comparer_1_t1423610712_StaticFields
 {
 public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t650145203 * ____default_0;
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t1423610712 * ____default_0;
 
 public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t650145203_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t650145203 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t650145203 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t650145203 * value)
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t1423610712_StaticFields, ____default_0)); }
+	inline Comparer_1_t1423610712 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t1423610712 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t1423610712 * value)
 	{
 		____default_0 = value;
 		Il2CppCodeGenWriteBarrier((&____default_0), value);
@@ -210,34 +271,34 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // EQUALITYCOMPARER_1_T650145203_H
-#ifndef EQUALITYCOMPARER_1_T1263084566_H
-#define EQUALITYCOMPARER_1_T1263084566_H
+#endif // COMPARER_1_T1423610712_H
+#ifndef COMPARER_1_T961886567_H
+#define COMPARER_1_T961886567_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.EqualityComparer`1<System.Object>
-struct  EqualityComparer_1_t1263084566  : public RuntimeObject
+// System.Collections.Generic.Comparer`1<System.Int32>
+struct  Comparer_1_t961886567  : public RuntimeObject
 {
 public:
 
 public:
 };
 
-struct EqualityComparer_1_t1263084566_StaticFields
+struct Comparer_1_t961886567_StaticFields
 {
 public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t1263084566 * ____default_0;
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t961886567 * ____default_0;
 
 public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t1263084566_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t1263084566 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t1263084566 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t1263084566 * value)
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t961886567_StaticFields, ____default_0)); }
+	inline Comparer_1_t961886567 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t961886567 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t961886567 * value)
 	{
 		____default_0 = value;
 		Il2CppCodeGenWriteBarrier((&____default_0), value);
@@ -247,34 +308,34 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // EQUALITYCOMPARER_1_T1263084566_H
-#ifndef EQUALITYCOMPARER_1_T645512719_H
-#define EQUALITYCOMPARER_1_T645512719_H
+#endif // COMPARER_1_T961886567_H
+#ifndef COMPARER_1_T1579458414_H
+#define COMPARER_1_T1579458414_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.EqualityComparer`1<System.Int32>
-struct  EqualityComparer_1_t645512719  : public RuntimeObject
+// System.Collections.Generic.Comparer`1<System.Object>
+struct  Comparer_1_t1579458414  : public RuntimeObject
 {
 public:
 
 public:
 };
 
-struct EqualityComparer_1_t645512719_StaticFields
+struct Comparer_1_t1579458414_StaticFields
 {
 public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t645512719 * ____default_0;
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t1579458414 * ____default_0;
 
 public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t645512719_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t645512719 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t645512719 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t645512719 * value)
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t1579458414_StaticFields, ____default_0)); }
+	inline Comparer_1_t1579458414 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t1579458414 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t1579458414 * value)
 	{
 		____default_0 = value;
 		Il2CppCodeGenWriteBarrier((&____default_0), value);
@@ -284,670 +345,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // EQUALITYCOMPARER_1_T645512719_H
-#ifndef EQUALITYCOMPARER_1_T2614881185_H
-#define EQUALITYCOMPARER_1_T2614881185_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<System.Int16>
-struct  EqualityComparer_1_t2614881185  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t2614881185_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t2614881185 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2614881185_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t2614881185 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t2614881185 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t2614881185 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T2614881185_H
-#ifndef EQUALITYCOMPARER_1_T1107236864_H
-#define EQUALITYCOMPARER_1_T1107236864_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<System.Guid>
-struct  EqualityComparer_1_t1107236864  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t1107236864_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t1107236864 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t1107236864_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t1107236864 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t1107236864 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t1107236864 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T1107236864_H
-#ifndef EQUALITYCOMPARER_1_T4231591473_H
-#define EQUALITYCOMPARER_1_T4231591473_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<System.DateTimeOffset>
-struct  EqualityComparer_1_t4231591473  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t4231591473_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t4231591473 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t4231591473_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t4231591473 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t4231591473 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t4231591473 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T4231591473_H
-#ifndef EQUALITYCOMPARER_1_T3561808236_H
-#define EQUALITYCOMPARER_1_T3561808236_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<System.DateTime>
-struct  EqualityComparer_1_t3561808236  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t3561808236_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t3561808236 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t3561808236_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t3561808236 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t3561808236 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t3561808236 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T3561808236_H
-#ifndef EQUALITYCOMPARER_1_T2028116609_H
-#define EQUALITYCOMPARER_1_T2028116609_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<System.Char>
-struct  EqualityComparer_1_t2028116609  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t2028116609_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t2028116609 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2028116609_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t2028116609 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t2028116609 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t2028116609 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T2028116609_H
-#ifndef EQUALITYCOMPARER_1_T2003894220_H
-#define EQUALITYCOMPARER_1_T2003894220_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<System.TimeSpan>
-struct  EqualityComparer_1_t2003894220  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t2003894220_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t2003894220 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2003894220_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t2003894220 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t2003894220 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t2003894220 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T2003894220_H
-#ifndef VALUETYPE_T3507792607_H
-#define VALUETYPE_T3507792607_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ValueType
-struct  ValueType_t3507792607  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t3507792607_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of System.ValueType
-struct ValueType_t3507792607_marshaled_com
-{
-};
-#endif // VALUETYPE_T3507792607_H
-#ifndef SERIALIZATIONINFO_T228987430_H
-#define SERIALIZATIONINFO_T228987430_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Runtime.Serialization.SerializationInfo
-struct  SerializationInfo_t228987430  : public RuntimeObject
-{
-public:
-	// System.Collections.Hashtable System.Runtime.Serialization.SerializationInfo::serialized
-	Hashtable_t909839986 * ___serialized_0;
-	// System.Collections.ArrayList System.Runtime.Serialization.SerializationInfo::values
-	ArrayList_t4252133567 * ___values_1;
-	// System.String System.Runtime.Serialization.SerializationInfo::assemblyName
-	String_t* ___assemblyName_2;
-	// System.String System.Runtime.Serialization.SerializationInfo::fullTypeName
-	String_t* ___fullTypeName_3;
-	// System.Runtime.Serialization.IFormatterConverter System.Runtime.Serialization.SerializationInfo::converter
-	RuntimeObject* ___converter_4;
-
-public:
-	inline static int32_t get_offset_of_serialized_0() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___serialized_0)); }
-	inline Hashtable_t909839986 * get_serialized_0() const { return ___serialized_0; }
-	inline Hashtable_t909839986 ** get_address_of_serialized_0() { return &___serialized_0; }
-	inline void set_serialized_0(Hashtable_t909839986 * value)
-	{
-		___serialized_0 = value;
-		Il2CppCodeGenWriteBarrier((&___serialized_0), value);
-	}
-
-	inline static int32_t get_offset_of_values_1() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___values_1)); }
-	inline ArrayList_t4252133567 * get_values_1() const { return ___values_1; }
-	inline ArrayList_t4252133567 ** get_address_of_values_1() { return &___values_1; }
-	inline void set_values_1(ArrayList_t4252133567 * value)
-	{
-		___values_1 = value;
-		Il2CppCodeGenWriteBarrier((&___values_1), value);
-	}
-
-	inline static int32_t get_offset_of_assemblyName_2() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___assemblyName_2)); }
-	inline String_t* get_assemblyName_2() const { return ___assemblyName_2; }
-	inline String_t** get_address_of_assemblyName_2() { return &___assemblyName_2; }
-	inline void set_assemblyName_2(String_t* value)
-	{
-		___assemblyName_2 = value;
-		Il2CppCodeGenWriteBarrier((&___assemblyName_2), value);
-	}
-
-	inline static int32_t get_offset_of_fullTypeName_3() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___fullTypeName_3)); }
-	inline String_t* get_fullTypeName_3() const { return ___fullTypeName_3; }
-	inline String_t** get_address_of_fullTypeName_3() { return &___fullTypeName_3; }
-	inline void set_fullTypeName_3(String_t* value)
-	{
-		___fullTypeName_3 = value;
-		Il2CppCodeGenWriteBarrier((&___fullTypeName_3), value);
-	}
-
-	inline static int32_t get_offset_of_converter_4() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___converter_4)); }
-	inline RuntimeObject* get_converter_4() const { return ___converter_4; }
-	inline RuntimeObject** get_address_of_converter_4() { return &___converter_4; }
-	inline void set_converter_4(RuntimeObject* value)
-	{
-		___converter_4 = value;
-		Il2CppCodeGenWriteBarrier((&___converter_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SERIALIZATIONINFO_T228987430_H
-#ifndef PRIMEHELPER_T1655716680_H
-#define PRIMEHELPER_T1655716680_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>
-struct  PrimeHelper_t1655716680  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct PrimeHelper_t1655716680_StaticFields
-{
-public:
-	// System.Int32[] System.Collections.Generic.HashSet`1/PrimeHelper::primes_table
-	Int32U5BU5D_t3030399641* ___primes_table_0;
-
-public:
-	inline static int32_t get_offset_of_primes_table_0() { return static_cast<int32_t>(offsetof(PrimeHelper_t1655716680_StaticFields, ___primes_table_0)); }
-	inline Int32U5BU5D_t3030399641* get_primes_table_0() const { return ___primes_table_0; }
-	inline Int32U5BU5D_t3030399641** get_address_of_primes_table_0() { return &___primes_table_0; }
-	inline void set_primes_table_0(Int32U5BU5D_t3030399641* value)
-	{
-		___primes_table_0 = value;
-		Il2CppCodeGenWriteBarrier((&___primes_table_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // PRIMEHELPER_T1655716680_H
-#ifndef STRING_T_H
-#define STRING_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.String
-struct  String_t  : public RuntimeObject
-{
-public:
-	// System.Int32 System.String::length
-	int32_t ___length_0;
-	// System.Char System.String::start_char
-	Il2CppChar ___start_char_1;
-
-public:
-	inline static int32_t get_offset_of_length_0() { return static_cast<int32_t>(offsetof(String_t, ___length_0)); }
-	inline int32_t get_length_0() const { return ___length_0; }
-	inline int32_t* get_address_of_length_0() { return &___length_0; }
-	inline void set_length_0(int32_t value)
-	{
-		___length_0 = value;
-	}
-
-	inline static int32_t get_offset_of_start_char_1() { return static_cast<int32_t>(offsetof(String_t, ___start_char_1)); }
-	inline Il2CppChar get_start_char_1() const { return ___start_char_1; }
-	inline Il2CppChar* get_address_of_start_char_1() { return &___start_char_1; }
-	inline void set_start_char_1(Il2CppChar value)
-	{
-		___start_char_1 = value;
-	}
-};
-
-struct String_t_StaticFields
-{
-public:
-	// System.String System.String::Empty
-	String_t* ___Empty_2;
-	// System.Char[] System.String::WhiteChars
-	CharU5BU5D_t1328083999* ___WhiteChars_3;
-
-public:
-	inline static int32_t get_offset_of_Empty_2() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___Empty_2)); }
-	inline String_t* get_Empty_2() const { return ___Empty_2; }
-	inline String_t** get_address_of_Empty_2() { return &___Empty_2; }
-	inline void set_Empty_2(String_t* value)
-	{
-		___Empty_2 = value;
-		Il2CppCodeGenWriteBarrier((&___Empty_2), value);
-	}
-
-	inline static int32_t get_offset_of_WhiteChars_3() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___WhiteChars_3)); }
-	inline CharU5BU5D_t1328083999* get_WhiteChars_3() const { return ___WhiteChars_3; }
-	inline CharU5BU5D_t1328083999** get_address_of_WhiteChars_3() { return &___WhiteChars_3; }
-	inline void set_WhiteChars_3(CharU5BU5D_t1328083999* value)
-	{
-		___WhiteChars_3 = value;
-		Il2CppCodeGenWriteBarrier((&___WhiteChars_3), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // STRING_T_H
-#ifndef HASHSET_1_T1022910149_H
-#define HASHSET_1_T1022910149_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.HashSet`1<System.Object>
-struct  HashSet_1_t1022910149  : public RuntimeObject
-{
-public:
-	// System.Int32[] System.Collections.Generic.HashSet`1::table
-	Int32U5BU5D_t3030399641* ___table_4;
-	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1::links
-	LinkU5BU5D_t3597933550* ___links_5;
-	// T[] System.Collections.Generic.HashSet`1::slots
-	ObjectU5BU5D_t3614634134* ___slots_6;
-	// System.Int32 System.Collections.Generic.HashSet`1::touched
-	int32_t ___touched_7;
-	// System.Int32 System.Collections.Generic.HashSet`1::empty_slot
-	int32_t ___empty_slot_8;
-	// System.Int32 System.Collections.Generic.HashSet`1::count
-	int32_t ___count_9;
-	// System.Int32 System.Collections.Generic.HashSet`1::threshold
-	int32_t ___threshold_10;
-	// System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1::comparer
-	RuntimeObject* ___comparer_11;
-	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.HashSet`1::si
-	SerializationInfo_t228987430 * ___si_12;
-	// System.Int32 System.Collections.Generic.HashSet`1::generation
-	int32_t ___generation_13;
-
-public:
-	inline static int32_t get_offset_of_table_4() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___table_4)); }
-	inline Int32U5BU5D_t3030399641* get_table_4() const { return ___table_4; }
-	inline Int32U5BU5D_t3030399641** get_address_of_table_4() { return &___table_4; }
-	inline void set_table_4(Int32U5BU5D_t3030399641* value)
-	{
-		___table_4 = value;
-		Il2CppCodeGenWriteBarrier((&___table_4), value);
-	}
-
-	inline static int32_t get_offset_of_links_5() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___links_5)); }
-	inline LinkU5BU5D_t3597933550* get_links_5() const { return ___links_5; }
-	inline LinkU5BU5D_t3597933550** get_address_of_links_5() { return &___links_5; }
-	inline void set_links_5(LinkU5BU5D_t3597933550* value)
-	{
-		___links_5 = value;
-		Il2CppCodeGenWriteBarrier((&___links_5), value);
-	}
-
-	inline static int32_t get_offset_of_slots_6() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___slots_6)); }
-	inline ObjectU5BU5D_t3614634134* get_slots_6() const { return ___slots_6; }
-	inline ObjectU5BU5D_t3614634134** get_address_of_slots_6() { return &___slots_6; }
-	inline void set_slots_6(ObjectU5BU5D_t3614634134* value)
-	{
-		___slots_6 = value;
-		Il2CppCodeGenWriteBarrier((&___slots_6), value);
-	}
-
-	inline static int32_t get_offset_of_touched_7() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___touched_7)); }
-	inline int32_t get_touched_7() const { return ___touched_7; }
-	inline int32_t* get_address_of_touched_7() { return &___touched_7; }
-	inline void set_touched_7(int32_t value)
-	{
-		___touched_7 = value;
-	}
-
-	inline static int32_t get_offset_of_empty_slot_8() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___empty_slot_8)); }
-	inline int32_t get_empty_slot_8() const { return ___empty_slot_8; }
-	inline int32_t* get_address_of_empty_slot_8() { return &___empty_slot_8; }
-	inline void set_empty_slot_8(int32_t value)
-	{
-		___empty_slot_8 = value;
-	}
-
-	inline static int32_t get_offset_of_count_9() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___count_9)); }
-	inline int32_t get_count_9() const { return ___count_9; }
-	inline int32_t* get_address_of_count_9() { return &___count_9; }
-	inline void set_count_9(int32_t value)
-	{
-		___count_9 = value;
-	}
-
-	inline static int32_t get_offset_of_threshold_10() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___threshold_10)); }
-	inline int32_t get_threshold_10() const { return ___threshold_10; }
-	inline int32_t* get_address_of_threshold_10() { return &___threshold_10; }
-	inline void set_threshold_10(int32_t value)
-	{
-		___threshold_10 = value;
-	}
-
-	inline static int32_t get_offset_of_comparer_11() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___comparer_11)); }
-	inline RuntimeObject* get_comparer_11() const { return ___comparer_11; }
-	inline RuntimeObject** get_address_of_comparer_11() { return &___comparer_11; }
-	inline void set_comparer_11(RuntimeObject* value)
-	{
-		___comparer_11 = value;
-		Il2CppCodeGenWriteBarrier((&___comparer_11), value);
-	}
-
-	inline static int32_t get_offset_of_si_12() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___si_12)); }
-	inline SerializationInfo_t228987430 * get_si_12() const { return ___si_12; }
-	inline SerializationInfo_t228987430 ** get_address_of_si_12() { return &___si_12; }
-	inline void set_si_12(SerializationInfo_t228987430 * value)
-	{
-		___si_12 = value;
-		Il2CppCodeGenWriteBarrier((&___si_12), value);
-	}
-
-	inline static int32_t get_offset_of_generation_13() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___generation_13)); }
-	inline int32_t get_generation_13() const { return ___generation_13; }
-	inline int32_t* get_address_of_generation_13() { return &___generation_13; }
-	inline void set_generation_13(int32_t value)
-	{
-		___generation_13 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // HASHSET_1_T1022910149_H
-#ifndef EQUALITYCOMPARER_1_T4221938579_H
-#define EQUALITYCOMPARER_1_T4221938579_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>
-struct  EqualityComparer_1_t4221938579  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t4221938579_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t4221938579 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t4221938579_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t4221938579 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t4221938579 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t4221938579 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T4221938579_H
-#ifndef EQUALITYCOMPARER_1_T145593767_H
-#define EQUALITYCOMPARER_1_T145593767_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>
-struct  EqualityComparer_1_t145593767  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t145593767_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t145593767 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t145593767_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t145593767 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t145593767 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t145593767 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T145593767_H
-#ifndef EQUALITYCOMPARER_1_T1226409501_H
-#define EQUALITYCOMPARER_1_T1226409501_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>
-struct  EqualityComparer_1_t1226409501  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t1226409501_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t1226409501 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t1226409501_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t1226409501 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t1226409501 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t1226409501 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T1226409501_H
+#endif // COMPARER_1_T1579458414_H
 #ifndef EXCEPTION_T1927440687_H
 #define EXCEPTION_T1927440687_H
 #ifdef __clang__
@@ -1086,191 +484,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // EXCEPTION_T1927440687_H
-#ifndef EQUALITYCOMPARER_1_T2399209989_H
-#define EQUALITYCOMPARER_1_T2399209989_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<System.Boolean>
-struct  EqualityComparer_1_t2399209989  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t2399209989_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t2399209989 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2399209989_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t2399209989 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t2399209989 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t2399209989 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T2399209989_H
-#ifndef COMPARER_1_T2320268068_H
-#define COMPARER_1_T2320268068_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Comparer`1<System.TimeSpan>
-struct  Comparer_1_t2320268068  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Comparer_1_t2320268068_StaticFields
-{
-public:
-	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
-	Comparer_1_t2320268068 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t2320268068_StaticFields, ____default_0)); }
-	inline Comparer_1_t2320268068 * get__default_0() const { return ____default_0; }
-	inline Comparer_1_t2320268068 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(Comparer_1_t2320268068 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARER_1_T2320268068_H
-#ifndef COMPARER_1_T961886567_H
-#define COMPARER_1_T961886567_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Comparer`1<System.Int32>
-struct  Comparer_1_t961886567  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Comparer_1_t961886567_StaticFields
-{
-public:
-	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
-	Comparer_1_t961886567 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t961886567_StaticFields, ____default_0)); }
-	inline Comparer_1_t961886567 * get__default_0() const { return ____default_0; }
-	inline Comparer_1_t961886567 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(Comparer_1_t961886567 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARER_1_T961886567_H
-#ifndef COMPARER_1_T1579458414_H
-#define COMPARER_1_T1579458414_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.Comparer`1<System.Object>
-struct  Comparer_1_t1579458414  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct Comparer_1_t1579458414_StaticFields
-{
-public:
-	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
-	Comparer_1_t1579458414 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t1579458414_StaticFields, ____default_0)); }
-	inline Comparer_1_t1579458414 * get__default_0() const { return ____default_0; }
-	inline Comparer_1_t1579458414 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(Comparer_1_t1579458414 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // COMPARER_1_T1579458414_H
-#ifndef EQUALITYCOMPARER_1_T2256739707_H
-#define EQUALITYCOMPARER_1_T2256739707_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.EqualityComparer`1<System.Byte>
-struct  EqualityComparer_1_t2256739707  : public RuntimeObject
-{
-public:
-
-public:
-};
-
-struct EqualityComparer_1_t2256739707_StaticFields
-{
-public:
-	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t2256739707 * ____default_0;
-
-public:
-	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2256739707_StaticFields, ____default_0)); }
-	inline EqualityComparer_1_t2256739707 * get__default_0() const { return ____default_0; }
-	inline EqualityComparer_1_t2256739707 ** get_address_of__default_0() { return &____default_0; }
-	inline void set__default_0(EqualityComparer_1_t2256739707 * value)
-	{
-		____default_0 = value;
-		Il2CppCodeGenWriteBarrier((&____default_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // EQUALITYCOMPARER_1_T2256739707_H
 #ifndef COMPARER_1_T966519051_H
 #define COMPARER_1_T966519051_H
 #ifdef __clang__
@@ -1308,26 +521,1703 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // COMPARER_1_T966519051_H
-#ifndef BYTE_T3683104436_H
-#define BYTE_T3683104436_H
+#ifndef COMPARER_1_T2320268068_H
+#define COMPARER_1_T2320268068_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Byte
-struct  Byte_t3683104436 
+// System.Collections.Generic.Comparer`1<System.TimeSpan>
+struct  Comparer_1_t2320268068  : public RuntimeObject
 {
 public:
-	// System.Byte System.Byte::m_value
-	uint8_t ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Byte_t3683104436, ___m_value_2)); }
-	inline uint8_t get_m_value_2() const { return ___m_value_2; }
-	inline uint8_t* get_address_of_m_value_2() { return &___m_value_2; }
-	inline void set_m_value_2(uint8_t value)
+};
+
+struct Comparer_1_t2320268068_StaticFields
+{
+public:
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t2320268068 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t2320268068_StaticFields, ____default_0)); }
+	inline Comparer_1_t2320268068 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t2320268068 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t2320268068 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARER_1_T2320268068_H
+#ifndef EQUALITYCOMPARER_1_T2399209989_H
+#define EQUALITYCOMPARER_1_T2399209989_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.Boolean>
+struct  EqualityComparer_1_t2399209989  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t2399209989_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t2399209989 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2399209989_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t2399209989 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t2399209989 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t2399209989 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T2399209989_H
+#ifndef COMPARER_1_T252998025_H
+#define COMPARER_1_T252998025_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Comparer`1<System.DateTimeOffset>
+struct  Comparer_1_t252998025  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Comparer_1_t252998025_StaticFields
+{
+public:
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t252998025 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t252998025_StaticFields, ____default_0)); }
+	inline Comparer_1_t252998025 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t252998025 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t252998025 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARER_1_T252998025_H
+#ifndef EQUALITYCOMPARER_1_T817342851_H
+#define EQUALITYCOMPARER_1_T817342851_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector3>
+struct  EqualityComparer_1_t817342851  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t817342851_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t817342851 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t817342851_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t817342851 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t817342851 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t817342851 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T817342851_H
+#ifndef EQUALITYCOMPARER_1_T817342852_H
+#define EQUALITYCOMPARER_1_T817342852_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector4>
+struct  EqualityComparer_1_t817342852  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t817342852_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t817342852 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t817342852_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t817342852 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t817342852 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t817342852 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T817342852_H
+#ifndef EQUALITYCOMPARER_1_T1849148296_H
+#define EQUALITYCOMPARER_1_T1849148296_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.iOS.ARHitTestResult>
+struct  EqualityComparer_1_t1849148296  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t1849148296_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t1849148296 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t1849148296_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t1849148296 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t1849148296 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t1849148296 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T1849148296_H
+#ifndef COMPARER_1_T2715583837_H
+#define COMPARER_1_T2715583837_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Comparer`1<System.Boolean>
+struct  Comparer_1_t2715583837  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Comparer_1_t2715583837_StaticFields
+{
+public:
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t2715583837 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t2715583837_StaticFields, ____default_0)); }
+	inline Comparer_1_t2715583837 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t2715583837 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t2715583837 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARER_1_T2715583837_H
+#ifndef COMPARER_1_T2573113555_H
+#define COMPARER_1_T2573113555_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Comparer`1<System.Byte>
+struct  Comparer_1_t2573113555  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Comparer_1_t2573113555_StaticFields
+{
+public:
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t2573113555 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t2573113555_StaticFields, ____default_0)); }
+	inline Comparer_1_t2573113555 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t2573113555 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t2573113555 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARER_1_T2573113555_H
+#ifndef COMPARER_1_T2344490457_H
+#define COMPARER_1_T2344490457_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Comparer`1<System.Char>
+struct  Comparer_1_t2344490457  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Comparer_1_t2344490457_StaticFields
+{
+public:
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t2344490457 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t2344490457_StaticFields, ____default_0)); }
+	inline Comparer_1_t2344490457 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t2344490457 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t2344490457 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARER_1_T2344490457_H
+#ifndef COMPARER_1_T3878182084_H
+#define COMPARER_1_T3878182084_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.Comparer`1<System.DateTime>
+struct  Comparer_1_t3878182084  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct Comparer_1_t3878182084_StaticFields
+{
+public:
+	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
+	Comparer_1_t3878182084 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(Comparer_1_t3878182084_StaticFields, ____default_0)); }
+	inline Comparer_1_t3878182084 * get__default_0() const { return ____default_0; }
+	inline Comparer_1_t3878182084 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(Comparer_1_t3878182084 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COMPARER_1_T3878182084_H
+#ifndef EQUALITYCOMPARER_1_T2256739707_H
+#define EQUALITYCOMPARER_1_T2256739707_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.Byte>
+struct  EqualityComparer_1_t2256739707  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t2256739707_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t2256739707 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2256739707_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t2256739707 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t2256739707 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t2256739707 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T2256739707_H
+#ifndef EQUALITYCOMPARER_1_T1226409501_H
+#define EQUALITYCOMPARER_1_T1226409501_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.ColorBlock>
+struct  EqualityComparer_1_t1226409501  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t1226409501_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t1226409501 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t1226409501_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t1226409501 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t1226409501 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t1226409501 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T1226409501_H
+#ifndef HASHSET_1_T1022910149_H
+#define HASHSET_1_T1022910149_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.HashSet`1<System.Object>
+struct  HashSet_1_t1022910149  : public RuntimeObject
+{
+public:
+	// System.Int32[] System.Collections.Generic.HashSet`1::table
+	Int32U5BU5D_t3030399641* ___table_4;
+	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1::links
+	LinkU5BU5D_t3597933550* ___links_5;
+	// T[] System.Collections.Generic.HashSet`1::slots
+	ObjectU5BU5D_t3614634134* ___slots_6;
+	// System.Int32 System.Collections.Generic.HashSet`1::touched
+	int32_t ___touched_7;
+	// System.Int32 System.Collections.Generic.HashSet`1::empty_slot
+	int32_t ___empty_slot_8;
+	// System.Int32 System.Collections.Generic.HashSet`1::count
+	int32_t ___count_9;
+	// System.Int32 System.Collections.Generic.HashSet`1::threshold
+	int32_t ___threshold_10;
+	// System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1::comparer
+	RuntimeObject* ___comparer_11;
+	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.HashSet`1::si
+	SerializationInfo_t228987430 * ___si_12;
+	// System.Int32 System.Collections.Generic.HashSet`1::generation
+	int32_t ___generation_13;
+
+public:
+	inline static int32_t get_offset_of_table_4() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___table_4)); }
+	inline Int32U5BU5D_t3030399641* get_table_4() const { return ___table_4; }
+	inline Int32U5BU5D_t3030399641** get_address_of_table_4() { return &___table_4; }
+	inline void set_table_4(Int32U5BU5D_t3030399641* value)
+	{
+		___table_4 = value;
+		Il2CppCodeGenWriteBarrier((&___table_4), value);
+	}
+
+	inline static int32_t get_offset_of_links_5() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___links_5)); }
+	inline LinkU5BU5D_t3597933550* get_links_5() const { return ___links_5; }
+	inline LinkU5BU5D_t3597933550** get_address_of_links_5() { return &___links_5; }
+	inline void set_links_5(LinkU5BU5D_t3597933550* value)
+	{
+		___links_5 = value;
+		Il2CppCodeGenWriteBarrier((&___links_5), value);
+	}
+
+	inline static int32_t get_offset_of_slots_6() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___slots_6)); }
+	inline ObjectU5BU5D_t3614634134* get_slots_6() const { return ___slots_6; }
+	inline ObjectU5BU5D_t3614634134** get_address_of_slots_6() { return &___slots_6; }
+	inline void set_slots_6(ObjectU5BU5D_t3614634134* value)
+	{
+		___slots_6 = value;
+		Il2CppCodeGenWriteBarrier((&___slots_6), value);
+	}
+
+	inline static int32_t get_offset_of_touched_7() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___touched_7)); }
+	inline int32_t get_touched_7() const { return ___touched_7; }
+	inline int32_t* get_address_of_touched_7() { return &___touched_7; }
+	inline void set_touched_7(int32_t value)
+	{
+		___touched_7 = value;
+	}
+
+	inline static int32_t get_offset_of_empty_slot_8() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___empty_slot_8)); }
+	inline int32_t get_empty_slot_8() const { return ___empty_slot_8; }
+	inline int32_t* get_address_of_empty_slot_8() { return &___empty_slot_8; }
+	inline void set_empty_slot_8(int32_t value)
+	{
+		___empty_slot_8 = value;
+	}
+
+	inline static int32_t get_offset_of_count_9() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___count_9)); }
+	inline int32_t get_count_9() const { return ___count_9; }
+	inline int32_t* get_address_of_count_9() { return &___count_9; }
+	inline void set_count_9(int32_t value)
+	{
+		___count_9 = value;
+	}
+
+	inline static int32_t get_offset_of_threshold_10() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___threshold_10)); }
+	inline int32_t get_threshold_10() const { return ___threshold_10; }
+	inline int32_t* get_address_of_threshold_10() { return &___threshold_10; }
+	inline void set_threshold_10(int32_t value)
+	{
+		___threshold_10 = value;
+	}
+
+	inline static int32_t get_offset_of_comparer_11() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___comparer_11)); }
+	inline RuntimeObject* get_comparer_11() const { return ___comparer_11; }
+	inline RuntimeObject** get_address_of_comparer_11() { return &___comparer_11; }
+	inline void set_comparer_11(RuntimeObject* value)
+	{
+		___comparer_11 = value;
+		Il2CppCodeGenWriteBarrier((&___comparer_11), value);
+	}
+
+	inline static int32_t get_offset_of_si_12() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___si_12)); }
+	inline SerializationInfo_t228987430 * get_si_12() const { return ___si_12; }
+	inline SerializationInfo_t228987430 ** get_address_of_si_12() { return &___si_12; }
+	inline void set_si_12(SerializationInfo_t228987430 * value)
+	{
+		___si_12 = value;
+		Il2CppCodeGenWriteBarrier((&___si_12), value);
+	}
+
+	inline static int32_t get_offset_of_generation_13() { return static_cast<int32_t>(offsetof(HashSet_1_t1022910149, ___generation_13)); }
+	inline int32_t get_generation_13() const { return ___generation_13; }
+	inline int32_t* get_address_of_generation_13() { return &___generation_13; }
+	inline void set_generation_13(int32_t value)
+	{
+		___generation_13 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // HASHSET_1_T1022910149_H
+#ifndef STRING_T_H
+#define STRING_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.String
+struct  String_t  : public RuntimeObject
+{
+public:
+	// System.Int32 System.String::length
+	int32_t ___length_0;
+	// System.Char System.String::start_char
+	Il2CppChar ___start_char_1;
+
+public:
+	inline static int32_t get_offset_of_length_0() { return static_cast<int32_t>(offsetof(String_t, ___length_0)); }
+	inline int32_t get_length_0() const { return ___length_0; }
+	inline int32_t* get_address_of_length_0() { return &___length_0; }
+	inline void set_length_0(int32_t value)
+	{
+		___length_0 = value;
+	}
+
+	inline static int32_t get_offset_of_start_char_1() { return static_cast<int32_t>(offsetof(String_t, ___start_char_1)); }
+	inline Il2CppChar get_start_char_1() const { return ___start_char_1; }
+	inline Il2CppChar* get_address_of_start_char_1() { return &___start_char_1; }
+	inline void set_start_char_1(Il2CppChar value)
+	{
+		___start_char_1 = value;
+	}
+};
+
+struct String_t_StaticFields
+{
+public:
+	// System.String System.String::Empty
+	String_t* ___Empty_2;
+	// System.Char[] System.String::WhiteChars
+	CharU5BU5D_t1328083999* ___WhiteChars_3;
+
+public:
+	inline static int32_t get_offset_of_Empty_2() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___Empty_2)); }
+	inline String_t* get_Empty_2() const { return ___Empty_2; }
+	inline String_t** get_address_of_Empty_2() { return &___Empty_2; }
+	inline void set_Empty_2(String_t* value)
+	{
+		___Empty_2 = value;
+		Il2CppCodeGenWriteBarrier((&___Empty_2), value);
+	}
+
+	inline static int32_t get_offset_of_WhiteChars_3() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___WhiteChars_3)); }
+	inline CharU5BU5D_t1328083999* get_WhiteChars_3() const { return ___WhiteChars_3; }
+	inline CharU5BU5D_t1328083999** get_address_of_WhiteChars_3() { return &___WhiteChars_3; }
+	inline void set_WhiteChars_3(CharU5BU5D_t1328083999* value)
+	{
+		___WhiteChars_3 = value;
+		Il2CppCodeGenWriteBarrier((&___WhiteChars_3), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // STRING_T_H
+#ifndef PRIMEHELPER_T1655716680_H
+#define PRIMEHELPER_T1655716680_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.HashSet`1/PrimeHelper<System.Object>
+struct  PrimeHelper_t1655716680  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct PrimeHelper_t1655716680_StaticFields
+{
+public:
+	// System.Int32[] System.Collections.Generic.HashSet`1/PrimeHelper::primes_table
+	Int32U5BU5D_t3030399641* ___primes_table_0;
+
+public:
+	inline static int32_t get_offset_of_primes_table_0() { return static_cast<int32_t>(offsetof(PrimeHelper_t1655716680_StaticFields, ___primes_table_0)); }
+	inline Int32U5BU5D_t3030399641* get_primes_table_0() const { return ___primes_table_0; }
+	inline Int32U5BU5D_t3030399641** get_address_of_primes_table_0() { return &___primes_table_0; }
+	inline void set_primes_table_0(Int32U5BU5D_t3030399641* value)
+	{
+		___primes_table_0 = value;
+		Il2CppCodeGenWriteBarrier((&___primes_table_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // PRIMEHELPER_T1655716680_H
+#ifndef SERIALIZATIONINFO_T228987430_H
+#define SERIALIZATIONINFO_T228987430_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Runtime.Serialization.SerializationInfo
+struct  SerializationInfo_t228987430  : public RuntimeObject
+{
+public:
+	// System.Collections.Hashtable System.Runtime.Serialization.SerializationInfo::serialized
+	Hashtable_t909839986 * ___serialized_0;
+	// System.Collections.ArrayList System.Runtime.Serialization.SerializationInfo::values
+	ArrayList_t4252133567 * ___values_1;
+	// System.String System.Runtime.Serialization.SerializationInfo::assemblyName
+	String_t* ___assemblyName_2;
+	// System.String System.Runtime.Serialization.SerializationInfo::fullTypeName
+	String_t* ___fullTypeName_3;
+	// System.Runtime.Serialization.IFormatterConverter System.Runtime.Serialization.SerializationInfo::converter
+	RuntimeObject* ___converter_4;
+
+public:
+	inline static int32_t get_offset_of_serialized_0() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___serialized_0)); }
+	inline Hashtable_t909839986 * get_serialized_0() const { return ___serialized_0; }
+	inline Hashtable_t909839986 ** get_address_of_serialized_0() { return &___serialized_0; }
+	inline void set_serialized_0(Hashtable_t909839986 * value)
+	{
+		___serialized_0 = value;
+		Il2CppCodeGenWriteBarrier((&___serialized_0), value);
+	}
+
+	inline static int32_t get_offset_of_values_1() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___values_1)); }
+	inline ArrayList_t4252133567 * get_values_1() const { return ___values_1; }
+	inline ArrayList_t4252133567 ** get_address_of_values_1() { return &___values_1; }
+	inline void set_values_1(ArrayList_t4252133567 * value)
+	{
+		___values_1 = value;
+		Il2CppCodeGenWriteBarrier((&___values_1), value);
+	}
+
+	inline static int32_t get_offset_of_assemblyName_2() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___assemblyName_2)); }
+	inline String_t* get_assemblyName_2() const { return ___assemblyName_2; }
+	inline String_t** get_address_of_assemblyName_2() { return &___assemblyName_2; }
+	inline void set_assemblyName_2(String_t* value)
+	{
+		___assemblyName_2 = value;
+		Il2CppCodeGenWriteBarrier((&___assemblyName_2), value);
+	}
+
+	inline static int32_t get_offset_of_fullTypeName_3() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___fullTypeName_3)); }
+	inline String_t* get_fullTypeName_3() const { return ___fullTypeName_3; }
+	inline String_t** get_address_of_fullTypeName_3() { return &___fullTypeName_3; }
+	inline void set_fullTypeName_3(String_t* value)
+	{
+		___fullTypeName_3 = value;
+		Il2CppCodeGenWriteBarrier((&___fullTypeName_3), value);
+	}
+
+	inline static int32_t get_offset_of_converter_4() { return static_cast<int32_t>(offsetof(SerializationInfo_t228987430, ___converter_4)); }
+	inline RuntimeObject* get_converter_4() const { return ___converter_4; }
+	inline RuntimeObject** get_address_of_converter_4() { return &___converter_4; }
+	inline void set_converter_4(RuntimeObject* value)
+	{
+		___converter_4 = value;
+		Il2CppCodeGenWriteBarrier((&___converter_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SERIALIZATIONINFO_T228987430_H
+#ifndef VALUETYPE_T3507792607_H
+#define VALUETYPE_T3507792607_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ValueType
+struct  ValueType_t3507792607  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t3507792607_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t3507792607_marshaled_com
+{
+};
+#endif // VALUETYPE_T3507792607_H
+#ifndef MEMBERINFO_T_H
+#define MEMBERINFO_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.MemberInfo
+struct  MemberInfo_t  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MEMBERINFO_T_H
+#ifndef EQUALITYCOMPARER_1_T2003894220_H
+#define EQUALITYCOMPARER_1_T2003894220_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.TimeSpan>
+struct  EqualityComparer_1_t2003894220  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t2003894220_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t2003894220 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2003894220_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t2003894220 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t2003894220 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t2003894220 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T2003894220_H
+#ifndef EQUALITYCOMPARER_1_T2028116609_H
+#define EQUALITYCOMPARER_1_T2028116609_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.Char>
+struct  EqualityComparer_1_t2028116609  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t2028116609_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t2028116609 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2028116609_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t2028116609 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t2028116609 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t2028116609 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T2028116609_H
+#ifndef EQUALITYCOMPARER_1_T3561808236_H
+#define EQUALITYCOMPARER_1_T3561808236_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.DateTime>
+struct  EqualityComparer_1_t3561808236  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t3561808236_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t3561808236 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t3561808236_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t3561808236 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t3561808236 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t3561808236 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T3561808236_H
+#ifndef EQUALITYCOMPARER_1_T4231591473_H
+#define EQUALITYCOMPARER_1_T4231591473_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.DateTimeOffset>
+struct  EqualityComparer_1_t4231591473  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t4231591473_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t4231591473 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t4231591473_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t4231591473 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t4231591473 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t4231591473 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T4231591473_H
+#ifndef EQUALITYCOMPARER_1_T1107236864_H
+#define EQUALITYCOMPARER_1_T1107236864_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.Guid>
+struct  EqualityComparer_1_t1107236864  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t1107236864_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t1107236864 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t1107236864_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t1107236864 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t1107236864 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t1107236864 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T1107236864_H
+#ifndef EQUALITYCOMPARER_1_T2614881185_H
+#define EQUALITYCOMPARER_1_T2614881185_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.Int16>
+struct  EqualityComparer_1_t2614881185  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t2614881185_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t2614881185 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2614881185_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t2614881185 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t2614881185 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t2614881185 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T2614881185_H
+#ifndef EQUALITYCOMPARER_1_T645512719_H
+#define EQUALITYCOMPARER_1_T645512719_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.Int32>
+struct  EqualityComparer_1_t645512719  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t645512719_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t645512719 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t645512719_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t645512719 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t645512719 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t645512719 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T645512719_H
+#ifndef EQUALITYCOMPARER_1_T1263084566_H
+#define EQUALITYCOMPARER_1_T1263084566_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.Object>
+struct  EqualityComparer_1_t1263084566  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t1263084566_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t1263084566 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t1263084566_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t1263084566 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t1263084566 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t1263084566 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T1263084566_H
+#ifndef EQUALITYCOMPARER_1_T650145203_H
+#define EQUALITYCOMPARER_1_T650145203_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<System.Single>
+struct  EqualityComparer_1_t650145203  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t650145203_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t650145203 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t650145203_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t650145203 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t650145203 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t650145203 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T650145203_H
+#ifndef EQUALITYCOMPARER_1_T817342850_H
+#define EQUALITYCOMPARER_1_T817342850_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector2>
+struct  EqualityComparer_1_t817342850  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t817342850_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t817342850 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t817342850_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t817342850 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t817342850 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t817342850 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T817342850_H
+#ifndef EQUALITYCOMPARER_1_T4072861385_H
+#define EQUALITYCOMPARER_1_T4072861385_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UIVertex>
+struct  EqualityComparer_1_t4072861385  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t4072861385_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t4072861385 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t4072861385_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t4072861385 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t4072861385 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t4072861385 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T4072861385_H
+#ifndef EQUALITYCOMPARER_1_T1504954627_H
+#define EQUALITYCOMPARER_1_T1504954627_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.InputField/LineType>
+struct  EqualityComparer_1_t1504954627  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t1504954627_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t1504954627 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t1504954627_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t1504954627 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t1504954627 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t1504954627 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T1504954627_H
+#ifndef EQUALITYCOMPARER_1_T4221938579_H
+#define EQUALITYCOMPARER_1_T4221938579_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>
+struct  EqualityComparer_1_t4221938579  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t4221938579_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t4221938579 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t4221938579_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t4221938579 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t4221938579 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t4221938579 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T4221938579_H
+#ifndef EQUALITYCOMPARER_1_T2270411192_H
+#define EQUALITYCOMPARER_1_T2270411192_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Scrollbar/Direction>
+struct  EqualityComparer_1_t2270411192  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t2270411192_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t2270411192 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2270411192_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t2270411192 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t2270411192 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t2270411192 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T2270411192_H
+#ifndef EQUALITYCOMPARER_1_T1630272071_H
+#define EQUALITYCOMPARER_1_T1630272071_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>
+struct  EqualityComparer_1_t1630272071  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t1630272071_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t1630272071 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t1630272071_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t1630272071 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t1630272071 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t1630272071 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T1630272071_H
+#ifndef EQUALITYCOMPARER_1_T2194913145_H
+#define EQUALITYCOMPARER_1_T2194913145_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>
+struct  EqualityComparer_1_t2194913145  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t2194913145_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t2194913145 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t2194913145_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t2194913145 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t2194913145 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t2194913145 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T2194913145_H
+#ifndef EQUALITYCOMPARER_1_T145593767_H
+#define EQUALITYCOMPARER_1_T145593767_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>
+struct  EqualityComparer_1_t145593767  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t145593767_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t145593767 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t145593767_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t145593767 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t145593767 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t145593767 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T145593767_H
+#ifndef EQUALITYCOMPARER_1_T98958593_H
+#define EQUALITYCOMPARER_1_T98958593_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Slider/Direction>
+struct  EqualityComparer_1_t98958593  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t98958593_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t98958593 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t98958593_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t98958593 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t98958593 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t98958593 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T98958593_H
+#ifndef EQUALITYCOMPARER_1_T3473744736_H
+#define EQUALITYCOMPARER_1_T3473744736_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Selectable/Transition>
+struct  EqualityComparer_1_t3473744736  : public RuntimeObject
+{
+public:
+
+public:
+};
+
+struct EqualityComparer_1_t3473744736_StaticFields
+{
+public:
+	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
+	EqualityComparer_1_t3473744736 * ____default_0;
+
+public:
+	inline static int32_t get_offset_of__default_0() { return static_cast<int32_t>(offsetof(EqualityComparer_1_t3473744736_StaticFields, ____default_0)); }
+	inline EqualityComparer_1_t3473744736 * get__default_0() const { return ____default_0; }
+	inline EqualityComparer_1_t3473744736 ** get_address_of__default_0() { return &____default_0; }
+	inline void set__default_0(EqualityComparer_1_t3473744736 * value)
+	{
+		____default_0 = value;
+		Il2CppCodeGenWriteBarrier((&____default_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // EQUALITYCOMPARER_1_T3473744736_H
+#ifndef GENERICEQUALITYCOMPARER_1_T3025128050_H
+#define GENERICEQUALITYCOMPARER_1_T3025128050_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.Int16>
+struct  GenericEqualityComparer_1_t3025128050  : public EqualityComparer_1_t2614881185
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T3025128050_H
+#ifndef GENERICEQUALITYCOMPARER_1_T3972055101_H
+#define GENERICEQUALITYCOMPARER_1_T3972055101_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.DateTime>
+struct  GenericEqualityComparer_1_t3972055101  : public EqualityComparer_1_t3561808236
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T3972055101_H
+#ifndef GENERICEQUALITYCOMPARER_1_T1060392068_H
+#define GENERICEQUALITYCOMPARER_1_T1060392068_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.Single>
+struct  GenericEqualityComparer_1_t1060392068  : public EqualityComparer_1_t650145203
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T1060392068_H
+#ifndef DEFAULTCOMPARER_T2227072330_H
+#define DEFAULTCOMPARER_T2227072330_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.Selectable/Transition>
+struct  DefaultComparer_t2227072330  : public EqualityComparer_1_t3473744736
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTCOMPARER_T2227072330_H
+#ifndef GENERICEQUALITYCOMPARER_1_T2414141085_H
+#define GENERICEQUALITYCOMPARER_1_T2414141085_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.TimeSpan>
+struct  GenericEqualityComparer_1_t2414141085  : public EqualityComparer_1_t2003894220
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T2414141085_H
+#ifndef DEFAULTCOMPARER_T3193888657_H
+#define DEFAULTCOMPARER_T3193888657_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.Navigation>
+struct  DefaultComparer_t3193888657  : public EqualityComparer_1_t145593767
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTCOMPARER_T3193888657_H
+#ifndef DEFAULTCOMPARER_T1023738786_H
+#define DEFAULTCOMPARER_T1023738786_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.Scrollbar/Direction>
+struct  DefaultComparer_t1023738786  : public EqualityComparer_1_t2270411192
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTCOMPARER_T1023738786_H
+#ifndef GENERICEQUALITYCOMPARER_1_T1517483729_H
+#define GENERICEQUALITYCOMPARER_1_T1517483729_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.Guid>
+struct  GenericEqualityComparer_1_t1517483729  : public EqualityComparer_1_t1107236864
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T1517483729_H
+#ifndef GENERICEQUALITYCOMPARER_1_T346871042_H
+#define GENERICEQUALITYCOMPARER_1_T346871042_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.DateTimeOffset>
+struct  GenericEqualityComparer_1_t346871042  : public EqualityComparer_1_t4231591473
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T346871042_H
+#ifndef INT16_T4041245914_H
+#define INT16_T4041245914_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Int16
+struct  Int16_t4041245914 
+{
+public:
+	// System.Int16 System.Int16::m_value
+	int16_t ___m_value_2;
+
+public:
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int16_t4041245914, ___m_value_2)); }
+	inline int16_t get_m_value_2() const { return ___m_value_2; }
+	inline int16_t* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(int16_t value)
 	{
 		___m_value_2 = value;
 	}
@@ -1336,46 +2226,610 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BYTE_T3683104436_H
-#ifndef LINK_T865133271_H
-#define LINK_T865133271_H
+#endif // INT16_T4041245914_H
+#ifndef GENERICEQUALITYCOMPARER_1_T1055759584_H
+#define GENERICEQUALITYCOMPARER_1_T1055759584_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.HashSet`1/Link<System.Object>
-struct  Link_t865133271 
+// System.Collections.Generic.GenericEqualityComparer`1<System.Int32>
+struct  GenericEqualityComparer_1_t1055759584  : public EqualityComparer_1_t645512719
 {
 public:
-	// System.Int32 System.Collections.Generic.HashSet`1/Link::HashCode
-	int32_t ___HashCode_0;
-	// System.Int32 System.Collections.Generic.HashSet`1/Link::Next
-	int32_t ___Next_1;
 
 public:
-	inline static int32_t get_offset_of_HashCode_0() { return static_cast<int32_t>(offsetof(Link_t865133271, ___HashCode_0)); }
-	inline int32_t get_HashCode_0() const { return ___HashCode_0; }
-	inline int32_t* get_address_of_HashCode_0() { return &___HashCode_0; }
-	inline void set_HashCode_0(int32_t value)
-	{
-		___HashCode_0 = value;
-	}
+};
 
-	inline static int32_t get_offset_of_Next_1() { return static_cast<int32_t>(offsetof(Link_t865133271, ___Next_1)); }
-	inline int32_t get_Next_1() const { return ___Next_1; }
-	inline int32_t* get_address_of_Next_1() { return &___Next_1; }
-	inline void set_Next_1(int32_t value)
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T1055759584_H
+#ifndef GENERICEQUALITYCOMPARER_1_T1673331431_H
+#define GENERICEQUALITYCOMPARER_1_T1673331431_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.Object>
+struct  GenericEqualityComparer_1_t1673331431  : public EqualityComparer_1_t1263084566
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T1673331431_H
+#ifndef GENERICEQUALITYCOMPARER_1_T1636656366_H
+#define GENERICEQUALITYCOMPARER_1_T1636656366_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<UnityEngine.UI.ColorBlock>
+struct  GenericEqualityComparer_1_t1636656366  : public EqualityComparer_1_t1226409501
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T1636656366_H
+#ifndef INTPTR_T_H
+#define INTPTR_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.IntPtr
+struct  IntPtr_t 
+{
+public:
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
+	inline void* get_m_value_0() const { return ___m_value_0; }
+	inline void** get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(void* value)
 	{
-		___Next_1 = value;
+		___m_value_0 = value;
+	}
+};
+
+struct IntPtr_t_StaticFields
+{
+public:
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+
+public:
+	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
+	inline intptr_t get_Zero_1() const { return ___Zero_1; }
+	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
+	inline void set_Zero_1(intptr_t value)
+	{
+		___Zero_1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // LINK_T865133271_H
+#endif // INTPTR_T_H
+#ifndef ENUM_T2459695545_H
+#define ENUM_T2459695545_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Enum
+struct  Enum_t2459695545  : public ValueType_t3507792607
+{
+public:
+
+public:
+};
+
+struct Enum_t2459695545_StaticFields
+{
+public:
+	// System.Char[] System.Enum::split_char
+	CharU5BU5D_t1328083999* ___split_char_0;
+
+public:
+	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t2459695545_StaticFields, ___split_char_0)); }
+	inline CharU5BU5D_t1328083999* get_split_char_0() const { return ___split_char_0; }
+	inline CharU5BU5D_t1328083999** get_address_of_split_char_0() { return &___split_char_0; }
+	inline void set_split_char_0(CharU5BU5D_t1328083999* value)
+	{
+		___split_char_0 = value;
+		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2459695545_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2459695545_marshaled_com
+{
+};
+#endif // ENUM_T2459695545_H
+#ifndef COLOR32_T874517518_H
+#define COLOR32_T874517518_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Color32
+struct ALIGN_TYPE(4) Color32_t874517518 
+{
+public:
+	// System.Byte UnityEngine.Color32::r
+	uint8_t ___r_0;
+	// System.Byte UnityEngine.Color32::g
+	uint8_t ___g_1;
+	// System.Byte UnityEngine.Color32::b
+	uint8_t ___b_2;
+	// System.Byte UnityEngine.Color32::a
+	uint8_t ___a_3;
+
+public:
+	inline static int32_t get_offset_of_r_0() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___r_0)); }
+	inline uint8_t get_r_0() const { return ___r_0; }
+	inline uint8_t* get_address_of_r_0() { return &___r_0; }
+	inline void set_r_0(uint8_t value)
+	{
+		___r_0 = value;
+	}
+
+	inline static int32_t get_offset_of_g_1() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___g_1)); }
+	inline uint8_t get_g_1() const { return ___g_1; }
+	inline uint8_t* get_address_of_g_1() { return &___g_1; }
+	inline void set_g_1(uint8_t value)
+	{
+		___g_1 = value;
+	}
+
+	inline static int32_t get_offset_of_b_2() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___b_2)); }
+	inline uint8_t get_b_2() const { return ___b_2; }
+	inline uint8_t* get_address_of_b_2() { return &___b_2; }
+	inline void set_b_2(uint8_t value)
+	{
+		___b_2 = value;
+	}
+
+	inline static int32_t get_offset_of_a_3() { return static_cast<int32_t>(offsetof(Color32_t874517518, ___a_3)); }
+	inline uint8_t get_a_3() const { return ___a_3; }
+	inline uint8_t* get_address_of_a_3() { return &___a_3; }
+	inline void set_a_3(uint8_t value)
+	{
+		___a_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLOR32_T874517518_H
+#ifndef MATRIX4X4_T2933234003_H
+#define MATRIX4X4_T2933234003_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Matrix4x4
+struct  Matrix4x4_t2933234003 
+{
+public:
+	// System.Single UnityEngine.Matrix4x4::m00
+	float ___m00_0;
+	// System.Single UnityEngine.Matrix4x4::m10
+	float ___m10_1;
+	// System.Single UnityEngine.Matrix4x4::m20
+	float ___m20_2;
+	// System.Single UnityEngine.Matrix4x4::m30
+	float ___m30_3;
+	// System.Single UnityEngine.Matrix4x4::m01
+	float ___m01_4;
+	// System.Single UnityEngine.Matrix4x4::m11
+	float ___m11_5;
+	// System.Single UnityEngine.Matrix4x4::m21
+	float ___m21_6;
+	// System.Single UnityEngine.Matrix4x4::m31
+	float ___m31_7;
+	// System.Single UnityEngine.Matrix4x4::m02
+	float ___m02_8;
+	// System.Single UnityEngine.Matrix4x4::m12
+	float ___m12_9;
+	// System.Single UnityEngine.Matrix4x4::m22
+	float ___m22_10;
+	// System.Single UnityEngine.Matrix4x4::m32
+	float ___m32_11;
+	// System.Single UnityEngine.Matrix4x4::m03
+	float ___m03_12;
+	// System.Single UnityEngine.Matrix4x4::m13
+	float ___m13_13;
+	// System.Single UnityEngine.Matrix4x4::m23
+	float ___m23_14;
+	// System.Single UnityEngine.Matrix4x4::m33
+	float ___m33_15;
+
+public:
+	inline static int32_t get_offset_of_m00_0() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m00_0)); }
+	inline float get_m00_0() const { return ___m00_0; }
+	inline float* get_address_of_m00_0() { return &___m00_0; }
+	inline void set_m00_0(float value)
+	{
+		___m00_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m10_1() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m10_1)); }
+	inline float get_m10_1() const { return ___m10_1; }
+	inline float* get_address_of_m10_1() { return &___m10_1; }
+	inline void set_m10_1(float value)
+	{
+		___m10_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m20_2() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m20_2)); }
+	inline float get_m20_2() const { return ___m20_2; }
+	inline float* get_address_of_m20_2() { return &___m20_2; }
+	inline void set_m20_2(float value)
+	{
+		___m20_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m30_3() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m30_3)); }
+	inline float get_m30_3() const { return ___m30_3; }
+	inline float* get_address_of_m30_3() { return &___m30_3; }
+	inline void set_m30_3(float value)
+	{
+		___m30_3 = value;
+	}
+
+	inline static int32_t get_offset_of_m01_4() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m01_4)); }
+	inline float get_m01_4() const { return ___m01_4; }
+	inline float* get_address_of_m01_4() { return &___m01_4; }
+	inline void set_m01_4(float value)
+	{
+		___m01_4 = value;
+	}
+
+	inline static int32_t get_offset_of_m11_5() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m11_5)); }
+	inline float get_m11_5() const { return ___m11_5; }
+	inline float* get_address_of_m11_5() { return &___m11_5; }
+	inline void set_m11_5(float value)
+	{
+		___m11_5 = value;
+	}
+
+	inline static int32_t get_offset_of_m21_6() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m21_6)); }
+	inline float get_m21_6() const { return ___m21_6; }
+	inline float* get_address_of_m21_6() { return &___m21_6; }
+	inline void set_m21_6(float value)
+	{
+		___m21_6 = value;
+	}
+
+	inline static int32_t get_offset_of_m31_7() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m31_7)); }
+	inline float get_m31_7() const { return ___m31_7; }
+	inline float* get_address_of_m31_7() { return &___m31_7; }
+	inline void set_m31_7(float value)
+	{
+		___m31_7 = value;
+	}
+
+	inline static int32_t get_offset_of_m02_8() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m02_8)); }
+	inline float get_m02_8() const { return ___m02_8; }
+	inline float* get_address_of_m02_8() { return &___m02_8; }
+	inline void set_m02_8(float value)
+	{
+		___m02_8 = value;
+	}
+
+	inline static int32_t get_offset_of_m12_9() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m12_9)); }
+	inline float get_m12_9() const { return ___m12_9; }
+	inline float* get_address_of_m12_9() { return &___m12_9; }
+	inline void set_m12_9(float value)
+	{
+		___m12_9 = value;
+	}
+
+	inline static int32_t get_offset_of_m22_10() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m22_10)); }
+	inline float get_m22_10() const { return ___m22_10; }
+	inline float* get_address_of_m22_10() { return &___m22_10; }
+	inline void set_m22_10(float value)
+	{
+		___m22_10 = value;
+	}
+
+	inline static int32_t get_offset_of_m32_11() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m32_11)); }
+	inline float get_m32_11() const { return ___m32_11; }
+	inline float* get_address_of_m32_11() { return &___m32_11; }
+	inline void set_m32_11(float value)
+	{
+		___m32_11 = value;
+	}
+
+	inline static int32_t get_offset_of_m03_12() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m03_12)); }
+	inline float get_m03_12() const { return ___m03_12; }
+	inline float* get_address_of_m03_12() { return &___m03_12; }
+	inline void set_m03_12(float value)
+	{
+		___m03_12 = value;
+	}
+
+	inline static int32_t get_offset_of_m13_13() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m13_13)); }
+	inline float get_m13_13() const { return ___m13_13; }
+	inline float* get_address_of_m13_13() { return &___m13_13; }
+	inline void set_m13_13(float value)
+	{
+		___m13_13 = value;
+	}
+
+	inline static int32_t get_offset_of_m23_14() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m23_14)); }
+	inline float get_m23_14() const { return ___m23_14; }
+	inline float* get_address_of_m23_14() { return &___m23_14; }
+	inline void set_m23_14(float value)
+	{
+		___m23_14 = value;
+	}
+
+	inline static int32_t get_offset_of_m33_15() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003, ___m33_15)); }
+	inline float get_m33_15() const { return ___m33_15; }
+	inline float* get_address_of_m33_15() { return &___m33_15; }
+	inline void set_m33_15(float value)
+	{
+		___m33_15 = value;
+	}
+};
+
+struct Matrix4x4_t2933234003_StaticFields
+{
+public:
+	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::zeroMatrix
+	Matrix4x4_t2933234003  ___zeroMatrix_16;
+	// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::identityMatrix
+	Matrix4x4_t2933234003  ___identityMatrix_17;
+
+public:
+	inline static int32_t get_offset_of_zeroMatrix_16() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003_StaticFields, ___zeroMatrix_16)); }
+	inline Matrix4x4_t2933234003  get_zeroMatrix_16() const { return ___zeroMatrix_16; }
+	inline Matrix4x4_t2933234003 * get_address_of_zeroMatrix_16() { return &___zeroMatrix_16; }
+	inline void set_zeroMatrix_16(Matrix4x4_t2933234003  value)
+	{
+		___zeroMatrix_16 = value;
+	}
+
+	inline static int32_t get_offset_of_identityMatrix_17() { return static_cast<int32_t>(offsetof(Matrix4x4_t2933234003_StaticFields, ___identityMatrix_17)); }
+	inline Matrix4x4_t2933234003  get_identityMatrix_17() const { return ___identityMatrix_17; }
+	inline Matrix4x4_t2933234003 * get_address_of_identityMatrix_17() { return &___identityMatrix_17; }
+	inline void set_identityMatrix_17(Matrix4x4_t2933234003  value)
+	{
+		___identityMatrix_17 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // MATRIX4X4_T2933234003_H
+#ifndef COLOR_T2020392075_H
+#define COLOR_T2020392075_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Color
+struct  Color_t2020392075 
+{
+public:
+	// System.Single UnityEngine.Color::r
+	float ___r_0;
+	// System.Single UnityEngine.Color::g
+	float ___g_1;
+	// System.Single UnityEngine.Color::b
+	float ___b_2;
+	// System.Single UnityEngine.Color::a
+	float ___a_3;
+
+public:
+	inline static int32_t get_offset_of_r_0() { return static_cast<int32_t>(offsetof(Color_t2020392075, ___r_0)); }
+	inline float get_r_0() const { return ___r_0; }
+	inline float* get_address_of_r_0() { return &___r_0; }
+	inline void set_r_0(float value)
+	{
+		___r_0 = value;
+	}
+
+	inline static int32_t get_offset_of_g_1() { return static_cast<int32_t>(offsetof(Color_t2020392075, ___g_1)); }
+	inline float get_g_1() const { return ___g_1; }
+	inline float* get_address_of_g_1() { return &___g_1; }
+	inline void set_g_1(float value)
+	{
+		___g_1 = value;
+	}
+
+	inline static int32_t get_offset_of_b_2() { return static_cast<int32_t>(offsetof(Color_t2020392075, ___b_2)); }
+	inline float get_b_2() const { return ___b_2; }
+	inline float* get_address_of_b_2() { return &___b_2; }
+	inline void set_b_2(float value)
+	{
+		___b_2 = value;
+	}
+
+	inline static int32_t get_offset_of_a_3() { return static_cast<int32_t>(offsetof(Color_t2020392075, ___a_3)); }
+	inline float get_a_3() const { return ___a_3; }
+	inline float* get_address_of_a_3() { return &___a_3; }
+	inline void set_a_3(float value)
+	{
+		___a_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // COLOR_T2020392075_H
+#ifndef SYSTEMEXCEPTION_T3877406272_H
+#define SYSTEMEXCEPTION_T3877406272_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.SystemException
+struct  SystemException_t3877406272  : public Exception_t1927440687
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SYSTEMEXCEPTION_T3877406272_H
+#ifndef U24ARRAYTYPEU24120_T116038563_H
+#define U24ARRAYTYPEU24120_T116038563_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$120
+struct  U24ArrayTypeU24120_t116038563 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU24120_t116038563__padding[120];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU24120_T116038563_H
+#ifndef U24ARRAYTYPEU24256_T2038352956_H
+#define U24ARRAYTYPEU24256_T2038352956_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$256
+struct  U24ArrayTypeU24256_t2038352956 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU24256_t2038352956__padding[256];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU24256_T2038352956_H
+#ifndef U24ARRAYTYPEU241024_T2672183895_H
+#define U24ARRAYTYPEU241024_T2672183895_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$1024
+struct  U24ArrayTypeU241024_t2672183895 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU241024_t2672183895__padding[1024];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU241024_T2672183895_H
+#ifndef VOID_T1841601450_H
+#define VOID_T1841601450_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Void
+struct  Void_t1841601450 
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // VOID_T1841601450_H
 #ifndef INT32_T2071877448_H
 #define INT32_T2071877448_H
 #ifdef __clang__
@@ -1405,16 +2859,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INT32_T2071877448_H
-#ifndef GENERICCOMPARER_1_T427424799_H
-#define GENERICCOMPARER_1_T427424799_H
+#ifndef GENERICEQUALITYCOMPARER_1_T555840632_H
+#define GENERICEQUALITYCOMPARER_1_T555840632_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.GenericComparer`1<System.Object>
-struct  GenericComparer_1_t427424799  : public Comparer_1_t1579458414
+// System.Collections.Generic.GenericEqualityComparer`1<UnityEngine.UI.Navigation>
+struct  GenericEqualityComparer_1_t555840632  : public EqualityComparer_1_t145593767
 {
 public:
 
@@ -1424,7 +2878,27 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // GENERICCOMPARER_1_T427424799_H
+#endif // GENERICEQUALITYCOMPARER_1_T555840632_H
+#ifndef GENERICEQUALITYCOMPARER_1_T337218148_H
+#define GENERICEQUALITYCOMPARER_1_T337218148_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<UnityEngine.UI.SpriteState>
+struct  GenericEqualityComparer_1_t337218148  : public EqualityComparer_1_t4221938579
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T337218148_H
 #ifndef ENUMERATOR_T3806193287_H
 #define ENUMERATOR_T3806193287_H
 #ifdef __clang__
@@ -1486,16 +2960,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // ENUMERATOR_T3806193287_H
-#ifndef GENERICEQUALITYCOMPARER_1_T555840632_H
-#define GENERICEQUALITYCOMPARER_1_T555840632_H
+#ifndef DEFAULTCOMPARER_T258282221_H
+#define DEFAULTCOMPARER_T258282221_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.GenericEqualityComparer`1<UnityEngine.UI.Navigation>
-struct  GenericEqualityComparer_1_t555840632  : public EqualityComparer_1_t145593767
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.InputField/LineType>
+struct  DefaultComparer_t258282221  : public EqualityComparer_1_t1504954627
 {
 public:
 
@@ -1505,7 +2979,222 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // GENERICEQUALITYCOMPARER_1_T555840632_H
+#endif // DEFAULTCOMPARER_T258282221_H
+#ifndef BOOLEAN_T3825574718_H
+#define BOOLEAN_T3825574718_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Boolean
+struct  Boolean_t3825574718 
+{
+public:
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_2;
+
+public:
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t3825574718, ___m_value_2)); }
+	inline bool get_m_value_2() const { return ___m_value_2; }
+	inline bool* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(bool value)
+	{
+		___m_value_2 = value;
+	}
+};
+
+struct Boolean_t3825574718_StaticFields
+{
+public:
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_0;
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_1;
+
+public:
+	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t3825574718_StaticFields, ___FalseString_0)); }
+	inline String_t* get_FalseString_0() const { return ___FalseString_0; }
+	inline String_t** get_address_of_FalseString_0() { return &___FalseString_0; }
+	inline void set_FalseString_0(String_t* value)
+	{
+		___FalseString_0 = value;
+		Il2CppCodeGenWriteBarrier((&___FalseString_0), value);
+	}
+
+	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t3825574718_StaticFields, ___TrueString_1)); }
+	inline String_t* get_TrueString_1() const { return ___TrueString_1; }
+	inline String_t** get_address_of_TrueString_1() { return &___TrueString_1; }
+	inline void set_TrueString_1(String_t* value)
+	{
+		___TrueString_1 = value;
+		Il2CppCodeGenWriteBarrier((&___TrueString_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BOOLEAN_T3825574718_H
+#ifndef LINK_T865133271_H
+#define LINK_T865133271_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.HashSet`1/Link<System.Object>
+struct  Link_t865133271 
+{
+public:
+	// System.Int32 System.Collections.Generic.HashSet`1/Link::HashCode
+	int32_t ___HashCode_0;
+	// System.Int32 System.Collections.Generic.HashSet`1/Link::Next
+	int32_t ___Next_1;
+
+public:
+	inline static int32_t get_offset_of_HashCode_0() { return static_cast<int32_t>(offsetof(Link_t865133271, ___HashCode_0)); }
+	inline int32_t get_HashCode_0() const { return ___HashCode_0; }
+	inline int32_t* get_address_of_HashCode_0() { return &___HashCode_0; }
+	inline void set_HashCode_0(int32_t value)
+	{
+		___HashCode_0 = value;
+	}
+
+	inline static int32_t get_offset_of_Next_1() { return static_cast<int32_t>(offsetof(Link_t865133271, ___Next_1)); }
+	inline int32_t get_Next_1() const { return ___Next_1; }
+	inline int32_t* get_address_of_Next_1() { return &___Next_1; }
+	inline void set_Next_1(int32_t value)
+	{
+		___Next_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // LINK_T865133271_H
+#ifndef U24ARRAYTYPEU24136_T2844921916_H
+#define U24ARRAYTYPEU24136_T2844921916_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <PrivateImplementationDetails>/$ArrayType$136
+struct  U24ArrayTypeU24136_t2844921916 
+{
+public:
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t U24ArrayTypeU24136_t2844921916__padding[136];
+	};
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // U24ARRAYTYPEU24136_T2844921916_H
+#ifndef DOUBLE_T4078015681_H
+#define DOUBLE_T4078015681_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Double
+struct  Double_t4078015681 
+{
+public:
+	// System.Double System.Double::m_value
+	double ___m_value_13;
+
+public:
+	inline static int32_t get_offset_of_m_value_13() { return static_cast<int32_t>(offsetof(Double_t4078015681, ___m_value_13)); }
+	inline double get_m_value_13() const { return ___m_value_13; }
+	inline double* get_address_of_m_value_13() { return &___m_value_13; }
+	inline void set_m_value_13(double value)
+	{
+		___m_value_13 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DOUBLE_T4078015681_H
+#ifndef GENERICEQUALITYCOMPARER_1_T2438363474_H
+#define GENERICEQUALITYCOMPARER_1_T2438363474_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.Char>
+struct  GenericEqualityComparer_1_t2438363474  : public EqualityComparer_1_t2028116609
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T2438363474_H
+#ifndef GENERICCOMPARER_1_T1421079940_H
+#define GENERICCOMPARER_1_T1421079940_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericComparer`1<System.Byte>
+struct  GenericComparer_1_t1421079940  : public Comparer_1_t2573113555
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICCOMPARER_1_T1421079940_H
+#ifndef DEFAULTCOMPARER_T948240739_H
+#define DEFAULTCOMPARER_T948240739_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UILineInfo>
+struct  DefaultComparer_t948240739  : public EqualityComparer_1_t2194913145
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTCOMPARER_T948240739_H
 #ifndef GENERICCOMPARER_1_T4109452732_H
 #define GENERICCOMPARER_1_T4109452732_H
 #ifdef __clang__
@@ -1526,6 +3215,833 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // GENERICCOMPARER_1_T4109452732_H
+#ifndef BYTE_T3683104436_H
+#define BYTE_T3683104436_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Byte
+struct  Byte_t3683104436 
+{
+public:
+	// System.Byte System.Byte::m_value
+	uint8_t ___m_value_2;
+
+public:
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Byte_t3683104436, ___m_value_2)); }
+	inline uint8_t get_m_value_2() const { return ___m_value_2; }
+	inline uint8_t* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(uint8_t value)
+	{
+		___m_value_2 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BYTE_T3683104436_H
+#ifndef GENERICCOMPARER_1_T1192456842_H
+#define GENERICCOMPARER_1_T1192456842_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericComparer`1<System.Char>
+struct  GenericComparer_1_t1192456842  : public Comparer_1_t2344490457
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICCOMPARER_1_T1192456842_H
+#ifndef CHAR_T3454481338_H
+#define CHAR_T3454481338_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Char
+struct  Char_t3454481338 
+{
+public:
+	// System.Char System.Char::m_value
+	Il2CppChar ___m_value_2;
+
+public:
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Char_t3454481338, ___m_value_2)); }
+	inline Il2CppChar get_m_value_2() const { return ___m_value_2; }
+	inline Il2CppChar* get_address_of_m_value_2() { return &___m_value_2; }
+	inline void set_m_value_2(Il2CppChar value)
+	{
+		___m_value_2 = value;
+	}
+};
+
+struct Char_t3454481338_StaticFields
+{
+public:
+	// System.Byte* System.Char::category_data
+	uint8_t* ___category_data_3;
+	// System.Byte* System.Char::numeric_data
+	uint8_t* ___numeric_data_4;
+	// System.Double* System.Char::numeric_data_values
+	double* ___numeric_data_values_5;
+	// System.UInt16* System.Char::to_lower_data_low
+	uint16_t* ___to_lower_data_low_6;
+	// System.UInt16* System.Char::to_lower_data_high
+	uint16_t* ___to_lower_data_high_7;
+	// System.UInt16* System.Char::to_upper_data_low
+	uint16_t* ___to_upper_data_low_8;
+	// System.UInt16* System.Char::to_upper_data_high
+	uint16_t* ___to_upper_data_high_9;
+
+public:
+	inline static int32_t get_offset_of_category_data_3() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___category_data_3)); }
+	inline uint8_t* get_category_data_3() const { return ___category_data_3; }
+	inline uint8_t** get_address_of_category_data_3() { return &___category_data_3; }
+	inline void set_category_data_3(uint8_t* value)
+	{
+		___category_data_3 = value;
+	}
+
+	inline static int32_t get_offset_of_numeric_data_4() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___numeric_data_4)); }
+	inline uint8_t* get_numeric_data_4() const { return ___numeric_data_4; }
+	inline uint8_t** get_address_of_numeric_data_4() { return &___numeric_data_4; }
+	inline void set_numeric_data_4(uint8_t* value)
+	{
+		___numeric_data_4 = value;
+	}
+
+	inline static int32_t get_offset_of_numeric_data_values_5() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___numeric_data_values_5)); }
+	inline double* get_numeric_data_values_5() const { return ___numeric_data_values_5; }
+	inline double** get_address_of_numeric_data_values_5() { return &___numeric_data_values_5; }
+	inline void set_numeric_data_values_5(double* value)
+	{
+		___numeric_data_values_5 = value;
+	}
+
+	inline static int32_t get_offset_of_to_lower_data_low_6() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_lower_data_low_6)); }
+	inline uint16_t* get_to_lower_data_low_6() const { return ___to_lower_data_low_6; }
+	inline uint16_t** get_address_of_to_lower_data_low_6() { return &___to_lower_data_low_6; }
+	inline void set_to_lower_data_low_6(uint16_t* value)
+	{
+		___to_lower_data_low_6 = value;
+	}
+
+	inline static int32_t get_offset_of_to_lower_data_high_7() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_lower_data_high_7)); }
+	inline uint16_t* get_to_lower_data_high_7() const { return ___to_lower_data_high_7; }
+	inline uint16_t** get_address_of_to_lower_data_high_7() { return &___to_lower_data_high_7; }
+	inline void set_to_lower_data_high_7(uint16_t* value)
+	{
+		___to_lower_data_high_7 = value;
+	}
+
+	inline static int32_t get_offset_of_to_upper_data_low_8() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_upper_data_low_8)); }
+	inline uint16_t* get_to_upper_data_low_8() const { return ___to_upper_data_low_8; }
+	inline uint16_t** get_address_of_to_upper_data_low_8() { return &___to_upper_data_low_8; }
+	inline void set_to_upper_data_low_8(uint16_t* value)
+	{
+		___to_upper_data_low_8 = value;
+	}
+
+	inline static int32_t get_offset_of_to_upper_data_high_9() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_upper_data_high_9)); }
+	inline uint16_t* get_to_upper_data_high_9() const { return ___to_upper_data_high_9; }
+	inline uint16_t** get_address_of_to_upper_data_high_9() { return &___to_upper_data_high_9; }
+	inline void set_to_upper_data_high_9(uint16_t* value)
+	{
+		___to_upper_data_high_9 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // CHAR_T3454481338_H
+#ifndef GENERICCOMPARER_1_T2726148469_H
+#define GENERICCOMPARER_1_T2726148469_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericComparer`1<System.DateTime>
+struct  GenericComparer_1_t2726148469  : public Comparer_1_t3878182084
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICCOMPARER_1_T2726148469_H
+#ifndef GENERICCOMPARER_1_T3395931706_H
+#define GENERICCOMPARER_1_T3395931706_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>
+struct  GenericComparer_1_t3395931706  : public Comparer_1_t252998025
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICCOMPARER_1_T3395931706_H
+#ifndef UILINEINFO_T3621277874_H
+#define UILINEINFO_T3621277874_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.UILineInfo
+struct  UILineInfo_t3621277874 
+{
+public:
+	// System.Int32 UnityEngine.UILineInfo::startCharIdx
+	int32_t ___startCharIdx_0;
+	// System.Int32 UnityEngine.UILineInfo::height
+	int32_t ___height_1;
+	// System.Single UnityEngine.UILineInfo::topY
+	float ___topY_2;
+	// System.Single UnityEngine.UILineInfo::leading
+	float ___leading_3;
+
+public:
+	inline static int32_t get_offset_of_startCharIdx_0() { return static_cast<int32_t>(offsetof(UILineInfo_t3621277874, ___startCharIdx_0)); }
+	inline int32_t get_startCharIdx_0() const { return ___startCharIdx_0; }
+	inline int32_t* get_address_of_startCharIdx_0() { return &___startCharIdx_0; }
+	inline void set_startCharIdx_0(int32_t value)
+	{
+		___startCharIdx_0 = value;
+	}
+
+	inline static int32_t get_offset_of_height_1() { return static_cast<int32_t>(offsetof(UILineInfo_t3621277874, ___height_1)); }
+	inline int32_t get_height_1() const { return ___height_1; }
+	inline int32_t* get_address_of_height_1() { return &___height_1; }
+	inline void set_height_1(int32_t value)
+	{
+		___height_1 = value;
+	}
+
+	inline static int32_t get_offset_of_topY_2() { return static_cast<int32_t>(offsetof(UILineInfo_t3621277874, ___topY_2)); }
+	inline float get_topY_2() const { return ___topY_2; }
+	inline float* get_address_of_topY_2() { return &___topY_2; }
+	inline void set_topY_2(float value)
+	{
+		___topY_2 = value;
+	}
+
+	inline static int32_t get_offset_of_leading_3() { return static_cast<int32_t>(offsetof(UILineInfo_t3621277874, ___leading_3)); }
+	inline float get_leading_3() const { return ___leading_3; }
+	inline float* get_address_of_leading_3() { return &___leading_3; }
+	inline void set_leading_3(float value)
+	{
+		___leading_3 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UILINEINFO_T3621277874_H
+#ifndef DEFAULTCOMPARER_T3865637740_H
+#define DEFAULTCOMPARER_T3865637740_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector2>
+struct  DefaultComparer_t3865637740  : public EqualityComparer_1_t817342850
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTCOMPARER_T3865637740_H
+#ifndef VECTOR2_T2243707579_H
+#define VECTOR2_T2243707579_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Vector2
+struct  Vector2_t2243707579 
+{
+public:
+	// System.Single UnityEngine.Vector2::x
+	float ___x_0;
+	// System.Single UnityEngine.Vector2::y
+	float ___y_1;
+
+public:
+	inline static int32_t get_offset_of_x_0() { return static_cast<int32_t>(offsetof(Vector2_t2243707579, ___x_0)); }
+	inline float get_x_0() const { return ___x_0; }
+	inline float* get_address_of_x_0() { return &___x_0; }
+	inline void set_x_0(float value)
+	{
+		___x_0 = value;
+	}
+
+	inline static int32_t get_offset_of_y_1() { return static_cast<int32_t>(offsetof(Vector2_t2243707579, ___y_1)); }
+	inline float get_y_1() const { return ___y_1; }
+	inline float* get_address_of_y_1() { return &___y_1; }
+	inline void set_y_1(float value)
+	{
+		___y_1 = value;
+	}
+};
+
+struct Vector2_t2243707579_StaticFields
+{
+public:
+	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
+	Vector2_t2243707579  ___zeroVector_2;
+	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
+	Vector2_t2243707579  ___oneVector_3;
+	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
+	Vector2_t2243707579  ___upVector_4;
+	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
+	Vector2_t2243707579  ___downVector_5;
+	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
+	Vector2_t2243707579  ___leftVector_6;
+	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
+	Vector2_t2243707579  ___rightVector_7;
+	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
+	Vector2_t2243707579  ___positiveInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
+	Vector2_t2243707579  ___negativeInfinityVector_9;
+
+public:
+	inline static int32_t get_offset_of_zeroVector_2() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___zeroVector_2)); }
+	inline Vector2_t2243707579  get_zeroVector_2() const { return ___zeroVector_2; }
+	inline Vector2_t2243707579 * get_address_of_zeroVector_2() { return &___zeroVector_2; }
+	inline void set_zeroVector_2(Vector2_t2243707579  value)
+	{
+		___zeroVector_2 = value;
+	}
+
+	inline static int32_t get_offset_of_oneVector_3() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___oneVector_3)); }
+	inline Vector2_t2243707579  get_oneVector_3() const { return ___oneVector_3; }
+	inline Vector2_t2243707579 * get_address_of_oneVector_3() { return &___oneVector_3; }
+	inline void set_oneVector_3(Vector2_t2243707579  value)
+	{
+		___oneVector_3 = value;
+	}
+
+	inline static int32_t get_offset_of_upVector_4() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___upVector_4)); }
+	inline Vector2_t2243707579  get_upVector_4() const { return ___upVector_4; }
+	inline Vector2_t2243707579 * get_address_of_upVector_4() { return &___upVector_4; }
+	inline void set_upVector_4(Vector2_t2243707579  value)
+	{
+		___upVector_4 = value;
+	}
+
+	inline static int32_t get_offset_of_downVector_5() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___downVector_5)); }
+	inline Vector2_t2243707579  get_downVector_5() const { return ___downVector_5; }
+	inline Vector2_t2243707579 * get_address_of_downVector_5() { return &___downVector_5; }
+	inline void set_downVector_5(Vector2_t2243707579  value)
+	{
+		___downVector_5 = value;
+	}
+
+	inline static int32_t get_offset_of_leftVector_6() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___leftVector_6)); }
+	inline Vector2_t2243707579  get_leftVector_6() const { return ___leftVector_6; }
+	inline Vector2_t2243707579 * get_address_of_leftVector_6() { return &___leftVector_6; }
+	inline void set_leftVector_6(Vector2_t2243707579  value)
+	{
+		___leftVector_6 = value;
+	}
+
+	inline static int32_t get_offset_of_rightVector_7() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___rightVector_7)); }
+	inline Vector2_t2243707579  get_rightVector_7() const { return ___rightVector_7; }
+	inline Vector2_t2243707579 * get_address_of_rightVector_7() { return &___rightVector_7; }
+	inline void set_rightVector_7(Vector2_t2243707579  value)
+	{
+		___rightVector_7 = value;
+	}
+
+	inline static int32_t get_offset_of_positiveInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___positiveInfinityVector_8)); }
+	inline Vector2_t2243707579  get_positiveInfinityVector_8() const { return ___positiveInfinityVector_8; }
+	inline Vector2_t2243707579 * get_address_of_positiveInfinityVector_8() { return &___positiveInfinityVector_8; }
+	inline void set_positiveInfinityVector_8(Vector2_t2243707579  value)
+	{
+		___positiveInfinityVector_8 = value;
+	}
+
+	inline static int32_t get_offset_of_negativeInfinityVector_9() { return static_cast<int32_t>(offsetof(Vector2_t2243707579_StaticFields, ___negativeInfinityVector_9)); }
+	inline Vector2_t2243707579  get_negativeInfinityVector_9() const { return ___negativeInfinityVector_9; }
+	inline Vector2_t2243707579 * get_address_of_negativeInfinityVector_9() { return &___negativeInfinityVector_9; }
+	inline void set_negativeInfinityVector_9(Vector2_t2243707579  value)
+	{
+		___negativeInfinityVector_9 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // VECTOR2_T2243707579_H
+#ifndef DEFAULTCOMPARER_T3865637741_H
+#define DEFAULTCOMPARER_T3865637741_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector3>
+struct  DefaultComparer_t3865637741  : public EqualityComparer_1_t817342851
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTCOMPARER_T3865637741_H
+#ifndef VECTOR3_T2243707580_H
+#define VECTOR3_T2243707580_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Vector3
+struct  Vector3_t2243707580 
+{
+public:
+	// System.Single UnityEngine.Vector3::x
+	float ___x_1;
+	// System.Single UnityEngine.Vector3::y
+	float ___y_2;
+	// System.Single UnityEngine.Vector3::z
+	float ___z_3;
+
+public:
+	inline static int32_t get_offset_of_x_1() { return static_cast<int32_t>(offsetof(Vector3_t2243707580, ___x_1)); }
+	inline float get_x_1() const { return ___x_1; }
+	inline float* get_address_of_x_1() { return &___x_1; }
+	inline void set_x_1(float value)
+	{
+		___x_1 = value;
+	}
+
+	inline static int32_t get_offset_of_y_2() { return static_cast<int32_t>(offsetof(Vector3_t2243707580, ___y_2)); }
+	inline float get_y_2() const { return ___y_2; }
+	inline float* get_address_of_y_2() { return &___y_2; }
+	inline void set_y_2(float value)
+	{
+		___y_2 = value;
+	}
+
+	inline static int32_t get_offset_of_z_3() { return static_cast<int32_t>(offsetof(Vector3_t2243707580, ___z_3)); }
+	inline float get_z_3() const { return ___z_3; }
+	inline float* get_address_of_z_3() { return &___z_3; }
+	inline void set_z_3(float value)
+	{
+		___z_3 = value;
+	}
+};
+
+struct Vector3_t2243707580_StaticFields
+{
+public:
+	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
+	Vector3_t2243707580  ___zeroVector_4;
+	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
+	Vector3_t2243707580  ___oneVector_5;
+	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
+	Vector3_t2243707580  ___upVector_6;
+	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
+	Vector3_t2243707580  ___downVector_7;
+	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
+	Vector3_t2243707580  ___leftVector_8;
+	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
+	Vector3_t2243707580  ___rightVector_9;
+	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
+	Vector3_t2243707580  ___forwardVector_10;
+	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
+	Vector3_t2243707580  ___backVector_11;
+	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
+	Vector3_t2243707580  ___positiveInfinityVector_12;
+	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
+	Vector3_t2243707580  ___negativeInfinityVector_13;
+
+public:
+	inline static int32_t get_offset_of_zeroVector_4() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___zeroVector_4)); }
+	inline Vector3_t2243707580  get_zeroVector_4() const { return ___zeroVector_4; }
+	inline Vector3_t2243707580 * get_address_of_zeroVector_4() { return &___zeroVector_4; }
+	inline void set_zeroVector_4(Vector3_t2243707580  value)
+	{
+		___zeroVector_4 = value;
+	}
+
+	inline static int32_t get_offset_of_oneVector_5() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___oneVector_5)); }
+	inline Vector3_t2243707580  get_oneVector_5() const { return ___oneVector_5; }
+	inline Vector3_t2243707580 * get_address_of_oneVector_5() { return &___oneVector_5; }
+	inline void set_oneVector_5(Vector3_t2243707580  value)
+	{
+		___oneVector_5 = value;
+	}
+
+	inline static int32_t get_offset_of_upVector_6() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___upVector_6)); }
+	inline Vector3_t2243707580  get_upVector_6() const { return ___upVector_6; }
+	inline Vector3_t2243707580 * get_address_of_upVector_6() { return &___upVector_6; }
+	inline void set_upVector_6(Vector3_t2243707580  value)
+	{
+		___upVector_6 = value;
+	}
+
+	inline static int32_t get_offset_of_downVector_7() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___downVector_7)); }
+	inline Vector3_t2243707580  get_downVector_7() const { return ___downVector_7; }
+	inline Vector3_t2243707580 * get_address_of_downVector_7() { return &___downVector_7; }
+	inline void set_downVector_7(Vector3_t2243707580  value)
+	{
+		___downVector_7 = value;
+	}
+
+	inline static int32_t get_offset_of_leftVector_8() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___leftVector_8)); }
+	inline Vector3_t2243707580  get_leftVector_8() const { return ___leftVector_8; }
+	inline Vector3_t2243707580 * get_address_of_leftVector_8() { return &___leftVector_8; }
+	inline void set_leftVector_8(Vector3_t2243707580  value)
+	{
+		___leftVector_8 = value;
+	}
+
+	inline static int32_t get_offset_of_rightVector_9() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___rightVector_9)); }
+	inline Vector3_t2243707580  get_rightVector_9() const { return ___rightVector_9; }
+	inline Vector3_t2243707580 * get_address_of_rightVector_9() { return &___rightVector_9; }
+	inline void set_rightVector_9(Vector3_t2243707580  value)
+	{
+		___rightVector_9 = value;
+	}
+
+	inline static int32_t get_offset_of_forwardVector_10() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___forwardVector_10)); }
+	inline Vector3_t2243707580  get_forwardVector_10() const { return ___forwardVector_10; }
+	inline Vector3_t2243707580 * get_address_of_forwardVector_10() { return &___forwardVector_10; }
+	inline void set_forwardVector_10(Vector3_t2243707580  value)
+	{
+		___forwardVector_10 = value;
+	}
+
+	inline static int32_t get_offset_of_backVector_11() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___backVector_11)); }
+	inline Vector3_t2243707580  get_backVector_11() const { return ___backVector_11; }
+	inline Vector3_t2243707580 * get_address_of_backVector_11() { return &___backVector_11; }
+	inline void set_backVector_11(Vector3_t2243707580  value)
+	{
+		___backVector_11 = value;
+	}
+
+	inline static int32_t get_offset_of_positiveInfinityVector_12() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___positiveInfinityVector_12)); }
+	inline Vector3_t2243707580  get_positiveInfinityVector_12() const { return ___positiveInfinityVector_12; }
+	inline Vector3_t2243707580 * get_address_of_positiveInfinityVector_12() { return &___positiveInfinityVector_12; }
+	inline void set_positiveInfinityVector_12(Vector3_t2243707580  value)
+	{
+		___positiveInfinityVector_12 = value;
+	}
+
+	inline static int32_t get_offset_of_negativeInfinityVector_13() { return static_cast<int32_t>(offsetof(Vector3_t2243707580_StaticFields, ___negativeInfinityVector_13)); }
+	inline Vector3_t2243707580  get_negativeInfinityVector_13() const { return ___negativeInfinityVector_13; }
+	inline Vector3_t2243707580 * get_address_of_negativeInfinityVector_13() { return &___negativeInfinityVector_13; }
+	inline void set_negativeInfinityVector_13(Vector3_t2243707580  value)
+	{
+		___negativeInfinityVector_13 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // VECTOR3_T2243707580_H
+#ifndef DEFAULTCOMPARER_T2826188979_H
+#define DEFAULTCOMPARER_T2826188979_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UIVertex>
+struct  DefaultComparer_t2826188979  : public EqualityComparer_1_t4072861385
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTCOMPARER_T2826188979_H
+#ifndef DEFAULTCOMPARER_T3865637742_H
+#define DEFAULTCOMPARER_T3865637742_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.Vector4>
+struct  DefaultComparer_t3865637742  : public EqualityComparer_1_t817342852
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTCOMPARER_T3865637742_H
+#ifndef VECTOR4_T2243707581_H
+#define VECTOR4_T2243707581_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.Vector4
+struct  Vector4_t2243707581 
+{
+public:
+	// System.Single UnityEngine.Vector4::x
+	float ___x_1;
+	// System.Single UnityEngine.Vector4::y
+	float ___y_2;
+	// System.Single UnityEngine.Vector4::z
+	float ___z_3;
+	// System.Single UnityEngine.Vector4::w
+	float ___w_4;
+
+public:
+	inline static int32_t get_offset_of_x_1() { return static_cast<int32_t>(offsetof(Vector4_t2243707581, ___x_1)); }
+	inline float get_x_1() const { return ___x_1; }
+	inline float* get_address_of_x_1() { return &___x_1; }
+	inline void set_x_1(float value)
+	{
+		___x_1 = value;
+	}
+
+	inline static int32_t get_offset_of_y_2() { return static_cast<int32_t>(offsetof(Vector4_t2243707581, ___y_2)); }
+	inline float get_y_2() const { return ___y_2; }
+	inline float* get_address_of_y_2() { return &___y_2; }
+	inline void set_y_2(float value)
+	{
+		___y_2 = value;
+	}
+
+	inline static int32_t get_offset_of_z_3() { return static_cast<int32_t>(offsetof(Vector4_t2243707581, ___z_3)); }
+	inline float get_z_3() const { return ___z_3; }
+	inline float* get_address_of_z_3() { return &___z_3; }
+	inline void set_z_3(float value)
+	{
+		___z_3 = value;
+	}
+
+	inline static int32_t get_offset_of_w_4() { return static_cast<int32_t>(offsetof(Vector4_t2243707581, ___w_4)); }
+	inline float get_w_4() const { return ___w_4; }
+	inline float* get_address_of_w_4() { return &___w_4; }
+	inline void set_w_4(float value)
+	{
+		___w_4 = value;
+	}
+};
+
+struct Vector4_t2243707581_StaticFields
+{
+public:
+	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
+	Vector4_t2243707581  ___zeroVector_5;
+	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
+	Vector4_t2243707581  ___oneVector_6;
+	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
+	Vector4_t2243707581  ___positiveInfinityVector_7;
+	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
+	Vector4_t2243707581  ___negativeInfinityVector_8;
+
+public:
+	inline static int32_t get_offset_of_zeroVector_5() { return static_cast<int32_t>(offsetof(Vector4_t2243707581_StaticFields, ___zeroVector_5)); }
+	inline Vector4_t2243707581  get_zeroVector_5() const { return ___zeroVector_5; }
+	inline Vector4_t2243707581 * get_address_of_zeroVector_5() { return &___zeroVector_5; }
+	inline void set_zeroVector_5(Vector4_t2243707581  value)
+	{
+		___zeroVector_5 = value;
+	}
+
+	inline static int32_t get_offset_of_oneVector_6() { return static_cast<int32_t>(offsetof(Vector4_t2243707581_StaticFields, ___oneVector_6)); }
+	inline Vector4_t2243707581  get_oneVector_6() const { return ___oneVector_6; }
+	inline Vector4_t2243707581 * get_address_of_oneVector_6() { return &___oneVector_6; }
+	inline void set_oneVector_6(Vector4_t2243707581  value)
+	{
+		___oneVector_6 = value;
+	}
+
+	inline static int32_t get_offset_of_positiveInfinityVector_7() { return static_cast<int32_t>(offsetof(Vector4_t2243707581_StaticFields, ___positiveInfinityVector_7)); }
+	inline Vector4_t2243707581  get_positiveInfinityVector_7() const { return ___positiveInfinityVector_7; }
+	inline Vector4_t2243707581 * get_address_of_positiveInfinityVector_7() { return &___positiveInfinityVector_7; }
+	inline void set_positiveInfinityVector_7(Vector4_t2243707581  value)
+	{
+		___positiveInfinityVector_7 = value;
+	}
+
+	inline static int32_t get_offset_of_negativeInfinityVector_8() { return static_cast<int32_t>(offsetof(Vector4_t2243707581_StaticFields, ___negativeInfinityVector_8)); }
+	inline Vector4_t2243707581  get_negativeInfinityVector_8() const { return ___negativeInfinityVector_8; }
+	inline Vector4_t2243707581 * get_address_of_negativeInfinityVector_8() { return &___negativeInfinityVector_8; }
+	inline void set_negativeInfinityVector_8(Vector4_t2243707581  value)
+	{
+		___negativeInfinityVector_8 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // VECTOR4_T2243707581_H
+#ifndef DEFAULTCOMPARER_T602475890_H
+#define DEFAULTCOMPARER_T602475890_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.XR.iOS.ARHitTestResult>
+struct  DefaultComparer_t602475890  : public EqualityComparer_1_t1849148296
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DEFAULTCOMPARER_T602475890_H
+#ifndef GENERICCOMPARER_1_T1563550222_H
+#define GENERICCOMPARER_1_T1563550222_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericComparer`1<System.Boolean>
+struct  GenericComparer_1_t1563550222  : public Comparer_1_t2715583837
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICCOMPARER_1_T1563550222_H
+#ifndef GENERICCOMPARER_1_T427424799_H
+#define GENERICCOMPARER_1_T427424799_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericComparer`1<System.Object>
+struct  GenericComparer_1_t427424799  : public Comparer_1_t1579458414
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICCOMPARER_1_T427424799_H
+#ifndef SINGLE_T2076509932_H
+#define SINGLE_T2076509932_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Single
+struct  Single_t2076509932 
+{
+public:
+	// System.Single System.Single::m_value
+	float ___m_value_7;
+
+public:
+	inline static int32_t get_offset_of_m_value_7() { return static_cast<int32_t>(offsetof(Single_t2076509932, ___m_value_7)); }
+	inline float get_m_value_7() const { return ___m_value_7; }
+	inline float* get_address_of_m_value_7() { return &___m_value_7; }
+	inline void set_m_value_7(float value)
+	{
+		___m_value_7 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // SINGLE_T2076509932_H
+#ifndef GENERICEQUALITYCOMPARER_1_T2666986572_H
+#define GENERICEQUALITYCOMPARER_1_T2666986572_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.Byte>
+struct  GenericEqualityComparer_1_t2666986572  : public EqualityComparer_1_t2256739707
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T2666986572_H
 #ifndef SPRITESTATE_T1353336012_H
 #define SPRITESTATE_T1353336012_H
 #ifdef __clang__
@@ -1592,196 +4108,16 @@ struct SpriteState_t1353336012_marshaled_com
 	Sprite_t309593783 * ___m_DisabledSprite_2;
 };
 #endif // SPRITESTATE_T1353336012_H
-#ifndef ENUM_T2459695545_H
-#define ENUM_T2459695545_H
+#ifndef DEFAULTCOMPARER_T3147253483_H
+#define DEFAULTCOMPARER_T3147253483_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Enum
-struct  Enum_t2459695545  : public ValueType_t3507792607
-{
-public:
-
-public:
-};
-
-struct Enum_t2459695545_StaticFields
-{
-public:
-	// System.Char[] System.Enum::split_char
-	CharU5BU5D_t1328083999* ___split_char_0;
-
-public:
-	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t2459695545_StaticFields, ___split_char_0)); }
-	inline CharU5BU5D_t1328083999* get_split_char_0() const { return ___split_char_0; }
-	inline CharU5BU5D_t1328083999** get_address_of_split_char_0() { return &___split_char_0; }
-	inline void set_split_char_0(CharU5BU5D_t1328083999* value)
-	{
-		___split_char_0 = value;
-		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of System.Enum
-struct Enum_t2459695545_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of System.Enum
-struct Enum_t2459695545_marshaled_com
-{
-};
-#endif // ENUM_T2459695545_H
-#ifndef U24ARRAYTYPEU241024_T2672183895_H
-#define U24ARRAYTYPEU241024_T2672183895_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>/$ArrayType$1024
-struct  U24ArrayTypeU241024_t2672183895 
-{
-public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU241024_t2672183895__padding[1024];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U24ARRAYTYPEU241024_T2672183895_H
-#ifndef U24ARRAYTYPEU24256_T2038352956_H
-#define U24ARRAYTYPEU24256_T2038352956_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>/$ArrayType$256
-struct  U24ArrayTypeU24256_t2038352956 
-{
-public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU24256_t2038352956__padding[256];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U24ARRAYTYPEU24256_T2038352956_H
-#ifndef U24ARRAYTYPEU24120_T116038563_H
-#define U24ARRAYTYPEU24120_T116038563_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// <PrivateImplementationDetails>/$ArrayType$120
-struct  U24ArrayTypeU24120_t116038563 
-{
-public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU24120_t116038563__padding[120];
-	};
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // U24ARRAYTYPEU24120_T116038563_H
-#ifndef INTPTR_T_H
-#define INTPTR_T_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.IntPtr
-struct  IntPtr_t 
-{
-public:
-	// System.Void* System.IntPtr::m_value
-	void* ___m_value_0;
-
-public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(IntPtr_t, ___m_value_0)); }
-	inline void* get_m_value_0() const { return ___m_value_0; }
-	inline void** get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(void* value)
-	{
-		___m_value_0 = value;
-	}
-};
-
-struct IntPtr_t_StaticFields
-{
-public:
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-
-public:
-	inline static int32_t get_offset_of_Zero_1() { return static_cast<int32_t>(offsetof(IntPtr_t_StaticFields, ___Zero_1)); }
-	inline intptr_t get_Zero_1() const { return ___Zero_1; }
-	inline intptr_t* get_address_of_Zero_1() { return &___Zero_1; }
-	inline void set_Zero_1(intptr_t value)
-	{
-		___Zero_1 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INTPTR_T_H
-#ifndef SYSTEMEXCEPTION_T3877406272_H
-#define SYSTEMEXCEPTION_T3877406272_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.SystemException
-struct  SystemException_t3877406272  : public Exception_t1927440687
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.Slider/Direction>
+struct  DefaultComparer_t3147253483  : public EqualityComparer_1_t98958593
 {
 public:
 
@@ -1791,66 +4127,47 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // SYSTEMEXCEPTION_T3877406272_H
-#ifndef COLOR_T2020392075_H
-#define COLOR_T2020392075_H
+#endif // DEFAULTCOMPARER_T3147253483_H
+#ifndef DEFAULTCOMPARER_T2975266173_H
+#define DEFAULTCOMPARER_T2975266173_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.Color
-struct  Color_t2020392075 
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UI.SpriteState>
+struct  DefaultComparer_t2975266173  : public EqualityComparer_1_t4221938579
 {
 public:
-	// System.Single UnityEngine.Color::r
-	float ___r_0;
-	// System.Single UnityEngine.Color::g
-	float ___g_1;
-	// System.Single UnityEngine.Color::b
-	float ___b_2;
-	// System.Single UnityEngine.Color::a
-	float ___a_3;
 
 public:
-	inline static int32_t get_offset_of_r_0() { return static_cast<int32_t>(offsetof(Color_t2020392075, ___r_0)); }
-	inline float get_r_0() const { return ___r_0; }
-	inline float* get_address_of_r_0() { return &___r_0; }
-	inline void set_r_0(float value)
-	{
-		___r_0 = value;
-	}
-
-	inline static int32_t get_offset_of_g_1() { return static_cast<int32_t>(offsetof(Color_t2020392075, ___g_1)); }
-	inline float get_g_1() const { return ___g_1; }
-	inline float* get_address_of_g_1() { return &___g_1; }
-	inline void set_g_1(float value)
-	{
-		___g_1 = value;
-	}
-
-	inline static int32_t get_offset_of_b_2() { return static_cast<int32_t>(offsetof(Color_t2020392075, ___b_2)); }
-	inline float get_b_2() const { return ___b_2; }
-	inline float* get_address_of_b_2() { return &___b_2; }
-	inline void set_b_2(float value)
-	{
-		___b_2 = value;
-	}
-
-	inline static int32_t get_offset_of_a_3() { return static_cast<int32_t>(offsetof(Color_t2020392075, ___a_3)); }
-	inline float get_a_3() const { return ___a_3; }
-	inline float* get_address_of_a_3() { return &___a_3; }
-	inline void set_a_3(float value)
-	{
-		___a_3 = value;
-	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // COLOR_T2020392075_H
+#endif // DEFAULTCOMPARER_T2975266173_H
+#ifndef GENERICEQUALITYCOMPARER_1_T2809456854_H
+#define GENERICEQUALITYCOMPARER_1_T2809456854_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Collections.Generic.GenericEqualityComparer`1<System.Boolean>
+struct  GenericEqualityComparer_1_t2809456854  : public EqualityComparer_1_t2399209989
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // GENERICEQUALITYCOMPARER_1_T2809456854_H
 #ifndef GENERICCOMPARER_1_T4104820248_H
 #define GENERICCOMPARER_1_T4104820248_H
 #ifdef __clang__
@@ -1871,16 +4188,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // GENERICCOMPARER_1_T4104820248_H
-#ifndef VOID_T1841601450_H
-#define VOID_T1841601450_H
+#ifndef DEFAULTCOMPARER_T383599665_H
+#define DEFAULTCOMPARER_T383599665_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Void
-struct  Void_t1841601450 
+// System.Collections.Generic.EqualityComparer`1/DefaultComparer<UnityEngine.UICharInfo>
+struct  DefaultComparer_t383599665  : public EqualityComparer_1_t1630272071
 {
 public:
 
@@ -1890,58 +4207,84 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VOID_T1841601450_H
-#ifndef DOUBLE_T4078015681_H
-#define DOUBLE_T4078015681_H
+#endif // DEFAULTCOMPARER_T383599665_H
+#ifndef TIMESPAN_T3430258949_H
+#define TIMESPAN_T3430258949_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Double
-struct  Double_t4078015681 
+// System.TimeSpan
+struct  TimeSpan_t3430258949 
 {
 public:
-	// System.Double System.Double::m_value
-	double ___m_value_13;
+	// System.Int64 System.TimeSpan::_ticks
+	int64_t ____ticks_3;
 
 public:
-	inline static int32_t get_offset_of_m_value_13() { return static_cast<int32_t>(offsetof(Double_t4078015681, ___m_value_13)); }
-	inline double get_m_value_13() const { return ___m_value_13; }
-	inline double* get_address_of_m_value_13() { return &___m_value_13; }
-	inline void set_m_value_13(double value)
+	inline static int32_t get_offset_of__ticks_3() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949, ____ticks_3)); }
+	inline int64_t get__ticks_3() const { return ____ticks_3; }
+	inline int64_t* get_address_of__ticks_3() { return &____ticks_3; }
+	inline void set__ticks_3(int64_t value)
 	{
-		___m_value_13 = value;
+		____ticks_3 = value;
+	}
+};
+
+struct TimeSpan_t3430258949_StaticFields
+{
+public:
+	// System.TimeSpan System.TimeSpan::MaxValue
+	TimeSpan_t3430258949  ___MaxValue_0;
+	// System.TimeSpan System.TimeSpan::MinValue
+	TimeSpan_t3430258949  ___MinValue_1;
+	// System.TimeSpan System.TimeSpan::Zero
+	TimeSpan_t3430258949  ___Zero_2;
+
+public:
+	inline static int32_t get_offset_of_MaxValue_0() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___MaxValue_0)); }
+	inline TimeSpan_t3430258949  get_MaxValue_0() const { return ___MaxValue_0; }
+	inline TimeSpan_t3430258949 * get_address_of_MaxValue_0() { return &___MaxValue_0; }
+	inline void set_MaxValue_0(TimeSpan_t3430258949  value)
+	{
+		___MaxValue_0 = value;
+	}
+
+	inline static int32_t get_offset_of_MinValue_1() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___MinValue_1)); }
+	inline TimeSpan_t3430258949  get_MinValue_1() const { return ___MinValue_1; }
+	inline TimeSpan_t3430258949 * get_address_of_MinValue_1() { return &___MinValue_1; }
+	inline void set_MinValue_1(TimeSpan_t3430258949  value)
+	{
+		___MinValue_1 = value;
+	}
+
+	inline static int32_t get_offset_of_Zero_2() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___Zero_2)); }
+	inline TimeSpan_t3430258949  get_Zero_2() const { return ___Zero_2; }
+	inline TimeSpan_t3430258949 * get_address_of_Zero_2() { return &___Zero_2; }
+	inline void set_Zero_2(TimeSpan_t3430258949  value)
+	{
+		___Zero_2 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DOUBLE_T4078015681_H
-#ifndef U24ARRAYTYPEU24136_T2844921916_H
-#define U24ARRAYTYPEU24136_T2844921916_H
+#endif // TIMESPAN_T3430258949_H
+#ifndef GENERICCOMPARER_1_T1168234453_H
+#define GENERICCOMPARER_1_T1168234453_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// <PrivateImplementationDetails>/$ArrayType$136
-struct  U24ArrayTypeU24136_t2844921916 
+// System.Collections.Generic.GenericComparer`1<System.TimeSpan>
+struct  GenericComparer_1_t1168234453  : public Comparer_1_t2320268068
 {
 public:
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t U24ArrayTypeU24136_t2844921916__padding[136];
-	};
 
 public:
 };
@@ -1949,7 +4292,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U24ARRAYTYPEU24136_T2844921916_H
+#endif // GENERICCOMPARER_1_T1168234453_H
 #ifndef GUID_T_H
 #define GUID_T_H
 #ifdef __clang__
@@ -2128,16 +4471,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // GUID_T_H
-#ifndef GENERICEQUALITYCOMPARER_1_T2809456854_H
-#define GENERICEQUALITYCOMPARER_1_T2809456854_H
+#ifndef GENERICCOMPARER_1_T271577097_H
+#define GENERICCOMPARER_1_T271577097_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Collections.Generic.GenericEqualityComparer`1<System.Boolean>
-struct  GenericEqualityComparer_1_t2809456854  : public EqualityComparer_1_t2399209989
+// System.Collections.Generic.GenericComparer`1<System.Guid>
+struct  GenericComparer_1_t271577097  : public Comparer_1_t1423610712
 {
 public:
 
@@ -2147,552 +4490,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // GENERICEQUALITYCOMPARER_1_T2809456854_H
-#ifndef GENERICEQUALITYCOMPARER_1_T3025128050_H
-#define GENERICEQUALITYCOMPARER_1_T3025128050_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.Int16>
-struct  GenericEqualityComparer_1_t3025128050  : public EqualityComparer_1_t2614881185
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T3025128050_H
-#ifndef GENERICEQUALITYCOMPARER_1_T337218148_H
-#define GENERICEQUALITYCOMPARER_1_T337218148_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<UnityEngine.UI.SpriteState>
-struct  GenericEqualityComparer_1_t337218148  : public EqualityComparer_1_t4221938579
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T337218148_H
-#ifndef GENERICEQUALITYCOMPARER_1_T1517483729_H
-#define GENERICEQUALITYCOMPARER_1_T1517483729_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.Guid>
-struct  GenericEqualityComparer_1_t1517483729  : public EqualityComparer_1_t1107236864
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T1517483729_H
-#ifndef BOOLEAN_T3825574718_H
-#define BOOLEAN_T3825574718_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Boolean
-struct  Boolean_t3825574718 
-{
-public:
-	// System.Boolean System.Boolean::m_value
-	bool ___m_value_2;
-
-public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t3825574718, ___m_value_2)); }
-	inline bool get_m_value_2() const { return ___m_value_2; }
-	inline bool* get_address_of_m_value_2() { return &___m_value_2; }
-	inline void set_m_value_2(bool value)
-	{
-		___m_value_2 = value;
-	}
-};
-
-struct Boolean_t3825574718_StaticFields
-{
-public:
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_0;
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_1;
-
-public:
-	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t3825574718_StaticFields, ___FalseString_0)); }
-	inline String_t* get_FalseString_0() const { return ___FalseString_0; }
-	inline String_t** get_address_of_FalseString_0() { return &___FalseString_0; }
-	inline void set_FalseString_0(String_t* value)
-	{
-		___FalseString_0 = value;
-		Il2CppCodeGenWriteBarrier((&___FalseString_0), value);
-	}
-
-	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t3825574718_StaticFields, ___TrueString_1)); }
-	inline String_t* get_TrueString_1() const { return ___TrueString_1; }
-	inline String_t** get_address_of_TrueString_1() { return &___TrueString_1; }
-	inline void set_TrueString_1(String_t* value)
-	{
-		___TrueString_1 = value;
-		Il2CppCodeGenWriteBarrier((&___TrueString_1), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // BOOLEAN_T3825574718_H
-#ifndef GENERICEQUALITYCOMPARER_1_T346871042_H
-#define GENERICEQUALITYCOMPARER_1_T346871042_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.DateTimeOffset>
-struct  GenericEqualityComparer_1_t346871042  : public EqualityComparer_1_t4231591473
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T346871042_H
-#ifndef GENERICEQUALITYCOMPARER_1_T2666986572_H
-#define GENERICEQUALITYCOMPARER_1_T2666986572_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.Byte>
-struct  GenericEqualityComparer_1_t2666986572  : public EqualityComparer_1_t2256739707
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T2666986572_H
-#ifndef GENERICEQUALITYCOMPARER_1_T3972055101_H
-#define GENERICEQUALITYCOMPARER_1_T3972055101_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.DateTime>
-struct  GenericEqualityComparer_1_t3972055101  : public EqualityComparer_1_t3561808236
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T3972055101_H
-#ifndef CHAR_T3454481338_H
-#define CHAR_T3454481338_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Char
-struct  Char_t3454481338 
-{
-public:
-	// System.Char System.Char::m_value
-	Il2CppChar ___m_value_2;
-
-public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Char_t3454481338, ___m_value_2)); }
-	inline Il2CppChar get_m_value_2() const { return ___m_value_2; }
-	inline Il2CppChar* get_address_of_m_value_2() { return &___m_value_2; }
-	inline void set_m_value_2(Il2CppChar value)
-	{
-		___m_value_2 = value;
-	}
-};
-
-struct Char_t3454481338_StaticFields
-{
-public:
-	// System.Byte* System.Char::category_data
-	uint8_t* ___category_data_3;
-	// System.Byte* System.Char::numeric_data
-	uint8_t* ___numeric_data_4;
-	// System.Double* System.Char::numeric_data_values
-	double* ___numeric_data_values_5;
-	// System.UInt16* System.Char::to_lower_data_low
-	uint16_t* ___to_lower_data_low_6;
-	// System.UInt16* System.Char::to_lower_data_high
-	uint16_t* ___to_lower_data_high_7;
-	// System.UInt16* System.Char::to_upper_data_low
-	uint16_t* ___to_upper_data_low_8;
-	// System.UInt16* System.Char::to_upper_data_high
-	uint16_t* ___to_upper_data_high_9;
-
-public:
-	inline static int32_t get_offset_of_category_data_3() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___category_data_3)); }
-	inline uint8_t* get_category_data_3() const { return ___category_data_3; }
-	inline uint8_t** get_address_of_category_data_3() { return &___category_data_3; }
-	inline void set_category_data_3(uint8_t* value)
-	{
-		___category_data_3 = value;
-	}
-
-	inline static int32_t get_offset_of_numeric_data_4() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___numeric_data_4)); }
-	inline uint8_t* get_numeric_data_4() const { return ___numeric_data_4; }
-	inline uint8_t** get_address_of_numeric_data_4() { return &___numeric_data_4; }
-	inline void set_numeric_data_4(uint8_t* value)
-	{
-		___numeric_data_4 = value;
-	}
-
-	inline static int32_t get_offset_of_numeric_data_values_5() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___numeric_data_values_5)); }
-	inline double* get_numeric_data_values_5() const { return ___numeric_data_values_5; }
-	inline double** get_address_of_numeric_data_values_5() { return &___numeric_data_values_5; }
-	inline void set_numeric_data_values_5(double* value)
-	{
-		___numeric_data_values_5 = value;
-	}
-
-	inline static int32_t get_offset_of_to_lower_data_low_6() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_lower_data_low_6)); }
-	inline uint16_t* get_to_lower_data_low_6() const { return ___to_lower_data_low_6; }
-	inline uint16_t** get_address_of_to_lower_data_low_6() { return &___to_lower_data_low_6; }
-	inline void set_to_lower_data_low_6(uint16_t* value)
-	{
-		___to_lower_data_low_6 = value;
-	}
-
-	inline static int32_t get_offset_of_to_lower_data_high_7() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_lower_data_high_7)); }
-	inline uint16_t* get_to_lower_data_high_7() const { return ___to_lower_data_high_7; }
-	inline uint16_t** get_address_of_to_lower_data_high_7() { return &___to_lower_data_high_7; }
-	inline void set_to_lower_data_high_7(uint16_t* value)
-	{
-		___to_lower_data_high_7 = value;
-	}
-
-	inline static int32_t get_offset_of_to_upper_data_low_8() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_upper_data_low_8)); }
-	inline uint16_t* get_to_upper_data_low_8() const { return ___to_upper_data_low_8; }
-	inline uint16_t** get_address_of_to_upper_data_low_8() { return &___to_upper_data_low_8; }
-	inline void set_to_upper_data_low_8(uint16_t* value)
-	{
-		___to_upper_data_low_8 = value;
-	}
-
-	inline static int32_t get_offset_of_to_upper_data_high_9() { return static_cast<int32_t>(offsetof(Char_t3454481338_StaticFields, ___to_upper_data_high_9)); }
-	inline uint16_t* get_to_upper_data_high_9() const { return ___to_upper_data_high_9; }
-	inline uint16_t** get_address_of_to_upper_data_high_9() { return &___to_upper_data_high_9; }
-	inline void set_to_upper_data_high_9(uint16_t* value)
-	{
-		___to_upper_data_high_9 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // CHAR_T3454481338_H
-#ifndef GENERICEQUALITYCOMPARER_1_T2438363474_H
-#define GENERICEQUALITYCOMPARER_1_T2438363474_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.Char>
-struct  GenericEqualityComparer_1_t2438363474  : public EqualityComparer_1_t2028116609
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T2438363474_H
-#ifndef INT16_T4041245914_H
-#define INT16_T4041245914_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Int16
-struct  Int16_t4041245914 
-{
-public:
-	// System.Int16 System.Int16::m_value
-	int16_t ___m_value_2;
-
-public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int16_t4041245914, ___m_value_2)); }
-	inline int16_t get_m_value_2() const { return ___m_value_2; }
-	inline int16_t* get_address_of_m_value_2() { return &___m_value_2; }
-	inline void set_m_value_2(int16_t value)
-	{
-		___m_value_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // INT16_T4041245914_H
-#ifndef GENERICEQUALITYCOMPARER_1_T1060392068_H
-#define GENERICEQUALITYCOMPARER_1_T1060392068_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.Single>
-struct  GenericEqualityComparer_1_t1060392068  : public EqualityComparer_1_t650145203
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T1060392068_H
-#ifndef GENERICCOMPARER_1_T1168234453_H
-#define GENERICCOMPARER_1_T1168234453_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericComparer`1<System.TimeSpan>
-struct  GenericComparer_1_t1168234453  : public Comparer_1_t2320268068
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICCOMPARER_1_T1168234453_H
-#ifndef GENERICEQUALITYCOMPARER_1_T1673331431_H
-#define GENERICEQUALITYCOMPARER_1_T1673331431_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.Object>
-struct  GenericEqualityComparer_1_t1673331431  : public EqualityComparer_1_t1263084566
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T1673331431_H
-#ifndef TIMESPAN_T3430258949_H
-#define TIMESPAN_T3430258949_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.TimeSpan
-struct  TimeSpan_t3430258949 
-{
-public:
-	// System.Int64 System.TimeSpan::_ticks
-	int64_t ____ticks_3;
-
-public:
-	inline static int32_t get_offset_of__ticks_3() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949, ____ticks_3)); }
-	inline int64_t get__ticks_3() const { return ____ticks_3; }
-	inline int64_t* get_address_of__ticks_3() { return &____ticks_3; }
-	inline void set__ticks_3(int64_t value)
-	{
-		____ticks_3 = value;
-	}
-};
-
-struct TimeSpan_t3430258949_StaticFields
-{
-public:
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t3430258949  ___MaxValue_0;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t3430258949  ___MinValue_1;
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t3430258949  ___Zero_2;
-
-public:
-	inline static int32_t get_offset_of_MaxValue_0() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___MaxValue_0)); }
-	inline TimeSpan_t3430258949  get_MaxValue_0() const { return ___MaxValue_0; }
-	inline TimeSpan_t3430258949 * get_address_of_MaxValue_0() { return &___MaxValue_0; }
-	inline void set_MaxValue_0(TimeSpan_t3430258949  value)
-	{
-		___MaxValue_0 = value;
-	}
-
-	inline static int32_t get_offset_of_MinValue_1() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___MinValue_1)); }
-	inline TimeSpan_t3430258949  get_MinValue_1() const { return ___MinValue_1; }
-	inline TimeSpan_t3430258949 * get_address_of_MinValue_1() { return &___MinValue_1; }
-	inline void set_MinValue_1(TimeSpan_t3430258949  value)
-	{
-		___MinValue_1 = value;
-	}
-
-	inline static int32_t get_offset_of_Zero_2() { return static_cast<int32_t>(offsetof(TimeSpan_t3430258949_StaticFields, ___Zero_2)); }
-	inline TimeSpan_t3430258949  get_Zero_2() const { return ___Zero_2; }
-	inline TimeSpan_t3430258949 * get_address_of_Zero_2() { return &___Zero_2; }
-	inline void set_Zero_2(TimeSpan_t3430258949  value)
-	{
-		___Zero_2 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // TIMESPAN_T3430258949_H
-#ifndef GENERICEQUALITYCOMPARER_1_T1055759584_H
-#define GENERICEQUALITYCOMPARER_1_T1055759584_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.Int32>
-struct  GenericEqualityComparer_1_t1055759584  : public EqualityComparer_1_t645512719
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T1055759584_H
-#ifndef GENERICEQUALITYCOMPARER_1_T2414141085_H
-#define GENERICEQUALITYCOMPARER_1_T2414141085_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<System.TimeSpan>
-struct  GenericEqualityComparer_1_t2414141085  : public EqualityComparer_1_t2003894220
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T2414141085_H
-#ifndef SINGLE_T2076509932_H
-#define SINGLE_T2076509932_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Single
-struct  Single_t2076509932 
-{
-public:
-	// System.Single System.Single::m_value
-	float ___m_value_7;
-
-public:
-	inline static int32_t get_offset_of_m_value_7() { return static_cast<int32_t>(offsetof(Single_t2076509932, ___m_value_7)); }
-	inline float get_m_value_7() const { return ___m_value_7; }
-	inline float* get_address_of_m_value_7() { return &___m_value_7; }
-	inline void set_m_value_7(float value)
-	{
-		___m_value_7 = value;
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // SINGLE_T2076509932_H
-#ifndef GENERICEQUALITYCOMPARER_1_T1636656366_H
-#define GENERICEQUALITYCOMPARER_1_T1636656366_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.Collections.Generic.GenericEqualityComparer`1<UnityEngine.UI.ColorBlock>
-struct  GenericEqualityComparer_1_t1636656366  : public EqualityComparer_1_t1226409501
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // GENERICEQUALITYCOMPARER_1_T1636656366_H
+#endif // GENERICCOMPARER_1_T271577097_H
 #ifndef DATETIMEKIND_T2186819611_H
 #define DATETIMEKIND_T2186819611_H
 #ifdef __clang__
@@ -2722,6 +4520,85 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DATETIMEKIND_T2186819611_H
+#ifndef DIRECTION_T3696775921_H
+#define DIRECTION_T3696775921_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.UI.Scrollbar/Direction
+struct  Direction_t3696775921 
+{
+public:
+	// System.Int32 UnityEngine.UI.Scrollbar/Direction::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Direction_t3696775921, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DIRECTION_T3696775921_H
+#ifndef ARGUMENTEXCEPTION_T3259014390_H
+#define ARGUMENTEXCEPTION_T3259014390_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ArgumentException
+struct  ArgumentException_t3259014390  : public SystemException_t3877406272
+{
+public:
+	// System.String System.ArgumentException::param_name
+	String_t* ___param_name_12;
+
+public:
+	inline static int32_t get_offset_of_param_name_12() { return static_cast<int32_t>(offsetof(ArgumentException_t3259014390, ___param_name_12)); }
+	inline String_t* get_param_name_12() const { return ___param_name_12; }
+	inline String_t** get_address_of_param_name_12() { return &___param_name_12; }
+	inline void set_param_name_12(String_t* value)
+	{
+		___param_name_12 = value;
+		Il2CppCodeGenWriteBarrier((&___param_name_12), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ARGUMENTEXCEPTION_T3259014390_H
+#ifndef NOTIMPLEMENTEDEXCEPTION_T2785117854_H
+#define NOTIMPLEMENTEDEXCEPTION_T2785117854_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.NotImplementedException
+struct  NotImplementedException_t2785117854  : public SystemException_t3877406272
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // NOTIMPLEMENTEDEXCEPTION_T2785117854_H
 #ifndef MODE_T1081683921_H
 #define MODE_T1081683921_H
 #ifdef __clang__
@@ -2751,6 +4628,64 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MODE_T1081683921_H
+#ifndef BINDINGFLAGS_T1082350898_H
+#define BINDINGFLAGS_T1082350898_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Reflection.BindingFlags
+struct  BindingFlags_t1082350898 
+{
+public:
+	// System.Int32 System.Reflection.BindingFlags::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(BindingFlags_t1082350898, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // BINDINGFLAGS_T1082350898_H
+#ifndef DIRECTION_T1525323322_H
+#define DIRECTION_T1525323322_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.UI.Slider/Direction
+struct  Direction_t1525323322 
+{
+public:
+	// System.Int32 UnityEngine.UI.Slider/Direction::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Direction_t1525323322, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // DIRECTION_T1525323322_H
 #ifndef STREAMINGCONTEXTSTATES_T4264247603_H
 #define STREAMINGCONTEXTSTATES_T4264247603_H
 #ifdef __clang__
@@ -2780,26 +4715,153 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // STREAMINGCONTEXTSTATES_T4264247603_H
-#ifndef NOTIMPLEMENTEDEXCEPTION_T2785117854_H
-#define NOTIMPLEMENTEDEXCEPTION_T2785117854_H
+#ifndef COLORBLOCK_T2652774230_H
+#define COLORBLOCK_T2652774230_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.NotImplementedException
-struct  NotImplementedException_t2785117854  : public SystemException_t3877406272
+// UnityEngine.UI.ColorBlock
+struct  ColorBlock_t2652774230 
 {
 public:
+	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_NormalColor
+	Color_t2020392075  ___m_NormalColor_0;
+	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_HighlightedColor
+	Color_t2020392075  ___m_HighlightedColor_1;
+	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_PressedColor
+	Color_t2020392075  ___m_PressedColor_2;
+	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_DisabledColor
+	Color_t2020392075  ___m_DisabledColor_3;
+	// System.Single UnityEngine.UI.ColorBlock::m_ColorMultiplier
+	float ___m_ColorMultiplier_4;
+	// System.Single UnityEngine.UI.ColorBlock::m_FadeDuration
+	float ___m_FadeDuration_5;
 
 public:
+	inline static int32_t get_offset_of_m_NormalColor_0() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_NormalColor_0)); }
+	inline Color_t2020392075  get_m_NormalColor_0() const { return ___m_NormalColor_0; }
+	inline Color_t2020392075 * get_address_of_m_NormalColor_0() { return &___m_NormalColor_0; }
+	inline void set_m_NormalColor_0(Color_t2020392075  value)
+	{
+		___m_NormalColor_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_HighlightedColor_1() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_HighlightedColor_1)); }
+	inline Color_t2020392075  get_m_HighlightedColor_1() const { return ___m_HighlightedColor_1; }
+	inline Color_t2020392075 * get_address_of_m_HighlightedColor_1() { return &___m_HighlightedColor_1; }
+	inline void set_m_HighlightedColor_1(Color_t2020392075  value)
+	{
+		___m_HighlightedColor_1 = value;
+	}
+
+	inline static int32_t get_offset_of_m_PressedColor_2() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_PressedColor_2)); }
+	inline Color_t2020392075  get_m_PressedColor_2() const { return ___m_PressedColor_2; }
+	inline Color_t2020392075 * get_address_of_m_PressedColor_2() { return &___m_PressedColor_2; }
+	inline void set_m_PressedColor_2(Color_t2020392075  value)
+	{
+		___m_PressedColor_2 = value;
+	}
+
+	inline static int32_t get_offset_of_m_DisabledColor_3() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_DisabledColor_3)); }
+	inline Color_t2020392075  get_m_DisabledColor_3() const { return ___m_DisabledColor_3; }
+	inline Color_t2020392075 * get_address_of_m_DisabledColor_3() { return &___m_DisabledColor_3; }
+	inline void set_m_DisabledColor_3(Color_t2020392075  value)
+	{
+		___m_DisabledColor_3 = value;
+	}
+
+	inline static int32_t get_offset_of_m_ColorMultiplier_4() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_ColorMultiplier_4)); }
+	inline float get_m_ColorMultiplier_4() const { return ___m_ColorMultiplier_4; }
+	inline float* get_address_of_m_ColorMultiplier_4() { return &___m_ColorMultiplier_4; }
+	inline void set_m_ColorMultiplier_4(float value)
+	{
+		___m_ColorMultiplier_4 = value;
+	}
+
+	inline static int32_t get_offset_of_m_FadeDuration_5() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_FadeDuration_5)); }
+	inline float get_m_FadeDuration_5() const { return ___m_FadeDuration_5; }
+	inline float* get_address_of_m_FadeDuration_5() { return &___m_FadeDuration_5; }
+	inline void set_m_FadeDuration_5(float value)
+	{
+		___m_FadeDuration_5 = value;
+	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // NOTIMPLEMENTEDEXCEPTION_T2785117854_H
+#endif // COLORBLOCK_T2652774230_H
+#ifndef UICHARINFO_T3056636800_H
+#define UICHARINFO_T3056636800_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.UICharInfo
+struct  UICharInfo_t3056636800 
+{
+public:
+	// UnityEngine.Vector2 UnityEngine.UICharInfo::cursorPos
+	Vector2_t2243707579  ___cursorPos_0;
+	// System.Single UnityEngine.UICharInfo::charWidth
+	float ___charWidth_1;
+
+public:
+	inline static int32_t get_offset_of_cursorPos_0() { return static_cast<int32_t>(offsetof(UICharInfo_t3056636800, ___cursorPos_0)); }
+	inline Vector2_t2243707579  get_cursorPos_0() const { return ___cursorPos_0; }
+	inline Vector2_t2243707579 * get_address_of_cursorPos_0() { return &___cursorPos_0; }
+	inline void set_cursorPos_0(Vector2_t2243707579  value)
+	{
+		___cursorPos_0 = value;
+	}
+
+	inline static int32_t get_offset_of_charWidth_1() { return static_cast<int32_t>(offsetof(UICharInfo_t3056636800, ___charWidth_1)); }
+	inline float get_charWidth_1() const { return ___charWidth_1; }
+	inline float* get_address_of_charWidth_1() { return &___charWidth_1; }
+	inline void set_charWidth_1(float value)
+	{
+		___charWidth_1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UICHARINFO_T3056636800_H
+#ifndef TRANSITION_T605142169_H
+#define TRANSITION_T605142169_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.UI.Selectable/Transition
+struct  Transition_t605142169 
+{
+public:
+	// System.Int32 UnityEngine.UI.Selectable/Transition::value__
+	int32_t ___value___1;
+
+public:
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Transition_t605142169, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
+	{
+		___value___1 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TRANSITION_T605142169_H
 #ifndef INVALIDOPERATIONEXCEPTION_T721527559_H
 #define INVALIDOPERATIONEXCEPTION_T721527559_H
 #ifdef __clang__
@@ -2820,6 +4882,141 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INVALIDOPERATIONEXCEPTION_T721527559_H
+#ifndef UIVERTEX_T1204258818_H
+#define UIVERTEX_T1204258818_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.UIVertex
+struct  UIVertex_t1204258818 
+{
+public:
+	// UnityEngine.Vector3 UnityEngine.UIVertex::position
+	Vector3_t2243707580  ___position_0;
+	// UnityEngine.Vector3 UnityEngine.UIVertex::normal
+	Vector3_t2243707580  ___normal_1;
+	// UnityEngine.Color32 UnityEngine.UIVertex::color
+	Color32_t874517518  ___color_2;
+	// UnityEngine.Vector2 UnityEngine.UIVertex::uv0
+	Vector2_t2243707579  ___uv0_3;
+	// UnityEngine.Vector2 UnityEngine.UIVertex::uv1
+	Vector2_t2243707579  ___uv1_4;
+	// UnityEngine.Vector2 UnityEngine.UIVertex::uv2
+	Vector2_t2243707579  ___uv2_5;
+	// UnityEngine.Vector2 UnityEngine.UIVertex::uv3
+	Vector2_t2243707579  ___uv3_6;
+	// UnityEngine.Vector4 UnityEngine.UIVertex::tangent
+	Vector4_t2243707581  ___tangent_7;
+
+public:
+	inline static int32_t get_offset_of_position_0() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818, ___position_0)); }
+	inline Vector3_t2243707580  get_position_0() const { return ___position_0; }
+	inline Vector3_t2243707580 * get_address_of_position_0() { return &___position_0; }
+	inline void set_position_0(Vector3_t2243707580  value)
+	{
+		___position_0 = value;
+	}
+
+	inline static int32_t get_offset_of_normal_1() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818, ___normal_1)); }
+	inline Vector3_t2243707580  get_normal_1() const { return ___normal_1; }
+	inline Vector3_t2243707580 * get_address_of_normal_1() { return &___normal_1; }
+	inline void set_normal_1(Vector3_t2243707580  value)
+	{
+		___normal_1 = value;
+	}
+
+	inline static int32_t get_offset_of_color_2() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818, ___color_2)); }
+	inline Color32_t874517518  get_color_2() const { return ___color_2; }
+	inline Color32_t874517518 * get_address_of_color_2() { return &___color_2; }
+	inline void set_color_2(Color32_t874517518  value)
+	{
+		___color_2 = value;
+	}
+
+	inline static int32_t get_offset_of_uv0_3() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818, ___uv0_3)); }
+	inline Vector2_t2243707579  get_uv0_3() const { return ___uv0_3; }
+	inline Vector2_t2243707579 * get_address_of_uv0_3() { return &___uv0_3; }
+	inline void set_uv0_3(Vector2_t2243707579  value)
+	{
+		___uv0_3 = value;
+	}
+
+	inline static int32_t get_offset_of_uv1_4() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818, ___uv1_4)); }
+	inline Vector2_t2243707579  get_uv1_4() const { return ___uv1_4; }
+	inline Vector2_t2243707579 * get_address_of_uv1_4() { return &___uv1_4; }
+	inline void set_uv1_4(Vector2_t2243707579  value)
+	{
+		___uv1_4 = value;
+	}
+
+	inline static int32_t get_offset_of_uv2_5() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818, ___uv2_5)); }
+	inline Vector2_t2243707579  get_uv2_5() const { return ___uv2_5; }
+	inline Vector2_t2243707579 * get_address_of_uv2_5() { return &___uv2_5; }
+	inline void set_uv2_5(Vector2_t2243707579  value)
+	{
+		___uv2_5 = value;
+	}
+
+	inline static int32_t get_offset_of_uv3_6() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818, ___uv3_6)); }
+	inline Vector2_t2243707579  get_uv3_6() const { return ___uv3_6; }
+	inline Vector2_t2243707579 * get_address_of_uv3_6() { return &___uv3_6; }
+	inline void set_uv3_6(Vector2_t2243707579  value)
+	{
+		___uv3_6 = value;
+	}
+
+	inline static int32_t get_offset_of_tangent_7() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818, ___tangent_7)); }
+	inline Vector4_t2243707581  get_tangent_7() const { return ___tangent_7; }
+	inline Vector4_t2243707581 * get_address_of_tangent_7() { return &___tangent_7; }
+	inline void set_tangent_7(Vector4_t2243707581  value)
+	{
+		___tangent_7 = value;
+	}
+};
+
+struct UIVertex_t1204258818_StaticFields
+{
+public:
+	// UnityEngine.Color32 UnityEngine.UIVertex::s_DefaultColor
+	Color32_t874517518  ___s_DefaultColor_8;
+	// UnityEngine.Vector4 UnityEngine.UIVertex::s_DefaultTangent
+	Vector4_t2243707581  ___s_DefaultTangent_9;
+	// UnityEngine.UIVertex UnityEngine.UIVertex::simpleVert
+	UIVertex_t1204258818  ___simpleVert_10;
+
+public:
+	inline static int32_t get_offset_of_s_DefaultColor_8() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818_StaticFields, ___s_DefaultColor_8)); }
+	inline Color32_t874517518  get_s_DefaultColor_8() const { return ___s_DefaultColor_8; }
+	inline Color32_t874517518 * get_address_of_s_DefaultColor_8() { return &___s_DefaultColor_8; }
+	inline void set_s_DefaultColor_8(Color32_t874517518  value)
+	{
+		___s_DefaultColor_8 = value;
+	}
+
+	inline static int32_t get_offset_of_s_DefaultTangent_9() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818_StaticFields, ___s_DefaultTangent_9)); }
+	inline Vector4_t2243707581  get_s_DefaultTangent_9() const { return ___s_DefaultTangent_9; }
+	inline Vector4_t2243707581 * get_address_of_s_DefaultTangent_9() { return &___s_DefaultTangent_9; }
+	inline void set_s_DefaultTangent_9(Vector4_t2243707581  value)
+	{
+		___s_DefaultTangent_9 = value;
+	}
+
+	inline static int32_t get_offset_of_simpleVert_10() { return static_cast<int32_t>(offsetof(UIVertex_t1204258818_StaticFields, ___simpleVert_10)); }
+	inline UIVertex_t1204258818  get_simpleVert_10() const { return ___simpleVert_10; }
+	inline UIVertex_t1204258818 * get_address_of_simpleVert_10() { return &___simpleVert_10; }
+	inline void set_simpleVert_10(UIVertex_t1204258818  value)
+	{
+		___simpleVert_10 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // UIVERTEX_T1204258818_H
 #ifndef RUNTIMEFIELDHANDLE_T2331729674_H
 #define RUNTIMEFIELDHANDLE_T2331729674_H
 #ifdef __clang__
@@ -2995,349 +5192,93 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // U3CPRIVATEIMPLEMENTATIONDETAILSU3E_T1486305140_H
-#ifndef COLORBLOCK_T2652774230_H
-#define COLORBLOCK_T2652774230_H
+#ifndef LINETYPE_T2931319356_H
+#define LINETYPE_T2931319356_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// UnityEngine.UI.ColorBlock
-struct  ColorBlock_t2652774230 
+// UnityEngine.UI.InputField/LineType
+struct  LineType_t2931319356 
 {
 public:
-	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_NormalColor
-	Color_t2020392075  ___m_NormalColor_0;
-	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_HighlightedColor
-	Color_t2020392075  ___m_HighlightedColor_1;
-	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_PressedColor
-	Color_t2020392075  ___m_PressedColor_2;
-	// UnityEngine.Color UnityEngine.UI.ColorBlock::m_DisabledColor
-	Color_t2020392075  ___m_DisabledColor_3;
-	// System.Single UnityEngine.UI.ColorBlock::m_ColorMultiplier
-	float ___m_ColorMultiplier_4;
-	// System.Single UnityEngine.UI.ColorBlock::m_FadeDuration
-	float ___m_FadeDuration_5;
+	// System.Int32 UnityEngine.UI.InputField/LineType::value__
+	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_m_NormalColor_0() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_NormalColor_0)); }
-	inline Color_t2020392075  get_m_NormalColor_0() const { return ___m_NormalColor_0; }
-	inline Color_t2020392075 * get_address_of_m_NormalColor_0() { return &___m_NormalColor_0; }
-	inline void set_m_NormalColor_0(Color_t2020392075  value)
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(LineType_t2931319356, ___value___1)); }
+	inline int32_t get_value___1() const { return ___value___1; }
+	inline int32_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int32_t value)
 	{
-		___m_NormalColor_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m_HighlightedColor_1() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_HighlightedColor_1)); }
-	inline Color_t2020392075  get_m_HighlightedColor_1() const { return ___m_HighlightedColor_1; }
-	inline Color_t2020392075 * get_address_of_m_HighlightedColor_1() { return &___m_HighlightedColor_1; }
-	inline void set_m_HighlightedColor_1(Color_t2020392075  value)
-	{
-		___m_HighlightedColor_1 = value;
-	}
-
-	inline static int32_t get_offset_of_m_PressedColor_2() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_PressedColor_2)); }
-	inline Color_t2020392075  get_m_PressedColor_2() const { return ___m_PressedColor_2; }
-	inline Color_t2020392075 * get_address_of_m_PressedColor_2() { return &___m_PressedColor_2; }
-	inline void set_m_PressedColor_2(Color_t2020392075  value)
-	{
-		___m_PressedColor_2 = value;
-	}
-
-	inline static int32_t get_offset_of_m_DisabledColor_3() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_DisabledColor_3)); }
-	inline Color_t2020392075  get_m_DisabledColor_3() const { return ___m_DisabledColor_3; }
-	inline Color_t2020392075 * get_address_of_m_DisabledColor_3() { return &___m_DisabledColor_3; }
-	inline void set_m_DisabledColor_3(Color_t2020392075  value)
-	{
-		___m_DisabledColor_3 = value;
-	}
-
-	inline static int32_t get_offset_of_m_ColorMultiplier_4() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_ColorMultiplier_4)); }
-	inline float get_m_ColorMultiplier_4() const { return ___m_ColorMultiplier_4; }
-	inline float* get_address_of_m_ColorMultiplier_4() { return &___m_ColorMultiplier_4; }
-	inline void set_m_ColorMultiplier_4(float value)
-	{
-		___m_ColorMultiplier_4 = value;
-	}
-
-	inline static int32_t get_offset_of_m_FadeDuration_5() { return static_cast<int32_t>(offsetof(ColorBlock_t2652774230, ___m_FadeDuration_5)); }
-	inline float get_m_FadeDuration_5() const { return ___m_FadeDuration_5; }
-	inline float* get_address_of_m_FadeDuration_5() { return &___m_FadeDuration_5; }
-	inline void set_m_FadeDuration_5(float value)
-	{
-		___m_FadeDuration_5 = value;
+		___value___1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // COLORBLOCK_T2652774230_H
-#ifndef ARGUMENTEXCEPTION_T3259014390_H
-#define ARGUMENTEXCEPTION_T3259014390_H
+#endif // LINETYPE_T2931319356_H
+#ifndef RUNTIMETYPEHANDLE_T2330101084_H
+#define RUNTIMETYPEHANDLE_T2330101084_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.ArgumentException
-struct  ArgumentException_t3259014390  : public SystemException_t3877406272
+// System.RuntimeTypeHandle
+struct  RuntimeTypeHandle_t2330101084 
 {
 public:
-	// System.String System.ArgumentException::param_name
-	String_t* ___param_name_12;
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
 
 public:
-	inline static int32_t get_offset_of_param_name_12() { return static_cast<int32_t>(offsetof(ArgumentException_t3259014390, ___param_name_12)); }
-	inline String_t* get_param_name_12() const { return ___param_name_12; }
-	inline String_t** get_address_of_param_name_12() { return &___param_name_12; }
-	inline void set_param_name_12(String_t* value)
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_t2330101084, ___value_0)); }
+	inline intptr_t get_value_0() const { return ___value_0; }
+	inline intptr_t* get_address_of_value_0() { return &___value_0; }
+	inline void set_value_0(intptr_t value)
 	{
-		___param_name_12 = value;
-		Il2CppCodeGenWriteBarrier((&___param_name_12), value);
+		___value_0 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ARGUMENTEXCEPTION_T3259014390_H
-#ifndef STREAMINGCONTEXT_T1417235061_H
-#define STREAMINGCONTEXT_T1417235061_H
+#endif // RUNTIMETYPEHANDLE_T2330101084_H
+#ifndef ARHITTESTRESULTTYPE_T3616749745_H
+#define ARHITTESTRESULTTYPE_T3616749745_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 
-// System.Runtime.Serialization.StreamingContext
-struct  StreamingContext_t1417235061 
+// UnityEngine.XR.iOS.ARHitTestResultType
+struct  ARHitTestResultType_t3616749745 
 {
 public:
-	// System.Runtime.Serialization.StreamingContextStates System.Runtime.Serialization.StreamingContext::state
-	int32_t ___state_0;
-	// System.Object System.Runtime.Serialization.StreamingContext::additional
-	RuntimeObject * ___additional_1;
+	// System.Int64 UnityEngine.XR.iOS.ARHitTestResultType::value__
+	int64_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_state_0() { return static_cast<int32_t>(offsetof(StreamingContext_t1417235061, ___state_0)); }
-	inline int32_t get_state_0() const { return ___state_0; }
-	inline int32_t* get_address_of_state_0() { return &___state_0; }
-	inline void set_state_0(int32_t value)
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(ARHitTestResultType_t3616749745, ___value___1)); }
+	inline int64_t get_value___1() const { return ___value___1; }
+	inline int64_t* get_address_of_value___1() { return &___value___1; }
+	inline void set_value___1(int64_t value)
 	{
-		___state_0 = value;
-	}
-
-	inline static int32_t get_offset_of_additional_1() { return static_cast<int32_t>(offsetof(StreamingContext_t1417235061, ___additional_1)); }
-	inline RuntimeObject * get_additional_1() const { return ___additional_1; }
-	inline RuntimeObject ** get_address_of_additional_1() { return &___additional_1; }
-	inline void set_additional_1(RuntimeObject * value)
-	{
-		___additional_1 = value;
-		Il2CppCodeGenWriteBarrier((&___additional_1), value);
+		___value___1 = value;
 	}
 };
 
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Native definition for P/Invoke marshalling of System.Runtime.Serialization.StreamingContext
-struct StreamingContext_t1417235061_marshaled_pinvoke
-{
-	int32_t ___state_0;
-	Il2CppIUnknown* ___additional_1;
-};
-// Native definition for COM marshalling of System.Runtime.Serialization.StreamingContext
-struct StreamingContext_t1417235061_marshaled_com
-{
-	int32_t ___state_0;
-	Il2CppIUnknown* ___additional_1;
-};
-#endif // STREAMINGCONTEXT_T1417235061_H
-#ifndef OBJECTDISPOSEDEXCEPTION_T2695136451_H
-#define OBJECTDISPOSEDEXCEPTION_T2695136451_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ObjectDisposedException
-struct  ObjectDisposedException_t2695136451  : public InvalidOperationException_t721527559
-{
-public:
-	// System.String System.ObjectDisposedException::obj_name
-	String_t* ___obj_name_12;
-	// System.String System.ObjectDisposedException::msg
-	String_t* ___msg_13;
-
-public:
-	inline static int32_t get_offset_of_obj_name_12() { return static_cast<int32_t>(offsetof(ObjectDisposedException_t2695136451, ___obj_name_12)); }
-	inline String_t* get_obj_name_12() const { return ___obj_name_12; }
-	inline String_t** get_address_of_obj_name_12() { return &___obj_name_12; }
-	inline void set_obj_name_12(String_t* value)
-	{
-		___obj_name_12 = value;
-		Il2CppCodeGenWriteBarrier((&___obj_name_12), value);
-	}
-
-	inline static int32_t get_offset_of_msg_13() { return static_cast<int32_t>(offsetof(ObjectDisposedException_t2695136451, ___msg_13)); }
-	inline String_t* get_msg_13() const { return ___msg_13; }
-	inline String_t** get_address_of_msg_13() { return &___msg_13; }
-	inline void set_msg_13(String_t* value)
-	{
-		___msg_13 = value;
-		Il2CppCodeGenWriteBarrier((&___msg_13), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // OBJECTDISPOSEDEXCEPTION_T2695136451_H
-#ifndef NAVIGATION_T1571958496_H
-#define NAVIGATION_T1571958496_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// UnityEngine.UI.Navigation
-struct  Navigation_t1571958496 
-{
-public:
-	// UnityEngine.UI.Navigation/Mode UnityEngine.UI.Navigation::m_Mode
-	int32_t ___m_Mode_0;
-	// UnityEngine.UI.Selectable UnityEngine.UI.Navigation::m_SelectOnUp
-	Selectable_t1490392188 * ___m_SelectOnUp_1;
-	// UnityEngine.UI.Selectable UnityEngine.UI.Navigation::m_SelectOnDown
-	Selectable_t1490392188 * ___m_SelectOnDown_2;
-	// UnityEngine.UI.Selectable UnityEngine.UI.Navigation::m_SelectOnLeft
-	Selectable_t1490392188 * ___m_SelectOnLeft_3;
-	// UnityEngine.UI.Selectable UnityEngine.UI.Navigation::m_SelectOnRight
-	Selectable_t1490392188 * ___m_SelectOnRight_4;
-
-public:
-	inline static int32_t get_offset_of_m_Mode_0() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_Mode_0)); }
-	inline int32_t get_m_Mode_0() const { return ___m_Mode_0; }
-	inline int32_t* get_address_of_m_Mode_0() { return &___m_Mode_0; }
-	inline void set_m_Mode_0(int32_t value)
-	{
-		___m_Mode_0 = value;
-	}
-
-	inline static int32_t get_offset_of_m_SelectOnUp_1() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_SelectOnUp_1)); }
-	inline Selectable_t1490392188 * get_m_SelectOnUp_1() const { return ___m_SelectOnUp_1; }
-	inline Selectable_t1490392188 ** get_address_of_m_SelectOnUp_1() { return &___m_SelectOnUp_1; }
-	inline void set_m_SelectOnUp_1(Selectable_t1490392188 * value)
-	{
-		___m_SelectOnUp_1 = value;
-		Il2CppCodeGenWriteBarrier((&___m_SelectOnUp_1), value);
-	}
-
-	inline static int32_t get_offset_of_m_SelectOnDown_2() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_SelectOnDown_2)); }
-	inline Selectable_t1490392188 * get_m_SelectOnDown_2() const { return ___m_SelectOnDown_2; }
-	inline Selectable_t1490392188 ** get_address_of_m_SelectOnDown_2() { return &___m_SelectOnDown_2; }
-	inline void set_m_SelectOnDown_2(Selectable_t1490392188 * value)
-	{
-		___m_SelectOnDown_2 = value;
-		Il2CppCodeGenWriteBarrier((&___m_SelectOnDown_2), value);
-	}
-
-	inline static int32_t get_offset_of_m_SelectOnLeft_3() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_SelectOnLeft_3)); }
-	inline Selectable_t1490392188 * get_m_SelectOnLeft_3() const { return ___m_SelectOnLeft_3; }
-	inline Selectable_t1490392188 ** get_address_of_m_SelectOnLeft_3() { return &___m_SelectOnLeft_3; }
-	inline void set_m_SelectOnLeft_3(Selectable_t1490392188 * value)
-	{
-		___m_SelectOnLeft_3 = value;
-		Il2CppCodeGenWriteBarrier((&___m_SelectOnLeft_3), value);
-	}
-
-	inline static int32_t get_offset_of_m_SelectOnRight_4() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_SelectOnRight_4)); }
-	inline Selectable_t1490392188 * get_m_SelectOnRight_4() const { return ___m_SelectOnRight_4; }
-	inline Selectable_t1490392188 ** get_address_of_m_SelectOnRight_4() { return &___m_SelectOnRight_4; }
-	inline void set_m_SelectOnRight_4(Selectable_t1490392188 * value)
-	{
-		___m_SelectOnRight_4 = value;
-		Il2CppCodeGenWriteBarrier((&___m_SelectOnRight_4), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-// Native definition for P/Invoke marshalling of UnityEngine.UI.Navigation
-struct Navigation_t1571958496_marshaled_pinvoke
-{
-	int32_t ___m_Mode_0;
-	Selectable_t1490392188 * ___m_SelectOnUp_1;
-	Selectable_t1490392188 * ___m_SelectOnDown_2;
-	Selectable_t1490392188 * ___m_SelectOnLeft_3;
-	Selectable_t1490392188 * ___m_SelectOnRight_4;
-};
-// Native definition for COM marshalling of UnityEngine.UI.Navigation
-struct Navigation_t1571958496_marshaled_com
-{
-	int32_t ___m_Mode_0;
-	Selectable_t1490392188 * ___m_SelectOnUp_1;
-	Selectable_t1490392188 * ___m_SelectOnDown_2;
-	Selectable_t1490392188 * ___m_SelectOnLeft_3;
-	Selectable_t1490392188 * ___m_SelectOnRight_4;
-};
-#endif // NAVIGATION_T1571958496_H
-#ifndef ARGUMENTNULLEXCEPTION_T628810857_H
-#define ARGUMENTNULLEXCEPTION_T628810857_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ArgumentNullException
-struct  ArgumentNullException_t628810857  : public ArgumentException_t3259014390
-{
-public:
-
-public:
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ARGUMENTNULLEXCEPTION_T628810857_H
-#ifndef ARGUMENTOUTOFRANGEEXCEPTION_T279959794_H
-#define ARGUMENTOUTOFRANGEEXCEPTION_T279959794_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// System.ArgumentOutOfRangeException
-struct  ArgumentOutOfRangeException_t279959794  : public ArgumentException_t3259014390
-{
-public:
-	// System.Object System.ArgumentOutOfRangeException::actual_value
-	RuntimeObject * ___actual_value_13;
-
-public:
-	inline static int32_t get_offset_of_actual_value_13() { return static_cast<int32_t>(offsetof(ArgumentOutOfRangeException_t279959794, ___actual_value_13)); }
-	inline RuntimeObject * get_actual_value_13() const { return ___actual_value_13; }
-	inline RuntimeObject ** get_address_of_actual_value_13() { return &___actual_value_13; }
-	inline void set_actual_value_13(RuntimeObject * value)
-	{
-		___actual_value_13 = value;
-		Il2CppCodeGenWriteBarrier((&___actual_value_13), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // ARGUMENTOUTOFRANGEEXCEPTION_T279959794_H
+#endif // ARHITTESTRESULTTYPE_T3616749745_H
 #ifndef DATETIME_T693205669_H
 #define DATETIME_T693205669_H
 #ifdef __clang__
@@ -3523,6 +5464,440 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DATETIME_T693205669_H
+#ifndef NAVIGATION_T1571958496_H
+#define NAVIGATION_T1571958496_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.UI.Navigation
+struct  Navigation_t1571958496 
+{
+public:
+	// UnityEngine.UI.Navigation/Mode UnityEngine.UI.Navigation::m_Mode
+	int32_t ___m_Mode_0;
+	// UnityEngine.UI.Selectable UnityEngine.UI.Navigation::m_SelectOnUp
+	Selectable_t1490392188 * ___m_SelectOnUp_1;
+	// UnityEngine.UI.Selectable UnityEngine.UI.Navigation::m_SelectOnDown
+	Selectable_t1490392188 * ___m_SelectOnDown_2;
+	// UnityEngine.UI.Selectable UnityEngine.UI.Navigation::m_SelectOnLeft
+	Selectable_t1490392188 * ___m_SelectOnLeft_3;
+	// UnityEngine.UI.Selectable UnityEngine.UI.Navigation::m_SelectOnRight
+	Selectable_t1490392188 * ___m_SelectOnRight_4;
+
+public:
+	inline static int32_t get_offset_of_m_Mode_0() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_Mode_0)); }
+	inline int32_t get_m_Mode_0() const { return ___m_Mode_0; }
+	inline int32_t* get_address_of_m_Mode_0() { return &___m_Mode_0; }
+	inline void set_m_Mode_0(int32_t value)
+	{
+		___m_Mode_0 = value;
+	}
+
+	inline static int32_t get_offset_of_m_SelectOnUp_1() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_SelectOnUp_1)); }
+	inline Selectable_t1490392188 * get_m_SelectOnUp_1() const { return ___m_SelectOnUp_1; }
+	inline Selectable_t1490392188 ** get_address_of_m_SelectOnUp_1() { return &___m_SelectOnUp_1; }
+	inline void set_m_SelectOnUp_1(Selectable_t1490392188 * value)
+	{
+		___m_SelectOnUp_1 = value;
+		Il2CppCodeGenWriteBarrier((&___m_SelectOnUp_1), value);
+	}
+
+	inline static int32_t get_offset_of_m_SelectOnDown_2() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_SelectOnDown_2)); }
+	inline Selectable_t1490392188 * get_m_SelectOnDown_2() const { return ___m_SelectOnDown_2; }
+	inline Selectable_t1490392188 ** get_address_of_m_SelectOnDown_2() { return &___m_SelectOnDown_2; }
+	inline void set_m_SelectOnDown_2(Selectable_t1490392188 * value)
+	{
+		___m_SelectOnDown_2 = value;
+		Il2CppCodeGenWriteBarrier((&___m_SelectOnDown_2), value);
+	}
+
+	inline static int32_t get_offset_of_m_SelectOnLeft_3() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_SelectOnLeft_3)); }
+	inline Selectable_t1490392188 * get_m_SelectOnLeft_3() const { return ___m_SelectOnLeft_3; }
+	inline Selectable_t1490392188 ** get_address_of_m_SelectOnLeft_3() { return &___m_SelectOnLeft_3; }
+	inline void set_m_SelectOnLeft_3(Selectable_t1490392188 * value)
+	{
+		___m_SelectOnLeft_3 = value;
+		Il2CppCodeGenWriteBarrier((&___m_SelectOnLeft_3), value);
+	}
+
+	inline static int32_t get_offset_of_m_SelectOnRight_4() { return static_cast<int32_t>(offsetof(Navigation_t1571958496, ___m_SelectOnRight_4)); }
+	inline Selectable_t1490392188 * get_m_SelectOnRight_4() const { return ___m_SelectOnRight_4; }
+	inline Selectable_t1490392188 ** get_address_of_m_SelectOnRight_4() { return &___m_SelectOnRight_4; }
+	inline void set_m_SelectOnRight_4(Selectable_t1490392188 * value)
+	{
+		___m_SelectOnRight_4 = value;
+		Il2CppCodeGenWriteBarrier((&___m_SelectOnRight_4), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.UI.Navigation
+struct Navigation_t1571958496_marshaled_pinvoke
+{
+	int32_t ___m_Mode_0;
+	Selectable_t1490392188 * ___m_SelectOnUp_1;
+	Selectable_t1490392188 * ___m_SelectOnDown_2;
+	Selectable_t1490392188 * ___m_SelectOnLeft_3;
+	Selectable_t1490392188 * ___m_SelectOnRight_4;
+};
+// Native definition for COM marshalling of UnityEngine.UI.Navigation
+struct Navigation_t1571958496_marshaled_com
+{
+	int32_t ___m_Mode_0;
+	Selectable_t1490392188 * ___m_SelectOnUp_1;
+	Selectable_t1490392188 * ___m_SelectOnDown_2;
+	Selectable_t1490392188 * ___m_SelectOnLeft_3;
+	Selectable_t1490392188 * ___m_SelectOnRight_4;
+};
+#endif // NAVIGATION_T1571958496_H
+#ifndef TYPE_T_H
+#define TYPE_T_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Type
+struct  Type_t  : public MemberInfo_t
+{
+public:
+	// System.RuntimeTypeHandle System.Type::_impl
+	RuntimeTypeHandle_t2330101084  ____impl_1;
+
+public:
+	inline static int32_t get_offset_of__impl_1() { return static_cast<int32_t>(offsetof(Type_t, ____impl_1)); }
+	inline RuntimeTypeHandle_t2330101084  get__impl_1() const { return ____impl_1; }
+	inline RuntimeTypeHandle_t2330101084 * get_address_of__impl_1() { return &____impl_1; }
+	inline void set__impl_1(RuntimeTypeHandle_t2330101084  value)
+	{
+		____impl_1 = value;
+	}
+};
+
+struct Type_t_StaticFields
+{
+public:
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_2;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t1664964607* ___EmptyTypes_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_t3405857066 * ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_t3405857066 * ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_t3405857066 * ___FilterNameIgnoreCase_6;
+	// System.Object System.Type::Missing
+	RuntimeObject * ___Missing_7;
+
+public:
+	inline static int32_t get_offset_of_Delimiter_2() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Delimiter_2)); }
+	inline Il2CppChar get_Delimiter_2() const { return ___Delimiter_2; }
+	inline Il2CppChar* get_address_of_Delimiter_2() { return &___Delimiter_2; }
+	inline void set_Delimiter_2(Il2CppChar value)
+	{
+		___Delimiter_2 = value;
+	}
+
+	inline static int32_t get_offset_of_EmptyTypes_3() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___EmptyTypes_3)); }
+	inline TypeU5BU5D_t1664964607* get_EmptyTypes_3() const { return ___EmptyTypes_3; }
+	inline TypeU5BU5D_t1664964607** get_address_of_EmptyTypes_3() { return &___EmptyTypes_3; }
+	inline void set_EmptyTypes_3(TypeU5BU5D_t1664964607* value)
+	{
+		___EmptyTypes_3 = value;
+		Il2CppCodeGenWriteBarrier((&___EmptyTypes_3), value);
+	}
+
+	inline static int32_t get_offset_of_FilterAttribute_4() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterAttribute_4)); }
+	inline MemberFilter_t3405857066 * get_FilterAttribute_4() const { return ___FilterAttribute_4; }
+	inline MemberFilter_t3405857066 ** get_address_of_FilterAttribute_4() { return &___FilterAttribute_4; }
+	inline void set_FilterAttribute_4(MemberFilter_t3405857066 * value)
+	{
+		___FilterAttribute_4 = value;
+		Il2CppCodeGenWriteBarrier((&___FilterAttribute_4), value);
+	}
+
+	inline static int32_t get_offset_of_FilterName_5() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterName_5)); }
+	inline MemberFilter_t3405857066 * get_FilterName_5() const { return ___FilterName_5; }
+	inline MemberFilter_t3405857066 ** get_address_of_FilterName_5() { return &___FilterName_5; }
+	inline void set_FilterName_5(MemberFilter_t3405857066 * value)
+	{
+		___FilterName_5 = value;
+		Il2CppCodeGenWriteBarrier((&___FilterName_5), value);
+	}
+
+	inline static int32_t get_offset_of_FilterNameIgnoreCase_6() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterNameIgnoreCase_6)); }
+	inline MemberFilter_t3405857066 * get_FilterNameIgnoreCase_6() const { return ___FilterNameIgnoreCase_6; }
+	inline MemberFilter_t3405857066 ** get_address_of_FilterNameIgnoreCase_6() { return &___FilterNameIgnoreCase_6; }
+	inline void set_FilterNameIgnoreCase_6(MemberFilter_t3405857066 * value)
+	{
+		___FilterNameIgnoreCase_6 = value;
+		Il2CppCodeGenWriteBarrier((&___FilterNameIgnoreCase_6), value);
+	}
+
+	inline static int32_t get_offset_of_Missing_7() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___Missing_7)); }
+	inline RuntimeObject * get_Missing_7() const { return ___Missing_7; }
+	inline RuntimeObject ** get_address_of_Missing_7() { return &___Missing_7; }
+	inline void set_Missing_7(RuntimeObject * value)
+	{
+		___Missing_7 = value;
+		Il2CppCodeGenWriteBarrier((&___Missing_7), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TYPE_T_H
+#ifndef STREAMINGCONTEXT_T1417235061_H
+#define STREAMINGCONTEXT_T1417235061_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.Runtime.Serialization.StreamingContext
+struct  StreamingContext_t1417235061 
+{
+public:
+	// System.Runtime.Serialization.StreamingContextStates System.Runtime.Serialization.StreamingContext::state
+	int32_t ___state_0;
+	// System.Object System.Runtime.Serialization.StreamingContext::additional
+	RuntimeObject * ___additional_1;
+
+public:
+	inline static int32_t get_offset_of_state_0() { return static_cast<int32_t>(offsetof(StreamingContext_t1417235061, ___state_0)); }
+	inline int32_t get_state_0() const { return ___state_0; }
+	inline int32_t* get_address_of_state_0() { return &___state_0; }
+	inline void set_state_0(int32_t value)
+	{
+		___state_0 = value;
+	}
+
+	inline static int32_t get_offset_of_additional_1() { return static_cast<int32_t>(offsetof(StreamingContext_t1417235061, ___additional_1)); }
+	inline RuntimeObject * get_additional_1() const { return ___additional_1; }
+	inline RuntimeObject ** get_address_of_additional_1() { return &___additional_1; }
+	inline void set_additional_1(RuntimeObject * value)
+	{
+		___additional_1 = value;
+		Il2CppCodeGenWriteBarrier((&___additional_1), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of System.Runtime.Serialization.StreamingContext
+struct StreamingContext_t1417235061_marshaled_pinvoke
+{
+	int32_t ___state_0;
+	Il2CppIUnknown* ___additional_1;
+};
+// Native definition for COM marshalling of System.Runtime.Serialization.StreamingContext
+struct StreamingContext_t1417235061_marshaled_com
+{
+	int32_t ___state_0;
+	Il2CppIUnknown* ___additional_1;
+};
+#endif // STREAMINGCONTEXT_T1417235061_H
+#ifndef ARGUMENTOUTOFRANGEEXCEPTION_T279959794_H
+#define ARGUMENTOUTOFRANGEEXCEPTION_T279959794_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ArgumentOutOfRangeException
+struct  ArgumentOutOfRangeException_t279959794  : public ArgumentException_t3259014390
+{
+public:
+	// System.Object System.ArgumentOutOfRangeException::actual_value
+	RuntimeObject * ___actual_value_13;
+
+public:
+	inline static int32_t get_offset_of_actual_value_13() { return static_cast<int32_t>(offsetof(ArgumentOutOfRangeException_t279959794, ___actual_value_13)); }
+	inline RuntimeObject * get_actual_value_13() const { return ___actual_value_13; }
+	inline RuntimeObject ** get_address_of_actual_value_13() { return &___actual_value_13; }
+	inline void set_actual_value_13(RuntimeObject * value)
+	{
+		___actual_value_13 = value;
+		Il2CppCodeGenWriteBarrier((&___actual_value_13), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ARGUMENTOUTOFRANGEEXCEPTION_T279959794_H
+#ifndef ARGUMENTNULLEXCEPTION_T628810857_H
+#define ARGUMENTNULLEXCEPTION_T628810857_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ArgumentNullException
+struct  ArgumentNullException_t628810857  : public ArgumentException_t3259014390
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // ARGUMENTNULLEXCEPTION_T628810857_H
+#ifndef ARHITTESTRESULT_T3275513025_H
+#define ARHITTESTRESULT_T3275513025_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.XR.iOS.ARHitTestResult
+struct  ARHitTestResult_t3275513025 
+{
+public:
+	// UnityEngine.XR.iOS.ARHitTestResultType UnityEngine.XR.iOS.ARHitTestResult::type
+	int64_t ___type_0;
+	// System.Double UnityEngine.XR.iOS.ARHitTestResult::distance
+	double ___distance_1;
+	// UnityEngine.Matrix4x4 UnityEngine.XR.iOS.ARHitTestResult::localTransform
+	Matrix4x4_t2933234003  ___localTransform_2;
+	// UnityEngine.Matrix4x4 UnityEngine.XR.iOS.ARHitTestResult::worldTransform
+	Matrix4x4_t2933234003  ___worldTransform_3;
+	// System.String UnityEngine.XR.iOS.ARHitTestResult::anchorIdentifier
+	String_t* ___anchorIdentifier_4;
+	// System.Boolean UnityEngine.XR.iOS.ARHitTestResult::isValid
+	bool ___isValid_5;
+
+public:
+	inline static int32_t get_offset_of_type_0() { return static_cast<int32_t>(offsetof(ARHitTestResult_t3275513025, ___type_0)); }
+	inline int64_t get_type_0() const { return ___type_0; }
+	inline int64_t* get_address_of_type_0() { return &___type_0; }
+	inline void set_type_0(int64_t value)
+	{
+		___type_0 = value;
+	}
+
+	inline static int32_t get_offset_of_distance_1() { return static_cast<int32_t>(offsetof(ARHitTestResult_t3275513025, ___distance_1)); }
+	inline double get_distance_1() const { return ___distance_1; }
+	inline double* get_address_of_distance_1() { return &___distance_1; }
+	inline void set_distance_1(double value)
+	{
+		___distance_1 = value;
+	}
+
+	inline static int32_t get_offset_of_localTransform_2() { return static_cast<int32_t>(offsetof(ARHitTestResult_t3275513025, ___localTransform_2)); }
+	inline Matrix4x4_t2933234003  get_localTransform_2() const { return ___localTransform_2; }
+	inline Matrix4x4_t2933234003 * get_address_of_localTransform_2() { return &___localTransform_2; }
+	inline void set_localTransform_2(Matrix4x4_t2933234003  value)
+	{
+		___localTransform_2 = value;
+	}
+
+	inline static int32_t get_offset_of_worldTransform_3() { return static_cast<int32_t>(offsetof(ARHitTestResult_t3275513025, ___worldTransform_3)); }
+	inline Matrix4x4_t2933234003  get_worldTransform_3() const { return ___worldTransform_3; }
+	inline Matrix4x4_t2933234003 * get_address_of_worldTransform_3() { return &___worldTransform_3; }
+	inline void set_worldTransform_3(Matrix4x4_t2933234003  value)
+	{
+		___worldTransform_3 = value;
+	}
+
+	inline static int32_t get_offset_of_anchorIdentifier_4() { return static_cast<int32_t>(offsetof(ARHitTestResult_t3275513025, ___anchorIdentifier_4)); }
+	inline String_t* get_anchorIdentifier_4() const { return ___anchorIdentifier_4; }
+	inline String_t** get_address_of_anchorIdentifier_4() { return &___anchorIdentifier_4; }
+	inline void set_anchorIdentifier_4(String_t* value)
+	{
+		___anchorIdentifier_4 = value;
+		Il2CppCodeGenWriteBarrier((&___anchorIdentifier_4), value);
+	}
+
+	inline static int32_t get_offset_of_isValid_5() { return static_cast<int32_t>(offsetof(ARHitTestResult_t3275513025, ___isValid_5)); }
+	inline bool get_isValid_5() const { return ___isValid_5; }
+	inline bool* get_address_of_isValid_5() { return &___isValid_5; }
+	inline void set_isValid_5(bool value)
+	{
+		___isValid_5 = value;
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Native definition for P/Invoke marshalling of UnityEngine.XR.iOS.ARHitTestResult
+struct ARHitTestResult_t3275513025_marshaled_pinvoke
+{
+	int64_t ___type_0;
+	double ___distance_1;
+	Matrix4x4_t2933234003  ___localTransform_2;
+	Matrix4x4_t2933234003  ___worldTransform_3;
+	char* ___anchorIdentifier_4;
+	int32_t ___isValid_5;
+};
+// Native definition for COM marshalling of UnityEngine.XR.iOS.ARHitTestResult
+struct ARHitTestResult_t3275513025_marshaled_com
+{
+	int64_t ___type_0;
+	double ___distance_1;
+	Matrix4x4_t2933234003  ___localTransform_2;
+	Matrix4x4_t2933234003  ___worldTransform_3;
+	Il2CppChar* ___anchorIdentifier_4;
+	int32_t ___isValid_5;
+};
+#endif // ARHITTESTRESULT_T3275513025_H
+#ifndef OBJECTDISPOSEDEXCEPTION_T2695136451_H
+#define OBJECTDISPOSEDEXCEPTION_T2695136451_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// System.ObjectDisposedException
+struct  ObjectDisposedException_t2695136451  : public InvalidOperationException_t721527559
+{
+public:
+	// System.String System.ObjectDisposedException::obj_name
+	String_t* ___obj_name_12;
+	// System.String System.ObjectDisposedException::msg
+	String_t* ___msg_13;
+
+public:
+	inline static int32_t get_offset_of_obj_name_12() { return static_cast<int32_t>(offsetof(ObjectDisposedException_t2695136451, ___obj_name_12)); }
+	inline String_t* get_obj_name_12() const { return ___obj_name_12; }
+	inline String_t** get_address_of_obj_name_12() { return &___obj_name_12; }
+	inline void set_obj_name_12(String_t* value)
+	{
+		___obj_name_12 = value;
+		Il2CppCodeGenWriteBarrier((&___obj_name_12), value);
+	}
+
+	inline static int32_t get_offset_of_msg_13() { return static_cast<int32_t>(offsetof(ObjectDisposedException_t2695136451, ___msg_13)); }
+	inline String_t* get_msg_13() const { return ___msg_13; }
+	inline String_t** get_address_of_msg_13() { return &___msg_13; }
+	inline void set_msg_13(String_t* value)
+	{
+		___msg_13 = value;
+		Il2CppCodeGenWriteBarrier((&___msg_13), value);
+	}
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // OBJECTDISPOSEDEXCEPTION_T2695136451_H
 #ifndef DATETIMEOFFSET_T1362988906_H
 #define DATETIMEOFFSET_T1362988906_H
 #ifdef __clang__
@@ -3588,6 +5963,43 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DATETIMEOFFSET_T1362988906_H
+// System.Type[]
+struct TypeU5BU5D_t1664964607  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) Type_t * m_Items[1];
+
+public:
+	inline Type_t * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Type_t ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Type_t * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Type_t * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Type_t ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Type_t * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
 // System.Object[]
 struct ObjectU5BU5D_t3614634134  : public RuntimeArray
 {
@@ -3712,6 +6124,24 @@ extern "C"  RuntimeObject * Enumerator_get_Current_m1303936404_gshared (Enumerat
 // System.Void System.Collections.Generic.HashSet`1/Enumerator<System.Object>::Dispose()
 extern "C"  void Enumerator_Dispose_m2585752265_gshared (Enumerator_t3806193287 * __this, const RuntimeMethod* method);
 
+// System.Void System.Object::.ctor()
+extern "C"  void Object__ctor_m2551263788 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+extern "C"  Type_t * Type_GetTypeFromHandle_m432505302 (RuntimeObject * __this /* static, unused */, RuntimeTypeHandle_t2330101084  ___handle0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Activator::CreateInstance(System.Type)
+extern "C"  RuntimeObject * Activator_CreateInstance_m383294261 (RuntimeObject * __this /* static, unused */, Type_t * ___type0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Boolean::CompareTo(System.Boolean)
+extern "C"  int32_t Boolean_CompareTo_m1086129598 (bool* __this, bool ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Byte::CompareTo(System.Byte)
+extern "C"  int32_t Byte_CompareTo_m1850579028 (uint8_t* __this, uint8_t ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Char::CompareTo(System.Char)
+extern "C"  int32_t Char_CompareTo_m3169412556 (Il2CppChar* __this, Il2CppChar ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.DateTime::CompareTo(System.DateTime)
+extern "C"  int32_t DateTime_CompareTo_m1511117942 (DateTime_t693205669 * __this, DateTime_t693205669  ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.DateTimeOffset::CompareTo(System.DateTimeOffset)
+extern "C"  int32_t DateTimeOffset_CompareTo_m441053436 (DateTimeOffset_t1362988906 * __this, DateTimeOffset_t1362988906  ___other0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Guid::CompareTo(System.Guid)
+extern "C"  int32_t Guid_CompareTo_m2203922782 (Guid_t * __this, Guid_t  ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Int32::CompareTo(System.Int32)
 extern "C"  int32_t Int32_CompareTo_m3808534558 (int32_t* __this, int32_t ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Single::CompareTo(System.Single)
@@ -3786,8 +6216,6 @@ extern "C"  void InvalidOperationException__ctor_m2801133788 (InvalidOperationEx
 extern "C"  void ObjectDisposedException__ctor_m3156784572 (ObjectDisposedException_t2695136451 * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)
 extern "C"  void RuntimeHelpers_InitializeArray_m3920580167 (RuntimeObject * __this /* static, unused */, RuntimeArray * p0, RuntimeFieldHandle_t2331729674  p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Object::.ctor()
-extern "C"  void Object__ctor_m2551263788 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String)
 extern "C"  void ArgumentOutOfRangeException__ctor_m1595007065 (ArgumentOutOfRangeException_t279959794 * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.ArgumentNullException::.ctor(System.String)
@@ -3805,6 +6233,1424 @@ extern "C"  void NotImplementedException__ctor_m808189835 (NotImplementedExcepti
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.InputField/LineType>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m99476293_gshared (EqualityComparer_1_t1504954627 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.InputField/LineType>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m1409799842_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m1409799842_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t1504954627_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t1504954627 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t258282221 * L_8 = (DefaultComparer_t258282221 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t258282221 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t1504954627_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.InputField/LineType>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1773381340_gshared (EqualityComparer_1_t1504954627 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t1504954627 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.InputField/LineType>::GetHashCode(T) */, (EqualityComparer_1_t1504954627 *)__this, (int32_t)((*(int32_t*)((int32_t*)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.InputField/LineType>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m349194518_gshared (EqualityComparer_1_t1504954627 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t1504954627 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, int32_t, int32_t >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.InputField/LineType>::Equals(T,T) */, (EqualityComparer_1_t1504954627 *)__this, (int32_t)((*(int32_t*)((int32_t*)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (int32_t)((*(int32_t*)((int32_t*)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.InputField/LineType>::get_Default()
+extern "C"  EqualityComparer_1_t1504954627 * EqualityComparer_1_get_Default_m2134906921_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t1504954627 * L_0 = ((EqualityComparer_1_t1504954627_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m1248117236_gshared (EqualityComparer_1_t145593767 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m656572377_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m656572377_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t145593767_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t145593767 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t3193888657 * L_8 = (DefaultComparer_t3193888657 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t3193888657 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t145593767_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m2460068977_gshared (EqualityComparer_1_t145593767 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t145593767 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, Navigation_t1571958496  >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::GetHashCode(T) */, (EqualityComparer_1_t145593767 *)__this, (Navigation_t1571958496 )((*(Navigation_t1571958496 *)((Navigation_t1571958496 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1007228931_gshared (EqualityComparer_1_t145593767 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t145593767 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, Navigation_t1571958496 , Navigation_t1571958496  >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::Equals(T,T) */, (EqualityComparer_1_t145593767 *)__this, (Navigation_t1571958496 )((*(Navigation_t1571958496 *)((Navigation_t1571958496 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (Navigation_t1571958496 )((*(Navigation_t1571958496 *)((Navigation_t1571958496 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Navigation>::get_Default()
+extern "C"  EqualityComparer_1_t145593767 * EqualityComparer_1_get_Default_m3794275192_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t145593767 * L_0 = ((EqualityComparer_1_t145593767_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Scrollbar/Direction>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m1398088456_gshared (EqualityComparer_1_t2270411192 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Scrollbar/Direction>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m3555705685_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m3555705685_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t2270411192_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t2270411192 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t1023738786 * L_8 = (DefaultComparer_t1023738786 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t1023738786 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t2270411192_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Scrollbar/Direction>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m647607345_gshared (EqualityComparer_1_t2270411192 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t2270411192 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Scrollbar/Direction>::GetHashCode(T) */, (EqualityComparer_1_t2270411192 *)__this, (int32_t)((*(int32_t*)((int32_t*)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Scrollbar/Direction>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1019855307_gshared (EqualityComparer_1_t2270411192 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t2270411192 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, int32_t, int32_t >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Scrollbar/Direction>::Equals(T,T) */, (EqualityComparer_1_t2270411192 *)__this, (int32_t)((*(int32_t*)((int32_t*)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (int32_t)((*(int32_t*)((int32_t*)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Scrollbar/Direction>::get_Default()
+extern "C"  EqualityComparer_1_t2270411192 * EqualityComparer_1_get_Default_m2445143908_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t2270411192 * L_0 = ((EqualityComparer_1_t2270411192_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Selectable/Transition>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m3971803374_gshared (EqualityComparer_1_t3473744736 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Selectable/Transition>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m232418593_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m232418593_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t3473744736_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t3473744736 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t2227072330 * L_8 = (DefaultComparer_t2227072330 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t2227072330 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t3473744736_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Selectable/Transition>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1749014277_gshared (EqualityComparer_1_t3473744736 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t3473744736 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Selectable/Transition>::GetHashCode(T) */, (EqualityComparer_1_t3473744736 *)__this, (int32_t)((*(int32_t*)((int32_t*)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Selectable/Transition>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m2571982283_gshared (EqualityComparer_1_t3473744736 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t3473744736 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, int32_t, int32_t >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Selectable/Transition>::Equals(T,T) */, (EqualityComparer_1_t3473744736 *)__this, (int32_t)((*(int32_t*)((int32_t*)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (int32_t)((*(int32_t*)((int32_t*)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Selectable/Transition>::get_Default()
+extern "C"  EqualityComparer_1_t3473744736 * EqualityComparer_1_get_Default_m2229997586_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t3473744736 * L_0 = ((EqualityComparer_1_t3473744736_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Slider/Direction>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m2069363015_gshared (EqualityComparer_1_t98958593 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Slider/Direction>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m2291550712_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m2291550712_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t98958593_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t98958593 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t3147253483 * L_8 = (DefaultComparer_t3147253483 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t3147253483 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t98958593_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Slider/Direction>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1128766342_gshared (EqualityComparer_1_t98958593 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t98958593 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Slider/Direction>::GetHashCode(T) */, (EqualityComparer_1_t98958593 *)__this, (int32_t)((*(int32_t*)((int32_t*)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Slider/Direction>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1960102236_gshared (EqualityComparer_1_t98958593 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t98958593 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, int32_t, int32_t >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Slider/Direction>::Equals(T,T) */, (EqualityComparer_1_t98958593 *)__this, (int32_t)((*(int32_t*)((int32_t*)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (int32_t)((*(int32_t*)((int32_t*)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.Slider/Direction>::get_Default()
+extern "C"  EqualityComparer_1_t98958593 * EqualityComparer_1_get_Default_m1806515335_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t98958593 * L_0 = ((EqualityComparer_1_t98958593_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m2830393218_gshared (EqualityComparer_1_t4221938579 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m1505141729_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m1505141729_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t4221938579_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t4221938579 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t2975266173 * L_8 = (DefaultComparer_t2975266173 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t2975266173 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t4221938579_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m644286453_gshared (EqualityComparer_1_t4221938579 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t4221938579 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, SpriteState_t1353336012  >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::GetHashCode(T) */, (EqualityComparer_1_t4221938579 *)__this, (SpriteState_t1353336012 )((*(SpriteState_t1353336012 *)((SpriteState_t1353336012 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1705945391_gshared (EqualityComparer_1_t4221938579 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t4221938579 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, SpriteState_t1353336012 , SpriteState_t1353336012  >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::Equals(T,T) */, (EqualityComparer_1_t4221938579 *)__this, (SpriteState_t1353336012 )((*(SpriteState_t1353336012 *)((SpriteState_t1353336012 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (SpriteState_t1353336012 )((*(SpriteState_t1353336012 *)((SpriteState_t1353336012 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UI.SpriteState>::get_Default()
+extern "C"  EqualityComparer_1_t4221938579 * EqualityComparer_1_get_Default_m1026288614_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t4221938579 * L_0 = ((EqualityComparer_1_t4221938579_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m1850246206_gshared (EqualityComparer_1_t1630272071 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m4227328699_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m4227328699_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t1630272071_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t1630272071 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t383599665 * L_8 = (DefaultComparer_t383599665 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t383599665 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t1630272071_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1690805903_gshared (EqualityComparer_1_t1630272071 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t1630272071 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, UICharInfo_t3056636800  >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::GetHashCode(T) */, (EqualityComparer_1_t1630272071 *)__this, (UICharInfo_t3056636800 )((*(UICharInfo_t3056636800 *)((UICharInfo_t3056636800 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m315020809_gshared (EqualityComparer_1_t1630272071 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t1630272071 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, UICharInfo_t3056636800 , UICharInfo_t3056636800  >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::Equals(T,T) */, (EqualityComparer_1_t1630272071 *)__this, (UICharInfo_t3056636800 )((*(UICharInfo_t3056636800 *)((UICharInfo_t3056636800 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (UICharInfo_t3056636800 )((*(UICharInfo_t3056636800 *)((UICharInfo_t3056636800 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UICharInfo>::get_Default()
+extern "C"  EqualityComparer_1_t1630272071 * EqualityComparer_1_get_Default_m2561546910_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t1630272071 * L_0 = ((EqualityComparer_1_t1630272071_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m3193852488_gshared (EqualityComparer_1_t2194913145 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m3612636681_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m3612636681_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t2194913145_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t2194913145 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t948240739 * L_8 = (DefaultComparer_t948240739 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t948240739 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t2194913145_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m2364871829_gshared (EqualityComparer_1_t2194913145 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t2194913145 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, UILineInfo_t3621277874  >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::GetHashCode(T) */, (EqualityComparer_1_t2194913145 *)__this, (UILineInfo_t3621277874 )((*(UILineInfo_t3621277874 *)((UILineInfo_t3621277874 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m2641861691_gshared (EqualityComparer_1_t2194913145 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t2194913145 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, UILineInfo_t3621277874 , UILineInfo_t3621277874  >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::Equals(T,T) */, (EqualityComparer_1_t2194913145 *)__this, (UILineInfo_t3621277874 )((*(UILineInfo_t3621277874 *)((UILineInfo_t3621277874 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (UILineInfo_t3621277874 )((*(UILineInfo_t3621277874 *)((UILineInfo_t3621277874 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UILineInfo>::get_Default()
+extern "C"  EqualityComparer_1_t2194913145 * EqualityComparer_1_get_Default_m4155703012_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t2194913145 * L_0 = ((EqualityComparer_1_t2194913145_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UIVertex>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m1656023032_gshared (EqualityComparer_1_t4072861385 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.UIVertex>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m3435088969_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m3435088969_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t4072861385_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t4072861385 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t2826188979 * L_8 = (DefaultComparer_t2826188979 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t2826188979 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t4072861385_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UIVertex>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1478667421_gshared (EqualityComparer_1_t4072861385 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t4072861385 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, UIVertex_t1204258818  >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.UIVertex>::GetHashCode(T) */, (EqualityComparer_1_t4072861385 *)__this, (UIVertex_t1204258818 )((*(UIVertex_t1204258818 *)((UIVertex_t1204258818 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UIVertex>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1302319107_gshared (EqualityComparer_1_t4072861385 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t4072861385 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, UIVertex_t1204258818 , UIVertex_t1204258818  >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.UIVertex>::Equals(T,T) */, (EqualityComparer_1_t4072861385 *)__this, (UIVertex_t1204258818 )((*(UIVertex_t1204258818 *)((UIVertex_t1204258818 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (UIVertex_t1204258818 )((*(UIVertex_t1204258818 *)((UIVertex_t1204258818 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.UIVertex>::get_Default()
+extern "C"  EqualityComparer_1_t4072861385 * EqualityComparer_1_get_Default_m969953452_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t4072861385 * L_0 = ((EqualityComparer_1_t4072861385_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector2>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m3504419277_gshared (EqualityComparer_1_t817342850 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector2>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m173784124_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m173784124_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t817342850_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t817342850 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t3865637740 * L_8 = (DefaultComparer_t3865637740 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t3865637740 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t817342850_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector2>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m3134881714_gshared (EqualityComparer_1_t817342850 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t817342850 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, Vector2_t2243707579  >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector2>::GetHashCode(T) */, (EqualityComparer_1_t817342850 *)__this, (Vector2_t2243707579 )((*(Vector2_t2243707579 *)((Vector2_t2243707579 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector2>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m2853045792_gshared (EqualityComparer_1_t817342850 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t817342850 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, Vector2_t2243707579 , Vector2_t2243707579  >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector2>::Equals(T,T) */, (EqualityComparer_1_t817342850 *)__this, (Vector2_t2243707579 )((*(Vector2_t2243707579 *)((Vector2_t2243707579 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (Vector2_t2243707579 )((*(Vector2_t2243707579 *)((Vector2_t2243707579 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector2>::get_Default()
+extern "C"  EqualityComparer_1_t817342850 * EqualityComparer_1_get_Default_m744889941_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t817342850 * L_0 = ((EqualityComparer_1_t817342850_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector3>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m272608466_gshared (EqualityComparer_1_t817342851 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector3>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m550556087_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m550556087_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t817342851_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t817342851 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t3865637741 * L_8 = (DefaultComparer_t3865637741 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t3865637741 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t817342851_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector3>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1473684243_gshared (EqualityComparer_1_t817342851 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t817342851 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, Vector3_t2243707580  >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector3>::GetHashCode(T) */, (EqualityComparer_1_t817342851 *)__this, (Vector3_t2243707580 )((*(Vector3_t2243707580 *)((Vector3_t2243707580 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector3>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1091252481_gshared (EqualityComparer_1_t817342851 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t817342851 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, Vector3_t2243707580 , Vector3_t2243707580  >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector3>::Equals(T,T) */, (EqualityComparer_1_t817342851 *)__this, (Vector3_t2243707580 )((*(Vector3_t2243707580 *)((Vector3_t2243707580 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (Vector3_t2243707580 )((*(Vector3_t2243707580 *)((Vector3_t2243707580 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector3>::get_Default()
+extern "C"  EqualityComparer_1_t817342851 * EqualityComparer_1_get_Default_m3437633110_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t817342851 * L_0 = ((EqualityComparer_1_t817342851_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector4>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m3155445483_gshared (EqualityComparer_1_t817342852 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector4>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m2666196678_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m2666196678_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t817342852_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t817342852 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t3865637742 * L_8 = (DefaultComparer_t3865637742 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t3865637742 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t817342852_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector4>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1859582704_gshared (EqualityComparer_1_t817342852 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t817342852 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, Vector4_t2243707581  >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector4>::GetHashCode(T) */, (EqualityComparer_1_t817342852 *)__this, (Vector4_t2243707581 )((*(Vector4_t2243707581 *)((Vector4_t2243707581 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector4>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m3601790950_gshared (EqualityComparer_1_t817342852 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t817342852 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, Vector4_t2243707581 , Vector4_t2243707581  >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector4>::Equals(T,T) */, (EqualityComparer_1_t817342852 *)__this, (Vector4_t2243707581 )((*(Vector4_t2243707581 *)((Vector4_t2243707581 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (Vector4_t2243707581 )((*(Vector4_t2243707581 *)((Vector4_t2243707581 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.Vector4>::get_Default()
+extern "C"  EqualityComparer_1_t817342852 * EqualityComparer_1_get_Default_m300941019_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t817342852 * L_0 = ((EqualityComparer_1_t817342852_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.iOS.ARHitTestResult>::.ctor()
+extern "C"  void EqualityComparer_1__ctor_m1727765598_gshared (EqualityComparer_1_t1849148296 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((RuntimeObject *)__this);
+		Object__ctor_m2551263788((RuntimeObject *)__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.iOS.ARHitTestResult>::.cctor()
+extern "C"  void EqualityComparer_1__cctor_m3654182831_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (EqualityComparer_1__cctor_m3654182831_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 0)), /*hidden argument*/NULL);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck((Type_t *)L_0);
+		bool L_2 = VirtFuncInvoker1< bool, Type_t * >::Invoke(41 /* System.Boolean System.Type::IsAssignableFrom(System.Type) */, (Type_t *)L_0, (Type_t *)L_1);
+		if (!L_2)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_3 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(GenericEqualityComparer_1_t2202941003_0_0_0_var), /*hidden argument*/NULL);
+		TypeU5BU5D_t1664964607* L_4 = (TypeU5BU5D_t1664964607*)((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_5 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, (RuntimeTypeHandle_t2330101084 )LoadTypeToken(IL2CPP_RGCTX_TYPE(InitializedTypeInfo(method->declaring_type)->rgctx_data, 1)), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_5);
+		NullCheck((Type_t *)L_3);
+		Type_t * L_6 = VirtFuncInvoker1< Type_t *, TypeU5BU5D_t1664964607* >::Invoke(81 /* System.Type System.Type::MakeGenericType(System.Type[]) */, (Type_t *)L_3, (TypeU5BU5D_t1664964607*)L_4);
+		RuntimeObject * L_7 = Activator_CreateInstance_m383294261(NULL /*static, unused*/, (Type_t *)L_6, /*hidden argument*/NULL);
+		((EqualityComparer_1_t1849148296_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(((EqualityComparer_1_t1849148296 *)Castclass((RuntimeObject*)L_7, IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2))));
+		goto IL_005e;
+	}
+
+IL_0054:
+	{
+		DefaultComparer_t602475890 * L_8 = (DefaultComparer_t602475890 *)il2cpp_codegen_object_new(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 4));
+		((  void (*) (DefaultComparer_t602475890 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5)->methodPointer)(L_8, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(InitializedTypeInfo(method->declaring_type)->rgctx_data, 5));
+		((EqualityComparer_1_t1849148296_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->set__default_0(L_8);
+	}
+
+IL_005e:
+	{
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.iOS.ARHitTestResult>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
+extern "C"  int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m690995915_gshared (EqualityComparer_1_t1849148296 * __this, RuntimeObject * ___obj0, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___obj0;
+		NullCheck((EqualityComparer_1_t1849148296 *)__this);
+		int32_t L_1 = VirtFuncInvoker1< int32_t, ARHitTestResult_t3275513025  >::Invoke(8 /* System.Int32 System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.iOS.ARHitTestResult>::GetHashCode(T) */, (EqualityComparer_1_t1849148296 *)__this, (ARHitTestResult_t3275513025 )((*(ARHitTestResult_t3275513025 *)((ARHitTestResult_t3275513025 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_1;
+	}
+}
+// System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.iOS.ARHitTestResult>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
+extern "C"  bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m757835665_gshared (EqualityComparer_1_t1849148296 * __this, RuntimeObject * ___x0, RuntimeObject * ___y1, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject * L_0 = ___x0;
+		RuntimeObject * L_1 = ___y1;
+		NullCheck((EqualityComparer_1_t1849148296 *)__this);
+		bool L_2 = VirtFuncInvoker2< bool, ARHitTestResult_t3275513025 , ARHitTestResult_t3275513025  >::Invoke(9 /* System.Boolean System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.iOS.ARHitTestResult>::Equals(T,T) */, (EqualityComparer_1_t1849148296 *)__this, (ARHitTestResult_t3275513025 )((*(ARHitTestResult_t3275513025 *)((ARHitTestResult_t3275513025 *)UnBox(L_0, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))), (ARHitTestResult_t3275513025 )((*(ARHitTestResult_t3275513025 *)((ARHitTestResult_t3275513025 *)UnBox(L_1, IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 6))))));
+		return L_2;
+	}
+}
+// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<UnityEngine.XR.iOS.ARHitTestResult>::get_Default()
+extern "C"  EqualityComparer_1_t1849148296 * EqualityComparer_1_get_Default_m3271263870_gshared (RuntimeObject * __this /* static, unused */, const RuntimeMethod* method)
+{
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3));
+		EqualityComparer_1_t1849148296 * L_0 = ((EqualityComparer_1_t1849148296_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 3)))->get__default_0();
+		return L_0;
+	}
+}
+// System.Void System.Collections.Generic.GenericComparer`1<System.Boolean>::.ctor()
+extern "C"  void GenericComparer_1__ctor_m3042634703_gshared (GenericComparer_1_t1563550222 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((Comparer_1_t2715583837 *)__this);
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 1));
+		((  void (*) (Comparer_1_t2715583837 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((Comparer_1_t2715583837 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.GenericComparer`1<System.Boolean>::Compare(T,T)
+extern "C"  int32_t GenericComparer_1_Compare_m658762326_gshared (GenericComparer_1_t1563550222 * __this, bool ___x0, bool ___y1, const RuntimeMethod* method)
+{
+	int32_t G_B4_0 = 0;
+	{
+		goto IL_001e;
+	}
+	{
+		goto IL_001c;
+	}
+	{
+		G_B4_0 = 0;
+		goto IL_001d;
+	}
+
+IL_001c:
+	{
+		G_B4_0 = (-1);
+	}
+
+IL_001d:
+	{
+		return G_B4_0;
+	}
+
+IL_001e:
+	{
+		goto IL_002b;
+	}
+	{
+		return 1;
+	}
+
+IL_002b:
+	{
+		bool L_3 = ___y1;
+		int32_t L_4 = Boolean_CompareTo_m1086129598((bool*)(&___x0), (bool)L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Void System.Collections.Generic.GenericComparer`1<System.Byte>::.ctor()
+extern "C"  void GenericComparer_1__ctor_m1318071569_gshared (GenericComparer_1_t1421079940 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((Comparer_1_t2573113555 *)__this);
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 1));
+		((  void (*) (Comparer_1_t2573113555 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((Comparer_1_t2573113555 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.GenericComparer`1<System.Byte>::Compare(T,T)
+extern "C"  int32_t GenericComparer_1_Compare_m4213399892_gshared (GenericComparer_1_t1421079940 * __this, uint8_t ___x0, uint8_t ___y1, const RuntimeMethod* method)
+{
+	int32_t G_B4_0 = 0;
+	{
+		goto IL_001e;
+	}
+	{
+		goto IL_001c;
+	}
+	{
+		G_B4_0 = 0;
+		goto IL_001d;
+	}
+
+IL_001c:
+	{
+		G_B4_0 = (-1);
+	}
+
+IL_001d:
+	{
+		return G_B4_0;
+	}
+
+IL_001e:
+	{
+		goto IL_002b;
+	}
+	{
+		return 1;
+	}
+
+IL_002b:
+	{
+		uint8_t L_3 = ___y1;
+		int32_t L_4 = Byte_CompareTo_m1850579028((uint8_t*)(&___x0), (uint8_t)L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Void System.Collections.Generic.GenericComparer`1<System.Char>::.ctor()
+extern "C"  void GenericComparer_1__ctor_m1058302999_gshared (GenericComparer_1_t1192456842 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((Comparer_1_t2344490457 *)__this);
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 1));
+		((  void (*) (Comparer_1_t2344490457 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((Comparer_1_t2344490457 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.GenericComparer`1<System.Char>::Compare(T,T)
+extern "C"  int32_t GenericComparer_1_Compare_m752872306_gshared (GenericComparer_1_t1192456842 * __this, Il2CppChar ___x0, Il2CppChar ___y1, const RuntimeMethod* method)
+{
+	int32_t G_B4_0 = 0;
+	{
+		goto IL_001e;
+	}
+	{
+		goto IL_001c;
+	}
+	{
+		G_B4_0 = 0;
+		goto IL_001d;
+	}
+
+IL_001c:
+	{
+		G_B4_0 = (-1);
+	}
+
+IL_001d:
+	{
+		return G_B4_0;
+	}
+
+IL_001e:
+	{
+		goto IL_002b;
+	}
+	{
+		return 1;
+	}
+
+IL_002b:
+	{
+		Il2CppChar L_3 = ___y1;
+		int32_t L_4 = Char_CompareTo_m3169412556((Il2CppChar*)(&___x0), (Il2CppChar)L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Void System.Collections.Generic.GenericComparer`1<System.DateTime>::.ctor()
+extern "C"  void GenericComparer_1__ctor_m474482338_gshared (GenericComparer_1_t2726148469 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((Comparer_1_t3878182084 *)__this);
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 1));
+		((  void (*) (Comparer_1_t3878182084 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((Comparer_1_t3878182084 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.GenericComparer`1<System.DateTime>::Compare(T,T)
+extern "C"  int32_t GenericComparer_1_Compare_m1840768387_gshared (GenericComparer_1_t2726148469 * __this, DateTime_t693205669  ___x0, DateTime_t693205669  ___y1, const RuntimeMethod* method)
+{
+	int32_t G_B4_0 = 0;
+	{
+		goto IL_001e;
+	}
+	{
+		goto IL_001c;
+	}
+	{
+		G_B4_0 = 0;
+		goto IL_001d;
+	}
+
+IL_001c:
+	{
+		G_B4_0 = (-1);
+	}
+
+IL_001d:
+	{
+		return G_B4_0;
+	}
+
+IL_001e:
+	{
+		goto IL_002b;
+	}
+	{
+		return 1;
+	}
+
+IL_002b:
+	{
+		DateTime_t693205669  L_3 = ___y1;
+		int32_t L_4 = DateTime_CompareTo_m1511117942((DateTime_t693205669 *)(&___x0), (DateTime_t693205669 )L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Void System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>::.ctor()
+extern "C"  void GenericComparer_1__ctor_m4106585959_gshared (GenericComparer_1_t3395931706 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((Comparer_1_t252998025 *)__this);
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 1));
+		((  void (*) (Comparer_1_t252998025 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((Comparer_1_t252998025 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.GenericComparer`1<System.DateTimeOffset>::Compare(T,T)
+extern "C"  int32_t GenericComparer_1_Compare_m2516380588_gshared (GenericComparer_1_t3395931706 * __this, DateTimeOffset_t1362988906  ___x0, DateTimeOffset_t1362988906  ___y1, const RuntimeMethod* method)
+{
+	int32_t G_B4_0 = 0;
+	{
+		goto IL_001e;
+	}
+	{
+		goto IL_001c;
+	}
+	{
+		G_B4_0 = 0;
+		goto IL_001d;
+	}
+
+IL_001c:
+	{
+		G_B4_0 = (-1);
+	}
+
+IL_001d:
+	{
+		return G_B4_0;
+	}
+
+IL_001e:
+	{
+		goto IL_002b;
+	}
+	{
+		return 1;
+	}
+
+IL_002b:
+	{
+		DateTimeOffset_t1362988906  L_3 = ___y1;
+		int32_t L_4 = DateTimeOffset_CompareTo_m441053436((DateTimeOffset_t1362988906 *)(&___x0), (DateTimeOffset_t1362988906 )L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.Void System.Collections.Generic.GenericComparer`1<System.Guid>::.ctor()
+extern "C"  void GenericComparer_1__ctor_m3575096182_gshared (GenericComparer_1_t271577097 * __this, const RuntimeMethod* method)
+{
+	{
+		NullCheck((Comparer_1_t1423610712 *)__this);
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(method->declaring_type->rgctx_data, 1));
+		((  void (*) (Comparer_1_t1423610712 *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0)->methodPointer)((Comparer_1_t1423610712 *)__this, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->declaring_type->rgctx_data, 0));
+		return;
+	}
+}
+// System.Int32 System.Collections.Generic.GenericComparer`1<System.Guid>::Compare(T,T)
+extern "C"  int32_t GenericComparer_1_Compare_m11267581_gshared (GenericComparer_1_t271577097 * __this, Guid_t  ___x0, Guid_t  ___y1, const RuntimeMethod* method)
+{
+	int32_t G_B4_0 = 0;
+	{
+		goto IL_001e;
+	}
+	{
+		goto IL_001c;
+	}
+	{
+		G_B4_0 = 0;
+		goto IL_001d;
+	}
+
+IL_001c:
+	{
+		G_B4_0 = (-1);
+	}
+
+IL_001d:
+	{
+		return G_B4_0;
+	}
+
+IL_001e:
+	{
+		goto IL_002b;
+	}
+	{
+		return 1;
+	}
+
+IL_002b:
+	{
+		Guid_t  L_3 = ___y1;
+		int32_t L_4 = Guid_CompareTo_m2203922782((Guid_t *)(&___x0), (Guid_t )L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
 // System.Void System.Collections.Generic.GenericComparer`1<System.Int32>::.ctor()
 extern "C"  void GenericComparer_1__ctor_m973776669_gshared (GenericComparer_1_t4104820248 * __this, const RuntimeMethod* method)
 {

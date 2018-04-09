@@ -1521,8 +1521,12 @@ extern "C"  Transform_t3275118058 * Component_get_transform_m3374354972 (Compone
 extern "C"  Transform_t3275118058 * RaycastHit_get_transform_m2333455049 (RaycastHit_t87180320 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Component::.ctor()
 extern "C"  void Component__ctor_m3748106581 (Component_t3819376471 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rigidbody::INTERNAL_get_angularVelocity(UnityEngine.Vector3&)
+extern "C"  void Rigidbody_INTERNAL_get_angularVelocity_m721515182 (Rigidbody_t4233889191 * __this, Vector3_t2243707580 * ___value0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
 extern "C"  void Rigidbody_INTERNAL_CALL_AddTorque_m3690596579 (RuntimeObject * __this /* static, unused */, Rigidbody_t4233889191 * ___self0, Vector3_t2243707580 * ___torque1, int32_t ___mode2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddRelativeTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
+extern "C"  void Rigidbody_INTERNAL_CALL_AddRelativeTorque_m3409501367 (RuntimeObject * __this /* static, unused */, Rigidbody_t4233889191 * ___self0, Vector3_t2243707580 * ___torque1, int32_t ___mode2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddExplosionForce(UnityEngine.Rigidbody,System.Single,UnityEngine.Vector3&,System.Single,System.Single,UnityEngine.ForceMode)
 extern "C"  void Rigidbody_INTERNAL_CALL_AddExplosionForce_m819760102 (RuntimeObject * __this /* static, unused */, Rigidbody_t4233889191 * ___self0, float ___explosionForce1, Vector3_t2243707580 * ___explosionPosition2, float ___explosionRadius3, float ___upwardsModifier4, int32_t ___mode5, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
@@ -2502,6 +2506,35 @@ extern "C"  void Rigidbody__ctor_m1965915387 (Rigidbody_t4233889191 * __this, co
 		return;
 	}
 }
+// UnityEngine.Vector3 UnityEngine.Rigidbody::get_angularVelocity()
+extern "C"  Vector3_t2243707580  Rigidbody_get_angularVelocity_m2222578393 (Rigidbody_t4233889191 * __this, const RuntimeMethod* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Rigidbody_INTERNAL_get_angularVelocity_m721515182(__this, (&V_0), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_0 = V_0;
+		V_1 = L_0;
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		Vector3_t2243707580  L_1 = V_1;
+		return L_1;
+	}
+}
+// System.Void UnityEngine.Rigidbody::INTERNAL_get_angularVelocity(UnityEngine.Vector3&)
+extern "C"  void Rigidbody_INTERNAL_get_angularVelocity_m721515182 (Rigidbody_t4233889191 * __this, Vector3_t2243707580 * ___value0, const RuntimeMethod* method)
+{
+	typedef void (*Rigidbody_INTERNAL_get_angularVelocity_m721515182_ftn) (Rigidbody_t4233889191 *, Vector3_t2243707580 *);
+	static Rigidbody_INTERNAL_get_angularVelocity_m721515182_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody_INTERNAL_get_angularVelocity_m721515182_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::INTERNAL_get_angularVelocity(UnityEngine.Vector3&)");
+	_il2cpp_icall_func(__this, ___value0);
+}
 // System.Void UnityEngine.Rigidbody::set_useGravity(System.Boolean)
 extern "C"  void Rigidbody_set_useGravity_m1509734510 (Rigidbody_t4233889191 * __this, bool ___value0, const RuntimeMethod* method)
 {
@@ -2529,6 +2562,24 @@ extern "C"  void Rigidbody_INTERNAL_CALL_AddTorque_m3690596579 (RuntimeObject * 
 	static Rigidbody_INTERNAL_CALL_AddTorque_m3690596579_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Rigidbody_INTERNAL_CALL_AddTorque_m3690596579_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::INTERNAL_CALL_AddTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)");
+	_il2cpp_icall_func(___self0, ___torque1, ___mode2);
+}
+// System.Void UnityEngine.Rigidbody::AddRelativeTorque(UnityEngine.Vector3,UnityEngine.ForceMode)
+extern "C"  void Rigidbody_AddRelativeTorque_m3520855398 (Rigidbody_t4233889191 * __this, Vector3_t2243707580  ___torque0, int32_t ___mode1, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = ___mode1;
+		Rigidbody_INTERNAL_CALL_AddRelativeTorque_m3409501367(NULL /*static, unused*/, __this, (&___torque0), L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddRelativeTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
+extern "C"  void Rigidbody_INTERNAL_CALL_AddRelativeTorque_m3409501367 (RuntimeObject * __this /* static, unused */, Rigidbody_t4233889191 * ___self0, Vector3_t2243707580 * ___torque1, int32_t ___mode2, const RuntimeMethod* method)
+{
+	typedef void (*Rigidbody_INTERNAL_CALL_AddRelativeTorque_m3409501367_ftn) (Rigidbody_t4233889191 *, Vector3_t2243707580 *, int32_t);
+	static Rigidbody_INTERNAL_CALL_AddRelativeTorque_m3409501367_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody_INTERNAL_CALL_AddRelativeTorque_m3409501367_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::INTERNAL_CALL_AddRelativeTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)");
 	_il2cpp_icall_func(___self0, ___torque1, ___mode2);
 }
 // System.Void UnityEngine.Rigidbody::AddExplosionForce(System.Single,UnityEngine.Vector3,System.Single,System.Single)
@@ -2569,6 +2620,15 @@ extern "C"  void Rigidbody_INTERNAL_CALL_AddExplosionForce_m819760102 (RuntimeOb
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Rigidbody_INTERNAL_CALL_AddExplosionForce_m819760102_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::INTERNAL_CALL_AddExplosionForce(UnityEngine.Rigidbody,System.Single,UnityEngine.Vector3&,System.Single,System.Single,UnityEngine.ForceMode)");
 	_il2cpp_icall_func(___self0, ___explosionForce1, ___explosionPosition2, ___explosionRadius3, ___upwardsModifier4, ___mode5);
+}
+// System.Void UnityEngine.Rigidbody::set_maxAngularVelocity(System.Single)
+extern "C"  void Rigidbody_set_maxAngularVelocity_m1398562340 (Rigidbody_t4233889191 * __this, float ___value0, const RuntimeMethod* method)
+{
+	typedef void (*Rigidbody_set_maxAngularVelocity_m1398562340_ftn) (Rigidbody_t4233889191 *, float);
+	static Rigidbody_set_maxAngularVelocity_m1398562340_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Rigidbody_set_maxAngularVelocity_m1398562340_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Rigidbody::set_maxAngularVelocity(System.Single)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
