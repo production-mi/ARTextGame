@@ -416,6 +416,7 @@ UnityEngine.RenderTexture::get_format
 UnityEngine.Resources::GetBuiltinResource
 UnityEngine.Resources::Load
 UnityEngine.Rigidbody::INTERNAL_CALL_AddExplosionForce
+UnityEngine.Rigidbody::INTERNAL_CALL_AddRelativeForce
 UnityEngine.Rigidbody::INTERNAL_CALL_AddRelativeTorque
 UnityEngine.Rigidbody::INTERNAL_CALL_AddTorque
 UnityEngine.Rigidbody::INTERNAL_get_angularVelocity

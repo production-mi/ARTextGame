@@ -20,8 +20,8 @@ Material:
     m_TexEnvs:
     - _DisolveTexture:
         m_Texture: {fileID: 2800000, guid: 70976333360a046c1bcf8dc7cb1f593c, type: 3}
-        m_Scale: {x: 2, y: 2}
-        m_Offset: {x: 7.503752, y: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 8.662377, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -30,19 +30,20 @@ Material:
     - _Amount: 0.748
     - _Amplitude: 0
     - _CutoutThresh: 0
-    - _DisolveSize: -1.72
-    - _DisolveY: 1.8735754
+    - _DisolveSize: 1
+    - _DisolveY: 1.7227719
     - _Distance: 0
     - _GlitchIntensity: 0.09
     - _GlitchSpeed: 50
     - _GlowSpeed: 1
     - _GlowTiling: 0.01
     - _RimPower: 0.672
-    - _ScanSpeed: 3.1
+    - _ScanSpeed: -3.4
     - _ScanTiling: 800
     - _Speed: 0
-    - _StartingY: -0.3
+    - _StartingY: -0.7
     - _Transparency: 0.566
+    - _Uvy: 0
     m_Colors:
     - _RimColor: {r: 0.49264705, g: 0.91602427, b: 1, a: 1}
     - _TintColor: {r: 0.092776805, g: 0.41438386, b: 0.5735294, a: 0.103}

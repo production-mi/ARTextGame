@@ -40,7 +40,7 @@ Material:
     - _GlowTiling: 32.4
     - _RimPower: 0.994
     - _ScanSpeed: 5
-    - _ScanTiling: 800
+    - _ScanTiling: 1200
     - _Speed: 0
     - _StartingY: -10
     - _Transparency: 0.558

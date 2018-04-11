@@ -20,6 +20,7 @@ public class ScanShaderCtrl : MonoBehaviour {
 	void Start () {
 		reload = reload.GetComponent<Button>();
 		reload.onClick.AddListener(TriggerEffect);
+
 	}
 
 	// Update is called once per frame
@@ -40,6 +41,7 @@ public class ScanShaderCtrl : MonoBehaviour {
 	private void TriggerEffect()
 	{
 		startTime = Time.time;
-		currentY = 2.23f;
+		currentY = 1.7f;
+		//currentY = 2.23f;
 	}
 }

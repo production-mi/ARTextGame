@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 172
   Total Field Removals = 752
-  Total Method Removals = 12020
+  Total Method Removals = 12017
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -10415,7 +10415,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 44
   Total Field Removals = 32
-  Total Method Removals = 2846
+  Total Method Removals = 2845
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11873,7 +11873,6 @@ Summary:
         set_doubleSidedGI(System.Boolean)
         set_enableInstancing(System.Boolean)
         set_globalIlluminationFlags(UnityEngine.MaterialGlobalIlluminationFlags)
-        set_mainTexture(UnityEngine.Texture)
         set_mainTextureOffset(UnityEngine.Vector2)
         set_mainTextureScale(UnityEngine.Vector2)
         set_renderQueue(System.Int32)
@@ -15530,7 +15529,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 7
-  Total Method Removals = 444
+  Total Method Removals = 442
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.BoxCollider
@@ -15897,7 +15896,6 @@ Summary:
         AddForceAtPosition(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.ForceMode)
         AddRelativeForce(System.Single,System.Single,System.Single)
         AddRelativeForce(System.Single,System.Single,System.Single,UnityEngine.ForceMode)
-        AddRelativeForce(UnityEngine.Vector3)
         AddRelativeForce(UnityEngine.Vector3,UnityEngine.ForceMode)
         AddRelativeTorque(System.Single,System.Single,System.Single)
         AddRelativeTorque(System.Single,System.Single,System.Single,UnityEngine.ForceMode)
@@ -15937,7 +15935,6 @@ Summary:
         GetRelativePointVelocity(UnityEngine.Vector3)
         INTERNAL_CALL_AddForce(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
         INTERNAL_CALL_AddForceAtPosition(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.ForceMode)
-        INTERNAL_CALL_AddRelativeForce(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
         INTERNAL_CALL_ClosestPointOnBounds(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&)
         INTERNAL_CALL_GetPointVelocity(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&)
         INTERNAL_CALL_GetRelativePointVelocity(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.Vector3&)

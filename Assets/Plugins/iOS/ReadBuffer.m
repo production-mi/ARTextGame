@@ -12,23 +12,23 @@
 #import <Metal/Metal.h>
 #import <ARkit/ARkit.h>
 #import <Vision/Vision.h>
-#import "Inceptionv3.h"
+#import "MobileNet.h"
 
 static float qrcodeCorners[8];
 static volatile BOOL reading = false;
 NSString* identifier = @"";
-VNCoreMLModel* _faceClassificationModel;
+//VNCoreMLModel* _faceClassificationModel;
 
 
 void ReadBuffer(void* cvPixelBufferPtr)
 {
-    if (reading || cvPixelBufferPtr == nil) return;
+    if(reading)return;
     reading = YES;
     
     CIImage* image = [[CIImage imageWithCVPixelBuffer:cvPixelBufferPtr]imageByApplyingCGOrientation:kCGImagePropertyOrientationRight];
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        MLModel *model = [[[Inceptionv3 alloc] init] model];
+        MLModel *model = [[[MobileNet alloc] init] model];
         VNCoreMLModel *m = [VNCoreMLModel modelForMLModel: model error:nil];
         
         

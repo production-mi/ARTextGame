@@ -10,7 +10,7 @@
 		_Amplitude("Amplitude", Float) = 1
 		_Speed("Speed", Float) = 1
 		_Amount("Amount", Range(0.0,1.0)) = 1
-		_ScanTiling("Scan Tiling", Range(0.01, 800.0)) = 0.05
+		_ScanTiling("Scan Tiling", Range(0.01, 1200.0)) = 0.05
 		_ScanSpeed("Scan Speed", Range(-10.0, 10.0)) = 1.0
 		_GlitchSpeed("Glitch Speed", Range(0, 50)) = 1.0
 		_GlitchIntensity("Glitch Intensity", Float) = 0
@@ -85,6 +85,7 @@
 			float _DisolveY;
 			float _DisolveSize;
 			float _StartingY;
+
 
 
 

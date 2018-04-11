@@ -9,7 +9,15 @@ using UnityEngine.XR.iOS;
 	public class QRCodeReader : MonoBehaviour {
 	private IntPtr cvPixelBufferPtr;
 	public static bool IsDetecting;
-	public static String possible;
+	public static String possible = " ";
+
+	public Text Text2;
+	public Button btn1;
+
+	private bool DetectingOnIsRunning;
+
+	private int num;
+
 
 
 
@@ -107,23 +115,65 @@ using UnityEngine.XR.iOS;
 
 		void Start () {
 			UnityARSessionNativeInterface.ARFrameUpdatedEvent += ARFrameUpdated;
+
+			btn1 = btn1.GetComponent<Button>();
+			btn1.onClick.AddListener(btn1Function);
+
 			IsDetecting = false;
 		}
 
 		private void ARFrameUpdated(UnityARCamera camera) {
+			if(IsDetecting == true){
+				ReadBuffer(camera.videoParams.cvPixelBufferPtr);
+			}
 			// if(IsDetecting == true){
-			// 	ReadBuffer(camera.videoParams.cvPixelBufferPtr);
+			// 	num += 1;
+			// 	Debug.Log("imageISloaded" + num.ToString());
+			// 	//ReadBuffer(camera.videoParams.cvPixelBufferPtr);
 			// }
-			ReadBuffer(camera.videoParams.cvPixelBufferPtr);
 		}
 
+		void btn1Function()
+		{
+			StartCoroutine(DetectingON());
+		}
+
+
+		IEnumerator DetectingON()
+		{
+			if(DetectingOnIsRunning == false)
+			{
+				DetectingOnIsRunning = true;
+				IsDetecting = true;
+				yield return new WaitForSeconds(0.5f);
+				IsDetecting = false;
+				Debug.Log("loaded");
+			}
+			DetectingOnIsRunning = false;
+		}
+
+
 		void Update () {
-			ARTextureHandles handles = UnityARSessionNativeInterface.GetARSessionNativeInterface ().GetARVideoTextureHandles ();
-			UnityARCamera scamera = new UnityARCamera ();
+
+			//Text2.text = possible;
+			// if(IsDetecting == true){
+			// 	num += 1;
+			// 	Debug.Log("imageISloaded" + num.ToString());
+			// }
+			// if(previzCtrl.readytoReloadText == true)
+			// {
+			// 	IsDetecting = true;
+			// 	//Debug.Log("IsDetecting=====true");
+			// }else{
+			// 	IsDetecting = false;
+			// 	//Debug.Log("IsDetecting=====false");
+			// }
+			//ARTextureHandles handles = UnityARSessionNativeInterface.GetARSessionNativeInterface ().GetARVideoTextureHandles ();
+			//UnityARCamera scamera = new UnityARCamera ();
 		}
 
 		void OnGetPossibleName(string arg) {
-			possible = GetPossibleName();
+				possible = GetPossibleName();
 		}
 
 	}

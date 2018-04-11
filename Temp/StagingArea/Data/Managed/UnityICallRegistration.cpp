@@ -1942,6 +1942,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Rigidbody_INTERNAL_CALL_AddExplosionForce();
 		Register_UnityEngine_Rigidbody_INTERNAL_CALL_AddExplosionForce();
 
+		//System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddRelativeForce(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
+		void Register_UnityEngine_Rigidbody_INTERNAL_CALL_AddRelativeForce();
+		Register_UnityEngine_Rigidbody_INTERNAL_CALL_AddRelativeForce();
+
 		//System.Void UnityEngine.Rigidbody::INTERNAL_CALL_AddRelativeTorque(UnityEngine.Rigidbody,UnityEngine.Vector3&,UnityEngine.ForceMode)
 		void Register_UnityEngine_Rigidbody_INTERNAL_CALL_AddRelativeTorque();
 		Register_UnityEngine_Rigidbody_INTERNAL_CALL_AddRelativeTorque();

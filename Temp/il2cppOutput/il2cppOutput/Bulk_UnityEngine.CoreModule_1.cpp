@@ -276,6 +276,7 @@ extern const uint32_t Material_get_color_m3412736564_MetadataUsageId;
 extern const uint32_t Material_set_color_m1702887239_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral4026354833;
 extern const uint32_t Material_get_mainTexture_m4282415667_MetadataUsageId;
+extern const uint32_t Material_set_mainTexture_m3306739034_MetadataUsageId;
 extern RuntimeClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
 extern const uint32_t Mathf_Lerp_m1928161522_MetadataUsageId;
 extern const uint32_t Mathf_Approximately_m1944881077_MetadataUsageId;
@@ -8798,6 +8799,8 @@ extern "C"  Color_t2020392075  Material_GetColor_m2278430857 (Material_t19370692
 extern "C"  void Material_SetColor_m2094112534 (Material_t193706927 * __this, String_t* ___name0, Color_t2020392075  ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture UnityEngine.Material::GetTexture(System.String)
 extern "C"  Texture_t2243626319 * Material_GetTexture_m1388306261 (Material_t193706927 * __this, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::SetTexture(System.String,UnityEngine.Texture)
+extern "C"  void Material_SetTexture_m3642434134 (Material_t193706927 * __this, String_t* ___name0, Texture_t2243626319 * ___value1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::INTERNAL_CALL_SetColorImpl(UnityEngine.Material,System.Int32,UnityEngine.Color&)
 extern "C"  void Material_INTERNAL_CALL_SetColorImpl_m684970506 (RuntimeObject * __this /* static, unused */, Material_t193706927 * ___self0, int32_t ___nameID1, Color_t2020392075 * ___value2, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Material::INTERNAL_CALL_SetVectorImpl(UnityEngine.Material,System.Int32,UnityEngine.Vector4&)
@@ -9913,6 +9916,21 @@ IL_0012:
 	{
 		Texture_t2243626319 * L_1 = V_0;
 		return L_1;
+	}
+}
+// System.Void UnityEngine.Material::set_mainTexture(UnityEngine.Texture)
+extern "C"  void Material_set_mainTexture_m3306739034 (Material_t193706927 * __this, Texture_t2243626319 * ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Material_set_mainTexture_m3306739034_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Texture_t2243626319 * L_0 = ___value0;
+		Material_SetTexture_m3642434134(__this, _stringLiteral4026354833, L_0, /*hidden argument*/NULL);
+		return;
 	}
 }
 // System.Void UnityEngine.Material::SetFloatImpl(System.Int32,System.Single)

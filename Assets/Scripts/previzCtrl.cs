@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using TapticPlugin;
 
 namespace UnityEngine.XR.iOS
 {
@@ -30,11 +31,15 @@ public class previzCtrl : MonoBehaviour {
 	public Button liked;
 	public Button disliked;
 	public Button reset;
+	public Material InfoPlate;
+	public Texture2D PlateTexture_A;
+	public Texture2D PlateTexture_B;
 
 	public ParticleSystem fireworks01;
 	public ParticleSystem fireworks02;
 	public ParticleSystem lightning;
 	public ParticleSystem Appearing;
+	public ParticleSystem Reading;
 	//public ParticleSystem Smoke;
 
 	//public Material text;
@@ -63,11 +68,13 @@ public class previzCtrl : MonoBehaviour {
 	private bool textIsOn = false;
 	private bool piyopiyo = false;
 	private bool CoroutineTextCreate_IsRunning = false;
+	private bool testIsRunning = false;
 	private bool breakTextIsRunning = false;
 
 	public static bool plateIsOn = false;
 	public static bool planeIsOn = false;
 	public static bool readytoReloadText = false;
+
 
 
 
@@ -103,6 +110,7 @@ public class previzCtrl : MonoBehaviour {
 		fireworks02 = fireworks02.GetComponent<ParticleSystem>();
 		lightning = lightning.GetComponent<ParticleSystem>();
 		Appearing = Appearing.GetComponent<ParticleSystem>();
+		Reading = Reading.GetComponent<ParticleSystem>();
 		//Smoke = Smoke.GetComponent<ParticleSystem>();
 
 
@@ -165,8 +173,8 @@ public class previzCtrl : MonoBehaviour {
 								//Vector3 targetPosition = new Vector3(Camera.main.transform.position.x, plane.transform.position.y, Camera.main.transform.position.z);
 								//plane.transform.LookAt(targetPosition);
 								//readytoReloadText = true;
+								TapticManager.Impact(ImpactFeedback.Midium);
 								StartCoroutine(brainAnimation());
-								plateIsOn = true;
 								reload.gameObject.SetActive(true);
 								reset.gameObject.SetActive(true);
 								SetObjectInvisible(debugBox, plateIsOn);
@@ -185,12 +193,12 @@ public class previzCtrl : MonoBehaviour {
 		//answerTextCreate(answer, text);
 		//answerTextRenderer.enabled = true;
 		//QRCodeReader.IsDetecting = true;
-		QRCodeReader.IsDetecting = true;
 		StartCoroutine(test());
 		brainAnim.SetTrigger("Looking");
 		reload.gameObject.SetActive(false);
 		liked.gameObject.SetActive(true);
 		disliked.gameObject.SetActive(true);
+		TapticManager.Impact(ImpactFeedback.Midium);
 		Debug.Log(text);
 	}
 
@@ -200,10 +208,12 @@ public class previzCtrl : MonoBehaviour {
 		fireworks01.Play();
 		fireworks02.Play();
 		//answerTextRenderer.enabled = false;
-		Destroy(textObject);
+		StartCoroutine(UpText());
 		reload.gameObject.SetActive(true);
 		liked.gameObject.SetActive(false);
 		disliked.gameObject.SetActive(false);
+		TapticManager.Impact(ImpactFeedback.Midium);
+		InfoPlate.mainTexture = PlateTexture_A;
 		Debug.Log("liked");
 		text = null;
 		piyopiyo = false;
@@ -218,6 +228,8 @@ public class previzCtrl : MonoBehaviour {
 		reload.gameObject.SetActive(true);
 		liked.gameObject.SetActive(false);
 		disliked.gameObject.SetActive(false);
+		TapticManager.Impact(ImpactFeedback.Midium);
+		InfoPlate.mainTexture = PlateTexture_A;
 		Debug.Log("disliked");
 		text = null;
 		piyopiyo = false;
@@ -231,10 +243,11 @@ public class previzCtrl : MonoBehaviour {
 		//Destroy(textObject);
 		readingParticle.Stop();
 		readingParticle.Clear();
+		InfoPlate.mainTexture = PlateTexture_A;
 
 		plateIsOn = false;
 		playgroundIsDetected = false;
-		//readytoReloadText = false;
+		readytoReloadText = false;
 		animationIsPlaying = false;
 		reload.gameObject.SetActive(false);
 		liked.gameObject.SetActive(false);
@@ -323,33 +336,35 @@ public class previzCtrl : MonoBehaviour {
 
 	IEnumerator test()
 	{
-		if(textObject == null){
-			StartCoroutine(getStrings());
-			//text = itemText[0];
-			string[] textArray = text.Split(","[0]);
-			textObject  = FlyingText.GetObjects(textArray[0]);
-			textObject.transform.parent = textRoot.transform;
-			textObject.transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-			textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
-			textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
-			var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
-			foreach (var rb in rigidbodies) {
-				rb.useGravity = false;
-			}
-			//QRCodeReader.IsDetecting = false;
-			text = null;
-			yield return textObject;
-		}
-	}
-
-	IEnumerator getStrings()
-	{
-		text = QRCodeReader.possible;
-		if(text != null)
+		if(testIsRunning == false)
 		{
-			QRCodeReader.IsDetecting = false;
-			yield return text;
+			Reading.Play();
+			yield return new WaitForSeconds(1.0f);
+			if(textObject == null){
+				InfoPlate.mainTexture = PlateTexture_B;
+				//string text2  = QRCodeReader.possible;
+				//text = itemText[0];
+				text = QRCodeReader.possible;
+				//text = "piyopiyo";
+				if(text.Length > -1){
+					string[] textArray = text.Split(","[0]);
+					string  possibleName = textArray[0].Substring(10);
+					textObject  = FlyingText.GetObjects(possibleName);
+					textObject.transform.parent = textRoot.transform;
+					textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
+					textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
+					textObject.transform.localRotation = new Quaternion(0.0f, 0.0f, 0.0f, 0.0f);
+					var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+					foreach (var rb in rigidbodies) {
+						rb.useGravity = false;
+					}
+				}
+				text = null;
+				yield return textObject;
+			}
 		}
+		testIsRunning = false;
+		yield return testIsRunning;
 	}
 
 
@@ -384,6 +399,7 @@ public class previzCtrl : MonoBehaviour {
 		if(animationIsPlaying == false){
 			Appearing.Play();
 			previzAnim.SetTrigger("Play");
+			plateIsOn = true;
 			yield return animationIsPlaying = true;
 		}else if(animationIsPlaying == true){
 			previzAnim.SetTrigger("Back");
@@ -393,19 +409,29 @@ public class previzCtrl : MonoBehaviour {
 
 	IEnumerator breakText()
 	{
-		if(breakTextIsRunning == false)
+		var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+		foreach (var rb in rigidbodies)
 		{
-			breakTextIsRunning = true;
-			var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
-			foreach (var rb in rigidbodies)
-			{
-				rb.useGravity = true;
-				rb.AddExplosionForce (130.0f, new Vector3(0, -2.5f, 3.0f), 12.0f, 60.0f);
-			}
-			yield return null;
-			Destroy(textObject, 0.5f);
+			rb.AddExplosionForce (130.0f, new Vector3(0, -2.5f, 3.0f), 12.0f, 60.0f);
+			rb.useGravity = true;
 		}
-		yield return breakTextIsRunning = false;
+		Destroy(textObject, 0.5f);
+		yield return null;
+	}
+
+
+	IEnumerator UpText()
+	{
+		var rigidbodies = textObject.GetComponentsInChildren<Rigidbody>();
+		foreach (var rb in rigidbodies)
+		{
+			rb.AddRelativeForce(Vector3.forward * -8.9f);
+			rb.AddTorque(Vector3.up * 1.2f);
+			yield return new WaitForSeconds(0.1f);
+			//rb.useGravity = true;
+		}
+		Destroy(textObject, 0.5f);
+		yield return null;
 	}
 
 
@@ -414,13 +440,21 @@ public class previzCtrl : MonoBehaviour {
 
 	void Update()
 	{
+
 		if(Input.GetKeyDown("space")){
 			answerTextRenderer.enabled = true;
-			//StartCoroutine(breakText());
+			StartCoroutine(breakText());
+			readytoReloadText = false;
 		}
 
 		if(Input.GetKeyDown("tab")){
-			textIsReload();
+			readytoReloadText = true;
+			StartCoroutine(test());
+		}
+
+		if(Input.GetKeyDown(KeyCode.Q)){
+			readytoReloadText = true;
+			StartCoroutine(UpText());
 		}
 
 	  if(plateIsOn != true && Initialized == true)

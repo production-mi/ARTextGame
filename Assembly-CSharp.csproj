@@ -112,6 +112,7 @@
      <Compile Include="Assets\Scripts\RaderMotion.cs" />
      <Compile Include="Assets\Scripts\RaderMotion1.cs" />
      <Compile Include="Assets\Scripts\ScreenANim.cs" />
+     <Compile Include="Assets\Scripts\TapticManager.cs" />
      <Compile Include="Assets\Scripts\TargetCircleANim.cs" />
      <Compile Include="Assets\Scripts\TextCtrl.cs" />
      <Compile Include="Assets\Scripts\TextCtrl1.cs" />
@@ -231,6 +232,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
      <None Include="Assets\UnityARKitPlugin\Examples\Common\Shaders\InstancedSurfaceShader.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Shaders\HologramVer3.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
      <None Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
      <None Include="Assets\Shaders\Hologram.shader" />
