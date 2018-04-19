@@ -627,6 +627,7 @@ extern const Il2CppType FxaaComponent_t2311902503_0_0_0;
 extern const Il2CppType serializableFromEditorMessage_t2894567809_0_0_0;
 extern const Il2CppType TextMesh_t1641806576_0_0_0;
 extern const Il2CppType Animation_t2068071072_0_0_0;
+extern const Il2CppType AudioSource_t1135106623_0_0_0;
 extern const Il2CppType DontDestroyOnLoad_t3235789354_0_0_0;
 
 
@@ -2092,6 +2093,8 @@ static const RuntimeType* GenInst_TextMesh_t1641806576_0_0_0_Types[] = { (&TextM
 extern const Il2CppGenericInst GenInst_TextMesh_t1641806576_0_0_0 = { 1, GenInst_TextMesh_t1641806576_0_0_0_Types };
 static const RuntimeType* GenInst_Animation_t2068071072_0_0_0_Types[] = { (&Animation_t2068071072_0_0_0) };
 extern const Il2CppGenericInst GenInst_Animation_t2068071072_0_0_0 = { 1, GenInst_Animation_t2068071072_0_0_0_Types };
+static const RuntimeType* GenInst_AudioSource_t1135106623_0_0_0_Types[] = { (&AudioSource_t1135106623_0_0_0) };
+extern const Il2CppGenericInst GenInst_AudioSource_t1135106623_0_0_0 = { 1, GenInst_AudioSource_t1135106623_0_0_0_Types };
 static const RuntimeType* GenInst_DontDestroyOnLoad_t3235789354_0_0_0_Types[] = { (&DontDestroyOnLoad_t3235789354_0_0_0) };
 extern const Il2CppGenericInst GenInst_DontDestroyOnLoad_t3235789354_0_0_0 = { 1, GenInst_DontDestroyOnLoad_t3235789354_0_0_0_Types };
 static const RuntimeType* GenInst_Justify_t3211567824_0_0_0_Justify_t3211567824_0_0_0_Types[] = { (&Justify_t3211567824_0_0_0), (&Justify_t3211567824_0_0_0) };
@@ -2180,7 +2183,7 @@ static const RuntimeType* GenInst_KeyValuePair_2_t2518890164_0_0_0_RuntimeObject
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t2518890164_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_KeyValuePair_2_t2518890164_0_0_0_RuntimeObject_0_0_0_Types };
 static const RuntimeType* GenInst_Color32_t874517518_0_0_0_RuntimeObject_0_0_0_Types[] = { (&Color32_t874517518_0_0_0), (&RuntimeObject_0_0_0) };
 extern const Il2CppGenericInst GenInst_Color32_t874517518_0_0_0_RuntimeObject_0_0_0 = { 2, GenInst_Color32_t874517518_0_0_0_RuntimeObject_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[774] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[775] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2071877448_0_0_0,
@@ -2912,6 +2915,7 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[774] =
 	&GenInst_serializableFromEditorMessage_t2894567809_0_0_0,
 	&GenInst_TextMesh_t1641806576_0_0_0,
 	&GenInst_Animation_t2068071072_0_0_0,
+	&GenInst_AudioSource_t1135106623_0_0_0,
 	&GenInst_DontDestroyOnLoad_t3235789354_0_0_0,
 	&GenInst_Justify_t3211567824_0_0_0_Justify_t3211567824_0_0_0,
 	&GenInst_Boolean_t3825574718_0_0_0_Boolean_t3825574718_0_0_0,

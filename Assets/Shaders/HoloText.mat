@@ -21,7 +21,7 @@ Material:
     - _DisolveTexture:
         m_Texture: {fileID: 2800000, guid: 70976333360a046c1bcf8dc7cb1f593c, type: 3}
         m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 8.662377, y: 0}
+        m_Offset: {x: 11.903995, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -31,7 +31,7 @@ Material:
     - _Amplitude: 0
     - _CutoutThresh: 0
     - _DisolveSize: 1
-    - _DisolveY: 1.7227719
+    - _DisolveY: 1.7581276
     - _Distance: 0
     - _GlitchIntensity: 0.09
     - _GlitchSpeed: 50

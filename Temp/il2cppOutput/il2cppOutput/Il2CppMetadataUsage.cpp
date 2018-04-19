@@ -2651,6 +2651,7 @@ const RuntimeMethod* GameObject_GetComponent_TisTextMesh_t1641806576_m2174719800
 const RuntimeMethod* GameObject_GetComponent_TisAnimator_t69676727_m2717502299_RuntimeMethod_var;
 const RuntimeMethod* Component_GetComponent_TisParticleSystem_t3394631041_m943859897_RuntimeMethod_var;
 const RuntimeMethod* GameObject_GetComponent_TisAnimation_t2068071072_m3567791250_RuntimeMethod_var;
+const RuntimeMethod* Component_GetComponent_TisAudioSource_t1135106623_m3920278003_RuntimeMethod_var;
 const RuntimeMethod* GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322_RuntimeMethod_var;
 const RuntimeMethod* TextCtrl_TextReset_m813924207_RuntimeMethod_var;
 const RuntimeMethod* TextCtrl_IsLiked_m3611601960_RuntimeMethod_var;
@@ -6100,7 +6101,7 @@ Il2CppCodeGenString* _stringLiteral3025533088;
 Il2CppCodeGenString* _stringLiteral3687436746;
 Il2CppCodeGenString* _stringLiteral2779811765;
 Il2CppCodeGenString* _stringLiteral273729679;
-extern void** const g_MetadataUsages[6083] = 
+extern void** const g_MetadataUsages[6084] = 
 {
 	(void**)(&Contraction_t1673853792_0_0_0_var),
 	(void**)(&Level2Map_t3322505726_0_0_0_var),
@@ -8736,6 +8737,7 @@ extern void** const g_MetadataUsages[6083] =
 	(void**)(&GameObject_GetComponent_TisAnimator_t69676727_m2717502299_RuntimeMethod_var),
 	(void**)(&Component_GetComponent_TisParticleSystem_t3394631041_m943859897_RuntimeMethod_var),
 	(void**)(&GameObject_GetComponent_TisAnimation_t2068071072_m3567791250_RuntimeMethod_var),
+	(void**)(&Component_GetComponent_TisAudioSource_t1135106623_m3920278003_RuntimeMethod_var),
 	(void**)(&GameObject_GetComponentsInChildren_TisRigidbody_t4233889191_m1307486322_RuntimeMethod_var),
 	(void**)(&TextCtrl_TextReset_m813924207_RuntimeMethod_var),
 	(void**)(&TextCtrl_IsLiked_m3611601960_RuntimeMethod_var),

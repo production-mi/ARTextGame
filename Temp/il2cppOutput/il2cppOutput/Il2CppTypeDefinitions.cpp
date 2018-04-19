@@ -17394,6 +17394,7 @@ extern const RuntimeType AudioSettings_t3144015719_1_0_0 = { (void*)1570, 0, IL2
 extern const RuntimeType AudioSource_t1135106623_0_0_0 = { (void*)1577, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType AudioSource_t1135106623_1_0_0 = { (void*)1577, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const RuntimeType AudioSource_t1135106623_0_0_1 = { (void*)1577, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const RuntimeType AudioSource_t1135106623_0_0_6 = { (void*)1577, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 
 extern const RuntimeType AudioConfigurationChangeHandler_t3743753033_0_0_17 = { (void*)1571, 17, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const RuntimeType AudioConfigurationChangeHandler_t3743753033_0_0_0 = { (void*)1571, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
@@ -19429,7 +19430,7 @@ extern const RuntimeType TypeTagU5BU5D_t582616213_0_0_0 = { (void*)&TypeTag_t141
 extern const RuntimeType ITrackingHandlerU5BU5D_t194660197_0_0_0 = { (void*)&ITrackingHandler_t2759960940_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
 
 extern const RuntimeType SubHeaderU5BU5D_t3035428578_0_0_0 = { (void*)&SubHeader_t1146385395_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const RuntimeType* const  g_Il2CppTypeTable[9911] = 
+extern const RuntimeType* const  g_Il2CppTypeTable[9912] = 
 {
 	&IEnumerator_1_t164973122_0_0_0,
 	&RuntimeObject_0_0_0,
@@ -28826,6 +28827,7 @@ extern const RuntimeType* const  g_Il2CppTypeTable[9911] =
 	&ARPoint_t3436811567_0_0_0,
 	&Text_t356221433_0_0_6,
 	&MeshRenderer_t1268241104_0_0_1,
+	&AudioSource_t1135106623_0_0_6,
 	&TextMesh_t1641806576_0_0_1,
 	&Renderer_t257310565_0_0_1,
 	&U3CtextDestroyU3Ec__Iterator0_t2298180388_0_0_0,

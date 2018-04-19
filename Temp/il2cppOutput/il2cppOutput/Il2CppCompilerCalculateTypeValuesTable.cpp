@@ -1360,7 +1360,7 @@ extern const int32_t g_FieldOffsetTable2019[5];
 extern const int32_t g_FieldOffsetTable2020[2];
 extern const int32_t g_FieldOffsetTable2021[4];
 extern const int32_t g_FieldOffsetTable2022[2];
-extern const int32_t g_FieldOffsetTable2024[46];
+extern const int32_t g_FieldOffsetTable2024[51];
 extern const int32_t g_FieldOffsetTable2025[5];
 extern const int32_t g_FieldOffsetTable2026[4];
 extern const int32_t g_FieldOffsetTable2027[4];

@@ -9295,6 +9295,9 @@ extern "C" void AudioConfigurationChangeHandler_Invoke_m653824108 ();
 extern "C" void AudioConfigurationChangeHandler_BeginInvoke_m1585211075 ();
 extern "C" void AudioConfigurationChangeHandler_EndInvoke_m2493632249 ();
 extern "C" void AudioSource_get_clip_m2622010175 ();
+extern "C" void AudioSource_Play_m1385529671 ();
+extern "C" void AudioSource_Play_m1941578912 ();
+extern "C" void AudioSource_Stop_m3749040458 ();
 extern "C" void AudioSource_get_isPlaying_m1207358099 ();
 extern "C" void AudioSource_get_spatializeInternal_m4243931620 ();
 extern "C" void AudioSource_get_spatialize_m2631615373 ();
@@ -12501,7 +12504,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[12484] = 
+extern const Il2CppMethodPointer g_MethodPointers[12487] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -21781,6 +21784,9 @@ extern const Il2CppMethodPointer g_MethodPointers[12484] =
 	AudioConfigurationChangeHandler_BeginInvoke_m1585211075,
 	AudioConfigurationChangeHandler_EndInvoke_m2493632249,
 	AudioSource_get_clip_m2622010175,
+	AudioSource_Play_m1385529671,
+	AudioSource_Play_m1941578912,
+	AudioSource_Stop_m3749040458,
 	AudioSource_get_isPlaying_m1207358099,
 	AudioSource_get_spatializeInternal_m4243931620,
 	AudioSource_get_spatialize_m2631615373,

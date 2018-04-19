@@ -236,6 +236,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
      <None Include="Assets\UnityARKitPlugin\Plugins\iOS\UnityARKit\Shaders\YUVShader.shader" />
      <None Include="Assets\Shaders\Hologram.shader" />
+     <None Include="Assets\Shaders\Effects.shader" />
      <None Include="Assets\PrevizObj\FadeShader.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />

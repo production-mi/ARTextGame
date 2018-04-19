@@ -134,6 +134,8 @@ struct Vector3U5BU5D_t1172311765;
 struct MeshRenderer_t1268241104;
 // UnityEngine.ParticleSystem
 struct ParticleSystem_t3394631041;
+// UnityEngine.AudioSource
+struct AudioSource_t1135106623;
 // UnityEngine.TextMesh
 struct TextMesh_t1641806576;
 // UnityEngine.Animator
@@ -4994,44 +4996,54 @@ public:
 	ParticleSystem_t3394631041 * ___Appearing_24;
 	// UnityEngine.ParticleSystem UnityEngine.XR.iOS.previzCtrl::Reading
 	ParticleSystem_t3394631041 * ___Reading_25;
+	// UnityEngine.AudioSource UnityEngine.XR.iOS.previzCtrl::sonarSound
+	AudioSource_t1135106623 * ___sonarSound_26;
+	// UnityEngine.AudioSource UnityEngine.XR.iOS.previzCtrl::showSound
+	AudioSource_t1135106623 * ___showSound_27;
+	// UnityEngine.AudioSource UnityEngine.XR.iOS.previzCtrl::thinkingSound
+	AudioSource_t1135106623 * ___thinkingSound_28;
+	// UnityEngine.AudioSource UnityEngine.XR.iOS.previzCtrl::likedSound
+	AudioSource_t1135106623 * ___likedSound_29;
+	// UnityEngine.AudioSource UnityEngine.XR.iOS.previzCtrl::dislikedSound
+	AudioSource_t1135106623 * ___dislikedSound_30;
 	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl::textObject
-	GameObject_t1756533147 * ___textObject_26;
+	GameObject_t1756533147 * ___textObject_31;
 	// System.String UnityEngine.XR.iOS.previzCtrl::text
-	String_t* ___text_27;
+	String_t* ___text_32;
 	// UnityEngine.TextMesh UnityEngine.XR.iOS.previzCtrl::answer
-	TextMesh_t1641806576 * ___answer_28;
+	TextMesh_t1641806576 * ___answer_33;
 	// UnityEngine.Animator UnityEngine.XR.iOS.previzCtrl::brainrefAnim
-	Animator_t69676727 * ___brainrefAnim_29;
+	Animator_t69676727 * ___brainrefAnim_34;
 	// UnityEngine.Animator UnityEngine.XR.iOS.previzCtrl::previzAnim
-	Animator_t69676727 * ___previzAnim_30;
+	Animator_t69676727 * ___previzAnim_35;
 	// UnityEngine.Animator UnityEngine.XR.iOS.previzCtrl::brainAnim
-	Animator_t69676727 * ___brainAnim_31;
+	Animator_t69676727 * ___brainAnim_36;
 	// UnityEngine.Animator UnityEngine.XR.iOS.previzCtrl::GuideAnim
-	Animator_t69676727 * ___GuideAnim_32;
+	Animator_t69676727 * ___GuideAnim_37;
 	// UnityEngine.Animation UnityEngine.XR.iOS.previzCtrl::guideAnimClip
-	Animation_t2068071072 * ___guideAnimClip_33;
+	Animation_t2068071072 * ___guideAnimClip_38;
 	// UnityEngine.Renderer UnityEngine.XR.iOS.previzCtrl::brainRefAnimMeshRender
-	Renderer_t257310565 * ___brainRefAnimMeshRender_34;
+	Renderer_t257310565 * ___brainRefAnimMeshRender_39;
 	// UnityEngine.Renderer UnityEngine.XR.iOS.previzCtrl::answerTextRenderer
-	Renderer_t257310565 * ___answerTextRenderer_35;
+	Renderer_t257310565 * ___answerTextRenderer_40;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::Initialized
-	bool ___Initialized_36;
+	bool ___Initialized_41;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::playgroundIsDetected
-	bool ___playgroundIsDetected_37;
+	bool ___playgroundIsDetected_42;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::animationIsPlaying
-	bool ___animationIsPlaying_38;
+	bool ___animationIsPlaying_43;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::textIsUpdated
-	bool ___textIsUpdated_39;
+	bool ___textIsUpdated_44;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::textIsOn
-	bool ___textIsOn_40;
+	bool ___textIsOn_45;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::piyopiyo
-	bool ___piyopiyo_41;
+	bool ___piyopiyo_46;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::CoroutineTextCreate_IsRunning
-	bool ___CoroutineTextCreate_IsRunning_42;
+	bool ___CoroutineTextCreate_IsRunning_47;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::testIsRunning
-	bool ___testIsRunning_43;
+	bool ___testIsRunning_48;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::breakTextIsRunning
-	bool ___breakTextIsRunning_44;
+	bool ___breakTextIsRunning_49;
 
 public:
 	inline static int32_t get_offset_of_debugBox_2() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___debugBox_2)); }
@@ -5250,166 +5262,211 @@ public:
 		Il2CppCodeGenWriteBarrier((&___Reading_25), value);
 	}
 
-	inline static int32_t get_offset_of_textObject_26() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textObject_26)); }
-	inline GameObject_t1756533147 * get_textObject_26() const { return ___textObject_26; }
-	inline GameObject_t1756533147 ** get_address_of_textObject_26() { return &___textObject_26; }
-	inline void set_textObject_26(GameObject_t1756533147 * value)
+	inline static int32_t get_offset_of_sonarSound_26() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___sonarSound_26)); }
+	inline AudioSource_t1135106623 * get_sonarSound_26() const { return ___sonarSound_26; }
+	inline AudioSource_t1135106623 ** get_address_of_sonarSound_26() { return &___sonarSound_26; }
+	inline void set_sonarSound_26(AudioSource_t1135106623 * value)
 	{
-		___textObject_26 = value;
-		Il2CppCodeGenWriteBarrier((&___textObject_26), value);
+		___sonarSound_26 = value;
+		Il2CppCodeGenWriteBarrier((&___sonarSound_26), value);
 	}
 
-	inline static int32_t get_offset_of_text_27() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___text_27)); }
-	inline String_t* get_text_27() const { return ___text_27; }
-	inline String_t** get_address_of_text_27() { return &___text_27; }
-	inline void set_text_27(String_t* value)
+	inline static int32_t get_offset_of_showSound_27() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___showSound_27)); }
+	inline AudioSource_t1135106623 * get_showSound_27() const { return ___showSound_27; }
+	inline AudioSource_t1135106623 ** get_address_of_showSound_27() { return &___showSound_27; }
+	inline void set_showSound_27(AudioSource_t1135106623 * value)
 	{
-		___text_27 = value;
-		Il2CppCodeGenWriteBarrier((&___text_27), value);
+		___showSound_27 = value;
+		Il2CppCodeGenWriteBarrier((&___showSound_27), value);
 	}
 
-	inline static int32_t get_offset_of_answer_28() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___answer_28)); }
-	inline TextMesh_t1641806576 * get_answer_28() const { return ___answer_28; }
-	inline TextMesh_t1641806576 ** get_address_of_answer_28() { return &___answer_28; }
-	inline void set_answer_28(TextMesh_t1641806576 * value)
+	inline static int32_t get_offset_of_thinkingSound_28() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___thinkingSound_28)); }
+	inline AudioSource_t1135106623 * get_thinkingSound_28() const { return ___thinkingSound_28; }
+	inline AudioSource_t1135106623 ** get_address_of_thinkingSound_28() { return &___thinkingSound_28; }
+	inline void set_thinkingSound_28(AudioSource_t1135106623 * value)
 	{
-		___answer_28 = value;
-		Il2CppCodeGenWriteBarrier((&___answer_28), value);
+		___thinkingSound_28 = value;
+		Il2CppCodeGenWriteBarrier((&___thinkingSound_28), value);
 	}
 
-	inline static int32_t get_offset_of_brainrefAnim_29() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___brainrefAnim_29)); }
-	inline Animator_t69676727 * get_brainrefAnim_29() const { return ___brainrefAnim_29; }
-	inline Animator_t69676727 ** get_address_of_brainrefAnim_29() { return &___brainrefAnim_29; }
-	inline void set_brainrefAnim_29(Animator_t69676727 * value)
+	inline static int32_t get_offset_of_likedSound_29() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___likedSound_29)); }
+	inline AudioSource_t1135106623 * get_likedSound_29() const { return ___likedSound_29; }
+	inline AudioSource_t1135106623 ** get_address_of_likedSound_29() { return &___likedSound_29; }
+	inline void set_likedSound_29(AudioSource_t1135106623 * value)
 	{
-		___brainrefAnim_29 = value;
-		Il2CppCodeGenWriteBarrier((&___brainrefAnim_29), value);
+		___likedSound_29 = value;
+		Il2CppCodeGenWriteBarrier((&___likedSound_29), value);
 	}
 
-	inline static int32_t get_offset_of_previzAnim_30() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___previzAnim_30)); }
-	inline Animator_t69676727 * get_previzAnim_30() const { return ___previzAnim_30; }
-	inline Animator_t69676727 ** get_address_of_previzAnim_30() { return &___previzAnim_30; }
-	inline void set_previzAnim_30(Animator_t69676727 * value)
+	inline static int32_t get_offset_of_dislikedSound_30() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___dislikedSound_30)); }
+	inline AudioSource_t1135106623 * get_dislikedSound_30() const { return ___dislikedSound_30; }
+	inline AudioSource_t1135106623 ** get_address_of_dislikedSound_30() { return &___dislikedSound_30; }
+	inline void set_dislikedSound_30(AudioSource_t1135106623 * value)
 	{
-		___previzAnim_30 = value;
-		Il2CppCodeGenWriteBarrier((&___previzAnim_30), value);
+		___dislikedSound_30 = value;
+		Il2CppCodeGenWriteBarrier((&___dislikedSound_30), value);
 	}
 
-	inline static int32_t get_offset_of_brainAnim_31() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___brainAnim_31)); }
-	inline Animator_t69676727 * get_brainAnim_31() const { return ___brainAnim_31; }
-	inline Animator_t69676727 ** get_address_of_brainAnim_31() { return &___brainAnim_31; }
-	inline void set_brainAnim_31(Animator_t69676727 * value)
+	inline static int32_t get_offset_of_textObject_31() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textObject_31)); }
+	inline GameObject_t1756533147 * get_textObject_31() const { return ___textObject_31; }
+	inline GameObject_t1756533147 ** get_address_of_textObject_31() { return &___textObject_31; }
+	inline void set_textObject_31(GameObject_t1756533147 * value)
 	{
-		___brainAnim_31 = value;
-		Il2CppCodeGenWriteBarrier((&___brainAnim_31), value);
+		___textObject_31 = value;
+		Il2CppCodeGenWriteBarrier((&___textObject_31), value);
 	}
 
-	inline static int32_t get_offset_of_GuideAnim_32() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___GuideAnim_32)); }
-	inline Animator_t69676727 * get_GuideAnim_32() const { return ___GuideAnim_32; }
-	inline Animator_t69676727 ** get_address_of_GuideAnim_32() { return &___GuideAnim_32; }
-	inline void set_GuideAnim_32(Animator_t69676727 * value)
+	inline static int32_t get_offset_of_text_32() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___text_32)); }
+	inline String_t* get_text_32() const { return ___text_32; }
+	inline String_t** get_address_of_text_32() { return &___text_32; }
+	inline void set_text_32(String_t* value)
 	{
-		___GuideAnim_32 = value;
-		Il2CppCodeGenWriteBarrier((&___GuideAnim_32), value);
+		___text_32 = value;
+		Il2CppCodeGenWriteBarrier((&___text_32), value);
 	}
 
-	inline static int32_t get_offset_of_guideAnimClip_33() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___guideAnimClip_33)); }
-	inline Animation_t2068071072 * get_guideAnimClip_33() const { return ___guideAnimClip_33; }
-	inline Animation_t2068071072 ** get_address_of_guideAnimClip_33() { return &___guideAnimClip_33; }
-	inline void set_guideAnimClip_33(Animation_t2068071072 * value)
+	inline static int32_t get_offset_of_answer_33() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___answer_33)); }
+	inline TextMesh_t1641806576 * get_answer_33() const { return ___answer_33; }
+	inline TextMesh_t1641806576 ** get_address_of_answer_33() { return &___answer_33; }
+	inline void set_answer_33(TextMesh_t1641806576 * value)
 	{
-		___guideAnimClip_33 = value;
-		Il2CppCodeGenWriteBarrier((&___guideAnimClip_33), value);
+		___answer_33 = value;
+		Il2CppCodeGenWriteBarrier((&___answer_33), value);
 	}
 
-	inline static int32_t get_offset_of_brainRefAnimMeshRender_34() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___brainRefAnimMeshRender_34)); }
-	inline Renderer_t257310565 * get_brainRefAnimMeshRender_34() const { return ___brainRefAnimMeshRender_34; }
-	inline Renderer_t257310565 ** get_address_of_brainRefAnimMeshRender_34() { return &___brainRefAnimMeshRender_34; }
-	inline void set_brainRefAnimMeshRender_34(Renderer_t257310565 * value)
+	inline static int32_t get_offset_of_brainrefAnim_34() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___brainrefAnim_34)); }
+	inline Animator_t69676727 * get_brainrefAnim_34() const { return ___brainrefAnim_34; }
+	inline Animator_t69676727 ** get_address_of_brainrefAnim_34() { return &___brainrefAnim_34; }
+	inline void set_brainrefAnim_34(Animator_t69676727 * value)
 	{
-		___brainRefAnimMeshRender_34 = value;
-		Il2CppCodeGenWriteBarrier((&___brainRefAnimMeshRender_34), value);
+		___brainrefAnim_34 = value;
+		Il2CppCodeGenWriteBarrier((&___brainrefAnim_34), value);
 	}
 
-	inline static int32_t get_offset_of_answerTextRenderer_35() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___answerTextRenderer_35)); }
-	inline Renderer_t257310565 * get_answerTextRenderer_35() const { return ___answerTextRenderer_35; }
-	inline Renderer_t257310565 ** get_address_of_answerTextRenderer_35() { return &___answerTextRenderer_35; }
-	inline void set_answerTextRenderer_35(Renderer_t257310565 * value)
+	inline static int32_t get_offset_of_previzAnim_35() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___previzAnim_35)); }
+	inline Animator_t69676727 * get_previzAnim_35() const { return ___previzAnim_35; }
+	inline Animator_t69676727 ** get_address_of_previzAnim_35() { return &___previzAnim_35; }
+	inline void set_previzAnim_35(Animator_t69676727 * value)
 	{
-		___answerTextRenderer_35 = value;
-		Il2CppCodeGenWriteBarrier((&___answerTextRenderer_35), value);
+		___previzAnim_35 = value;
+		Il2CppCodeGenWriteBarrier((&___previzAnim_35), value);
 	}
 
-	inline static int32_t get_offset_of_Initialized_36() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___Initialized_36)); }
-	inline bool get_Initialized_36() const { return ___Initialized_36; }
-	inline bool* get_address_of_Initialized_36() { return &___Initialized_36; }
-	inline void set_Initialized_36(bool value)
+	inline static int32_t get_offset_of_brainAnim_36() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___brainAnim_36)); }
+	inline Animator_t69676727 * get_brainAnim_36() const { return ___brainAnim_36; }
+	inline Animator_t69676727 ** get_address_of_brainAnim_36() { return &___brainAnim_36; }
+	inline void set_brainAnim_36(Animator_t69676727 * value)
 	{
-		___Initialized_36 = value;
+		___brainAnim_36 = value;
+		Il2CppCodeGenWriteBarrier((&___brainAnim_36), value);
 	}
 
-	inline static int32_t get_offset_of_playgroundIsDetected_37() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___playgroundIsDetected_37)); }
-	inline bool get_playgroundIsDetected_37() const { return ___playgroundIsDetected_37; }
-	inline bool* get_address_of_playgroundIsDetected_37() { return &___playgroundIsDetected_37; }
-	inline void set_playgroundIsDetected_37(bool value)
+	inline static int32_t get_offset_of_GuideAnim_37() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___GuideAnim_37)); }
+	inline Animator_t69676727 * get_GuideAnim_37() const { return ___GuideAnim_37; }
+	inline Animator_t69676727 ** get_address_of_GuideAnim_37() { return &___GuideAnim_37; }
+	inline void set_GuideAnim_37(Animator_t69676727 * value)
 	{
-		___playgroundIsDetected_37 = value;
+		___GuideAnim_37 = value;
+		Il2CppCodeGenWriteBarrier((&___GuideAnim_37), value);
 	}
 
-	inline static int32_t get_offset_of_animationIsPlaying_38() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___animationIsPlaying_38)); }
-	inline bool get_animationIsPlaying_38() const { return ___animationIsPlaying_38; }
-	inline bool* get_address_of_animationIsPlaying_38() { return &___animationIsPlaying_38; }
-	inline void set_animationIsPlaying_38(bool value)
+	inline static int32_t get_offset_of_guideAnimClip_38() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___guideAnimClip_38)); }
+	inline Animation_t2068071072 * get_guideAnimClip_38() const { return ___guideAnimClip_38; }
+	inline Animation_t2068071072 ** get_address_of_guideAnimClip_38() { return &___guideAnimClip_38; }
+	inline void set_guideAnimClip_38(Animation_t2068071072 * value)
 	{
-		___animationIsPlaying_38 = value;
+		___guideAnimClip_38 = value;
+		Il2CppCodeGenWriteBarrier((&___guideAnimClip_38), value);
 	}
 
-	inline static int32_t get_offset_of_textIsUpdated_39() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textIsUpdated_39)); }
-	inline bool get_textIsUpdated_39() const { return ___textIsUpdated_39; }
-	inline bool* get_address_of_textIsUpdated_39() { return &___textIsUpdated_39; }
-	inline void set_textIsUpdated_39(bool value)
+	inline static int32_t get_offset_of_brainRefAnimMeshRender_39() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___brainRefAnimMeshRender_39)); }
+	inline Renderer_t257310565 * get_brainRefAnimMeshRender_39() const { return ___brainRefAnimMeshRender_39; }
+	inline Renderer_t257310565 ** get_address_of_brainRefAnimMeshRender_39() { return &___brainRefAnimMeshRender_39; }
+	inline void set_brainRefAnimMeshRender_39(Renderer_t257310565 * value)
 	{
-		___textIsUpdated_39 = value;
+		___brainRefAnimMeshRender_39 = value;
+		Il2CppCodeGenWriteBarrier((&___brainRefAnimMeshRender_39), value);
 	}
 
-	inline static int32_t get_offset_of_textIsOn_40() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textIsOn_40)); }
-	inline bool get_textIsOn_40() const { return ___textIsOn_40; }
-	inline bool* get_address_of_textIsOn_40() { return &___textIsOn_40; }
-	inline void set_textIsOn_40(bool value)
+	inline static int32_t get_offset_of_answerTextRenderer_40() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___answerTextRenderer_40)); }
+	inline Renderer_t257310565 * get_answerTextRenderer_40() const { return ___answerTextRenderer_40; }
+	inline Renderer_t257310565 ** get_address_of_answerTextRenderer_40() { return &___answerTextRenderer_40; }
+	inline void set_answerTextRenderer_40(Renderer_t257310565 * value)
 	{
-		___textIsOn_40 = value;
+		___answerTextRenderer_40 = value;
+		Il2CppCodeGenWriteBarrier((&___answerTextRenderer_40), value);
 	}
 
-	inline static int32_t get_offset_of_piyopiyo_41() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___piyopiyo_41)); }
-	inline bool get_piyopiyo_41() const { return ___piyopiyo_41; }
-	inline bool* get_address_of_piyopiyo_41() { return &___piyopiyo_41; }
-	inline void set_piyopiyo_41(bool value)
+	inline static int32_t get_offset_of_Initialized_41() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___Initialized_41)); }
+	inline bool get_Initialized_41() const { return ___Initialized_41; }
+	inline bool* get_address_of_Initialized_41() { return &___Initialized_41; }
+	inline void set_Initialized_41(bool value)
 	{
-		___piyopiyo_41 = value;
+		___Initialized_41 = value;
 	}
 
-	inline static int32_t get_offset_of_CoroutineTextCreate_IsRunning_42() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___CoroutineTextCreate_IsRunning_42)); }
-	inline bool get_CoroutineTextCreate_IsRunning_42() const { return ___CoroutineTextCreate_IsRunning_42; }
-	inline bool* get_address_of_CoroutineTextCreate_IsRunning_42() { return &___CoroutineTextCreate_IsRunning_42; }
-	inline void set_CoroutineTextCreate_IsRunning_42(bool value)
+	inline static int32_t get_offset_of_playgroundIsDetected_42() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___playgroundIsDetected_42)); }
+	inline bool get_playgroundIsDetected_42() const { return ___playgroundIsDetected_42; }
+	inline bool* get_address_of_playgroundIsDetected_42() { return &___playgroundIsDetected_42; }
+	inline void set_playgroundIsDetected_42(bool value)
 	{
-		___CoroutineTextCreate_IsRunning_42 = value;
+		___playgroundIsDetected_42 = value;
 	}
 
-	inline static int32_t get_offset_of_testIsRunning_43() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___testIsRunning_43)); }
-	inline bool get_testIsRunning_43() const { return ___testIsRunning_43; }
-	inline bool* get_address_of_testIsRunning_43() { return &___testIsRunning_43; }
-	inline void set_testIsRunning_43(bool value)
+	inline static int32_t get_offset_of_animationIsPlaying_43() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___animationIsPlaying_43)); }
+	inline bool get_animationIsPlaying_43() const { return ___animationIsPlaying_43; }
+	inline bool* get_address_of_animationIsPlaying_43() { return &___animationIsPlaying_43; }
+	inline void set_animationIsPlaying_43(bool value)
 	{
-		___testIsRunning_43 = value;
+		___animationIsPlaying_43 = value;
 	}
 
-	inline static int32_t get_offset_of_breakTextIsRunning_44() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___breakTextIsRunning_44)); }
-	inline bool get_breakTextIsRunning_44() const { return ___breakTextIsRunning_44; }
-	inline bool* get_address_of_breakTextIsRunning_44() { return &___breakTextIsRunning_44; }
-	inline void set_breakTextIsRunning_44(bool value)
+	inline static int32_t get_offset_of_textIsUpdated_44() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textIsUpdated_44)); }
+	inline bool get_textIsUpdated_44() const { return ___textIsUpdated_44; }
+	inline bool* get_address_of_textIsUpdated_44() { return &___textIsUpdated_44; }
+	inline void set_textIsUpdated_44(bool value)
 	{
-		___breakTextIsRunning_44 = value;
+		___textIsUpdated_44 = value;
+	}
+
+	inline static int32_t get_offset_of_textIsOn_45() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___textIsOn_45)); }
+	inline bool get_textIsOn_45() const { return ___textIsOn_45; }
+	inline bool* get_address_of_textIsOn_45() { return &___textIsOn_45; }
+	inline void set_textIsOn_45(bool value)
+	{
+		___textIsOn_45 = value;
+	}
+
+	inline static int32_t get_offset_of_piyopiyo_46() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___piyopiyo_46)); }
+	inline bool get_piyopiyo_46() const { return ___piyopiyo_46; }
+	inline bool* get_address_of_piyopiyo_46() { return &___piyopiyo_46; }
+	inline void set_piyopiyo_46(bool value)
+	{
+		___piyopiyo_46 = value;
+	}
+
+	inline static int32_t get_offset_of_CoroutineTextCreate_IsRunning_47() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___CoroutineTextCreate_IsRunning_47)); }
+	inline bool get_CoroutineTextCreate_IsRunning_47() const { return ___CoroutineTextCreate_IsRunning_47; }
+	inline bool* get_address_of_CoroutineTextCreate_IsRunning_47() { return &___CoroutineTextCreate_IsRunning_47; }
+	inline void set_CoroutineTextCreate_IsRunning_47(bool value)
+	{
+		___CoroutineTextCreate_IsRunning_47 = value;
+	}
+
+	inline static int32_t get_offset_of_testIsRunning_48() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___testIsRunning_48)); }
+	inline bool get_testIsRunning_48() const { return ___testIsRunning_48; }
+	inline bool* get_address_of_testIsRunning_48() { return &___testIsRunning_48; }
+	inline void set_testIsRunning_48(bool value)
+	{
+		___testIsRunning_48 = value;
+	}
+
+	inline static int32_t get_offset_of_breakTextIsRunning_49() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___breakTextIsRunning_49)); }
+	inline bool get_breakTextIsRunning_49() const { return ___breakTextIsRunning_49; }
+	inline bool* get_address_of_breakTextIsRunning_49() { return &___breakTextIsRunning_49; }
+	inline void set_breakTextIsRunning_49(bool value)
+	{
+		___breakTextIsRunning_49 = value;
 	}
 };
 
@@ -5417,35 +5474,35 @@ struct previzCtrl_t930159927_StaticFields
 {
 public:
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::plateIsOn
-	bool ___plateIsOn_45;
+	bool ___plateIsOn_50;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::planeIsOn
-	bool ___planeIsOn_46;
+	bool ___planeIsOn_51;
 	// System.Boolean UnityEngine.XR.iOS.previzCtrl::readytoReloadText
-	bool ___readytoReloadText_47;
+	bool ___readytoReloadText_52;
 
 public:
-	inline static int32_t get_offset_of_plateIsOn_45() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___plateIsOn_45)); }
-	inline bool get_plateIsOn_45() const { return ___plateIsOn_45; }
-	inline bool* get_address_of_plateIsOn_45() { return &___plateIsOn_45; }
-	inline void set_plateIsOn_45(bool value)
+	inline static int32_t get_offset_of_plateIsOn_50() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___plateIsOn_50)); }
+	inline bool get_plateIsOn_50() const { return ___plateIsOn_50; }
+	inline bool* get_address_of_plateIsOn_50() { return &___plateIsOn_50; }
+	inline void set_plateIsOn_50(bool value)
 	{
-		___plateIsOn_45 = value;
+		___plateIsOn_50 = value;
 	}
 
-	inline static int32_t get_offset_of_planeIsOn_46() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___planeIsOn_46)); }
-	inline bool get_planeIsOn_46() const { return ___planeIsOn_46; }
-	inline bool* get_address_of_planeIsOn_46() { return &___planeIsOn_46; }
-	inline void set_planeIsOn_46(bool value)
+	inline static int32_t get_offset_of_planeIsOn_51() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___planeIsOn_51)); }
+	inline bool get_planeIsOn_51() const { return ___planeIsOn_51; }
+	inline bool* get_address_of_planeIsOn_51() { return &___planeIsOn_51; }
+	inline void set_planeIsOn_51(bool value)
 	{
-		___planeIsOn_46 = value;
+		___planeIsOn_51 = value;
 	}
 
-	inline static int32_t get_offset_of_readytoReloadText_47() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___readytoReloadText_47)); }
-	inline bool get_readytoReloadText_47() const { return ___readytoReloadText_47; }
-	inline bool* get_address_of_readytoReloadText_47() { return &___readytoReloadText_47; }
-	inline void set_readytoReloadText_47(bool value)
+	inline static int32_t get_offset_of_readytoReloadText_52() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927_StaticFields, ___readytoReloadText_52)); }
+	inline bool get_readytoReloadText_52() const { return ___readytoReloadText_52; }
+	inline bool* get_address_of_readytoReloadText_52() { return &___readytoReloadText_52; }
+	inline void set_readytoReloadText_52(bool value)
 	{
-		___readytoReloadText_47 = value;
+		___readytoReloadText_52 = value;
 	}
 };
 
@@ -9416,7 +9473,7 @@ extern const int32_t g_FieldOffsetTable2022[2] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2023 = { sizeof (MrNo_t3401754408), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2024 = { sizeof (previzCtrl_t930159927), -1, sizeof(previzCtrl_t930159927_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2024[46] = 
+extern const int32_t g_FieldOffsetTable2024[51] = 
 {
 	previzCtrl_t930159927::get_offset_of_debugBox_2(),
 	previzCtrl_t930159927::get_offset_of_brainRefMesh_3(),
@@ -9442,28 +9499,33 @@ extern const int32_t g_FieldOffsetTable2024[46] =
 	previzCtrl_t930159927::get_offset_of_lightning_23(),
 	previzCtrl_t930159927::get_offset_of_Appearing_24(),
 	previzCtrl_t930159927::get_offset_of_Reading_25(),
-	previzCtrl_t930159927::get_offset_of_textObject_26(),
-	previzCtrl_t930159927::get_offset_of_text_27(),
-	previzCtrl_t930159927::get_offset_of_answer_28(),
-	previzCtrl_t930159927::get_offset_of_brainrefAnim_29(),
-	previzCtrl_t930159927::get_offset_of_previzAnim_30(),
-	previzCtrl_t930159927::get_offset_of_brainAnim_31(),
-	previzCtrl_t930159927::get_offset_of_GuideAnim_32(),
-	previzCtrl_t930159927::get_offset_of_guideAnimClip_33(),
-	previzCtrl_t930159927::get_offset_of_brainRefAnimMeshRender_34(),
-	previzCtrl_t930159927::get_offset_of_answerTextRenderer_35(),
-	previzCtrl_t930159927::get_offset_of_Initialized_36(),
-	previzCtrl_t930159927::get_offset_of_playgroundIsDetected_37(),
-	previzCtrl_t930159927::get_offset_of_animationIsPlaying_38(),
-	previzCtrl_t930159927::get_offset_of_textIsUpdated_39(),
-	previzCtrl_t930159927::get_offset_of_textIsOn_40(),
-	previzCtrl_t930159927::get_offset_of_piyopiyo_41(),
-	previzCtrl_t930159927::get_offset_of_CoroutineTextCreate_IsRunning_42(),
-	previzCtrl_t930159927::get_offset_of_testIsRunning_43(),
-	previzCtrl_t930159927::get_offset_of_breakTextIsRunning_44(),
-	previzCtrl_t930159927_StaticFields::get_offset_of_plateIsOn_45(),
-	previzCtrl_t930159927_StaticFields::get_offset_of_planeIsOn_46(),
-	previzCtrl_t930159927_StaticFields::get_offset_of_readytoReloadText_47(),
+	previzCtrl_t930159927::get_offset_of_sonarSound_26(),
+	previzCtrl_t930159927::get_offset_of_showSound_27(),
+	previzCtrl_t930159927::get_offset_of_thinkingSound_28(),
+	previzCtrl_t930159927::get_offset_of_likedSound_29(),
+	previzCtrl_t930159927::get_offset_of_dislikedSound_30(),
+	previzCtrl_t930159927::get_offset_of_textObject_31(),
+	previzCtrl_t930159927::get_offset_of_text_32(),
+	previzCtrl_t930159927::get_offset_of_answer_33(),
+	previzCtrl_t930159927::get_offset_of_brainrefAnim_34(),
+	previzCtrl_t930159927::get_offset_of_previzAnim_35(),
+	previzCtrl_t930159927::get_offset_of_brainAnim_36(),
+	previzCtrl_t930159927::get_offset_of_GuideAnim_37(),
+	previzCtrl_t930159927::get_offset_of_guideAnimClip_38(),
+	previzCtrl_t930159927::get_offset_of_brainRefAnimMeshRender_39(),
+	previzCtrl_t930159927::get_offset_of_answerTextRenderer_40(),
+	previzCtrl_t930159927::get_offset_of_Initialized_41(),
+	previzCtrl_t930159927::get_offset_of_playgroundIsDetected_42(),
+	previzCtrl_t930159927::get_offset_of_animationIsPlaying_43(),
+	previzCtrl_t930159927::get_offset_of_textIsUpdated_44(),
+	previzCtrl_t930159927::get_offset_of_textIsOn_45(),
+	previzCtrl_t930159927::get_offset_of_piyopiyo_46(),
+	previzCtrl_t930159927::get_offset_of_CoroutineTextCreate_IsRunning_47(),
+	previzCtrl_t930159927::get_offset_of_testIsRunning_48(),
+	previzCtrl_t930159927::get_offset_of_breakTextIsRunning_49(),
+	previzCtrl_t930159927_StaticFields::get_offset_of_plateIsOn_50(),
+	previzCtrl_t930159927_StaticFields::get_offset_of_planeIsOn_51(),
+	previzCtrl_t930159927_StaticFields::get_offset_of_readytoReloadText_52(),
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2025 = { sizeof (U3CtextDestroyU3Ec__Iterator0_t2298180388), -1, 0, 0 };
 extern const int32_t g_FieldOffsetTable2025[5] = 

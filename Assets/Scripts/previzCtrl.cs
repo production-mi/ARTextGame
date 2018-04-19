@@ -40,6 +40,14 @@ public class previzCtrl : MonoBehaviour {
 	public ParticleSystem lightning;
 	public ParticleSystem Appearing;
 	public ParticleSystem Reading;
+
+
+	public AudioSource sonarSound;
+	public AudioSource showSound;
+	public AudioSource thinkingSound;
+	public AudioSource likedSound;
+	public AudioSource dislikedSound;
+
 	//public ParticleSystem Smoke;
 
 	//public Material text;
@@ -118,6 +126,17 @@ public class previzCtrl : MonoBehaviour {
 		guideAnimClip = GuideAnimation.GetComponent<Animation>();
 
 
+		sonarSound = sonarSound.GetComponent<AudioSource>();
+	  showSound  = showSound.GetComponent<AudioSource>();
+		thinkingSound =  thinkingSound.GetComponent<AudioSource>();
+		likedSound = likedSound.GetComponent<AudioSource>();
+		dislikedSound = dislikedSound.GetComponent<AudioSource>();
+
+
+
+
+
+
 		//StartCoroutine(textCreate(textObject,text));
 
 		// //--------Loading Text------- for Build
@@ -166,6 +185,7 @@ public class previzCtrl : MonoBehaviour {
 					foreach (var hitResult in hitResults) {
 							debugBox.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 							if(Input.touchCount > 0){
+								sonarSound.Stop();
 								//Vector3 pos = new Vector3(UnityARMatrixOps.GetPosition(hitResult.worldTransform).x, 0, UnityARMatrixOps.GetPosition(hitResult.worldTransform).z);
 								plane.transform.position = UnityARMatrixOps.GetPosition(hitResult.worldTransform);
 
@@ -193,6 +213,7 @@ public class previzCtrl : MonoBehaviour {
 		//answerTextCreate(answer, text);
 		//answerTextRenderer.enabled = true;
 		//QRCodeReader.IsDetecting = true;
+		thinkingSound.Play();
 		StartCoroutine(test());
 		brainAnim.SetTrigger("Looking");
 		reload.gameObject.SetActive(false);
@@ -204,6 +225,7 @@ public class previzCtrl : MonoBehaviour {
 
 
 	void answerIsliked(){
+		likedSound.Play();
 		brainAnim.SetTrigger("Liked");
 		fireworks01.Play();
 		fireworks02.Play();
@@ -220,6 +242,7 @@ public class previzCtrl : MonoBehaviour {
 	}
 
 	void answerIsDisliked(){
+		dislikedSound.Play();
 		brainAnim.SetTrigger("Disliked_Shock");
 		lightning.Play();
 		//Smoke.Play();
@@ -397,6 +420,7 @@ public class previzCtrl : MonoBehaviour {
 
 	IEnumerator brainAnimation(){
 		if(animationIsPlaying == false){
+			showSound.Play();
 			Appearing.Play();
 			previzAnim.SetTrigger("Play");
 			plateIsOn = true;
@@ -442,9 +466,10 @@ public class previzCtrl : MonoBehaviour {
 	{
 
 		if(Input.GetKeyDown("space")){
-			answerTextRenderer.enabled = true;
-			StartCoroutine(breakText());
-			readytoReloadText = false;
+			sonarSound.Play();
+			// answerTextRenderer.enabled = true;
+			// StartCoroutine(breakText());
+			// readytoReloadText = false;
 		}
 
 		if(Input.GetKeyDown("tab")){
@@ -469,6 +494,10 @@ public class previzCtrl : MonoBehaviour {
 			RaycastHit hit;
 			if(Physics.Raycast (ray, out hit, 500) && hit.transform.gameObject.tag == "ARPlate"){
 				//debugBoxRenderer.enabled = true;
+				if(!sonarSound.isPlaying)
+				{
+					sonarSound.Play();
+				}
 				brainRefAnimMeshRender.enabled = true;
 				playgroundIsDetected = true;
 				guideText.enabled = false;
@@ -477,6 +506,7 @@ public class previzCtrl : MonoBehaviour {
 				brainrefAnim.SetTrigger("Play");
 			}else{
 				//debugBoxRenderer.enabled = false;
+				sonarSound.Stop();
 				brainRefAnimMeshRender.enabled = false;
 				brainrefAnim.SetTrigger("Back");
 				playgroundIsDetected = false;
