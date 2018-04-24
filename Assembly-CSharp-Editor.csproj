@@ -122,6 +122,7 @@
      <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
      <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
      <None Include="Assets\UnityARKitPlugin\ARKitRemote\ARKITREMOTE.txt" />
+     <None Include="Assets\Shaders\NewSurfaceShader.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
@@ -149,6 +150,7 @@
      <None Include="Assets\Shaders\Floor.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <None Include="Assets\Shaders\ShowEffects.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

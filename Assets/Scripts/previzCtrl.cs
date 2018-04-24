@@ -32,6 +32,7 @@ public class previzCtrl : MonoBehaviour {
 	public Button disliked;
 	public Button reset;
 	public Material InfoPlate;
+	public Material textMat;
 	public Texture2D PlateTexture_A;
 	public Texture2D PlateTexture_B;
 
@@ -83,6 +84,8 @@ public class previzCtrl : MonoBehaviour {
 	public static bool planeIsOn = false;
 	public static bool readytoReloadText = false;
 
+	private float opacityValue = 0.0f;
+
 
 
 
@@ -131,6 +134,9 @@ public class previzCtrl : MonoBehaviour {
 		thinkingSound =  thinkingSound.GetComponent<AudioSource>();
 		likedSound = likedSound.GetComponent<AudioSource>();
 		dislikedSound = dislikedSound.GetComponent<AudioSource>();
+
+
+		textMat.SetFloat("_Progress", 0.0f);
 
 
 
@@ -373,6 +379,10 @@ public class previzCtrl : MonoBehaviour {
 					string[] textArray = text.Split(","[0]);
 					string  possibleName = textArray[0].Substring(10);
 					textObject  = FlyingText.GetObjects(possibleName);
+
+					//textObject  = FlyingText.GetObjects("piyopiyo");
+					StartCoroutine(textShow());
+
 					textObject.transform.parent = textRoot.transform;
 					textObject.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
 					textObject.transform.localPosition = new Vector3(0.0f, 0.0f, 0.0f);
@@ -382,6 +392,7 @@ public class previzCtrl : MonoBehaviour {
 						rb.useGravity = false;
 					}
 				}
+				StartCoroutine(textShow());
 				text = null;
 				yield return textObject;
 			}
@@ -458,6 +469,19 @@ public class previzCtrl : MonoBehaviour {
 		yield return null;
 	}
 
+	IEnumerator textShow()
+	{
+		float count = 0.0f;
+		while(count < 1.0f)
+		{
+			count += 0.05f;
+			textMat.SetFloat("_Progress", count);
+			yield return null;
+		}
+	}
+
+
+
 
 
 
@@ -465,10 +489,13 @@ public class previzCtrl : MonoBehaviour {
 	void Update()
 	{
 
+		Debug.Log(opacityValue);
+
 		if(Input.GetKeyDown("space")){
 			sonarSound.Play();
+			//StartCoroutine("textShow");
 			// answerTextRenderer.enabled = true;
-			// StartCoroutine(breakText());
+			StartCoroutine(breakText());
 			// readytoReloadText = false;
 		}
 
