@@ -48,6 +48,8 @@ public class previzCtrl : MonoBehaviour {
 	public AudioSource thinkingSound;
 	public AudioSource likedSound;
 	public AudioSource dislikedSound;
+	public AudioSource bgm;
+
 
 	//public ParticleSystem Smoke;
 
@@ -134,6 +136,7 @@ public class previzCtrl : MonoBehaviour {
 		thinkingSound =  thinkingSound.GetComponent<AudioSource>();
 		likedSound = likedSound.GetComponent<AudioSource>();
 		dislikedSound = dislikedSound.GetComponent<AudioSource>();
+		bgm = bgm.GetComponent<AudioSource>();
 
 
 		textMat.SetFloat("_Progress", 0.0f);
@@ -192,6 +195,7 @@ public class previzCtrl : MonoBehaviour {
 							debugBox.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 							if(Input.touchCount > 0){
 								sonarSound.Stop();
+								bgm.Play();
 								//Vector3 pos = new Vector3(UnityARMatrixOps.GetPosition(hitResult.worldTransform).x, 0, UnityARMatrixOps.GetPosition(hitResult.worldTransform).z);
 								plane.transform.position = UnityARMatrixOps.GetPosition(hitResult.worldTransform);
 
@@ -272,6 +276,7 @@ public class previzCtrl : MonoBehaviour {
 		//Destroy(textObject);
 		readingParticle.Stop();
 		readingParticle.Clear();
+		bgm.Stop();
 		InfoPlate.mainTexture = PlateTexture_A;
 
 		plateIsOn = false;
