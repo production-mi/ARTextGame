@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 74471feddfab847a5955b9d2734ea2b0
-timeCreated: 1522970683
+timeCreated: 1525307672
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -24,6 +24,8 @@ ModelImporter:
     100032: Thigh_R
     100034: Toe_L
     100036: Toe_R
+    100038: joint7
+    100040: MessagePlate
     400000: Ancle_L
     400002: Ancle_R
     400004: Body_Geo
@@ -43,8 +45,11 @@ ModelImporter:
     400032: Thigh_R
     400034: Toe_L
     400036: Toe_R
+    400038: joint7
+    400040: MessagePlate
     4300000: Glass_Geo
     4300002: Body_Geo
+    4300004: MessagePlate
     7400000: Freeze
     7400002: Idle
     7400004: Suggest
@@ -53,9 +58,13 @@ ModelImporter:
     7400010: Looking
     7400012: Question
     7400014: Disliked_Shock
+    7400016: MessageIn
+    7400018: MessageOut
+    7400020: MessageLoop
     9500000: //RootNode
     13700000: Body_Geo
     13700002: Glass_Geo
+    13700004: MessagePlate
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -67,6 +76,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Brain2_defaultMat1
     second: {fileID: 2100000, guid: 18c2c9d10d551f543abab0764629efdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 55591b73a71654022a37fc43f0de7a6d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -294,6 +308,90 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 281
       lastFrame: 313
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MessageIn
+      takeName: Take 001
+      firstFrame: 315
+      lastFrame: 325
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MessageOut
+      takeName: Take 001
+      firstFrame: 330
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MessageLoop
+      takeName: Take 001
+      firstFrame: 325
+      lastFrame: 330
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

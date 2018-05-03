@@ -27,6 +27,7 @@ public class previzCtrl : MonoBehaviour {
 	public GameObject brain;
 	public GameObject GuideAnimation;
 	public GameObject answerText;
+	public GameObject colliderObj;
 	public Button reload;
 	public Button liked;
 	public Button disliked;
@@ -60,6 +61,8 @@ public class previzCtrl : MonoBehaviour {
 	private string text;
 	private TextMesh answer;
 
+	private MeshCollider brainCollider;
+
 
 	private Animator brainrefAnim;
 	private Animator previzAnim;
@@ -81,6 +84,7 @@ public class previzCtrl : MonoBehaviour {
 	private bool CoroutineTextCreate_IsRunning = false;
 	private bool testIsRunning = false;
 	private bool breakTextIsRunning = false;
+	private bool waitingForAnswer = false;
 
 	public static bool plateIsOn = false;
 	public static bool planeIsOn = false;
@@ -117,6 +121,8 @@ public class previzCtrl : MonoBehaviour {
 		previzAnim = plane.GetComponent<Animator>();
 		brainAnim = brain.GetComponent<Animator>();
 		GuideAnim = GuideAnimation.GetComponent<Animator>();
+
+		brainCollider = colliderObj.GetComponent<MeshCollider>();
 
 		//debugBoxRenderer = debugBox.GetComponent<MeshRenderer>();
 		fireworks01 = fireworks01.GetComponent<ParticleSystem>();
@@ -207,6 +213,7 @@ public class previzCtrl : MonoBehaviour {
 								StartCoroutine(brainAnimation());
 								reload.gameObject.SetActive(true);
 								reset.gameObject.SetActive(true);
+								brainCollider.enabled = true;
 								SetObjectInvisible(debugBox, plateIsOn);
 								SetObjectInvisible(plane, plateIsOn);
 								debugBoxRenderer.enabled = false;
@@ -223,6 +230,7 @@ public class previzCtrl : MonoBehaviour {
 		//answerTextCreate(answer, text);
 		//answerTextRenderer.enabled = true;
 		//QRCodeReader.IsDetecting = true;
+		waitingForAnswer = true;
 		thinkingSound.Play();
 		StartCoroutine(test());
 		brainAnim.SetTrigger("Looking");
@@ -246,6 +254,7 @@ public class previzCtrl : MonoBehaviour {
 		disliked.gameObject.SetActive(false);
 		TapticManager.Impact(ImpactFeedback.Midium);
 		InfoPlate.mainTexture = PlateTexture_A;
+		waitingForAnswer = false;
 		Debug.Log("liked");
 		text = null;
 		piyopiyo = false;
@@ -263,6 +272,7 @@ public class previzCtrl : MonoBehaviour {
 		disliked.gameObject.SetActive(false);
 		TapticManager.Impact(ImpactFeedback.Midium);
 		InfoPlate.mainTexture = PlateTexture_A;
+		waitingForAnswer = false;
 		Debug.Log("disliked");
 		text = null;
 		piyopiyo = false;
@@ -287,6 +297,8 @@ public class previzCtrl : MonoBehaviour {
 		liked.gameObject.SetActive(false);
 		disliked.gameObject.SetActive(false);
 		reset.gameObject.SetActive(false);
+		waitingForAnswer = false;
+		brainCollider.enabled = false;
 		SetObjectInvisible(plane, plateIsOn);
 		text = null;
 		Debug.Log("Stop");
@@ -372,7 +384,7 @@ public class previzCtrl : MonoBehaviour {
 	{
 		if(testIsRunning == false)
 		{
-			Reading.Play();
+				Reading.Play();
 			yield return new WaitForSeconds(1.0f);
 			if(textObject == null){
 				InfoPlate.mainTexture = PlateTexture_B;
@@ -439,6 +451,7 @@ public class previzCtrl : MonoBehaviour {
 			showSound.Play();
 			Appearing.Play();
 			previzAnim.SetTrigger("Play");
+			brainCollider.enabled = true;
 			plateIsOn = true;
 			yield return animationIsPlaying = true;
 		}else if(animationIsPlaying == true){
@@ -494,25 +507,23 @@ public class previzCtrl : MonoBehaviour {
 	void Update()
 	{
 
-		Debug.Log(opacityValue);
-
-		if(Input.GetKeyDown("space")){
-			sonarSound.Play();
-			//StartCoroutine("textShow");
-			// answerTextRenderer.enabled = true;
-			StartCoroutine(breakText());
-			// readytoReloadText = false;
-		}
-
-		if(Input.GetKeyDown("tab")){
-			readytoReloadText = true;
-			StartCoroutine(test());
-		}
-
-		if(Input.GetKeyDown(KeyCode.Q)){
-			readytoReloadText = true;
-			StartCoroutine(UpText());
-		}
+		// if(Input.GetKeyDown("space")){
+		// 	sonarSound.Play();
+		// 	//StartCoroutine("textShow");
+		// 	// answerTextRenderer.enabled = true;
+		// 	StartCoroutine(breakText());
+		// 	// readytoReloadText = false;
+		// }
+		//
+		// if(Input.GetKeyDown("tab")){
+		// 	readytoReloadText = true;
+		// 	StartCoroutine(test());
+		// }
+		//
+		// if(Input.GetKeyDown(KeyCode.Q)){
+		// 	readytoReloadText = true;
+		// 	StartCoroutine(UpText());
+		// }
 
 	  if(plateIsOn != true && Initialized == true)
 		{
@@ -584,6 +595,21 @@ public class previzCtrl : MonoBehaviour {
 		{
 			brainRefAnimMeshRender.enabled = false;
 			brainrefAnim.SetTrigger("back");
+
+			if(Input.touchCount > 0)
+			{
+				Touch touch = Input.GetTouch(0);
+				if(touch.phase == TouchPhase.Began && waitingForAnswer !=true)
+				{
+					Ray ray = Camera.main.ScreenPointToRay(touch.position);
+					RaycastHit hit;
+					if(Physics.Raycast(ray, out hit) && hit.transform.gameObject.tag == "Brain")
+					{
+						brainAnim.SetTrigger("Message");
+						Debug.Log("Brain");
+					}
+				}
+			}
 			//disliked.gameObject.SetActive(true);
 
 		}

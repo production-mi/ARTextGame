@@ -121,6 +121,7 @@ UnityEngine.CanvasRenderer::set_cull
 UnityEngine.CanvasRenderer::set_hasPopInstruction
 UnityEngine.CanvasRenderer::set_materialCount
 UnityEngine.CanvasRenderer::set_popMaterialCount
+UnityEngine.Collider::set_enabled
 UnityEngine.Collider::set_sharedMaterial
 UnityEngine.Collider::get_attachedRigidbody
 UnityEngine.Component::GetComponentFastPath
@@ -229,7 +230,6 @@ UnityEngine.GUIUtility::set_systemCopyBuffer
 UnityEngine.GUIUtility::Internal_GetDefaultSkin
 UnityEngine.Input::GetButtonDown
 UnityEngine.Input::GetKeyDownInt
-UnityEngine.Input::GetKeyDownString
 UnityEngine.Input::GetKeyInt
 UnityEngine.Input::GetMouseButton
 UnityEngine.Input::GetMouseButtonDown

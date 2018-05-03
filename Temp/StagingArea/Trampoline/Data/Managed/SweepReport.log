@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 172
   Total Field Removals = 752
-  Total Method Removals = 12014
+  Total Method Removals = 12015
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -10412,7 +10412,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 44
   Total Field Removals = 32
-  Total Method Removals = 2845
+  Total Method Removals = 2847
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -11590,6 +11590,8 @@ Summary:
         GetButtonUp(System.String)
         GetJoystickNames()
         GetKey(System.String)
+        GetKeyDown(System.String)
+        GetKeyDownString(System.String)
         GetKeyString(System.String)
         GetKeyUp(System.String)
         GetKeyUp(UnityEngine.KeyCode)
@@ -15526,7 +15528,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 0
   Total Field Removals = 7
-  Total Method Removals = 442
+  Total Method Removals = 441
   References Removed = 0
 ---------------------------------------------------
     UnityEngine.BoxCollider
@@ -15601,7 +15603,6 @@ Summary:
         Internal_Raycast(UnityEngine.Collider,UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single)
         Raycast(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single)
         set_contactOffset(System.Single)
-        set_enabled(System.Boolean)
         set_isTrigger(System.Boolean)
         set_material(UnityEngine.PhysicMaterial)
     UnityEngine.Collision

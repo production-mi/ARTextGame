@@ -8231,11 +8231,9 @@ extern "C" void IL2CPPStructAlignmentAttribute__ctor_m3421252534 ();
 extern "C" void ImageEffectAllowedInSceneView__ctor_m130707576 ();
 extern "C" void Input_GetKeyInt_m2379744823 ();
 extern "C" void Input_GetKeyDownInt_m1492831765 ();
-extern "C" void Input_GetKeyDownString_m1647024612 ();
 extern "C" void Input_GetAxisRaw_m1913129537 ();
 extern "C" void Input_GetButtonDown_m717298472 ();
 extern "C" void Input_GetKey_m4207472870 ();
-extern "C" void Input_GetKeyDown_m3563899393 ();
 extern "C" void Input_GetKeyDown_m2974714138 ();
 extern "C" void Input_GetMouseButton_m1307856634 ();
 extern "C" void Input_GetMouseButtonDown_m2313448302 ();
@@ -9665,6 +9663,7 @@ extern "C" void ParticleSystem_Clear_m1052596698 ();
 extern "C" void Particle_set_position_m218446335_AdjustorThunk ();
 extern "C" void Particle_set_startSize_m3215075767_AdjustorThunk ();
 extern "C" void Particle_set_startColor_m2521995545_AdjustorThunk ();
+extern "C" void Collider_set_enabled_m306625435 ();
 extern "C" void Collider_get_attachedRigidbody_m2453201107 ();
 extern "C" void Collider_set_sharedMaterial_m648435087 ();
 extern "C" void MeshCollider_set_sharedMesh_m3730396634 ();
@@ -12514,7 +12513,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[12497] = 
+extern const Il2CppMethodPointer g_MethodPointers[12496] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -20730,11 +20729,9 @@ extern const Il2CppMethodPointer g_MethodPointers[12497] =
 	ImageEffectAllowedInSceneView__ctor_m130707576,
 	Input_GetKeyInt_m2379744823,
 	Input_GetKeyDownInt_m1492831765,
-	Input_GetKeyDownString_m1647024612,
 	Input_GetAxisRaw_m1913129537,
 	Input_GetButtonDown_m717298472,
 	Input_GetKey_m4207472870,
-	Input_GetKeyDown_m3563899393,
 	Input_GetKeyDown_m2974714138,
 	Input_GetMouseButton_m1307856634,
 	Input_GetMouseButtonDown_m2313448302,
@@ -22164,6 +22161,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12497] =
 	Particle_set_position_m218446335_AdjustorThunk,
 	Particle_set_startSize_m3215075767_AdjustorThunk,
 	Particle_set_startColor_m2521995545_AdjustorThunk,
+	Collider_set_enabled_m306625435,
 	Collider_get_attachedRigidbody_m2453201107,
 	Collider_set_sharedMaterial_m648435087,
 	MeshCollider_set_sharedMesh_m3730396634,

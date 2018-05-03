@@ -518,7 +518,6 @@ extern const uint32_t Graphics_SetRenderTarget_m4067104860_MetadataUsageId;
 extern const uint32_t Graphics__cctor_m3970455236_MetadataUsageId;
 extern RuntimeClass* Input_t1785128008_il2cpp_TypeInfo_var;
 extern const uint32_t Input_GetKey_m4207472870_MetadataUsageId;
-extern const uint32_t Input_GetKeyDown_m3563899393_MetadataUsageId;
 extern const uint32_t Input_GetKeyDown_m2974714138_MetadataUsageId;
 extern const uint32_t Input_get_mousePosition_m2069200279_MetadataUsageId;
 extern const uint32_t Input_get_mouseScrollDelta_m3621133506_MetadataUsageId;
@@ -9189,8 +9188,6 @@ extern "C"  int32_t Graphics_Internal_GetMaxDrawMeshInstanceCount_m4138419392 (R
 extern "C"  GUIElement_t3381083099 * GUILayer_INTERNAL_CALL_HitTest_m381183969 (RuntimeObject * __this /* static, unused */, GUILayer_t3254902478 * ___self0, Vector3_t2243707580 * ___screenPosition1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetKeyInt(System.Int32)
 extern "C"  bool Input_GetKeyInt_m2379744823 (RuntimeObject * __this /* static, unused */, int32_t ___key0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
-// System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
-extern "C"  bool Input_GetKeyDownString_m1647024612 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Input::GetKeyDownInt(System.Int32)
 extern "C"  bool Input_GetKeyDownInt_m1492831765 (RuntimeObject * __this /* static, unused */, int32_t ___key0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Input::INTERNAL_get_mousePosition(UnityEngine.Vector3&)
@@ -17463,16 +17460,6 @@ extern "C"  bool Input_GetKeyDownInt_m1492831765 (RuntimeObject * __this /* stat
 	bool retVal = _il2cpp_icall_func(___key0);
 	return retVal;
 }
-// System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
-extern "C"  bool Input_GetKeyDownString_m1647024612 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method)
-{
-	typedef bool (*Input_GetKeyDownString_m1647024612_ftn) (String_t*);
-	static Input_GetKeyDownString_m1647024612_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Input_GetKeyDownString_m1647024612_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyDownString(System.String)");
-	bool retVal = _il2cpp_icall_func(___name0);
-	return retVal;
-}
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
 extern "C"  float Input_GetAxisRaw_m1913129537 (RuntimeObject * __this /* static, unused */, String_t* ___axisName0, const RuntimeMethod* method)
 {
@@ -17507,30 +17494,6 @@ extern "C"  bool Input_GetKey_m4207472870 (RuntimeObject * __this /* static, unu
 		int32_t L_0 = ___key0;
 		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
 		bool L_1 = Input_GetKeyInt_m2379744823(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		V_0 = L_1;
-		goto IL_000d;
-	}
-
-IL_000d:
-	{
-		bool L_2 = V_0;
-		return L_2;
-	}
-}
-// System.Boolean UnityEngine.Input::GetKeyDown(System.String)
-extern "C"  bool Input_GetKeyDown_m3563899393 (RuntimeObject * __this /* static, unused */, String_t* ___name0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (Input_GetKeyDown_m3563899393_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	{
-		String_t* L_0 = ___name0;
-		IL2CPP_RUNTIME_CLASS_INIT(Input_t1785128008_il2cpp_TypeInfo_var);
-		bool L_1 = Input_GetKeyDownString_m1647024612(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		V_0 = L_1;
 		goto IL_000d;
 	}

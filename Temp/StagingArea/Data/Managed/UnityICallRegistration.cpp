@@ -554,6 +554,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Collider
 
+		//System.Void UnityEngine.Collider::set_enabled(System.Boolean)
+		void Register_UnityEngine_Collider_set_enabled();
+		Register_UnityEngine_Collider_set_enabled();
+
 		//System.Void UnityEngine.Collider::set_sharedMaterial(UnityEngine.PhysicMaterial)
 		void Register_UnityEngine_Collider_set_sharedMaterial();
 		Register_UnityEngine_Collider_set_sharedMaterial();
@@ -1069,10 +1073,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Input::GetKeyDownInt(System.Int32)
 		void Register_UnityEngine_Input_GetKeyDownInt();
 		Register_UnityEngine_Input_GetKeyDownInt();
-
-		//System.Boolean UnityEngine.Input::GetKeyDownString(System.String)
-		void Register_UnityEngine_Input_GetKeyDownString();
-		Register_UnityEngine_Input_GetKeyDownString();
 
 		//System.Boolean UnityEngine.Input::GetKeyInt(System.Int32)
 		void Register_UnityEngine_Input_GetKeyInt();
