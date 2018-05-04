@@ -15,7 +15,7 @@ public class previzCtrl : MonoBehaviour {
 
 	public GameObject debugBox;
 	public GameObject brainRefMesh;
-	public Text guideText;
+	public Image guideText;
 	private MeshRenderer debugBoxRenderer;
 
 
@@ -201,7 +201,7 @@ public class previzCtrl : MonoBehaviour {
 							debugBox.transform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
 							if(Input.touchCount > 0){
 								sonarSound.Stop();
-								bgm.Play();
+								//bgm.Play();
 								//Vector3 pos = new Vector3(UnityARMatrixOps.GetPosition(hitResult.worldTransform).x, 0, UnityARMatrixOps.GetPosition(hitResult.worldTransform).z);
 								plane.transform.position = UnityARMatrixOps.GetPosition(hitResult.worldTransform);
 
@@ -286,7 +286,7 @@ public class previzCtrl : MonoBehaviour {
 		//Destroy(textObject);
 		readingParticle.Stop();
 		readingParticle.Clear();
-		bgm.Stop();
+		//bgm.Stop();
 		InfoPlate.mainTexture = PlateTexture_A;
 
 		plateIsOn = false;
@@ -606,7 +606,6 @@ public class previzCtrl : MonoBehaviour {
 					if(Physics.Raycast(ray, out hit) && hit.transform.gameObject.tag == "Brain")
 					{
 						brainAnim.SetTrigger("Message");
-						Debug.Log("Brain");
 					}
 				}
 			}

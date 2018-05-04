@@ -180,6 +180,8 @@ struct DitheringComponent_t700371219;
 struct FxaaComponent_t2311902503;
 // UnityEngine.UI.Text
 struct Text_t356221433;
+// UnityEngine.UI.Image
+struct Image_t2042527209;
 // UnityEngine.MeshRenderer
 struct MeshRenderer_t1268241104;
 // UnityEngine.AudioSource
@@ -196,8 +198,6 @@ struct ColorChangedEvent_t2990895397;
 struct HSVChangedEvent_t1170297569;
 // UnityEngine.GameObject[]
 struct GameObjectU5BU5D_t3057952154;
-// UnityEngine.UI.Image
-struct Image_t2042527209;
 // UnityEngine.UI.Slider
 struct Slider_t297367283;
 // UnityEngine.UI.RawImage
@@ -6464,8 +6464,8 @@ public:
 	GameObject_t1756533147 * ___debugBox_2;
 	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl::brainRefMesh
 	GameObject_t1756533147 * ___brainRefMesh_3;
-	// UnityEngine.UI.Text UnityEngine.XR.iOS.previzCtrl::guideText
-	Text_t356221433 * ___guideText_4;
+	// UnityEngine.UI.Image UnityEngine.XR.iOS.previzCtrl::guideText
+	Image_t2042527209 * ___guideText_4;
 	// UnityEngine.MeshRenderer UnityEngine.XR.iOS.previzCtrl::debugBoxRenderer
 	MeshRenderer_t1268241104 * ___debugBoxRenderer_5;
 	// UnityEngine.GameObject UnityEngine.XR.iOS.previzCtrl::plane
@@ -6589,9 +6589,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_guideText_4() { return static_cast<int32_t>(offsetof(previzCtrl_t930159927, ___guideText_4)); }
-	inline Text_t356221433 * get_guideText_4() const { return ___guideText_4; }
-	inline Text_t356221433 ** get_address_of_guideText_4() { return &___guideText_4; }
-	inline void set_guideText_4(Text_t356221433 * value)
+	inline Image_t2042527209 * get_guideText_4() const { return ___guideText_4; }
+	inline Image_t2042527209 ** get_address_of_guideText_4() { return &___guideText_4; }
+	inline void set_guideText_4(Image_t2042527209 * value)
 	{
 		___guideText_4 = value;
 		Il2CppCodeGenWriteBarrier((&___guideText_4), value);

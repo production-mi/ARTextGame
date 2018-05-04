@@ -130,7 +130,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InputDemo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.ConnectToEditor
 7a1ee6c718479f4d3cf744edffe2ae7b Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityRemoteVideo
-335d4dcf55cd2b8b5487404532d00a8e Assembly-CSharp.dll:UnityEngine.XR.iOS.previzCtrl
+5835044ec2052235042ff58a7e9428e5 Assembly-CSharp.dll:UnityEngine.XR.iOS.previzCtrl
 63ee4d254596e7e33706786578d0fdfc Assembly-CSharp.dll:.AR3DOFCameraManager
 dd6501652c91cb163a39e051d37a965f Assembly-CSharp.dll:.Ballz
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARAmbient
