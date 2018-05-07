@@ -424,6 +424,7 @@ UnityEngine.Rigidbody::INTERNAL_CALL_AddTorque
 UnityEngine.Rigidbody::INTERNAL_get_angularVelocity
 UnityEngine.Rigidbody::set_maxAngularVelocity
 UnityEngine.Rigidbody::set_useGravity
+UnityEngine.SceneManagement.SceneManager::LoadSceneAsyncNameIndexInternal
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
 UnityEngine.Screen::get_dpi

@@ -12,5 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/ARTextGame.unity
     guid: ce8f4a5f480f54928954efb66a71b773
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 05846f88a129e49888bb622bf9eea41e
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: 59447d04f8e9d4b41be785e175bc3b4c
+  - enabled: 1
     path: Assets/Scenes/ARTextGame_V2.unity
     guid: 41155c1f9a7d9494ebceea1ee1a7bc21

@@ -1,2 +1,14 @@
 <linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="MenuCtrl">
+			<method name="showManual"/>
+			<method name="hideManual"/>
+		</type>
+		<type fullname="SceneLoad">
+			<method name="loadARScene"/>
+			<method name="loadMenuScene"/>
+			<method name="hideManual"/>
+			<method name="showManual"/>
+		</type>
+	</assembly>
 </linker>

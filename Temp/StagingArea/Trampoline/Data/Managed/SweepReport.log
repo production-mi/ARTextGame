@@ -11,7 +11,7 @@ Summary:
     Generic Abstract Classes = 3
     Attributes = 172
   Total Field Removals = 752
-  Total Method Removals = 12015
+  Total Method Removals = 12011
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -10412,7 +10412,7 @@ Summary:
     Generic Abstract Classes = 0
     Attributes = 44
   Total Field Removals = 32
-  Total Method Removals = 2847
+  Total Method Removals = 2843
   References Removed = 0
 ---------------------------------------------------
     JetBrains.Annotations.AssertionMethodAttribute
@@ -10537,7 +10537,6 @@ Summary:
         Internal_ExternalCall(System.String)
         InvokeOnAdvertisingIdentifierCallback(System.String,System.Boolean)
         LoadLevel(System.Int32)
-        LoadLevel(System.String)
         LoadLevelAdditive(System.Int32)
         LoadLevelAdditive(System.String)
         LoadLevelAdditiveAsync(System.Int32)
@@ -10587,7 +10586,6 @@ Summary:
         get_allAssets()
         get_asset()
     UnityEngine.AsyncOperation
-        .ctor()
         add_completed(System.Action`1<UnityEngine.AsyncOperation>)
         get_allowSceneActivation()
         get_isDone()
@@ -13194,12 +13192,10 @@ Summary:
         LoadScene(System.Int32)
         LoadScene(System.Int32,UnityEngine.SceneManagement.LoadSceneMode)
         LoadScene(System.String)
-        LoadScene(System.String,UnityEngine.SceneManagement.LoadSceneMode)
         LoadSceneAsync(System.Int32)
         LoadSceneAsync(System.Int32,UnityEngine.SceneManagement.LoadSceneMode)
         LoadSceneAsync(System.String)
         LoadSceneAsync(System.String,UnityEngine.SceneManagement.LoadSceneMode)
-        LoadSceneAsyncNameIndexInternal(System.String,System.Int32,System.Boolean,System.Boolean)
         MergeScenes(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene)
         MoveGameObjectToScene(UnityEngine.GameObject,UnityEngine.SceneManagement.Scene)
         remove_activeSceneChanged(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>)

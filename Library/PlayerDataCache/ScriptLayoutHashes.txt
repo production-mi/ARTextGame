@@ -130,7 +130,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InputDemo
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.ConnectToEditor
 7a1ee6c718479f4d3cf744edffe2ae7b Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityRemoteVideo
-5835044ec2052235042ff58a7e9428e5 Assembly-CSharp.dll:UnityEngine.XR.iOS.previzCtrl
+1054883e141c1834bbad820770d462a1 Assembly-CSharp.dll:UnityEngine.XR.iOS.previzCtrl
 63ee4d254596e7e33706786578d0fdfc Assembly-CSharp.dll:.AR3DOFCameraManager
 dd6501652c91cb163a39e051d37a965f Assembly-CSharp.dll:.Ballz
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityEngine.XR.iOS.UnityARAmbient
@@ -199,3 +199,6 @@ a0efe1797fe59783df21e7db5566dcc8 Assembly-CSharp.dll:.MaterialAnim
 71c9c1c5c56731ab3fb5ad706efaea7e Assembly-CSharp.dll:.ScreenANim
 391d84b859f3b155fe38f54bfce79162 Assembly-CSharp.dll:.UnityPointCloudExample
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UnityARCameraNearFar
+ff00182c28e50a8dd8e1dbbfc240ba00 Assembly-CSharp.dll:.SceneLoad
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.doNotDestroy
+de385ae9084f73a28b16918ee4546d10 Assembly-CSharp.dll:.MenuCtrl

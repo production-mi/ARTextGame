@@ -32,6 +32,7 @@ public class previzCtrl : MonoBehaviour {
 	public Button liked;
 	public Button disliked;
 	public Button reset;
+	public Button manual;
 	public Material InfoPlate;
 	public Material textMat;
 	public Texture2D PlateTexture_A;

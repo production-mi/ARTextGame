@@ -7892,6 +7892,7 @@ extern "C" void Application_get_isMobilePlatform_m2455210782 ();
 extern "C" void Application_set_targetFrameRate_m3037068888 ();
 extern "C" void Application_CallLogCallback_m1825082967 ();
 extern "C" void Application_InvokeOnBeforeRender_m2797211002 ();
+extern "C" void Application_LoadLevel_m2369150774 ();
 extern "C" void LogCallback__ctor_m1245642544 ();
 extern "C" void LogCallback_Invoke_m115567905 ();
 extern "C" void LogCallback_BeginInvoke_m1323125742 ();
@@ -7900,6 +7901,7 @@ extern "C" void LowMemoryCallback__ctor_m2681796483 ();
 extern "C" void LowMemoryCallback_Invoke_m1692335191 ();
 extern "C" void LowMemoryCallback_BeginInvoke_m3593312984 ();
 extern "C" void LowMemoryCallback_EndInvoke_m2508835749 ();
+extern "C" void AsyncOperation__ctor_m1674276057 ();
 extern "C" void AsyncOperation_InternalDestroy_m2067452588 ();
 extern "C" void AsyncOperation_Finalize_m1061334423 ();
 extern "C" void AsyncOperation_InvokeCompletionEvent_m504098009 ();
@@ -8835,6 +8837,8 @@ extern "C" void Resources_GetBuiltinResource_m3185073362 ();
 extern "C" void Scene_get_handle_m2547854682_AdjustorThunk ();
 extern "C" void Scene_GetHashCode_m4174115344_AdjustorThunk ();
 extern "C" void Scene_Equals_m3346012188_AdjustorThunk ();
+extern "C" void SceneManager_LoadScene_m3031418609 ();
+extern "C" void SceneManager_LoadSceneAsyncNameIndexInternal_m1250496078 ();
 extern "C" void SceneManager_Internal_SceneLoaded_m1729738062 ();
 extern "C" void SceneManager_Internal_SceneUnloaded_m2177251378 ();
 extern "C" void SceneManager_Internal_ActiveSceneChanged_m1940652884 ();
@@ -11544,6 +11548,10 @@ extern "C" void ColorSliderImage_OnDestroy_m2738933995 ();
 extern "C" void ColorSliderImage_ColorChanged_m3679980033 ();
 extern "C" void ColorSliderImage_HSVChanged_m1936863288 ();
 extern "C" void ColorSliderImage_RegenerateTexture_m1461909699 ();
+extern "C" void doNotDestroy__ctor_m1667222271 ();
+extern "C" void doNotDestroy_Awake_m3550480972 ();
+extern "C" void doNotDestroy_Start_m3027395659 ();
+extern "C" void doNotDestroy_Update_m1455299054 ();
 extern "C" void DontDestroyOnLoad__ctor_m1942765255 ();
 extern "C" void DontDestroyOnLoad_Start_m839902491 ();
 extern "C" void DontDestroyOnLoad_Update_m3048973460 ();
@@ -11604,6 +11612,10 @@ extern "C" void MaterialAnim_Update_m2205853650 ();
 extern "C" void MenuControl__ctor_m4033688667 ();
 extern "C" void MenuControl_Start_m3331999935 ();
 extern "C" void MenuControl__cctor_m3349410490 ();
+extern "C" void MenuCtrl__ctor_m2405638097 ();
+extern "C" void MenuCtrl_loadARScene_m931363840 ();
+extern "C" void MenuCtrl_showManual_m582339258 ();
+extern "C" void MenuCtrl_hideManual_m3159204011 ();
 extern "C" void MenuObject__ctor_m2911132117 ();
 extern "C" void MenuObject_OnMouseOver_m2657847187 ();
 extern "C" void MenuObject_OnMouseExit_m3384626853 ();
@@ -11667,6 +11679,14 @@ extern "C" void ScanShaderCtrl__ctor_m494474140 ();
 extern "C" void ScanShaderCtrl_Start_m1146505420 ();
 extern "C" void ScanShaderCtrl_Update_m2155712397 ();
 extern "C" void ScanShaderCtrl_TriggerEffect_m4005668811 ();
+extern "C" void SceneLoad__ctor_m1175167935 ();
+extern "C" void SceneLoad_loadMenuScene_m1904843614 ();
+extern "C" void SceneLoad_loadARScene_m217292490 ();
+extern "C" void SceneLoad_loadAboutScene_m114650588 ();
+extern "C" void SceneLoad_showManual_m1449469464 ();
+extern "C" void SceneLoad_hideManual_m1071509625 ();
+extern "C" void SceneLoad_Start_m1595600667 ();
+extern "C" void SceneLoad_Update_m2614270690 ();
 extern "C" void ScreenANim__ctor_m1299214628 ();
 extern "C" void ScreenANim_Start_m1953950884 ();
 extern "C" void ScreenANim_Update_m2735387749 ();
@@ -12513,7 +12533,7 @@ extern "C" void SerializableVector4__ctor_m1161519484 ();
 extern "C" void SerializableVector4_ToString_m137239981 ();
 extern "C" void SerializableVector4_op_Implicit_m3701091973 ();
 extern "C" void SerializableVector4_op_Implicit_m2818398069 ();
-extern const Il2CppMethodPointer g_MethodPointers[12496] = 
+extern const Il2CppMethodPointer g_MethodPointers[12516] = 
 {
 	Locale_GetText_m1954433032,
 	Locale_GetText_m2553164138,
@@ -20390,6 +20410,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12496] =
 	Application_set_targetFrameRate_m3037068888,
 	Application_CallLogCallback_m1825082967,
 	Application_InvokeOnBeforeRender_m2797211002,
+	Application_LoadLevel_m2369150774,
 	LogCallback__ctor_m1245642544,
 	LogCallback_Invoke_m115567905,
 	LogCallback_BeginInvoke_m1323125742,
@@ -20398,6 +20419,7 @@ extern const Il2CppMethodPointer g_MethodPointers[12496] =
 	LowMemoryCallback_Invoke_m1692335191,
 	LowMemoryCallback_BeginInvoke_m3593312984,
 	LowMemoryCallback_EndInvoke_m2508835749,
+	AsyncOperation__ctor_m1674276057,
 	AsyncOperation_InternalDestroy_m2067452588,
 	AsyncOperation_Finalize_m1061334423,
 	AsyncOperation_InvokeCompletionEvent_m504098009,
@@ -21333,6 +21355,8 @@ extern const Il2CppMethodPointer g_MethodPointers[12496] =
 	Scene_get_handle_m2547854682_AdjustorThunk,
 	Scene_GetHashCode_m4174115344_AdjustorThunk,
 	Scene_Equals_m3346012188_AdjustorThunk,
+	SceneManager_LoadScene_m3031418609,
+	SceneManager_LoadSceneAsyncNameIndexInternal_m1250496078,
 	SceneManager_Internal_SceneLoaded_m1729738062,
 	SceneManager_Internal_SceneUnloaded_m2177251378,
 	SceneManager_Internal_ActiveSceneChanged_m1940652884,
@@ -24042,6 +24066,10 @@ extern const Il2CppMethodPointer g_MethodPointers[12496] =
 	ColorSliderImage_ColorChanged_m3679980033,
 	ColorSliderImage_HSVChanged_m1936863288,
 	ColorSliderImage_RegenerateTexture_m1461909699,
+	doNotDestroy__ctor_m1667222271,
+	doNotDestroy_Awake_m3550480972,
+	doNotDestroy_Start_m3027395659,
+	doNotDestroy_Update_m1455299054,
 	DontDestroyOnLoad__ctor_m1942765255,
 	DontDestroyOnLoad_Start_m839902491,
 	DontDestroyOnLoad_Update_m3048973460,
@@ -24102,6 +24130,10 @@ extern const Il2CppMethodPointer g_MethodPointers[12496] =
 	MenuControl__ctor_m4033688667,
 	MenuControl_Start_m3331999935,
 	MenuControl__cctor_m3349410490,
+	MenuCtrl__ctor_m2405638097,
+	MenuCtrl_loadARScene_m931363840,
+	MenuCtrl_showManual_m582339258,
+	MenuCtrl_hideManual_m3159204011,
 	MenuObject__ctor_m2911132117,
 	MenuObject_OnMouseOver_m2657847187,
 	MenuObject_OnMouseExit_m3384626853,
@@ -24165,6 +24197,14 @@ extern const Il2CppMethodPointer g_MethodPointers[12496] =
 	ScanShaderCtrl_Start_m1146505420,
 	ScanShaderCtrl_Update_m2155712397,
 	ScanShaderCtrl_TriggerEffect_m4005668811,
+	SceneLoad__ctor_m1175167935,
+	SceneLoad_loadMenuScene_m1904843614,
+	SceneLoad_loadARScene_m217292490,
+	SceneLoad_loadAboutScene_m114650588,
+	SceneLoad_showManual_m1449469464,
+	SceneLoad_hideManual_m1071509625,
+	SceneLoad_Start_m1595600667,
+	SceneLoad_Update_m2614270690,
 	ScreenANim__ctor_m1299214628,
 	ScreenANim_Start_m1953950884,
 	ScreenANim_Update_m2735387749,

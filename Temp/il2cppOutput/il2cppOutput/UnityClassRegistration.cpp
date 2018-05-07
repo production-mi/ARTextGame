@@ -414,12 +414,12 @@ RegisterBuiltinTypes();
 	RegisterClass<AudioManager>();
 	//72. FlareLayer
 	RegisterClass<FlareLayer>();
-	//73. SphereCollider
-	RegisterClass<SphereCollider>();
-	//74. SkinnedMeshRenderer
-	RegisterClass<SkinnedMeshRenderer>();
-	//75. CGProgram
+	//73. CGProgram
 	RegisterClass<CGProgram>();
+	//74. SphereCollider
+	RegisterClass<SphereCollider>();
+	//75. SkinnedMeshRenderer
+	RegisterClass<SkinnedMeshRenderer>();
 	//76. Motion
 	RegisterClass<Motion>();
 	//77. AnimatorController

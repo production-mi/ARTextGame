@@ -12,12 +12,15 @@
 <type fullname="ButtonCtrl" preserve="all"/>
 <type fullname="ButtonDislikeCtrl" preserve="all"/>
 <type fullname="ButtonText_Ctrl" preserve="all"/>
+<type fullname="doNotDestroy" preserve="all"/>
 <type fullname="LookAt" preserve="all"/>
+<type fullname="MenuCtrl" preserve="all"/>
 <type fullname="MrNo" preserve="all"/>
 <type fullname="UnityEngine.XR.iOS.previzCtrl" preserve="all"/>
 <type fullname="QRCodeReader" preserve="all"/>
 <type fullname="RaderMotion" preserve="all"/>
 <type fullname="RaderMotion1" preserve="all"/>
+<type fullname="SceneLoad" preserve="all"/>
 <type fullname="ScreenANim" preserve="all"/>
 <type fullname="TargetCircleANim" preserve="all"/>
 <type fullname="UnityEngine.XR.iOS.TextCtrl" preserve="all"/>
